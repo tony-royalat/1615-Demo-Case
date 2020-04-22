@@ -1,0 +1,14 @@
+{ CustomGroupDefinition('7b8705a3-41e1-49ba-b66a-2e505f219e20', '') }
+
+VAR_EXTERNAL
+    Alarm_PSRMC42 : BOOL { CustomGroupReference('7b8705a3-41e1-49ba-b66a-2e505f219e20') } {Id('cabf1df4-be30-4c30-8493-94e143d872ac')};
+    Reset_PSRMC42 : BOOL { CustomGroupReference('7b8705a3-41e1-49ba-b66a-2e505f219e20') } {Id('83d37004-4499-4612-a827-e8d068400fe2')};
+    Pushbutton2 : BOOL { CustomGroupReference('7b8705a3-41e1-49ba-b66a-2e505f219e20') } {Id('a65e45d4-7c90-402f-9fa9-26ed7adc484a')};
+    Pushbutton2Red : BOOL { CustomGroupReference('7b8705a3-41e1-49ba-b66a-2e505f219e20') } {Id('c9394702-7a37-466b-b5ef-1fb5e7c3b980')};
+    Pushbutton2Green : BOOL { CustomGroupReference('7b8705a3-41e1-49ba-b66a-2e505f219e20') } {Id('1081bab6-ea05-4f59-bf2b-8996071e8d1d')};
+    Pushbutton2Blue : BOOL { CustomGroupReference('7b8705a3-41e1-49ba-b66a-2e505f219e20') } {Id('ed6b784a-7632-483b-87c8-4f1df3a01119')};
+    GuardingSwitch1 : BOOL { CustomGroupReference('7b8705a3-41e1-49ba-b66a-2e505f219e20') } {Id('788ff494-8e87-429f-9cc8-0bbae8f48b9b')};
+    GuardingSwitch2 : BOOL { CustomGroupReference('7b8705a3-41e1-49ba-b66a-2e505f219e20') } {Id('ef200d0f-4d57-4ab3-872b-b51a05ecda93')};
+    GuardingSwitch3 : BOOL { CustomGroupReference('7b8705a3-41e1-49ba-b66a-2e505f219e20') } {Id('77adbbe3-2d67-4b45-bc6e-5699f1a2d418')};
+    EStop1 : BOOL { CustomGroupReference('7b8705a3-41e1-49ba-b66a-2e505f219e20') } {Id('fb209134-33f1-4a17-9133-844ec50d94e4')};
+END_VAR

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DevInstDoc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/Projekte/PC_Worx_Next/XML/Schemas/DevInst.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <DevInst uuid="1aacabcd-31c7-4680-b96f-fea8e937740c">
+    <TInfo uri="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/7b3b4f57-1ae8-4b20-b9c6-bcd0cb8260a8" />
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base00' type='Generic:Function']" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base01' type='Generic:Location']" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base02' type='AmlApcStationName']" Type="Ade.Fdcml.Core.String">[UTF-8;]</InstVal>
+    <InstVal xPath="Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/a74b67b0-5787-43ee-ac20-132daa71a58c</InstVal>
+    <InstVal xPath="Generic:FormattedTypeNameWithoutVersion" Type="System.String">QUINT4-UPS</InstVal>
+    <InstVal xPath="Generic:FormattedTypeName" Type="System.String">QUINT4-UPS Rev. &gt;= 01/V1.0.0</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/L7ObjList/Obj[@uID='obj4' type='PN:AddrAssgn']" Type="Ade.Fdcml.Core.Unsigned32">0</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/SlotNumber" Type="Ade.Fdcml.Core.Unsigned16">0</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/Generic:FormattedTypeNameWithoutVersion" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/Generic:FormattedTypeName" Type="System.String"></InstVal>
+  </DevInst>
+</DevInstDoc>

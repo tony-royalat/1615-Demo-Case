@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DevInstDoc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/Projekte/PC_Worx_Next/XML/Schemas/DevInst.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <DevInst uuid="0802ffd7-f127-442a-a81a-56d4d0f564ab">
+    <TInfo uri="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/d01f96b9-61b0-4605-9447-be0bfe3e68d5" />
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base00' type='Generic:Function']" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base01' type='Generic:Location']" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base02' type='AmlApcStationName']" Type="Ade.Fdcml.Core.String">[UTF-8;]</InstVal>
+    <InstVal xPath="Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/05835717-13b0-4c84-8c72-95a1ce3ef754</InstVal>
+    <InstVal xPath="Generic:FormattedTypeNameWithoutVersion" Type="System.String">QUINT4-UPS</InstVal>
+    <InstVal xPath="Generic:FormattedTypeName" Type="System.String">QUINT4-UPS Rev. &gt;= 00/1.00</InstVal>
+    <InstVal xPath="AutomationML:DeviceItemId" Type="System.String">1b733319-af58-477c-8fdc-01f84ee1b202</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_0']/Current" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_1']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_2']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_3']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_4']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_5']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_6']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_7']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_8']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_9']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_10']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_11']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_12']/Current" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_13']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_14']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_15']/Current" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_16']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_17']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_18']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_19']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_20']/Current" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_21']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_22']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_23']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_24']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_25']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_26']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_27']/Current" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_28']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_0']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_1']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_2']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_3']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_4']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_5']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_6']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_7']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_8']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_9']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_10']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_11']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_12']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_13']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_14']/Current" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_15']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_16']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_17']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_18']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_19']/Current" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_20']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_21']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_22']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_23']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_24']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_25']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_0']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_1']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_2']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_3']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_4']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_5']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_6']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_7']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_8']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_9']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_10']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_11']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_12']/Current" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_13']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_14']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_15']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_16']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_17']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_18']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_19']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_20']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_21']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_22']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_23']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_24']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_25']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_0']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_1']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_2']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_3']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_4']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_5']/Current" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_6']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_7']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_8']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_9']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_10']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_11']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_12']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_13']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_14']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_15']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_16']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_17']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_18']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_19']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_20']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_21']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_22']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_23']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_24']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par3']/Para[@uID='par3_25']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par4']/Para[@uID='par4_0']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par4']/Para[@uID='par4_1']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par4']/Para[@uID='par4_2']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par4']/Para[@uID='par4_3']/Current" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par4']/Para[@uID='par4_4']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par4']/Para[@uID='par4_5']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par4']/Para[@uID='par4_6']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par4']/Para[@uID='par4_7']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par5']/Para[@uID='par5_0']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par5']/Para[@uID='par5_1']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par5']/Para[@uID='par5_2']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par5']/Para[@uID='par5_3']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par5']/Para[@uID='par5_4']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par5']/Para[@uID='par5_5']/Current" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par5']/Para[@uID='par5_6']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par5']/Para[@uID='par5_7']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par6']/Para[@uID='par6_0']/Current" Type="Ade.Fdcml.Core.Unsigned16">1500</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par6']/Para[@uID='par6_1']/Current" Type="Ade.Fdcml.Core.Unsigned16">28000</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par6']/Para[@uID='par6_2']/Current" Type="Ade.Fdcml.Core.Unsigned16">27600</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par6']/Para[@uID='par6_3']/Current" Type="Ade.Fdcml.Core.Unsigned16">42</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par6']/Para[@uID='par6_4']/Current" Type="Ade.Fdcml.Core.Unsigned16">19200</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par7']/Para[@uID='par7_0']/Current" Type="Ade.Fdcml.Core.Unsigned16">22000</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par7']/Para[@uID='par7_1']/Current" Type="Ade.Fdcml.Core.Unsigned16">30000</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par8']/Para[@uID='par8_0']/Current" Type="Ade.Fdcml.Core.Unsigned16">0</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par8']/Para[@uID='par8_1']/Current" Type="Ade.Fdcml.Core.Unsigned16">30</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par8']/Para[@uID='par8_2']/Current" Type="Ade.Fdcml.Core.Unsigned16">60</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par8']/Para[@uID='par8_3']/Current" Type="Ade.Fdcml.Core.Unsigned16">10</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par8']/Para[@uID='par8_4']/Current" Type="Ade.Fdcml.Core.Unsigned16">20</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par8']/Para[@uID='par8_5']/Current" Type="Ade.Fdcml.Core.Unsigned16">120</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par8']/Para[@uID='par8_6']/Current" Type="Ade.Fdcml.Core.Unsigned16">10</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par8']/Para[@uID='par8_7']/Current" Type="Ade.Fdcml.Core.Unsigned16">600</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par9']/Para[@uID='par9_0']/Current" Type="Ade.Fdcml.Core.Unsigned16">100</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par9']/Para[@uID='par9_1']/Current" Type="Ade.Fdcml.Core.Unsigned16">20</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par9']/Para[@uID='par9_2']/Current" Type="Ade.Fdcml.Core.Unsigned16">65535</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par9']/Para[@uID='par9_3']/Current" Type="Ade.Fdcml.Core.Unsigned16">65535</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par10']/Para[@uID='par10_0']/Current" Type="Ade.Fdcml.Core.Unsigned16">4</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par11']/Para[@uID='par11_0']/Current" Type="Ade.Fdcml.Core.Unsigned16">90</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par11']/Para[@uID='par11_1']/Current" Type="Ade.Fdcml.Core.Unsigned16">20400</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par11']/Para[@uID='par11_2']/Current" Type="Ade.Fdcml.Core.Unsigned16">10</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par11']/Para[@uID='par11_3']/Current" Type="Ade.Fdcml.Core.Unsigned16">1</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par11']/Para[@uID='par11_4']/Current" Type="Ade.Fdcml.Core.Unsigned16">1</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par11']/Para[@uID='par11_5']/Current" Type="Ade.Fdcml.Core.Unsigned16">182</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par11']/Para[@uID='par11_6']/Current" Type="Ade.Fdcml.Core.Unsigned16">18000</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par11']/Para[@uID='par11_7']/Current" Type="Ade.Fdcml.Core.Unsigned16">1</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par11']/Para[@uID='par11_8']/Current" Type="Ade.Fdcml.Core.Unsigned16">1</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par11']/Para[@uID='par11_9']/Current" Type="Ade.Fdcml.Core.Unsigned16">1</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par11']/Para[@uID='par11_10']/Current" Type="Ade.Fdcml.Core.Unsigned16">30</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par11']/Para[@uID='par11_11']/Current" Type="Ade.Fdcml.Core.Unsigned16">5</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par12']/Para[@uID='par12_0']/Current" Type="Ade.Fdcml.Core.OctetString1">00</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par12']/Para[@uID='par12_1']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par12']/Para[@uID='par12_2']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par12']/Para[@uID='par12_3']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par12']/Para[@uID='par12_4']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par12']/Para[@uID='par12_5']/Current" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par12']/Para[@uID='par12_6']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par12']/Para[@uID='par12_7']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par12']/Para[@uID='par12_8']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par12']/Para[@uID='par12_9']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par12']/Para[@uID='par12_10']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par12']/Para[@uID='par12_11']/Current" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par12']/Para[@uID='par12_12']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par12']/Para[@uID='par12_13']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par12']/Para[@uID='par12_14']/Current" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par12']/Para[@uID='par12_15']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par12']/Para[@uID='par12_16']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par12']/Para[@uID='par12_17']/Current" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par12']/Para[@uID='par12_18']/Current" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par13']/Para[@uID='par13_0']/Current" Type="Ade.Fdcml.Core.Unsigned16">65535</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/PDList/PD[@uid=ioDefaultIn]" Type="System.String">~IN</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/PDList/PD[@uid=io0]" Type="System.String">Status functions</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/PDList/PD[@uid=io1]" Type="System.String">Status interface</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/PDList/PD[@uid=io2]" Type="System.String">Input voltage [mV]</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/PDList/PD[@uid=io3]" Type="System.String">Input current [mA]</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/PDList/PD[@uid=io4]" Type="System.String">Output voltage [mV]</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/PDList/PD[@uid=io5]" Type="System.String">Output current [mA]</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/PDList/PD[@uid=io6]" Type="System.String">Battery voltage [mV]</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/PDList/PD[@uid=io7]" Type="System.String">Battery charging current [mA]</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/PDList/PD[@uid=io8]" Type="System.String">Battery temperature [K]</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/PDList/PD[@uid=io9]" Type="System.String">Device temperature [K]</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/PDList/PD[@uid=io10]" Type="System.String">SOC [s]</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/PDList/PD[@uid=io11]" Type="System.String">Time until PC shutdown [s]</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/PDList/PD[@uid=io12]" Type="System.String">SOH [days]</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/PDList/PD[@uid=io13]" Type="System.String">SM_IOPS</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/PN:NodeID" Type="Ade.Fdcml.Core.Unsigned32">54</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/SlotNumber" Type="Ade.Fdcml.Core.Unsigned16">1</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/Generic:FormattedTypeNameWithoutVersion" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/Generic:FormattedTypeName" Type="System.String"></InstVal>
+  </DevInst>
+</DevInstDoc>

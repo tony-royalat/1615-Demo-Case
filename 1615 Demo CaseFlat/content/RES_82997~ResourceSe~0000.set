@@ -1,0 +1,45 @@
+{ Type('AXCF2152') }
+RESOURCE PLC
+{ DeviceProfileWorksheet('DeviceProfile', Id := '75a3653b-cddb-43e0-89d2-a59c1dc12831') }
+{ DeviceProfile(
+    Name := 'RES_829976591E98446682C292813E058D7E',
+    Parent := ( Name := 'AXCF2152', Version := '2020.0.0'), 
+    UpdateType := 'Manual',
+    FilesIni := 
+    [
+    ],
+    CommunicationMetadata := 'UniqueId=TCP/IP;IsBackup=False',
+    DeviceDescription := 
+    (
+        MaxProgramSize := '8388608',
+        MaxDataSize := '16777208',
+        MaxRetainDataSize := '0',
+        MaxTaskPriority := '96',
+        Endianness := 'LittleEndian'
+    ),
+    CommunicationType := 'TcpIp',
+    CommunicationParameters := 'DLL socomm.dll -ip192.168.42.10 -p41100 -to2000',
+    DownloadFiles := 
+    [
+    ]
+)}
+
+
+TASK Cyclic501 (INTERVAL := T#50ms, PRIORITY := 0) { Watchdog(T#75ms), Id('aaca64e1-c03a-47aa-a0ee-5db62ab33ed6') };
+
+TASK Cyclic502 (INTERVAL := T#50ms, PRIORITY := 0) { Watchdog(T#75ms), Id('44f246ec-dfc8-4606-aff7-1cb1444514d7') };
+
+TASK Cyclic1sec (INTERVAL := T#1000ms, PRIORITY := 0) { Watchdog(T#100ms), Id('83e6bc86-80c1-48ec-bbe6-fe7bd75d8935') };
+
+PROGRAM MainInstance WITH Cyclic501 : Main { Id('5a4da879-8343-4f8a-88da-ecf9afe03785') };
+
+PROGRAM IOLinkInstance WITH Cyclic501 : IOLink { Id('f63ddc3a-df87-45e4-a151-62dcd6c204b6') };
+
+PROGRAM PushbuttonInstance WITH Cyclic502 : Buttons { Id('4493d317-ffc4-4ee6-99d4-2515973c2eb1') };
+
+PROGRAM SafetyRelayInstance WITH Cyclic502 : SafetyRelay { Id('67a81bed-a0aa-47e0-9717-839b2d195e26') };
+
+PROGRAM HMIInstance WITH Cyclic1sec : HMILogic { Id('307759f0-229e-4e4c-a768-c234205ac21e') };
+
+END_RESOURCE
+E

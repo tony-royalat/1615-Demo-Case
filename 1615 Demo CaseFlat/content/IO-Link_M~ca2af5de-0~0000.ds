@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DevInstDoc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/Projekte/PC_Worx_Next/XML/Schemas/DevInst.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <DevInst uuid="ca2af5de-0683-4b40-99e0-189ee10acd29">
+    <TInfo uri="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/d2fca7e4-08d0-4f2f-9bf6-d3eeb0e31855" />
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base00' type='Generic:Function']" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base01' type='Generic:Location']" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base02' type='AmlApcStationName']" Type="Ade.Fdcml.Core.String">[UTF-8;]</InstVal>
+    <InstVal xPath="Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/8e0aa0e0-9ae0-469e-870b-65000110745b</InstVal>
+    <InstVal xPath="Generic:FormattedTypeNameWithoutVersion" Type="System.String">IO-Link Master</InstVal>
+    <InstVal xPath="Generic:FormattedTypeName" Type="System.String">IO-Link Master Rev. &gt;= 1/V1.5.28</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/L7ObjList/Obj[@uID='obj4' type='PN:AddrAssgn']" Type="Ade.Fdcml.Core.Unsigned32">0</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/SlotNumber" Type="Ade.Fdcml.Core.Unsigned16">0</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/Generic:FormattedTypeNameWithoutVersion" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/Generic:FormattedTypeName" Type="System.String"></InstVal>
+  </DevInst>
+</DevInstDoc>

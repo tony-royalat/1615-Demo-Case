@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DevInstDoc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/Projekte/PC_Worx_Next/XML/Schemas/DevInst.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <DevInst uuid="eb4502d1-d5ef-488c-b631-11de860f5f3c">
+    <TInfo uri="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/6e8d049b-0407-41b5-87a6-7ae1190725f4" />
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base00' type='Generic:Function']" Type="Ade.Fdcml.Core.StringAscii">DC UPS</InstVal>
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base01' type='Generic:Location']" Type="Ade.Fdcml.Core.StringAscii">Panel</InstVal>
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base02' type='AmlApcStationName']" Type="Ade.Fdcml.Core.String">[UTF-8;7175696E74342D7570732D323464632D323464632D352D706E2D31]</InstVal>
+    <InstVal xPath="VirtualSlotNumber" Type="Ade.Fdcml.Core.Unsigned16">0</InstVal>
+    <InstVal xPath="Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9600fdf3-fa0f-463a-9bbb-4b79f6833288</InstVal>
+    <InstVal xPath="Generic:FormattedTypeNameWithoutVersion" Type="System.String">QUINT4-UPS 24DC/5</InstVal>
+    <InstVal xPath="Generic:FormattedTypeName" Type="System.String">QUINT4-UPS 24DC/5 Rev. &gt;= 01/V1.0.0</InstVal>
+    <InstVal xPath="AutomationML:DeviceId" Type="System.String">ec562c20-80b1-41b1-85da-0af4d162b45c</InstVal>
+    <InstVal xPath="AutomationML:RackId" Type="System.String">6c73f23d-623b-41d4-b1fe-664bd9bd2e67</InstVal>
+    <InstVal xPath="AutomationML:DeviceItemId" Type="System.String">f058dc8e-5dfe-4c0b-9f7d-0ccb10166e7c</InstVal>
+    <InstVal xPath="PN:CpuLoad" Type="Ade.Fdcml.Core.Float64">50.6</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd00' type='PN:CfgDiff']" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd01' type='PN:LogConStat']" Type="Ade.Fdcml.Core.Unsigned16">1</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd02' type='PN:IgnFS']" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd07' type='PN:MediaRedundancySupported']" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd08' type='PN:ARUID']" Type="Ade.Fdcml.Core.Unsigned16">1</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd09' type='PN:ARUUID']" Type="Ade.Fdcml.Core.String">[UTF-8;38313637353734392D376134372D346131332D613935342D333230313632306161313665]</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd10' type='PN:CRInputFrameID']" Type="Ade.Fdcml.Core.Unsigned16">36864</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd11' type='PN:CROutputFrameID']" Type="Ade.Fdcml.Core.Unsigned16">65535</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd12' type='PN:StartAROnStartup']" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd13' type='PN:LocalAlarmRef']" Type="Ade.Fdcml.Core.Unsigned16">1</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd14' type='PN:SubsModeInput']" Type="Ade.Fdcml.Core.Unsigned8">0</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd15' type='AmlApcStationName']" Type="Ade.Fdcml.Core.String">[UTF-8;]</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/L7ObjList/Obj[@uID='chdiaglist' type='PN:ChDiagList']" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/L7ObjList/Obj[@uID='chdiaglist' type='PN:ChDiagList']/Obj[@uID='o0' type='PN:ChDiagItem']/Obj[@uID='o0_0' type='PN:ExtChDiagItem']/Prop[@type='PN:MaintAlrmState']" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/L7ObjList/Obj[@uID='chdiaglist' type='PN:ChDiagList']/Obj[@uID='o0' type='PN:ChDiagItem']/Obj[@uID='o0_1' type='PN:ExtChDiagItem']/Prop[@type='PN:MaintAlrmState']" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/L7ObjList/Obj[@uID='chdiaglist' type='PN:ChDiagList']/Obj[@uID='o0' type='PN:ChDiagItem']/Obj[@uID='o0_2' type='PN:ExtChDiagItem']/Prop[@type='PN:MaintAlrmState']" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/L7ObjList/Obj[@uID='chdiaglist' type='PN:ChDiagList']/Obj[@uID='o0' type='PN:ChDiagItem']/Obj[@uID='o0_3' type='PN:ExtChDiagItem']/Prop[@type='PN:MaintAlrmState']" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/L7ObjList/Obj[@uID='chdiaglist' type='PN:ChDiagList']/Obj[@uID='o0' type='PN:ChDiagItem']/Obj[@uID='o0_4' type='PN:ExtChDiagItem']/Prop[@type='PN:MaintAlrmState']" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/L7ObjList/Obj[@uID='chdiaglist' type='PN:ChDiagList']/Obj[@uID='o0' type='PN:ChDiagItem']/Obj[@uID='o0_5' type='PN:ExtChDiagItem']/Prop[@type='PN:MaintAlrmState']" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/L7ObjList/Obj[@uID='chdiaglist' type='PN:ChDiagList']/Obj[@uID='o0' type='PN:ChDiagItem']/Obj[@uID='o0_6' type='PN:ExtChDiagItem']/Prop[@type='PN:MaintAlrmState']" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/L7ObjList/Obj[@uID='chdiaglist' type='PN:ChDiagList']/Obj[@uID='o0' type='PN:ChDiagItem']/Obj[@uID='o0_7' type='PN:ExtChDiagItem']/Prop[@type='PN:MaintAlrmState']" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/L7ObjList/Obj[@uID='chdiaglist' type='PN:ChDiagList']/Obj[@uID='o0' type='PN:ChDiagItem']/Obj[@uID='o0_8' type='PN:ExtChDiagItem']/Prop[@type='PN:MaintAlrmState']" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/L7ObjList/Obj[@uID='chdiaglist' type='PN:ChDiagList']/Obj[@uID='o0' type='PN:ChDiagItem']/Obj[@uID='o0_9' type='PN:ExtChDiagItem']/Prop[@type='PN:MaintAlrmState']" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/L7ObjList/Obj[@uID='chdiaglist' type='PN:ChDiagList']/Obj[@uID='o0' type='PN:ChDiagItem']/Obj[@uID='o0_10' type='PN:ExtChDiagItem']/Prop[@type='PN:MaintAlrmState']" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/L7ObjList/Obj[@uID='chdiaglist' type='PN:ChDiagList']/Obj[@uID='o0' type='PN:ChDiagItem']/Obj[@uID='o0_11' type='PN:ExtChDiagItem']/Prop[@type='PN:MaintAlrmState']" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/L7ObjList/Obj[@uID='chdiaglist' type='PN:ChDiagList']/Obj[@uID='o0' type='PN:ChDiagItem']/Obj[@uID='o0_12' type='PN:ExtChDiagItem']/Prop[@type='PN:MaintAlrmState']" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/L7ObjList/Obj[@uID='chdiaglist' type='PN:ChDiagList']/Obj[@uID='o0' type='PN:ChDiagItem']/Obj[@uID='o0_13' type='PN:ExtChDiagItem']/Prop[@type='PN:MaintAlrmState']" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/Generic:FormattedTypeNameWithoutVersion" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/Generic:FormattedTypeName" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer3-4[@uID='L34_0']/InstanceObjList/Obj[@uID='ip100' type='IP:IpAddress']" Type="Ade.Fdcml.Core.Ipv4">192.168.42.4</InstVal>
+    <InstVal xPath="//Layer3-4[@uID='L34_0']/InstanceObjList/Obj[@uID='ip101' type='IP:DnsName']" Type="Ade.Fdcml.Core.StringAscii">quint4-ups-24dc-24dc-5-pn-1</InstVal>
+    <InstVal xPath="//Layer3-4[@uID='L34_0']/InstanceObjList/Obj[@uID='ip102' type='IP:ExtendedDomainName']" Type="Ade.Fdcml.Core.String">[UTF-8;7175696E74342D7570732D323464632D323464632D352D706E2D31]</InstVal>
+    <InstVal xPath="//Layer3-4[@uID='L34_0']/InstanceObjList/Obj[@uID='ip103' type='IP:DefaultGateway']" Type="Ade.Fdcml.Core.Ipv4">192.168.42.1</InstVal>
+    <InstVal xPath="//Layer3-4[@uID='L34_0']/InstanceObjList/Obj[@uID='ip104' type='IP:SubnetMask']" Type="Ade.Fdcml.Core.Ipv4">255.255.255.0</InstVal>
+    <InstVal xPath="//Layer3-4[@uID='L34_0']/InstanceObjList/Obj[@uID='ip105' type='IP:IndividualSettings']" Type="Ade.Fdcml.Core.Boolean">True</InstVal>
+    <InstVal xPath="//Layer3-4[@uID='L34_0']/AutomationML:NodeId" Type="System.String">8f28566a-efac-40be-811c-6a578f19ae99</InstVal>
+    <InstVal xPath="//Layer1-2[@uID='L12_0']/AutomationML:CommunicationInterfaceId" Type="System.String">18a65d42-91dc-4dad-9844-ddf0e5cf9381</InstVal>
+  </DevInst>
+</DevInstDoc>

@@ -1,0 +1,3057 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="2.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+   <Import Project="$(AdeProjectTargetsPath)" Condition="'$(AdeProjectTargetsPath)' != ''" />
+   <ItemGroup />
+   <ItemGroup>
+      <CockpitDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\b84580d7-61ea-48ec-9861-abe43adbd376.cockpit">
+         <Id>272fdf4e-9c92-4fe5-bdd2-5167fedc4cad</Id>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </CockpitDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <CodeWorksheet Include="RecycleBin\ae23182a-785a-49d6-a665-baf4a3cce2d9\Sensors.pou\Code.st">
+         <Id>5d27eb1e-6951-4d5e-bc6b-a5f32a659d65</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>2</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\Main.pou\Code.st">
+         <Id>845d8596-eacf-4214-a616-a559db6bd8b2</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>3</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\Buttons.pou\Code.st">
+         <Id>e3e4c1e8-efb1-4dc7-841a-5d5279c4216d</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>3</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\SafetyRelay.pou\Code.st">
+         <Id>806e2634-8d1e-440d-b7ce-dcf5b2dd1199</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>3</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\IOLink.pou\Code.ld">
+         <Id>389a6d1a-b77a-480c-a955-46318f5ced67</Id>
+         <Extension>.ld</Extension>
+         <Type>.ld</Type>
+         <ParentIndex>3</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\HMILogic.pou\Code.st">
+         <Id>1f84dbe6-fb2d-4874-a80f-ab22493a5c83</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>3</ParentIndex>
+      </CodeWorksheet>
+   </ItemGroup>
+   <ItemGroup>
+      <ControllerStatisticDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\b84580d7-61ea-48ec-9861-abe43adbd376.statistic">
+         <Id>0ba1f05d-5fa7-4e21-9386-950321312503</Id>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </ControllerStatisticDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <DataList Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\DataList.dl">
+         <Id>2a0cab98-54d9-499e-9ec3-48b1ff6c2d5d</Id>
+         <Visible>false</Visible>
+         <ParentIndex>7</ParentIndex>
+      </DataList>
+   </ItemGroup>
+   <ItemGroup>
+      <DataListReference Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\DataList.dlr4pd">
+         <Id>95472a44-f382-45d3-b8bd-6201a1cf224e</Id>
+         <Visible>false</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\Interface\DataList.dlr4pd">
+         <Id>32ccbb0e-eb43-4bb0-b140-f0a23a35d710</Id>
+         <Visible>false</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\Port_1\DataList.dlr4pd">
+         <Id>a8abd6ac-ec26-4400-a018-fa10767f579d</Id>
+         <Visible>false</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\Port_2\DataList.dlr4pd">
+         <Id>ec966a0b-15f1-41ed-9a6c-be537f311f58</Id>
+         <Visible>false</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\DataList.dlr4pd">
+         <Id>9f3170e8-7df2-4c04-8978-c0de9c939fd7</Id>
+         <Visible>false</Visible>
+         <ParentIndex>7</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_51\QUINT4-UPS_24DC_5\DataList.dlr4pd">
+         <Id>e7e45c54-f3e7-44d1-a279-8bfd01ae8f40</Id>
+         <Visible>false</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_51\DataList.dlr4pd">
+         <Id>122dbbec-a4cb-4540-8f8e-0edd9af48dfc</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\DataList.dlr4pd">
+         <Id>ecf420d8-9629-449d-9c49-b8e79b2b311e</Id>
+         <Visible>false</Visible>
+         <ParentIndex>6</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\DataList.dlr4pd">
+         <Id>ad518cfc-6d04-4c54-8452-7f86b65d6249</Id>
+         <Visible>false</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\Interface\DataList.dlr4pd">
+         <Id>2454e491-861a-4425-a085-c44b512f8a39</Id>
+         <Visible>false</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\Port_1\DataList.dlr4pd">
+         <Id>96193eca-919c-4b36-bcc4-3b11c76822b2</Id>
+         <Visible>false</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\Port_2\DataList.dlr4pd">
+         <Id>54aa20a2-7c7c-4d0a-a9b6-4a866f4545a4</Id>
+         <Visible>false</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\DataList.dlr4pd">
+         <Id>7dbc626d-f6e9-41b5-9291-cb26f5036f86</Id>
+         <Visible>false</Visible>
+         <ParentIndex>7</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes\IO-Link_In_Out__8_bytes\DataList.dlr4pd">
+         <Id>0d74154a-f442-4b80-9000-3edb2d32e350</Id>
+         <Visible>false</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes\DataList.dlr4pd">
+         <Id>70cef4c6-5fbc-47ed-9041-dbe32bc1e6a4</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__4_bytes\IO-Link_In_Out__4_bytes\DataList.dlr4pd">
+         <Id>52726335-8753-42e1-95da-3c9532070285</Id>
+         <Visible>false</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__4_bytes\DataList.dlr4pd">
+         <Id>b52cbabe-5d98-454b-b1f8-59b856b7e184</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__2_bytes\IO-Link_In_Out__2_bytes\DataList.dlr4pd">
+         <Id>35a35baa-2d91-436b-81e1-83a025947ab3</Id>
+         <Visible>false</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__2_bytes\DataList.dlr4pd">
+         <Id>e15d90da-989a-4b5e-a601-77458d134118</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes1\IO-Link_In_Out__8_bytes\DataList.dlr4pd">
+         <Id>cc3dbc86-4246-4937-ad18-3fc29838b16e</Id>
+         <Visible>false</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes1\DataList.dlr4pd">
+         <Id>c56fb78e-d3a0-487a-a2a6-357982fb091f</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes2\IO-Link_In_Out__8_bytes\DataList.dlr4pd">
+         <Id>fabd11da-5d66-4dcb-b19f-13becb96ca5c</Id>
+         <Visible>false</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes2\DataList.dlr4pd">
+         <Id>0f002fa2-3240-4ff2-ae00-e92cee055058</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes3\IO-Link_In_Out__8_bytes\DataList.dlr4pd">
+         <Id>5650a461-0cec-4f32-ab4a-fcd46ce2331f</Id>
+         <Visible>false</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes3\DataList.dlr4pd">
+         <Id>e2e804df-19f4-493a-b103-94491e90a713</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\DataList.dlr4pd">
+         <Id>558c96fd-6448-4092-836f-98a1180b5bad</Id>
+         <Visible>false</Visible>
+         <ParentIndex>11</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PLCnext\DataList.dlr2pl">
+         <Id>c461f925-b7a5-4871-a0be-1c773bc03c3d</Id>
+         <Visible>false</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\RES_829976591E98446682C292813E058D7E\DataList.dlr4var">
+         <Id>ef9fffe7-3da1-4569-8e09-95efef43bff1</Id>
+         <Visible>false</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\EIP_Master\DataList.dlr4pd">
+         <Id>740278eb-e89e-458c-90cc-0e1c67818cac</Id>
+         <Visible>false</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\DataList.dlr4hmi">
+         <Id>a04f0e2b-4fb4-49b1-9dc6-da7898d420de</Id>
+         <Visible>false</Visible>
+         <ParentIndex>0</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS\QUINT4-UPS\DataList.dlr4pd">
+         <Id>d46d08a2-bd05-48c4-85e5-6331d653fc90</Id>
+         <Visible>false</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS\Interface\DataList.dlr4pd">
+         <Id>436dc5c0-b690-4824-a420-1fcb70681be8</Id>
+         <Visible>false</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS\Port_1\DataList.dlr4pd">
+         <Id>06b6aaff-2805-4cf5-88fc-6f731224879c</Id>
+         <Visible>false</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS\Port_2\DataList.dlr4pd">
+         <Id>f3b3dee1-a89a-4696-90dd-6fcc24fa3ac4</Id>
+         <Visible>false</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS\DataList.dlr4pd">
+         <Id>2bb72ada-dd1b-41a0-9c37-331475fe7f3f</Id>
+         <Visible>false</Visible>
+         <ParentIndex>7</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS1\QUINT4-UPS\DataList.dlr4pd">
+         <Id>1262b42e-4d70-467b-a3f5-5966247e6e7b</Id>
+         <Visible>false</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS1\DataList.dlr4pd">
+         <Id>ef337633-2350-48a0-ad5a-8dbe2871a305</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\DataList.dlr4pd">
+         <Id>4fbe88c0-2562-4ae7-a2c6-c6f4fa7cd6f5</Id>
+         <Visible>false</Visible>
+         <ParentIndex>6</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_Master\IO-Link_Master\DataList.dlr4pd">
+         <Id>111d7aa3-28d9-40e4-abf4-79d0e4aa53ab</Id>
+         <Visible>false</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_Master\Interface\DataList.dlr4pd">
+         <Id>122a70d8-1670-48c3-94c2-bbc37838ffe1</Id>
+         <Visible>false</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_Master\Port_1\DataList.dlr4pd">
+         <Id>b44b3816-2c12-46d6-b6e5-f3bb3671924c</Id>
+         <Visible>false</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_Master\Port_2\DataList.dlr4pd">
+         <Id>066e47e6-005a-4dac-9edb-ef127e991e4b</Id>
+         <Visible>false</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_Master\DataList.dlr4pd">
+         <Id>3381d08e-d514-4206-b4e9-7b84f34a529f</Id>
+         <Visible>false</Visible>
+         <ParentIndex>7</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes\IO-Link_In_Out__8_bytes\DataList.dlr4pd">
+         <Id>6d42147c-017b-4bdf-9e3e-ee0e054c9ae3</Id>
+         <Visible>false</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes\DataList.dlr4pd">
+         <Id>2ddc6a66-4f78-4958-99f6-471ebf91d6f1</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__4_bytes\IO-Link_In_Out__4_bytes\DataList.dlr4pd">
+         <Id>ec2beb46-9d16-4b5a-82a4-13c4000a93d0</Id>
+         <Visible>false</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__4_bytes\DataList.dlr4pd">
+         <Id>edbfcec1-c1b0-4854-b708-898f8f4412bd</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__2_bytes\IO-Link_In_Out__2_bytes\DataList.dlr4pd">
+         <Id>66a65ca4-ffd7-43a4-a293-316fc18aa785</Id>
+         <Visible>false</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__2_bytes\DataList.dlr4pd">
+         <Id>30be6478-6c7d-43dd-93af-3c32ee54d3f5</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes1\IO-Link_In_Out__8_bytes\DataList.dlr4pd">
+         <Id>dc08ff6e-cbe9-4d81-a926-0b5a7b793495</Id>
+         <Visible>false</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes1\DataList.dlr4pd">
+         <Id>505e6cd0-fa8d-4764-a179-2035ec8cb8ca</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes2\IO-Link_In_Out__8_bytes\DataList.dlr4pd">
+         <Id>e7e83615-31b1-4557-ad11-fba525a025b7</Id>
+         <Visible>false</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes2\DataList.dlr4pd">
+         <Id>52598ec0-c965-4de2-9743-c62964a2f956</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes3\IO-Link_In_Out__8_bytes\DataList.dlr4pd">
+         <Id>617ac34e-a9c1-4800-8364-9eec702d99b3</Id>
+         <Visible>false</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes3\DataList.dlr4pd">
+         <Id>7c4c995f-b836-494a-9020-5a21162e81ea</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\DataList.dlr4pd">
+         <Id>458de0d1-755f-4c6a-a003-bbc0ef84862e</Id>
+         <Visible>false</Visible>
+         <ParentIndex>11</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\DataList.dlr4pd">
+         <Id>f1fb4339-9227-4f12-bdd5-fc51a8116a82</Id>
+         <Visible>false</Visible>
+         <ParentIndex>8</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\AXL_F_DI16_4_2F\DataList.dlr4pd">
+         <Id>c5190da0-ff00-4f20-b1bc-619ac385d29e</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\AXL_F_DO16_2_2H\DataList.dlr4pd">
+         <Id>f30e8082-4ac1-48d3-b283-4498af1c32ab</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\DataList.dlr4pd">
+         <Id>967db78d-633b-4d67-a2cd-3d4d90473d07</Id>
+         <Visible>false</Visible>
+         <ParentIndex>6</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\IB_Master\DataList.dlr4pd">
+         <Id>ecab1b9e-570f-4220-b8f3-03ed84a481fa</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+   </ItemGroup>
+   <ItemGroup>
+      <DataTypeWorksheet Include="Logical Elements\GeneratedDataTypes.dt">
+         <Id>b99f51c7-269a-4abc-9fcc-deb1245ac16e</Id>
+         <AutoGenerated>true</AutoGenerated>
+         <Visible>False</Visible>
+         <ParentIndex>8</ParentIndex>
+      </DataTypeWorksheet>
+   </ItemGroup>
+   <ItemGroup>
+      <DeviceInstanceDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\5a23b1b4-8024-4af3-9a11-2704730b3a40.ds">
+         <Id>c4558264-cb4e-4afd-add9-b8802b98dd76</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\Interface\3a531c88-e481-409a-b778-82d29c274309.ds">
+         <Id>bdb6833c-018a-402a-9467-ceb29e950d57</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\Port_1\f4facd12-776d-4c04-a20e-f794729ab80e.ds">
+         <Id>e4be8068-dd76-4063-96b3-343e9ddc035f</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\Port_2\5fe64948-50cf-470e-8703-fb08ae56f370.ds">
+         <Id>a263a70b-3cd7-423f-9aaa-30a9c716ce7a</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\8aa87001-e77c-4371-b59b-7a319336d474.ds">
+         <Id>92df2f0d-a054-4c84-b7c2-f99e72ee5681</Id>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_51\QUINT4-UPS_24DC_5\acfee2fc-c539-458d-9854-c97f1ca4f9c7.ds">
+         <Id>b8aafead-d922-4584-9f6b-d8c08129a573</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_51\c802df65-b419-4a65-aa77-2ee08c2a92e5.ds">
+         <Id>f6a8b45d-073a-403c-bf4c-378f3a7e5677</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\eb4502d1-d5ef-488c-b631-11de860f5f3c.ds">
+         <Id>53cab1c2-11bf-4aa7-9875-c753b0934fa4</Id>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\501b9d2a-be56-4a02-8a34-11ca3a23cdb3.ds">
+         <Id>eec5d889-2507-4d04-858d-fea03ffa954d</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\Interface\d893c474-862a-4f6b-a216-4f6283a6eb4e.ds">
+         <Id>82c9ea4a-77f5-4c1c-afdd-8454d997fed8</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\Port_1\f9bff5dd-12ed-4f72-bf60-d1db6bfd8e54.ds">
+         <Id>691e4815-af4f-4832-8a7f-7cb5f514d713</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\Port_2\78bea621-31d8-413e-a283-4c63480e19ca.ds">
+         <Id>d9ee6c88-84c0-4d38-890f-1e443fcb7cff</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\88be36f5-f3a3-4d6f-bfe4-49da596d450a.ds">
+         <Id>cce4bf59-7200-4824-b3ea-5a7958641b13</Id>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes\IO-Link_In_Out__8_bytes\3682c24b-0745-4aa9-ba7e-9c4582420ef0.ds">
+         <Id>f9bdc529-9568-462f-9557-71817630f1fa</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes\3dec1654-2d67-4a8f-b810-6f6fefa60bd1.ds">
+         <Id>131a86a3-6f79-4fbb-9178-23b077964931</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__4_bytes\IO-Link_In_Out__4_bytes\5c08228f-b75d-455a-85da-343183b353a9.ds">
+         <Id>8d699ddd-ee3c-4a13-9350-c0af0d204248</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__4_bytes\20a8107b-b829-4d9b-b53f-137b3aae85ba.ds">
+         <Id>af5bd082-4303-4c39-b02d-001f3fa422c2</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__2_bytes\IO-Link_In_Out__2_bytes\f07b3049-d3a0-4754-8d37-8ee213c2be92.ds">
+         <Id>8b410f59-7d1b-4e03-aeb2-5456a162f54e</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__2_bytes\04817916-d8b6-4d82-8898-a5385d8b3243.ds">
+         <Id>351d5621-4fef-4d8b-a084-efb0ee4cd91c</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes1\IO-Link_In_Out__8_bytes\0c2ceba6-53d5-449c-b6dc-f0ceb8a19808.ds">
+         <Id>9534bc26-c852-4790-80a0-3e02512e6ce1</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes1\983cf32c-d1f3-4777-abc4-04a8a3681f98.ds">
+         <Id>b8a04c63-a0d6-4b70-9b2e-7374b6f6d7d3</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes2\IO-Link_In_Out__8_bytes\1e10aebb-bb20-454d-92a8-694bf977c734.ds">
+         <Id>41eb78c6-8aee-4d9f-9228-3887d146416d</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes2\7aa6efb4-49ed-44cd-85a7-b1261be60fb2.ds">
+         <Id>00a4d330-52a2-45c3-8df4-7d137eaf5fb7</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes3\IO-Link_In_Out__8_bytes\5014cb08-9035-4f58-99a0-62b6b414166d.ds">
+         <Id>a38b30a1-d078-4ad8-a63c-291acc3b3bb2</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes3\040fbc92-7570-4789-b514-4f2867f2243d.ds">
+         <Id>d4f6953e-159a-45bb-ba38-679929d72812</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\3a8551b0-9c1f-42a8-b07a-fde5bca7e1de.ds">
+         <Id>5315182e-1f6f-4c49-9735-c1b77842f3ff</Id>
+         <Visible>False</Visible>
+         <ParentIndex>10</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\b84580d7-61ea-48ec-9861-abe43adbd376.ds">
+         <Id>4aa93581-1707-4566-a886-5adcfbc978ae</Id>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS\QUINT4-UPS\240ce7f8-48d3-4ac0-a976-c5fb5f9ebfd1.ds">
+         <Id>b033c600-4496-452e-9729-1a4cc66eb8bb</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS\Interface\5d2af4ff-0f39-4d47-8f13-b84661c40d30.ds">
+         <Id>0235d8c4-b363-486e-8c64-17767eb384fd</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS\Port_1\e61b8361-bd7f-4585-9bcb-4a8e30026d1d.ds">
+         <Id>f72c60b7-6018-4789-8632-4e6508fbc94a</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS\Port_2\6ccd31b7-de9e-48fa-9db4-c52b1a95164c.ds">
+         <Id>9abecaa6-27c0-4670-8d26-f47b6b49c275</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS\1aacabcd-31c7-4680-b96f-fea8e937740c.ds">
+         <Id>a42b5669-e4d5-4443-8c27-c7efe8e867da</Id>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS1\QUINT4-UPS\0802ffd7-f127-442a-a81a-56d4d0f564ab.ds">
+         <Id>62dbb513-bd1c-4d83-ad7e-749bd59715c0</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS1\2d200b60-3bca-4299-8aca-1eb30d00bf7f.ds">
+         <Id>31c31f10-48da-468e-a621-2943cbd6c39f</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\afd038d6-6ed0-4dcf-9ae8-417ce12a58c2.ds">
+         <Id>2432789c-69d6-4120-bb22-0a860107fa50</Id>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_Master\IO-Link_Master\6ce9d6ce-dc14-43ec-87c2-297043da246f.ds">
+         <Id>57f0f8db-cb96-4ada-bbbd-1e2a37da8fef</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_Master\Interface\dccba4ce-b092-4cbf-8394-93d4d25f6db5.ds">
+         <Id>9572ba57-2a4a-43b6-8b24-89525268c7aa</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_Master\Port_1\9240857d-cf56-4df5-890f-2fb1d632cc68.ds">
+         <Id>76f141ed-d5df-4dc8-888c-fb9759e951e8</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_Master\Port_2\2f6dadc6-f17f-4488-9751-9b9593b0d2ab.ds">
+         <Id>f7a0cb4f-c8ff-47bf-be54-a227b611cfb2</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_Master\ca2af5de-0683-4b40-99e0-189ee10acd29.ds">
+         <Id>1852f192-b856-471d-abff-393a711fe352</Id>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes\IO-Link_In_Out__8_bytes\90de9e57-5cc6-4faf-a3b0-2da7bd15c85a.ds">
+         <Id>a1cf177a-6092-409e-be38-b898727507d0</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes\7aee750c-db6a-492b-81cd-09291615a6e9.ds">
+         <Id>d6c1f403-fd01-4117-a242-e37b17628f4f</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__4_bytes\IO-Link_In_Out__4_bytes\364651bf-08ef-49a7-aa4d-157063c3bcf7.ds">
+         <Id>dad693bd-48e4-4cc5-834c-db457bdc4114</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__4_bytes\a4314e7c-4cf4-459a-af7b-e4ab412f4c2a.ds">
+         <Id>65348b1c-bf88-4e75-9138-949c557da62b</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__2_bytes\IO-Link_In_Out__2_bytes\028f4b91-8fa6-400e-b9b1-6994d8f6152d.ds">
+         <Id>06e4cc1a-821b-4f09-8fd3-acf1250cc3fb</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__2_bytes\7dfb4b70-47f9-45eb-9b0f-0f50a40a830e.ds">
+         <Id>8c9c7262-a9e0-436c-bdb2-48ba84c4b1e4</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes1\IO-Link_In_Out__8_bytes\c79ae991-6cd3-4ffc-b9ee-8100c2f50f0e.ds">
+         <Id>85295b69-5381-4989-af59-2a597cb4f776</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes1\98dc3471-3d8d-4040-b093-133c708cb843.ds">
+         <Id>61bd666f-722d-416e-ae7d-8da2c38facf3</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes2\IO-Link_In_Out__8_bytes\5906f2e4-213f-4d80-8020-3dd588a9c0d8.ds">
+         <Id>ed841985-e242-4c77-94a3-d637e553e866</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes2\0b9c142f-8f7d-4c43-9424-0e4d0df804d1.ds">
+         <Id>196d3b9b-e995-4ebb-86eb-689f6e1d530c</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes3\IO-Link_In_Out__8_bytes\79c7a4f1-e508-49e2-a8a3-444c7517151b.ds">
+         <Id>801fd9cf-1c84-4215-a09f-7ed2e023613f</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes3\6e73dfa2-76af-4cc8-b953-6c40c3705d0f.ds">
+         <Id>06c4e392-f208-4330-b5be-a7d2567c31c0</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\578bc80e-19f0-4cde-ba08-2578c7a01170.ds">
+         <Id>031b2947-4184-4809-b4b5-7dcf54a14168</Id>
+         <Visible>False</Visible>
+         <ParentIndex>10</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\AXL_F_DI16_4_2F\2ed2da9f-292d-47b0-a827-c9a918d1d307.ds">
+         <Id>c45a01ff-4098-4528-8f77-8db4dd0dbed3</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\AXL_F_DO16_2_2H\4b80f308-df34-4699-96b9-f2a1d77e8846.ds">
+         <Id>75c62d5d-d253-44fe-9cf2-e3a0d5cef60b</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <DeviceType Include="Logical Elements\GSDML-V2.34-Phoenix-IO-Link-20181102 IOL MA8 PN DI8v1_V1.5.28.fdcml">
+         <Id>e84deef6-dfd4-4930-b8a7-811af61d685e</Id>
+         <ParentIndex>0</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 5v01_V1.0.0.fdcml">
+         <Id>6e8d049b-0407-41b5-87a6-7ae1190725f4</Id>
+         <ParentIndex>1</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 10v01_V1.0.0.fdcml">
+         <Id>39094c13-b5a1-4d62-9f25-91a64047735a</Id>
+         <ParentIndex>2</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 20v01_V1.0.0.fdcml">
+         <Id>4b6db7d3-10f1-4c3a-a413-08a4756dcd61</Id>
+         <ParentIndex>3</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 40v01_V1.0.0.fdcml">
+         <Id>1cfed129-aab7-4532-9f74-556fc60b9a94</Id>
+         <ParentIndex>4</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link Masterv1_V1.5.28.fdcml">
+         <Id>22ffb34b-4434-4c2d-9986-df8ab81eca85</Id>
+         <ParentIndex>5</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPSv01_V1.0.0.fdcml">
+         <Id>68a02a4c-9173-40f6-89d9-f8b753a466c0</Id>
+         <ParentIndex>6</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 IOL MA8 PN DI8 DAPv1_V1.5.28.fdcml">
+         <Id>d7a5bcf2-62bf-41ed-ad54-1fc3381c5da7</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 SIO Digital In.fdcml">
+         <Id>8e56f0d1-8cc5-494b-b860-7cf6d501df9f</Id>
+         <ParentIndex>1</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 SIO Digital Out.fdcml">
+         <Id>3c066156-1a3b-40a0-bca1-83a12f9ca0c0</Id>
+         <ParentIndex>2</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In  1 byte.fdcml">
+         <Id>18ce9a9c-b40f-438e-9195-71500a1eb652</Id>
+         <ParentIndex>3</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In  2 bytes.fdcml">
+         <Id>5fa9ece6-b858-44c3-9a30-8c04d335e766</Id>
+         <ParentIndex>4</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In  3 bytes.fdcml">
+         <Id>d85d5aaa-1aa9-4d2f-b1c7-181a404ca15c</Id>
+         <ParentIndex>5</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In  4 bytes.fdcml">
+         <Id>b6c43dd7-89fa-4359-89dc-d8f494e80a31</Id>
+         <ParentIndex>6</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In  8 bytes.fdcml">
+         <Id>47f666ba-bcc0-409c-8c3a-abea55b6266f</Id>
+         <ParentIndex>7</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In 16 bytes.fdcml">
+         <Id>66cd93b3-9602-4e5d-8f33-e28c81e5b19a</Id>
+         <ParentIndex>8</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In 32 bytes.fdcml">
+         <Id>84e3111d-bedb-4fdd-8a4d-8cb1af723249</Id>
+         <ParentIndex>9</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link Out  1 byte.fdcml">
+         <Id>a971f91f-7331-4ee3-b65c-03aae241b0ea</Id>
+         <ParentIndex>10</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link Out  2 bytes.fdcml">
+         <Id>75fe7b85-aa32-4a8e-8f61-8b594e016726</Id>
+         <ParentIndex>11</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link Out  3 bytes.fdcml">
+         <Id>c96d9016-6306-454b-94d6-2594d1be5b05</Id>
+         <ParentIndex>12</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link Out  4 bytes.fdcml">
+         <Id>3d0937ff-4c59-4fa9-b47b-54e976b3860b</Id>
+         <ParentIndex>13</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link Out  8 bytes.fdcml">
+         <Id>dacb55be-2266-431a-8193-c84a67da567a</Id>
+         <ParentIndex>14</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link Out 16 bytes.fdcml">
+         <Id>3f414341-20da-45e5-b0f1-f63b5b0c031e</Id>
+         <ParentIndex>15</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link Out 32 bytes.fdcml">
+         <Id>9d740080-6443-4d71-8c46-cae0151907ff</Id>
+         <ParentIndex>16</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In Out  1 byte.fdcml">
+         <Id>aa0fd392-3b05-44bd-b3bd-65913d478297</Id>
+         <ParentIndex>17</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In Out  2 bytes.fdcml">
+         <Id>ef4ba878-a6ee-4081-a7d2-caa9f19ff614</Id>
+         <ParentIndex>18</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In Out  3 bytes.fdcml">
+         <Id>8c2d29b1-e6e7-4c8a-892c-2e8979d7c251</Id>
+         <ParentIndex>19</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In Out  4 bytes.fdcml">
+         <Id>14ca9ffc-1e24-46d8-ba53-2560209eef4a</Id>
+         <ParentIndex>20</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In Out  8 bytes.fdcml">
+         <Id>2d84875c-cc2d-469a-be2d-8c4bb958da03</Id>
+         <ParentIndex>21</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In Out 16 bytes.fdcml">
+         <Id>c63ab3b3-9402-4eab-be7a-f0e56583b647</Id>
+         <ParentIndex>22</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In Out 32 bytes.fdcml">
+         <Id>c19072e9-42b3-434c-9c2b-e9952f79e9b3</Id>
+         <ParentIndex>23</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link Status.fdcml">
+         <Id>f70cc72d-ec91-435d-a1f3-87b8698e47f3</Id>
+         <ParentIndex>24</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 5 DAPv01_V1.0.0.fdcml">
+         <Id>7b1e7027-45cb-410a-b8bf-1cd230c0916d</Id>
+         <Visible>False</Visible>
+         <ParentIndex>25</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 10 DAPv01_V1.0.0.fdcml">
+         <Id>933a96e5-edbc-414b-aa79-a0b96ff59dfe</Id>
+         <Visible>False</Visible>
+         <ParentIndex>26</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 20 DAPv01_V1.0.0.fdcml">
+         <Id>965471df-23c6-4bbe-88ff-f4dafedb6afe</Id>
+         <Visible>False</Visible>
+         <ParentIndex>27</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 40 DAPv01_V1.0.0.fdcml">
+         <Id>3470fd10-a096-4aa3-be7f-d87f9e7e3f3d</Id>
+         <Visible>False</Visible>
+         <ParentIndex>28</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 5v1.01.0.fdcml">
+         <Id>44ae2792-84de-4242-bbee-3f87a9dd4d79</Id>
+         <Visible>False</Visible>
+         <ParentIndex>29</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 10v1.01.0.fdcml">
+         <Id>88de5640-08b6-48ae-93e8-d011d6f6389c</Id>
+         <Visible>False</Visible>
+         <ParentIndex>30</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 20v1.01.0.fdcml">
+         <Id>1ad7d63a-794f-4785-8f94-54c95a889726</Id>
+         <Visible>False</Visible>
+         <ParentIndex>31</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 40v1.01.0.fdcml">
+         <Id>8025477a-7309-4ba2-8777-82c41a7a0cb3</Id>
+         <Visible>False</Visible>
+         <ParentIndex>32</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 Battery module VRLA AGM 1.3Ahv1.01.0.fdcml">
+         <Id>7b73a250-366f-4845-a8cc-4df9d5aa3b65</Id>
+         <ParentIndex>33</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 Battery module VRLA AGM 3.4Ahv1.01.0.fdcml">
+         <Id>0cc3016f-dc22-420c-878b-116d208eaefa</Id>
+         <ParentIndex>34</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 Battery module VRLA AGM 7.2Ahv1.01.0.fdcml">
+         <Id>d9c95d3a-cbe4-4076-8024-db447a699265</Id>
+         <ParentIndex>35</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 Battery module VRLA AGM 12Ahv1.01.0.fdcml">
+         <Id>016ee585-f287-459d-a2d5-2ef9528e9bf8</Id>
+         <ParentIndex>36</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 Battery module VRLA AGM 38Ahv1.01.0.fdcml">
+         <Id>16cde31f-f5d8-49d0-97c0-a6b5fb616d38</Id>
+         <ParentIndex>37</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 Battery module VRLA WTR 13Ahv1.01.0.fdcml">
+         <Id>b246e2d4-db50-4e1e-b769-09aa09bc042b</Id>
+         <ParentIndex>38</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 Battery module VRLA WTR 26Ahv1.01.0.fdcml">
+         <Id>6ee722a1-ac4a-4373-a2a7-0c66e3db21db</Id>
+         <ParentIndex>39</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 Battery module Li-Ion 120Whv1.01.0.fdcml">
+         <Id>5f68917a-0455-472e-8e6b-111ff955f6bb</Id>
+         <ParentIndex>40</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 Battery module Li-Ion 924Whv1.01.0.fdcml">
+         <Id>023ba569-e55f-493f-9510-d29832820862</Id>
+         <ParentIndex>41</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link Master DAPv1_V1.5.28.fdcml">
+         <Id>d2fca7e4-08d0-4f2f-9bf6-d3eeb0e31855</Id>
+         <Visible>False</Visible>
+         <ParentIndex>42</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS DAPv01_V1.0.0.fdcml">
+         <Id>7b3b4f57-1ae8-4b20-b9c6-bcd0cb8260a8</Id>
+         <Visible>False</Visible>
+         <ParentIndex>43</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPSv1.01.0.fdcml">
+         <Id>eef031b7-9a18-48df-bb50-c79a80a97fd3</Id>
+         <Visible>False</Visible>
+         <ParentIndex>44</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IOL MA8 PN DI8 32768v1_V1.5.28.fdcml">
+         <Id>66a65ff9-dbb7-406f-96b7-6e7fdca00931</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IOL MA8 PN DI8 32769v1_V1.5.28.fdcml">
+         <Id>12681ab9-5ee8-412b-9454-20bd7555f43b</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IOL MA8 PN DI8 32770v1_V1.5.28.fdcml">
+         <Id>4457b0d5-246e-487c-a86d-5be3e1f3a913</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IOL MA8 PN DI8 DAP 1v1_V1.5.28.fdcml">
+         <Id>fc3b464c-1662-45a2-92a8-4f99abeaac57</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 SIO Digital In VSI 1.fdcml">
+         <Id>7d77d270-81d4-45b5-84c9-a5ab152b864f</Id>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 SIO Digital Out VSI 1.fdcml">
+         <Id>1fea4b01-70b8-46bc-98f1-a009ebd11f20</Id>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In  1 byte VSI 1.fdcml">
+         <Id>f14c26cc-50f2-43fd-9196-2606313769a1</Id>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In  2 bytes VSI 1.fdcml">
+         <Id>8f637f8d-ec57-4d28-b52d-19ed7b121732</Id>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In  3 bytes VSI 1.fdcml">
+         <Id>479c5ae1-2860-42e6-9893-552db845e43b</Id>
+         <Visible>False</Visible>
+         <ParentIndex>8</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In  4 bytes VSI 1.fdcml">
+         <Id>efb57269-7435-4790-ac19-ca6ef898ab18</Id>
+         <Visible>False</Visible>
+         <ParentIndex>9</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In  8 bytes VSI 1.fdcml">
+         <Id>48cd4759-a7fc-47bf-b0a6-18a7d619c8c9</Id>
+         <Visible>False</Visible>
+         <ParentIndex>10</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In 16 bytes VSI 1.fdcml">
+         <Id>2014f601-7840-422e-b7fe-92138aae80d2</Id>
+         <Visible>False</Visible>
+         <ParentIndex>11</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In 32 bytes VSI 1.fdcml">
+         <Id>5eb66ce4-1dec-4117-b7a9-90bec38d9327</Id>
+         <Visible>False</Visible>
+         <ParentIndex>12</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link Out  1 byte VSI 1.fdcml">
+         <Id>018391f0-4c05-47e3-beb1-a5ebc3b33b93</Id>
+         <Visible>False</Visible>
+         <ParentIndex>13</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link Out  2 bytes VSI 1.fdcml">
+         <Id>379a1df0-9c13-4b5d-9873-c11fe8237e82</Id>
+         <Visible>False</Visible>
+         <ParentIndex>14</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link Out  3 bytes VSI 1.fdcml">
+         <Id>c954c28c-d129-4f4b-a8c6-950feea273ef</Id>
+         <Visible>False</Visible>
+         <ParentIndex>15</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link Out  4 bytes VSI 1.fdcml">
+         <Id>ee1fc341-4900-4d65-bc14-7bdb3bf60228</Id>
+         <Visible>False</Visible>
+         <ParentIndex>16</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link Out  8 bytes VSI 1.fdcml">
+         <Id>3eb7da2f-b3dd-4840-928e-e20c84167504</Id>
+         <Visible>False</Visible>
+         <ParentIndex>17</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link Out 16 bytes VSI 1.fdcml">
+         <Id>93c19f1a-0b4a-4ba6-a1c1-0e684a3c8a3f</Id>
+         <Visible>False</Visible>
+         <ParentIndex>18</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link Out 32 bytes VSI 1.fdcml">
+         <Id>32f15ba8-acbf-4fd5-8575-f917f0fe2772</Id>
+         <Visible>False</Visible>
+         <ParentIndex>19</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In Out  1 byte VSI 1.fdcml">
+         <Id>86f21136-84e6-41ba-b7e7-1fe11adae4ab</Id>
+         <Visible>False</Visible>
+         <ParentIndex>20</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In Out  2 bytes VSI 1.fdcml">
+         <Id>8a5871d5-770f-44df-b912-aed291c3a345</Id>
+         <Visible>False</Visible>
+         <ParentIndex>21</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In Out  3 bytes VSI 1.fdcml">
+         <Id>2b1348d8-3b57-4e42-938c-53032839e9fa</Id>
+         <Visible>False</Visible>
+         <ParentIndex>22</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In Out  4 bytes VSI 1.fdcml">
+         <Id>d791f659-2ecc-42db-b00d-b4fce59017a3</Id>
+         <Visible>False</Visible>
+         <ParentIndex>23</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In Out  8 bytes VSI 1.fdcml">
+         <Id>b8eeff26-33c6-44f2-b16a-2b12a4b2c8f9</Id>
+         <Visible>False</Visible>
+         <ParentIndex>24</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In Out 16 bytes VSI 1.fdcml">
+         <Id>364d024a-ca21-495e-870a-e928caec0acd</Id>
+         <Visible>False</Visible>
+         <ParentIndex>25</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link In Out 32 bytes VSI 1.fdcml">
+         <Id>08549e97-f75d-40ad-bfa2-f6e2d3fe76cd</Id>
+         <Visible>False</Visible>
+         <ParentIndex>26</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link Status VSI 1.fdcml">
+         <Id>3eeca15a-44d9-4c02-aa68-b50e6ef88580</Id>
+         <Visible>False</Visible>
+         <ParentIndex>27</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 5 32768v01_V1.0.0.fdcml">
+         <Id>18f07071-a945-449b-a335-39f1422f40df</Id>
+         <Visible>False</Visible>
+         <ParentIndex>28</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 5 32769v01_V1.0.0.fdcml">
+         <Id>d5cbc5ce-ee0e-47dc-b45e-d4afc954fb8b</Id>
+         <Visible>False</Visible>
+         <ParentIndex>29</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 5 32770v01_V1.0.0.fdcml">
+         <Id>22737cc7-3fc0-41dd-bd26-a1edf671440a</Id>
+         <Visible>False</Visible>
+         <ParentIndex>30</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 5 DAP 1v01_V1.0.0.fdcml">
+         <Id>aa26cd81-34a9-425e-9023-9d5a875a3ab4</Id>
+         <Visible>False</Visible>
+         <ParentIndex>31</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 10 32768v01_V1.0.0.fdcml">
+         <Id>044f6da7-84fa-4bcb-91c3-1a98c2cfe01f</Id>
+         <Visible>False</Visible>
+         <ParentIndex>32</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 10 32769v01_V1.0.0.fdcml">
+         <Id>6efa62af-9243-4895-890e-6a9b7be689c8</Id>
+         <Visible>False</Visible>
+         <ParentIndex>33</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 10 32770v01_V1.0.0.fdcml">
+         <Id>057c570d-2da7-4a74-8162-c3913c8f3895</Id>
+         <Visible>False</Visible>
+         <ParentIndex>34</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 10 DAP 1v01_V1.0.0.fdcml">
+         <Id>d0d9f0a9-a0bb-4e6a-af99-14613cda5799</Id>
+         <Visible>False</Visible>
+         <ParentIndex>35</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 20 32768v01_V1.0.0.fdcml">
+         <Id>6be573ed-bc88-4ce0-afe7-1aedee0d4f16</Id>
+         <Visible>False</Visible>
+         <ParentIndex>36</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 20 32769v01_V1.0.0.fdcml">
+         <Id>e7e74547-55c5-4458-9c6b-c1c9e78c4879</Id>
+         <Visible>False</Visible>
+         <ParentIndex>37</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 20 32770v01_V1.0.0.fdcml">
+         <Id>316f9b50-4789-492c-b51b-6f2fb413bc29</Id>
+         <Visible>False</Visible>
+         <ParentIndex>38</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 20 DAP 1v01_V1.0.0.fdcml">
+         <Id>dfc7e748-50b7-4029-b6c2-c1f07401ea78</Id>
+         <Visible>False</Visible>
+         <ParentIndex>39</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 40 32768v01_V1.0.0.fdcml">
+         <Id>6c1d6f8b-37f4-45e3-9f8c-50ef3ca9cfd5</Id>
+         <Visible>False</Visible>
+         <ParentIndex>40</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 40 32769v01_V1.0.0.fdcml">
+         <Id>29b6c506-34da-4626-91ee-15e296da211f</Id>
+         <Visible>False</Visible>
+         <ParentIndex>41</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 40 32770v01_V1.0.0.fdcml">
+         <Id>cd7cf899-1dc5-4c74-a1ad-ef64dfd32f84</Id>
+         <Visible>False</Visible>
+         <ParentIndex>42</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 40 DAP 1v01_V1.0.0.fdcml">
+         <Id>004c2dfc-0d66-4d78-bb8a-b98f37db6ce2</Id>
+         <Visible>False</Visible>
+         <ParentIndex>43</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 5 VSI 1v1.0_1.0.fdcml">
+         <Id>70eea2bb-deba-4a20-8dea-9f1f72b80b34</Id>
+         <Visible>False</Visible>
+         <ParentIndex>44</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 10 VSI 1v1.0_1.0.fdcml">
+         <Id>9edf3c94-d7ff-402e-9bcb-8ad6729bce43</Id>
+         <Visible>False</Visible>
+         <ParentIndex>45</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 20 VSI 1v1.0_1.0.fdcml">
+         <Id>b6741731-4f67-4ac2-9718-6886959fa4e9</Id>
+         <Visible>False</Visible>
+         <ParentIndex>46</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 24DC 40 VSI 1v1.0_1.0.fdcml">
+         <Id>0638806d-f1f3-4035-aa31-0ea72c5af138</Id>
+         <Visible>False</Visible>
+         <ParentIndex>47</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 Battery module VRLA AGM 1.3Ah VSI 1v1.0_1.0.fdcml">
+         <Id>7cf69404-39ae-40f1-855d-908fbce44626</Id>
+         <Visible>False</Visible>
+         <ParentIndex>48</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 Battery module VRLA AGM 3.4Ah VSI 1v1.0_1.0.fdcml">
+         <Id>869bf05f-3756-406a-8033-55b517abf0e9</Id>
+         <Visible>False</Visible>
+         <ParentIndex>49</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 Battery module VRLA AGM 7.2Ah VSI 1v1.0_1.0.fdcml">
+         <Id>7d7f6d6a-ba77-494f-8dee-a839681dd29b</Id>
+         <Visible>False</Visible>
+         <ParentIndex>50</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 Battery module VRLA AGM 12Ah VSI 1v1.0_1.0.fdcml">
+         <Id>f2ab400e-8481-4365-b39f-8870eddfec04</Id>
+         <Visible>False</Visible>
+         <ParentIndex>51</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 Battery module VRLA AGM 38Ah VSI 1v1.0_1.0.fdcml">
+         <Id>338072cb-d0ca-440d-94e3-b198fae776d3</Id>
+         <Visible>False</Visible>
+         <ParentIndex>52</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 Battery module VRLA WTR 13Ah VSI 1v1.0_1.0.fdcml">
+         <Id>8fcd71f0-fda7-4855-a6f8-f77ac8a3b093</Id>
+         <Visible>False</Visible>
+         <ParentIndex>53</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 Battery module VRLA WTR 26Ah VSI 1v1.0_1.0.fdcml">
+         <Id>a60cb014-b4ff-4cbf-94f3-d121071ac74d</Id>
+         <Visible>False</Visible>
+         <ParentIndex>54</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 Battery module Li-Ion 120Wh VSI 1v1.0_1.0.fdcml">
+         <Id>9928f032-f024-4edb-80df-db75a0c959c0</Id>
+         <Visible>False</Visible>
+         <ParentIndex>55</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 Battery module Li-Ion 924Wh VSI 1v1.0_1.0.fdcml">
+         <Id>b5f084f2-9418-4175-b9d7-fd2c4cb346b9</Id>
+         <Visible>False</Visible>
+         <ParentIndex>56</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link Master 32768v1_V1.5.28.fdcml">
+         <Id>e144ccfb-2d9e-46be-8bd6-ae6901b7f68d</Id>
+         <Visible>False</Visible>
+         <ParentIndex>57</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link Master 32769v1_V1.5.28.fdcml">
+         <Id>1d1283b7-88c5-455f-ab2d-c25635a3745e</Id>
+         <Visible>False</Visible>
+         <ParentIndex>58</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link Master 32770v1_V1.5.28.fdcml">
+         <Id>23629eb2-5f67-41d9-8cba-f1a812bf4507</Id>
+         <Visible>False</Visible>
+         <ParentIndex>59</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix-IO-Link-20181102 IO-Link Master DAP 1v1_V1.5.28.fdcml">
+         <Id>e1586e3d-c6a8-4c9d-8508-f1fb9d71bede</Id>
+         <Visible>False</Visible>
+         <ParentIndex>60</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 32768v01_V1.0.0.fdcml">
+         <Id>cdd55f1b-3953-48a3-9bc3-b642606457ac</Id>
+         <Visible>False</Visible>
+         <ParentIndex>61</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 32769v01_V1.0.0.fdcml">
+         <Id>5a17b268-dcdb-4545-b039-b53e6c32fdcc</Id>
+         <Visible>False</Visible>
+         <ParentIndex>62</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS 32770v01_V1.0.0.fdcml">
+         <Id>05bf24f9-c489-4fef-acea-70b68cfa970e</Id>
+         <Visible>False</Visible>
+         <ParentIndex>63</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS DAP 1v01_V1.0.0.fdcml">
+         <Id>97b48347-af16-4024-b27f-6f8186c56346</Id>
+         <Visible>False</Visible>
+         <ParentIndex>64</ParentIndex>
+      </DeviceType>
+      <DeviceType Include="Logical Elements\Modules\Submodules\GSDML-V2.34-Phoenix_Contact-UPS-20180319 QUINT4-UPS VSI 1v1.0_1.0.fdcml">
+         <Id>d01f96b9-61b0-4605-9447-be0bfe3e68d5</Id>
+         <Visible>False</Visible>
+         <ParentIndex>65</ParentIndex>
+      </DeviceType>
+   </ItemGroup>
+   <ItemGroup>
+      <DiscoveryDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\b84580d7-61ea-48ec-9861-abe43adbd376.L7_4.discovery">
+         <Id>102d1fb5-86df-457c-9c8b-63555784ebc4</Id>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </DiscoveryDocument>
+      <DiscoveryDocument Include="Hardware\950d54e3-e87f-4f59-8e36-760d6cb9bdc3.discovery">
+         <Id>ed7292f7-7502-4a7a-ae31-ccc8a475a69b</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DiscoveryDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <EsmConfiguration Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PLCnext\EsmConfiguration.esmc">
+         <Id>b091a408-2375-40b3-9146-8b1a6dc24251</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </EsmConfiguration>
+   </ItemGroup>
+   <ItemGroup>
+      <Folder Include="References">
+         <Id>e1f1f17a-700b-4d82-b5af-66425b18451f</Id>
+         <FolderType>References</FolderType>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin">
+         <Id>110521e3-8993-4c11-ae9d-1aa6cbc539df</Id>
+         <FolderType>RecycleBin</FolderType>
+         <LastestItemNo>3</LastestItemNo>
+         <Visible>false</Visible>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\ae23182a-785a-49d6-a665-baf4a3cce2d9">
+         <Id>b1642536-e335-4386-98dd-d7efd7188511</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>3</ItemNo>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\ae23182a-785a-49d6-a665-baf4a3cce2d9\Sensors.pou">
+         <Id>ae23182a-785a-49d6-a665-baf4a3cce2d9</Id>
+         <FolderType>PouFolder</FolderType>
+         <Id>ae23182a-785a-49d6-a665-baf4a3cce2d9</Id>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288">
+         <Id>83b374d5-aa93-438d-bfd5-b4ce252e5ee6</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>2</ItemNo>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5">
+         <Id>9600fdf3-fa0f-463a-9bbb-4b79f6833288</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>eb4502d1-d5ef-488c-b631-11de860f5f3c</InstanceId>
+         <TypeId>dc676cee-f184-4367-971e-bd42693ad550</TypeId>
+         <TypeName>QUINT4-UPS 24DC/5</TypeName>
+         <TypeRevision>01/V1.0.0</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5">
+         <Id>ed0ccbe8-868b-49f0-b47a-9ba1ffa84984</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>8aa87001-e77c-4371-b59b-7a319336d474</InstanceId>
+         <TypeId>8cdfb880-311e-45dc-a9ee-975f4ef28a40</TypeId>
+         <TypeName>QUINT4-UPS 24DC/5</TypeName>
+         <TypeRevision>01/V1.0.0</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5">
+         <Id>fcfd3841-95fa-43ec-9e53-af14be3055b3</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>5a23b1b4-8024-4af3-9a11-2704730b3a40</InstanceId>
+         <TypeId>f0c793ef-9a81-4526-873c-087736c9b72c</TypeId>
+         <TypeName>QUINT4-UPS 24DC/5</TypeName>
+         <TypeRevision>01/V1.0.0</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\Interface">
+         <Id>47b8c1e8-e99b-43ce-89f3-c89c62ce40bc</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>3a531c88-e481-409a-b778-82d29c274309</InstanceId>
+         <TypeId>d09d7f1a-d804-4673-8efe-3a5325149174</TypeId>
+         <TypeName>Interface</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\Port_1">
+         <Id>d8ad2b64-f136-4186-a746-02844dd7b263</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>f4facd12-776d-4c04-a20e-f794729ab80e</InstanceId>
+         <TypeId>93774c02-2a62-451b-94ec-42d10afa629f</TypeId>
+         <TypeName>Port 1</TypeName>
+         <TypeRevision>01/V1.0.0</TypeRevision>
+         <ParentIndex>2</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\Port_2">
+         <Id>a3fa345e-1b1c-462a-a3cf-ab892bf8fb79</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>5fe64948-50cf-470e-8703-fb08ae56f370</InstanceId>
+         <TypeId>98cb069b-7bb1-46a5-a82c-4a482aafdd10</TypeId>
+         <TypeName>Port 2</TypeName>
+         <TypeRevision>01/V1.0.0</TypeRevision>
+         <ParentIndex>3</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_51">
+         <Id>b6c10bfd-2e24-4dd3-9970-b0b6ac671c3a</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>c802df65-b419-4a65-aa77-2ee08c2a92e5</InstanceId>
+         <TypeId>72c5193a-3f4f-493a-8feb-58881e385e29</TypeId>
+         <TypeName>QUINT4-UPS 24DC/5</TypeName>
+         <TypeRevision>1.0/1.0.0</TypeRevision>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_51\QUINT4-UPS_24DC_5">
+         <Id>7209158e-877e-4063-9731-0fb3c92daa71</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>acfee2fc-c539-458d-9854-c97f1ca4f9c7</InstanceId>
+         <TypeId>d58674f4-ae9a-46b9-88e7-e16f89175fc7</TypeId>
+         <TypeName>QUINT4-UPS 24DC/5</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba">
+         <Id>8c9c5d5e-d585-433c-a6f9-9480e9ad3334</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>1</ItemNo>
+         <ParentIndex>2</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8">
+         <Id>78cfcaf5-56f6-4363-b292-56db08744eba</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>3a8551b0-9c1f-42a8-b07a-fde5bca7e1de</InstanceId>
+         <TypeId>0a719339-2b64-4514-9528-38c68aebaffc</TypeId>
+         <TypeName>IOL MA8 PN DI8</TypeName>
+         <TypeRevision>1/V1.5.28</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8">
+         <Id>8432af6c-82f0-46d3-8a57-36ed0e8c9d92</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>88be36f5-f3a3-4d6f-bfe4-49da596d450a</InstanceId>
+         <TypeId>0bcd153e-3539-4aa6-8965-45af5a35d2f6</TypeId>
+         <TypeName>IOL MA8 PN DI8</TypeName>
+         <TypeRevision>1/V1.5.28</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8">
+         <Id>0f1f464c-0904-4b18-a1fb-2370c1365416</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>501b9d2a-be56-4a02-8a34-11ca3a23cdb3</InstanceId>
+         <TypeId>07390b46-b716-4231-ad13-dec7bf6fcc77</TypeId>
+         <TypeName>IOL MA8 PN DI8</TypeName>
+         <TypeRevision>1/V1.5.28</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\Interface">
+         <Id>9b164b11-242c-430d-a47c-d813d361fa8b</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>d893c474-862a-4f6b-a216-4f6283a6eb4e</InstanceId>
+         <TypeId>b532e0a5-2c45-4810-92f4-16f1e5b2a808</TypeId>
+         <TypeName>Interface</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\Port_1">
+         <Id>018996a0-4c04-465b-9126-39d582c82ac1</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>f9bff5dd-12ed-4f72-bf60-d1db6bfd8e54</InstanceId>
+         <TypeId>b811a2ea-7ccc-4308-b267-99a08560458d</TypeId>
+         <TypeName>Port 1</TypeName>
+         <TypeRevision>1/V1.5.28</TypeRevision>
+         <ParentIndex>2</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\Port_2">
+         <Id>1ef31507-7dc6-4e31-ba0b-b575e1016ba3</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>78bea621-31d8-413e-a283-4c63480e19ca</InstanceId>
+         <TypeId>9bb9eb0b-a02e-434a-93e2-ca1813bc39d8</TypeId>
+         <TypeName>Port 2</TypeName>
+         <TypeRevision>1/V1.5.28</TypeRevision>
+         <ParentIndex>3</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes">
+         <Id>21361fd7-200b-40fc-b797-aedae9e5b326</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>3dec1654-2d67-4a8f-b810-6f6fefa60bd1</InstanceId>
+         <TypeId>780b9fb2-d0f1-48b1-bce1-44b836392a67</TypeId>
+         <TypeName>IO-Link In/Out  8 bytes</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes\IO-Link_In_Out__8_bytes">
+         <Id>2b6c50ed-dcd1-40f8-a8c1-4ee1ca86f5f9</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>3682c24b-0745-4aa9-ba7e-9c4582420ef0</InstanceId>
+         <TypeId>85d9b425-2354-44ff-80d3-7e9973e8788c</TypeId>
+         <TypeName>IO-Link In/Out  8 bytes</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__4_bytes">
+         <Id>6f4785eb-e109-4bdf-b4f1-3e5f3d03c66e</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>20a8107b-b829-4d9b-b53f-137b3aae85ba</InstanceId>
+         <TypeId>68a15a8c-f618-49b0-9b22-24d3a2d6b448</TypeId>
+         <TypeName>IO-Link In/Out  4 bytes</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>2</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__4_bytes\IO-Link_In_Out__4_bytes">
+         <Id>ac42dfbf-99f3-45d9-a66e-ed8f29ef4163</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>5c08228f-b75d-455a-85da-343183b353a9</InstanceId>
+         <TypeId>edd1f86e-0981-4418-bb0e-dd7a915af057</TypeId>
+         <TypeName>IO-Link In/Out  4 bytes</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__2_bytes">
+         <Id>35e7ee68-1fd2-4f37-a48c-677574d5c5d3</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>04817916-d8b6-4d82-8898-a5385d8b3243</InstanceId>
+         <TypeId>e6a7cdd3-0f0e-497f-a1a1-cae648cd8897</TypeId>
+         <TypeName>IO-Link In/Out  2 bytes</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>3</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__2_bytes\IO-Link_In_Out__2_bytes">
+         <Id>3777c57c-0a0a-439c-8442-2e1758cc5a4c</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>f07b3049-d3a0-4754-8d37-8ee213c2be92</InstanceId>
+         <TypeId>4ea09dbe-0995-446e-bff1-e803c78af165</TypeId>
+         <TypeName>IO-Link In/Out  2 bytes</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes1">
+         <Id>e0cbf5d6-c9e1-4442-b347-a4a1a1913c75</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>983cf32c-d1f3-4777-abc4-04a8a3681f98</InstanceId>
+         <TypeId>780b9fb2-d0f1-48b1-bce1-44b836392a67</TypeId>
+         <TypeName>IO-Link In/Out  8 bytes</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>4</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes1\IO-Link_In_Out__8_bytes">
+         <Id>a6c0730d-6e52-49f4-bf66-1ebe3985d5c6</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>0c2ceba6-53d5-449c-b6dc-f0ceb8a19808</InstanceId>
+         <TypeId>85d9b425-2354-44ff-80d3-7e9973e8788c</TypeId>
+         <TypeName>IO-Link In/Out  8 bytes</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes2">
+         <Id>efdbd118-2371-4d5c-b8a8-ca78257c28fd</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>7aa6efb4-49ed-44cd-85a7-b1261be60fb2</InstanceId>
+         <TypeId>780b9fb2-d0f1-48b1-bce1-44b836392a67</TypeId>
+         <TypeName>IO-Link In/Out  8 bytes</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>5</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes2\IO-Link_In_Out__8_bytes">
+         <Id>36351086-a6b4-4c1f-8b89-198f5c41102b</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>1e10aebb-bb20-454d-92a8-694bf977c734</InstanceId>
+         <TypeId>85d9b425-2354-44ff-80d3-7e9973e8788c</TypeId>
+         <TypeName>IO-Link In/Out  8 bytes</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes3">
+         <Id>edc43917-c1ab-4c38-a57f-68ccc7d56e2a</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>040fbc92-7570-4789-b514-4f2867f2243d</InstanceId>
+         <TypeId>780b9fb2-d0f1-48b1-bce1-44b836392a67</TypeId>
+         <TypeName>IO-Link In/Out  8 bytes</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>6</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes3\IO-Link_In_Out__8_bytes">
+         <Id>0dab8bf1-9087-4440-acdb-f5f7e8e043b9</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>5014cb08-9035-4f58-99a0-62b6b414166d</InstanceId>
+         <TypeId>85d9b425-2354-44ff-80d3-7e9973e8788c</TypeId>
+         <TypeName>IO-Link In/Out  8 bytes</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware">
+         <Id>b614ac7b-e691-415d-9ea0-2d9d7a7e1117</Id>
+         <FolderType>Root</FolderType>
+         <ParentIndex>2</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7">
+         <Id>09451df4-5b18-4474-b1bd-c5f625d4c2b7</Id>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>b84580d7-61ea-48ec-9861-abe43adbd376</InstanceId>
+         <TypeId>{7CFA42F3-AEF1-48ED-891A-B9F1BE9452A7}</TypeId>
+         <TypeName>AXC F 2152</TypeName>
+         <TypeRevision>00/2020.0.0</TypeRevision>
+         <FolderType>Configuration</FolderType>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PLCnext">
+         <Id>6f8d358d-ecbb-4b27-9f38-003e983e7622</Id>
+         <IsFixed>true</IsFixed>
+         <InstanceId>b84580d7-61ea-48ec-9861-abe43adbd376.L7_1</InstanceId>
+         <TypeId>L7_1</TypeId>
+         <TypeName>PLCnext</TypeName>
+         <FolderType>CommunicationEntity</FolderType>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\RES_829976591E98446682C292813E058D7E">
+         <Id>82997659-1e98-4466-82c2-92813e058d7e</Id>
+         <UpdateType>Never</UpdateType>
+         <IsFixed>true</IsFixed>
+         <TypeId>L7_2</TypeId>
+         <TypeName>eCLR</TypeName>
+         <FolderType>Resource</FolderType>
+         <ParentIndex>8</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\RES_829976591E98446682C292813E058D7E\System Events">
+         <Id>358c66e6-dca8-4c99-9b24-161b37ea3045</Id>
+         <FolderType>EventConfiguration</FolderType>
+         <ParentIndex>5</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\EIP_Master">
+         <Id>0015b0f9-15d0-47c7-9656-293565040559</Id>
+         <IsFixed>true</IsFixed>
+         <Visible>False</Visible>
+         <InstanceId>b84580d7-61ea-48ec-9861-abe43adbd376.L7_7</InstanceId>
+         <TypeId>L7_7</TypeId>
+         <TypeName>EIP:Master</TypeName>
+         <FolderType>CommunicationEntity</FolderType>
+         <ParentIndex>9</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server">
+         <Id>f99e8720-9c21-44e6-8c61-12fc922be13b</Id>
+         <TypeName>HMI:Server</TypeName>
+         <IsFixed>true</IsFixed>
+         <InstanceId>b84580d7-61ea-48ec-9861-abe43adbd376.L7_3</InstanceId>
+         <TypeId>L7_3</TypeId>
+         <FolderType>HmiServer</FolderType>
+         <ParentIndex>10</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application">
+         <Id>ab4b5c4a-b6c1-4bfc-a19b-3e5b114b1e00</Id>
+         <TypeName>HMI:Application</TypeName>
+         <DisplayName>Application</DisplayName>
+         <FolderType>HmiApplication</FolderType>
+         <ParentIndex>2</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\HMI_Support">
+         <Id>9b96e601-70e9-4d7c-acee-e777ef3eeb2f</Id>
+         <DisplayName>Support</DisplayName>
+         <TypeName>HMI:Support</TypeName>
+         <IsFixed>true</IsFixed>
+         <FolderType>HmiSupportFolder</FolderType>
+         <ParentIndex>3</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\OPCUA">
+         <Id>4ad85d57-c617-4e4d-a2ee-1ccf678483c3</Id>
+         <IsFixed>true</IsFixed>
+         <InstanceId>b84580d7-61ea-48ec-9861-abe43adbd376.L7_5</InstanceId>
+         <TypeId>L7_5</TypeId>
+         <TypeName>OPCUA</TypeName>
+         <FolderType>CommunicationEntity</FolderType>
+         <ParentIndex>11</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master">
+         <Id>6d57c723-ab45-40d4-8d57-afb6b2fe2db1</Id>
+         <IsFixed>true</IsFixed>
+         <InstanceId>b84580d7-61ea-48ec-9861-abe43adbd376.L7_4</InstanceId>
+         <TypeId>L7_4</TypeId>
+         <TypeName>PN:Master</TypeName>
+         <FolderType>CommunicationEntity</FolderType>
+         <ParentIndex>12</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS">
+         <Id>43629c86-8ac3-41ed-b7ca-757f78a53223</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>afd038d6-6ed0-4dcf-9ae8-417ce12a58c2</InstanceId>
+         <TypeId>5b4fa549-e6b6-490b-87b6-83305addef5c</TypeId>
+         <TypeName>QUINT4-UPS</TypeName>
+         <TypeRevision>01/V1.0.0</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS">
+         <Id>a74b67b0-5787-43ee-ac20-132daa71a58c</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>1aacabcd-31c7-4680-b96f-fea8e937740c</InstanceId>
+         <TypeId>5bedb855-2c33-4e5e-98b5-9e9769c83d60</TypeId>
+         <TypeName>QUINT4-UPS</TypeName>
+         <TypeRevision>01/V1.0.0</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS\QUINT4-UPS">
+         <Id>1f5f3e5d-4ef7-447c-a41f-6985dc0b8607</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>240ce7f8-48d3-4ac0-a976-c5fb5f9ebfd1</InstanceId>
+         <TypeId>ac9be447-1a89-488e-a5ef-53a0868a5f4e</TypeId>
+         <TypeName>QUINT4-UPS</TypeName>
+         <TypeRevision>01/V1.0.0</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS\Interface">
+         <Id>baaed84c-3876-4492-aa8a-827ee958df94</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>5d2af4ff-0f39-4d47-8f13-b84661c40d30</InstanceId>
+         <TypeId>e0138840-fb31-4698-b551-7f8bbeea4912</TypeId>
+         <TypeName>Interface</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS\Port_1">
+         <Id>f73fcdd4-1b57-432b-adfd-513756145b9f</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>e61b8361-bd7f-4585-9bcb-4a8e30026d1d</InstanceId>
+         <TypeId>801be1d5-fa8d-41ad-92e5-7981701ed1e7</TypeId>
+         <TypeName>Port 1</TypeName>
+         <TypeRevision>01/V1.0.0</TypeRevision>
+         <ParentIndex>2</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS\Port_2">
+         <Id>23f6c1c1-3f90-4786-9670-394089810d1f</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>6ccd31b7-de9e-48fa-9db4-c52b1a95164c</InstanceId>
+         <TypeId>f50d6a89-e8b8-48ca-bc06-9b988f110bc9</TypeId>
+         <TypeName>Port 2</TypeName>
+         <TypeRevision>01/V1.0.0</TypeRevision>
+         <ParentIndex>3</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS1">
+         <Id>6a1f1c81-f9e0-4882-a128-fccc0f6b4ff8</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>2d200b60-3bca-4299-8aca-1eb30d00bf7f</InstanceId>
+         <TypeId>e5785a2d-4f74-47e3-aba6-ed8f6de4af1b</TypeId>
+         <TypeName>QUINT4-UPS</TypeName>
+         <TypeRevision>1.0/1.0.0</TypeRevision>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS1\QUINT4-UPS">
+         <Id>05835717-13b0-4c84-8c72-95a1ce3ef754</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>0802ffd7-f127-442a-a81a-56d4d0f564ab</InstanceId>
+         <TypeId>14bd161c-6b01-4525-9919-339dcd5dbb6e</TypeId>
+         <TypeName>QUINT4-UPS</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master">
+         <Id>426c4e55-0abe-4d1b-a8a0-e78f0a0d5a61</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>578bc80e-19f0-4cde-ba08-2578c7a01170</InstanceId>
+         <TypeId>dee8b2db-3150-45f6-a6dc-820ab2973b20</TypeId>
+         <TypeName>IO-Link Master</TypeName>
+         <TypeRevision>1/V1.5.28</TypeRevision>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_Master">
+         <Id>8e0aa0e0-9ae0-469e-870b-65000110745b</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>ca2af5de-0683-4b40-99e0-189ee10acd29</InstanceId>
+         <TypeId>43bf4c4a-fd5c-4f94-8db7-2e0a389ce207</TypeId>
+         <TypeName>IO-Link Master</TypeName>
+         <TypeRevision>1/V1.5.28</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_Master\IO-Link_Master">
+         <Id>4159610c-04e7-4668-9af7-cff9a0e2bc35</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>6ce9d6ce-dc14-43ec-87c2-297043da246f</InstanceId>
+         <TypeId>47774813-ff78-41e7-945f-677311e4a141</TypeId>
+         <TypeName>IO-Link Master</TypeName>
+         <TypeRevision>1/V1.5.28</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_Master\Interface">
+         <Id>b10820f9-530b-4e42-8eb6-ea7ba3f56ffb</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>dccba4ce-b092-4cbf-8394-93d4d25f6db5</InstanceId>
+         <TypeId>7d7a30ee-52c7-4b59-abf9-23eb20d8ed15</TypeId>
+         <TypeName>Interface</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_Master\Port_1">
+         <Id>ccd69be7-0da6-49b1-ba82-b0442eda3ea0</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>9240857d-cf56-4df5-890f-2fb1d632cc68</InstanceId>
+         <TypeId>9e80aa8e-a2e6-4014-82af-d90643642202</TypeId>
+         <TypeName>Port 1</TypeName>
+         <TypeRevision>1/V1.5.28</TypeRevision>
+         <ParentIndex>2</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_Master\Port_2">
+         <Id>5c2850d3-291e-41c6-8ec7-8f504f4e9f64</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>2f6dadc6-f17f-4488-9751-9b9593b0d2ab</InstanceId>
+         <TypeId>bc85f68a-f567-4d8b-bac0-94fdd275f3eb</TypeId>
+         <TypeName>Port 2</TypeName>
+         <TypeRevision>1/V1.5.28</TypeRevision>
+         <ParentIndex>3</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes">
+         <Id>d46eba00-f793-40b6-a17e-9d9f9d093f8e</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>7aee750c-db6a-492b-81cd-09291615a6e9</InstanceId>
+         <TypeId>780b9fb2-d0f1-48b1-bce1-44b836392a67</TypeId>
+         <TypeName>IO-Link In/Out  8 bytes</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes\IO-Link_In_Out__8_bytes">
+         <Id>91dd61c0-df67-446e-b53c-b044f83db396</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>90de9e57-5cc6-4faf-a3b0-2da7bd15c85a</InstanceId>
+         <TypeId>85d9b425-2354-44ff-80d3-7e9973e8788c</TypeId>
+         <TypeName>IO-Link In/Out  8 bytes</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__4_bytes">
+         <Id>2e30442c-e214-4373-a0cc-b2b672e8f55a</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>a4314e7c-4cf4-459a-af7b-e4ab412f4c2a</InstanceId>
+         <TypeId>68a15a8c-f618-49b0-9b22-24d3a2d6b448</TypeId>
+         <TypeName>IO-Link In/Out  4 bytes</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>2</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__4_bytes\IO-Link_In_Out__4_bytes">
+         <Id>12aa233c-d19a-4fbb-819b-e7ea0c5c290e</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>364651bf-08ef-49a7-aa4d-157063c3bcf7</InstanceId>
+         <TypeId>edd1f86e-0981-4418-bb0e-dd7a915af057</TypeId>
+         <TypeName>IO-Link In/Out  4 bytes</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__2_bytes">
+         <Id>13d90898-e32e-4730-8b74-428817d53644</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>7dfb4b70-47f9-45eb-9b0f-0f50a40a830e</InstanceId>
+         <TypeId>e6a7cdd3-0f0e-497f-a1a1-cae648cd8897</TypeId>
+         <TypeName>IO-Link In/Out  2 bytes</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>3</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__2_bytes\IO-Link_In_Out__2_bytes">
+         <Id>6c87ea0d-2dba-4618-b7c0-a76a7ef76a2d</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>028f4b91-8fa6-400e-b9b1-6994d8f6152d</InstanceId>
+         <TypeId>4ea09dbe-0995-446e-bff1-e803c78af165</TypeId>
+         <TypeName>IO-Link In/Out  2 bytes</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes1">
+         <Id>1f9b02be-011e-40f6-883f-61391e472ef0</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>98dc3471-3d8d-4040-b093-133c708cb843</InstanceId>
+         <TypeId>780b9fb2-d0f1-48b1-bce1-44b836392a67</TypeId>
+         <TypeName>IO-Link In/Out  8 bytes</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>4</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes1\IO-Link_In_Out__8_bytes">
+         <Id>16fe47eb-2134-4fc7-ae9e-63ba362ff630</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>c79ae991-6cd3-4ffc-b9ee-8100c2f50f0e</InstanceId>
+         <TypeId>85d9b425-2354-44ff-80d3-7e9973e8788c</TypeId>
+         <TypeName>IO-Link In/Out  8 bytes</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes2">
+         <Id>db2efa41-f138-41ae-a060-4e4dbc696f16</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>0b9c142f-8f7d-4c43-9424-0e4d0df804d1</InstanceId>
+         <TypeId>780b9fb2-d0f1-48b1-bce1-44b836392a67</TypeId>
+         <TypeName>IO-Link In/Out  8 bytes</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>5</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes2\IO-Link_In_Out__8_bytes">
+         <Id>34c2cf22-ee5d-4b0c-92d8-08a259866122</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>5906f2e4-213f-4d80-8020-3dd588a9c0d8</InstanceId>
+         <TypeId>85d9b425-2354-44ff-80d3-7e9973e8788c</TypeId>
+         <TypeName>IO-Link In/Out  8 bytes</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes3">
+         <Id>667c44da-b3e9-4473-a073-1f654bf3c371</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>6e73dfa2-76af-4cc8-b953-6c40c3705d0f</InstanceId>
+         <TypeId>780b9fb2-d0f1-48b1-bce1-44b836392a67</TypeId>
+         <TypeName>IO-Link In/Out  8 bytes</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>6</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes3\IO-Link_In_Out__8_bytes">
+         <Id>dbd4ca51-5a08-4dc9-a0f1-bd7052824d61</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>79c7a4f1-e508-49e2-a8a3-444c7517151b</InstanceId>
+         <TypeId>85d9b425-2354-44ff-80d3-7e9973e8788c</TypeId>
+         <TypeName>IO-Link In/Out  8 bytes</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master">
+         <Id>f95333cd-3e17-45a1-8080-0c015cde3bde</Id>
+         <IsFixed>true</IsFixed>
+         <InstanceId>b84580d7-61ea-48ec-9861-abe43adbd376.L7_ax</InstanceId>
+         <TypeId>L7_ax</TypeId>
+         <TypeName>AXLF:Master</TypeName>
+         <Visible>true</Visible>
+         <FolderType>CommunicationEntity</FolderType>
+         <ParentIndex>13</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\AXL_F_DI16_4_2F">
+         <Id>f69a6520-0ce4-473f-b651-0d31754970aa</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>2ed2da9f-292d-47b0-a827-c9a918d1d307</InstanceId>
+         <TypeId>{F57760B2-9A1B-40D0-8A61-03DEE7307546}</TypeId>
+         <TypeName>AXL F DI16/4 2F</TypeName>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\AXL_F_DO16_2_2H">
+         <Id>e4c5dba9-cf33-41c0-9b9b-512e76519d31</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>4b80f308-df34-4699-96b9-f2a1d77e8846</InstanceId>
+         <TypeId>{27ae2ccc-f7b7-4ed2-b0e2-ccad116a98ad}</TypeId>
+         <TypeName>AXL F DO16/2 2H</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\IB_Master">
+         <Id>ea1557b2-3ed9-4efb-89df-2230ada03c15</Id>
+         <IsFixed>true</IsFixed>
+         <InstanceId>b84580d7-61ea-48ec-9861-abe43adbd376.L7_8</InstanceId>
+         <TypeId>L7_8</TypeId>
+         <TypeName>IB:Master</TypeName>
+         <Visible>false</Visible>
+         <FolderType>CommunicationEntity</FolderType>
+         <ParentIndex>14</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements">
+         <Id>d31eab2b-b1a0-4c93-bdaf-090bc38c49f4</Id>
+         <FolderType>Root</FolderType>
+         <ParentIndex>3</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\Main.pou">
+         <Id>111dd1e0-8977-404a-b4bf-24eeb8c05c76</Id>
+         <FolderType>PouFolder</FolderType>
+         <Id>111dd1e0-8977-404a-b4bf-24eeb8c05c76</Id>
+         <ParentIndex>9</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\Modules">
+         <Id>248696ea-045c-45fa-aa31-7f3ad47a3aeb</Id>
+         <TypeCategories>Devices</TypeCategories>
+         <ParentIndex>14</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\Modules\Submodules">
+         <Id>f8ec53e7-6c29-4ea7-afa3-ac830bf40d04</Id>
+         <TypeCategories>Devices</TypeCategories>
+         <ParentIndex>45</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\Buttons.pou">
+         <Id>be533e18-1ed8-4aa8-8d32-c109aeb60ec0</Id>
+         <FolderType>PouFolder</FolderType>
+         <Id>be533e18-1ed8-4aa8-8d32-c109aeb60ec0</Id>
+         <ParentIndex>19</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\SafetyRelay.pou">
+         <Id>695e946e-b4b0-45c3-8c99-8afd65c0fcab</Id>
+         <FolderType>PouFolder</FolderType>
+         <Id>695e946e-b4b0-45c3-8c99-8afd65c0fcab</Id>
+         <ParentIndex>20</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\IOLink.pou">
+         <Id>e0ad5abd-cd08-4259-8c2d-6a8c0620f078</Id>
+         <FolderType>PouFolder</FolderType>
+         <Id>e0ad5abd-cd08-4259-8c2d-6a8c0620f078</Id>
+         <ParentIndex>21</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\HMILogic.pou">
+         <Id>f7bd1ce2-e05a-47aa-b02e-d7f2addc107c</Id>
+         <FolderType>PouFolder</FolderType>
+         <Id>f7bd1ce2-e05a-47aa-b02e-d7f2addc107c</Id>
+         <ParentIndex>22</ParentIndex>
+      </Folder>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiConfig Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\HmiConfiguration.xml">
+         <Id>3ed4268c-508e-4400-921e-4036e032212f</Id>
+         <DisplayName>HMI Configuration</DisplayName>
+         <ParentIndex>3</ParentIndex>
+      </HmiConfig>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiNavigation Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Navigation.hminav">
+         <Id>3486df71-2989-466d-a89e-e46aa85bc08a</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </HmiNavigation>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiPage Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Page.hmi">
+         <Id>a3969d99-6a1a-4912-ad24-cd8375e877e4</Id>
+         <DisplayName>Page</DisplayName>
+         <StartPage>True</StartPage>
+         <ParentIndex>4</ParentIndex>
+      </HmiPage>
+      <HmiPage Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Login.hmi">
+         <Id>cd433928-c905-4443-93b5-e26b8d59ab6b</Id>
+         <DisplayName>Login</DisplayName>
+         <StartPage>False</StartPage>
+         <ParentIndex>5</ParentIndex>
+      </HmiPage>
+      <HmiPage Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Page1.hmi">
+         <Id>0b09790b-5b0e-488a-81ee-1114f35f5277</Id>
+         <DisplayName>Page1</DisplayName>
+         <StartPage>False</StartPage>
+         <ParentIndex>6</ParentIndex>
+      </HmiPage>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiPageDefinition Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Page.hmi\Definition.hmipagedef">
+         <Id>1da8513c-8511-4954-96ab-4774fd012071</Id>
+         <HmiPageId>a3969d99-6a1a-4912-ad24-cd8375e877e4</HmiPageId>
+         <ParentIndex>0</ParentIndex>
+      </HmiPageDefinition>
+      <HmiPageDefinition Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Login.hmi\Definition.hmipagedef">
+         <Id>67e0bf68-b310-40d0-9ffa-55e3503a3874</Id>
+         <ParentIndex>0</ParentIndex>
+      </HmiPageDefinition>
+      <HmiPageDefinition Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Page1.hmi\Definition.hmipagedef">
+         <Id>f98517cb-7f0e-488b-8b5b-cc29e3fb8b5a</Id>
+         <HmiPageId>0b09790b-5b0e-488a-81ee-1114f35f5277</HmiPageId>
+         <ParentIndex>0</ParentIndex>
+      </HmiPageDefinition>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiParameters Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Page.hmi\Parameters.hmiparams">
+         <Id>9ee26018-0b69-4fbc-a41b-a5df09163e28</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmiparams</Extension>
+         <HmiPageId>a3969d99-6a1a-4912-ad24-cd8375e877e4</HmiPageId>
+         <ParentIndex>1</ParentIndex>
+      </HmiParameters>
+      <HmiParameters Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Login.hmi\Parameters.hmiparams">
+         <Id>64cf922d-23be-432a-8dd0-bec08b225ef2</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmiparams</Extension>
+         <ParentIndex>1</ParentIndex>
+      </HmiParameters>
+      <HmiParameters Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Page1.hmi\Parameters.hmiparams">
+         <Id>c4fc4702-6f2c-4ac6-96a3-c7f1c9fd6e05</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmiparams</Extension>
+         <HmiPageId>0b09790b-5b0e-488a-81ee-1114f35f5277</HmiPageId>
+         <ParentIndex>1</ParentIndex>
+      </HmiParameters>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiProfiles Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Profiles.hmiprofiles">
+         <Id>4175a185-1e97-4268-b02f-ecccc5698500</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </HmiProfiles>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiVariables Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Variables.hmivar">
+         <Id>fbccdbb3-69f2-4676-ac05-28b10c1a9a3c</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </HmiVariables>
+      <HmiVariables Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Page.hmi\Variables.hmivar">
+         <Id>5b7b8e43-970c-47d4-b70c-0bc8132e878f</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </HmiVariables>
+      <HmiVariables Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Login.hmi\Variables.hmivar">
+         <Id>7c67f203-9d01-474c-9d40-c2539b3ab682</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </HmiVariables>
+      <HmiVariables Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Page1.hmi\Variables.hmivar">
+         <Id>23ec0d9b-b05a-445e-8000-c15f61bc43d0</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </HmiVariables>
+   </ItemGroup>
+   <ItemGroup>
+      <Image Include="Logical Elements\Aquatic Header.jpg">
+         <Id>8f647f73-d9ed-4e64-9f6f-79812f3677e1</Id>
+         <DisplayName>Aquatic Header</DisplayName>
+         <ImageWidth>1280</ImageWidth>
+         <ImageHeight>800</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <SourceId>589fc6ac-4731-4dc8-8911-6c701ae8eaca</SourceId>
+         <ThumbnailId>32ba82f5-4dcf-4fc4-8f04-99d15283ec39</ThumbnailId>
+         <ParentIndex>10</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\Aquatic.jpg">
+         <Id>e7912ee4-7805-4d8f-81c9-e16ce5475f6a</Id>
+         <DisplayName>Aquatic</DisplayName>
+         <ImageWidth>1280</ImageWidth>
+         <ImageHeight>800</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <SourceId>34a115bd-07a0-45ee-aac4-98a3776523c3</SourceId>
+         <ThumbnailId>5b9c83a0-da7c-4385-981d-f094233cf04f</ThumbnailId>
+         <ParentIndex>11</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\Deep Search.jpg">
+         <Id>6944b9b4-9815-4dde-9bfc-3a6cfea0c0f0</Id>
+         <DisplayName>Deep Search</DisplayName>
+         <ImageWidth>1280</ImageWidth>
+         <ImageHeight>800</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <SourceId>44f56e7c-c1ca-4703-b230-ad0fffe9ed88</SourceId>
+         <ThumbnailId>0ff6e195-8422-4fd1-b96c-07ebf81dff50</ThumbnailId>
+         <ParentIndex>12</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\life aquatic movie poster.png">
+         <Id>f651f1c1-0139-4d71-8ebb-828040616b29</Id>
+         <DisplayName>life aquatic movie poster</DisplayName>
+         <ImageWidth>1280</ImageWidth>
+         <ImageHeight>800</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <SourceId>12c30525-13d2-4082-8da0-df9669467d7e</SourceId>
+         <ThumbnailId>c4444dd6-8204-40d4-be08-891dc2c6a304</ThumbnailId>
+         <ParentIndex>13</ParentIndex>
+      </Image>
+   </ItemGroup>
+   <ItemGroup>
+      <ImageSource Include="Logical Elements\Aquatic Header.jpg\Source">
+         <Id>589fc6ac-4731-4dc8-8911-6c701ae8eaca</Id>
+         <ImageId>8f647f73-d9ed-4e64-9f6f-79812f3677e1</ImageId>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\Aquatic.jpg\Source">
+         <Id>34a115bd-07a0-45ee-aac4-98a3776523c3</Id>
+         <ImageId>e7912ee4-7805-4d8f-81c9-e16ce5475f6a</ImageId>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\Deep Search.jpg\Source">
+         <Id>44f56e7c-c1ca-4703-b230-ad0fffe9ed88</Id>
+         <ImageId>6944b9b4-9815-4dde-9bfc-3a6cfea0c0f0</ImageId>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\life aquatic movie poster.png\Source">
+         <Id>12c30525-13d2-4082-8da0-df9669467d7e</Id>
+         <ImageId>f651f1c1-0139-4d71-8ebb-828040616b29</ImageId>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+   </ItemGroup>
+   <ItemGroup>
+      <ImageThumbnail Include="Logical Elements\Aquatic Header.jpg\Thumbnail">
+         <Id>32ba82f5-4dcf-4fc4-8f04-99d15283ec39</Id>
+         <ImageId>8f647f73-d9ed-4e64-9f6f-79812f3677e1</ImageId>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\Aquatic.jpg\Thumbnail">
+         <Id>5b9c83a0-da7c-4385-981d-f094233cf04f</Id>
+         <ImageId>e7912ee4-7805-4d8f-81c9-e16ce5475f6a</ImageId>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\Deep Search.jpg\Thumbnail">
+         <Id>0ff6e195-8422-4fd1-b96c-07ebf81dff50</Id>
+         <ImageId>6944b9b4-9815-4dde-9bfc-3a6cfea0c0f0</ImageId>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\life aquatic movie poster.png\Thumbnail">
+         <Id>c4444dd6-8204-40d4-be08-891dc2c6a304</Id>
+         <ImageId>f651f1c1-0139-4d71-8ebb-828040616b29</ImageId>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+   </ItemGroup>
+   <ItemGroup>
+      <InstancePropertiesDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\5a23b1b4-8024-4af3-9a11-2704730b3a40.iprop">
+         <Id>473ea71e-7ca3-4a58-b57a-2d1eb9ea6762</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\Interface\3a531c88-e481-409a-b778-82d29c274309.iprop">
+         <Id>c9c87314-b0f8-4356-a9a9-80c6a1414f5d</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\Port_1\f4facd12-776d-4c04-a20e-f794729ab80e.iprop">
+         <Id>c47dbc76-1ab7-4755-a646-14da8189dd3a</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\Port_2\5fe64948-50cf-470e-8703-fb08ae56f370.iprop">
+         <Id>f29b80ac-2398-4875-b233-18cbfc6d8e6f</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\8aa87001-e77c-4371-b59b-7a319336d474.iprop">
+         <Id>5982d1f6-4120-4ff2-9ab0-ea28776e1c27</Id>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_51\QUINT4-UPS_24DC_5\acfee2fc-c539-458d-9854-c97f1ca4f9c7.iprop">
+         <Id>12436a40-4bd4-40b1-9152-c6069d62dc75</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_51\c802df65-b419-4a65-aa77-2ee08c2a92e5.iprop">
+         <Id>5ff2d9a7-6088-47d4-8b09-0bb543f435cf</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\eb4502d1-d5ef-488c-b631-11de860f5f3c.iprop">
+         <Id>e256204d-fe56-4ac8-b911-73559bd0b19c</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\501b9d2a-be56-4a02-8a34-11ca3a23cdb3.iprop">
+         <Id>ac6a946f-d5d5-4a72-9a59-3a42031760b7</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\Interface\d893c474-862a-4f6b-a216-4f6283a6eb4e.iprop">
+         <Id>5d3d51cc-e667-41b8-9455-2068fa3c4857</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\Port_1\f9bff5dd-12ed-4f72-bf60-d1db6bfd8e54.iprop">
+         <Id>1c033f38-4d0c-437a-b61d-118e0b547120</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\Port_2\78bea621-31d8-413e-a283-4c63480e19ca.iprop">
+         <Id>a40a1bdb-e167-48a0-a25a-353861870804</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\88be36f5-f3a3-4d6f-bfe4-49da596d450a.iprop">
+         <Id>cada633d-c0f8-41fa-9f4a-da5133388b52</Id>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes\IO-Link_In_Out__8_bytes\3682c24b-0745-4aa9-ba7e-9c4582420ef0.iprop">
+         <Id>c1436ccf-cf2e-4002-8f4a-ed2a10f120c8</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes\3dec1654-2d67-4a8f-b810-6f6fefa60bd1.iprop">
+         <Id>e860401f-969a-49ed-a7e1-10c9c681726a</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__4_bytes\IO-Link_In_Out__4_bytes\5c08228f-b75d-455a-85da-343183b353a9.iprop">
+         <Id>58e64d01-9020-490d-adde-60efae6d2586</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__4_bytes\20a8107b-b829-4d9b-b53f-137b3aae85ba.iprop">
+         <Id>27080bca-4729-4c56-b0cb-7e520fbfea5b</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__2_bytes\IO-Link_In_Out__2_bytes\f07b3049-d3a0-4754-8d37-8ee213c2be92.iprop">
+         <Id>67197584-6c72-4325-b788-70fd3720aeab</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__2_bytes\04817916-d8b6-4d82-8898-a5385d8b3243.iprop">
+         <Id>c17727f1-ab62-4692-b416-f87b5947d0c6</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes1\IO-Link_In_Out__8_bytes\0c2ceba6-53d5-449c-b6dc-f0ceb8a19808.iprop">
+         <Id>03d9458f-c7c1-4902-811b-a6ef5a5fbf7b</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes1\983cf32c-d1f3-4777-abc4-04a8a3681f98.iprop">
+         <Id>fe71b961-cd2c-4180-a9a5-67df66e0d6c3</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes2\IO-Link_In_Out__8_bytes\1e10aebb-bb20-454d-92a8-694bf977c734.iprop">
+         <Id>f9a7f1ca-dc82-492d-902a-4754541b3998</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes2\7aa6efb4-49ed-44cd-85a7-b1261be60fb2.iprop">
+         <Id>92e638e0-318c-42e0-99f0-130b0147a193</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes3\IO-Link_In_Out__8_bytes\5014cb08-9035-4f58-99a0-62b6b414166d.iprop">
+         <Id>eac6f3dd-932c-4b16-ae56-ea805e72123d</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes3\040fbc92-7570-4789-b514-4f2867f2243d.iprop">
+         <Id>d105a918-6ce2-4687-9793-f14e356bf9bc</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\3a8551b0-9c1f-42a8-b07a-fde5bca7e1de.iprop">
+         <Id>d8771f51-73bf-4f2c-ab76-80f2b97c08ef</Id>
+         <Visible>False</Visible>
+         <ParentIndex>8</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\b84580d7-61ea-48ec-9861-abe43adbd376.iprop">
+         <Id>f903f749-03dc-4e96-8d6e-9493709c320e</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\RES_829976591E98446682C292813E058D7E\ResourceProperties.iprop">
+         <Id>1bcd2241-5096-420b-88c0-9a420a9960ad</Id>
+         <Visible>false</Visible>
+         <ParentIndex>7</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\HmiServerProperties.iprop">
+         <Id>693272d2-3013-4680-9b95-b0cb05f48739</Id>
+         <Visible>false</Visible>
+         <ParentIndex>1</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS\QUINT4-UPS\240ce7f8-48d3-4ac0-a976-c5fb5f9ebfd1.iprop">
+         <Id>59dea631-39f3-41bf-8b17-2a72a6a902e3</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS\Interface\5d2af4ff-0f39-4d47-8f13-b84661c40d30.iprop">
+         <Id>f0552d6d-43e4-4ec6-8b2f-2274038c9177</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS\Port_1\e61b8361-bd7f-4585-9bcb-4a8e30026d1d.iprop">
+         <Id>eb6efda8-4cf6-4531-b519-0aa5c7093b2c</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS\Port_2\6ccd31b7-de9e-48fa-9db4-c52b1a95164c.iprop">
+         <Id>5284b829-d7ee-4fed-9c93-8984d544275e</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS\1aacabcd-31c7-4680-b96f-fea8e937740c.iprop">
+         <Id>15b6d6cd-8d95-40a2-930f-6bade2b3a18f</Id>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS1\QUINT4-UPS\0802ffd7-f127-442a-a81a-56d4d0f564ab.iprop">
+         <Id>42f53efb-d837-4b61-ae54-48a6dd622df7</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS1\2d200b60-3bca-4299-8aca-1eb30d00bf7f.iprop">
+         <Id>8fa669c8-5207-43f9-818c-a9fe61e07702</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\afd038d6-6ed0-4dcf-9ae8-417ce12a58c2.iprop">
+         <Id>df772ce0-0ef6-4e46-8d53-aae99df00884</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_Master\IO-Link_Master\6ce9d6ce-dc14-43ec-87c2-297043da246f.iprop">
+         <Id>d2b4f586-7f80-4e41-8d06-1e412dea7992</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_Master\Interface\dccba4ce-b092-4cbf-8394-93d4d25f6db5.iprop">
+         <Id>24919827-896a-4ea6-9168-38fd5f138d43</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_Master\Port_1\9240857d-cf56-4df5-890f-2fb1d632cc68.iprop">
+         <Id>8491706e-4f50-470d-8f1a-795111efe783</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_Master\Port_2\2f6dadc6-f17f-4488-9751-9b9593b0d2ab.iprop">
+         <Id>eef15826-0bd5-48f5-ac62-fb502b6deee6</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_Master\ca2af5de-0683-4b40-99e0-189ee10acd29.iprop">
+         <Id>23d34c22-a6b6-4beb-bb8a-a3f330fb9b70</Id>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes\IO-Link_In_Out__8_bytes\90de9e57-5cc6-4faf-a3b0-2da7bd15c85a.iprop">
+         <Id>ac709b40-8c87-4d7f-af16-5eb93669ee70</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes\7aee750c-db6a-492b-81cd-09291615a6e9.iprop">
+         <Id>a9207f7b-df52-4d11-a4ec-df77e7154f6a</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__4_bytes\IO-Link_In_Out__4_bytes\364651bf-08ef-49a7-aa4d-157063c3bcf7.iprop">
+         <Id>eb105bda-7007-49ac-a963-87be4af822e6</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__4_bytes\a4314e7c-4cf4-459a-af7b-e4ab412f4c2a.iprop">
+         <Id>3e4d0981-f945-4535-83ac-a963ca8887ea</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__2_bytes\IO-Link_In_Out__2_bytes\028f4b91-8fa6-400e-b9b1-6994d8f6152d.iprop">
+         <Id>730a6ef4-7b32-4027-870d-e127d220bb45</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__2_bytes\7dfb4b70-47f9-45eb-9b0f-0f50a40a830e.iprop">
+         <Id>537a1476-cc0c-46de-aa1e-108a907932e0</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes1\IO-Link_In_Out__8_bytes\c79ae991-6cd3-4ffc-b9ee-8100c2f50f0e.iprop">
+         <Id>478fde93-1310-4319-be36-2803018bdae7</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes1\98dc3471-3d8d-4040-b093-133c708cb843.iprop">
+         <Id>9c61f680-12b0-4dae-a0f0-2c2245087a5c</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes2\IO-Link_In_Out__8_bytes\5906f2e4-213f-4d80-8020-3dd588a9c0d8.iprop">
+         <Id>28ae47fd-769b-43e5-b8f2-f32cc84c3541</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes2\0b9c142f-8f7d-4c43-9424-0e4d0df804d1.iprop">
+         <Id>679c0a7e-890f-4338-927a-4527339e0f8c</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes3\IO-Link_In_Out__8_bytes\79c7a4f1-e508-49e2-a8a3-444c7517151b.iprop">
+         <Id>18d51c6a-fb1e-43c5-b8cd-343a9fd54322</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes3\6e73dfa2-76af-4cc8-b953-6c40c3705d0f.iprop">
+         <Id>1517aee1-eb9c-469d-8fc0-11f1b81edba8</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\578bc80e-19f0-4cde-ba08-2578c7a01170.iprop">
+         <Id>98924aa9-778f-48ec-9b45-194ec5d4b301</Id>
+         <Visible>False</Visible>
+         <ParentIndex>8</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\b84580d7-61ea-48ec-9861-abe43adbd376.L7_4.iprop">
+         <Id>3081bc0a-7ae7-4d3d-a0d7-59b9a28c690d</Id>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\AXL_F_DI16_4_2F\2ed2da9f-292d-47b0-a827-c9a918d1d307.iprop">
+         <Id>b937c4c1-5cb9-4542-86ff-0f5528bf0c6c</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\AXL_F_DO16_2_2H\4b80f308-df34-4699-96b9-f2a1d77e8846.iprop">
+         <Id>230e6705-b682-4085-b59b-cde9e767a8dc</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\b84580d7-61ea-48ec-9861-abe43adbd376.L7_ax.iprop">
+         <Id>a87ca1a5-ec61-4d58-8eba-856ffd286d7e</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\IB_Master\b84580d7-61ea-48ec-9861-abe43adbd376.L7_8.iprop">
+         <Id>44a12cd2-35db-433c-a77a-9e54301712d8</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </InstancePropertiesDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <InterfaceListDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\b84580d7-61ea-48ec-9861-abe43adbd376.L7_4.interfacelst">
+         <Id>7972bee0-0687-456c-9c17-5a681b21d7ca</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </InterfaceListDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <IoConfigurationWorksheet Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\RES_829976591E98446682C292813E058D7E\IOConfiguration.ioc">
+         <Id>4ffb41f4-be5d-48f4-a17d-dc8f5965e17b</Id>
+         <ParentIndex>3</ParentIndex>
+      </IoConfigurationWorksheet>
+   </ItemGroup>
+   <ItemGroup>
+      <MetaComponent Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\RES_829976591E98446682C292813E058D7E\EclrComponent.compmeta">
+         <Id>616cb4de-bbe2-4452-9e11-d19bba0a62a9</Id>
+         <Visible>False</Visible>
+         <Name>EclrComponent</Name>
+         <ParentIndex>0</ParentIndex>
+      </MetaComponent>
+      <MetaComponent Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\EIP_Master\ControllerComponent.compmeta">
+         <Id>6ca452fc-df47-4f2e-b919-5d604cc315c9</Id>
+         <Visible>False</Visible>
+         <Name>ControllerComponent</Name>
+         <ParentIndex>0</ParentIndex>
+      </MetaComponent>
+      <MetaComponent Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\ControllerComponent.compmeta">
+         <Id>0c470a7c-75c2-4b59-bfe5-4a7083be2a3c</Id>
+         <Visible>False</Visible>
+         <Name>ControllerComponent</Name>
+         <ParentIndex>6</ParentIndex>
+      </MetaComponent>
+      <MetaComponent Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\Arp.Io.Axl.ControllerComponent.compmeta">
+         <Id>3ce53ecf-d799-4905-90d3-bb8e54524b32</Id>
+         <Visible>False</Visible>
+         <Name>Arp.Io.Axl.ControllerComponent</Name>
+         <ParentIndex>4</ParentIndex>
+      </MetaComponent>
+      <MetaComponent Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\IB_Master\Arp.Io.Ib.ControllerComponent.compmeta">
+         <Id>2eb197d3-db53-41c1-b522-a5e2e2e5e4de</Id>
+         <Visible>False</Visible>
+         <Name>Arp.Io.Ib.ControllerComponent</Name>
+         <ParentIndex>2</ParentIndex>
+      </MetaComponent>
+   </ItemGroup>
+   <ItemGroup>
+      <MetadataDocument Include="RecycleBin\ae23182a-785a-49d6-a665-baf4a3cce2d9\Sensors.pou\Metadata.meta">
+         <Id>46faf107-2166-43ad-8c64-a5643f785c7f</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\Main.pou\Metadata.meta">
+         <Id>f7b82640-74d8-4755-8691-16166db24300</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\Buttons.pou\Metadata.meta">
+         <Id>405b6b74-20fb-4d92-b4d3-0a109d94d3cf</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\SafetyRelay.pou\Metadata.meta">
+         <Id>e9ac9c7f-56d7-4263-b5de-0388f9f99b8b</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\IOLink.pou\Metadata.meta">
+         <Id>337d27eb-e9a3-4c16-8a8c-b2fb2afac3a4</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\HMILogic.pou\Metadata.meta">
+         <Id>57aa17ea-abca-40d8-82b5-0aea13bcd3f1</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <MetaLibrary Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\RES_829976591E98446682C292813E058D7E\Arp.Plc.Eclr.libmeta">
+         <Id>bbd0c711-c3a2-46bb-b441-07327df8b10c</Id>
+         <Visible>False</Visible>
+         <Namespace>Arp.Plc.Eclr</Namespace>
+         <Name>Arp.Plc.Eclr</Name>
+         <ApplicationDomain />
+         <ParentIndex>1</ParentIndex>
+      </MetaLibrary>
+      <MetaLibrary Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\EIP_Master\Arp.Io.EthernetIP.libmeta">
+         <Id>d0e041e4-0882-4f66-95c3-4248758e07f6</Id>
+         <Visible>False</Visible>
+         <Namespace>Arp.Io.EthernetIP</Namespace>
+         <Name>Arp.Io.EthernetIP</Name>
+         <ApplicationDomain />
+         <ParentIndex>1</ParentIndex>
+      </MetaLibrary>
+      <MetaLibrary Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\Arp.Io.Pn.libmeta">
+         <Id>86eb01dd-4d79-44c8-b691-b76fcf38fc0a</Id>
+         <Visible>False</Visible>
+         <Namespace>Arp.Io.Pn</Namespace>
+         <Name>Arp.Io.Pn</Name>
+         <ApplicationDomain />
+         <ParentIndex>7</ParentIndex>
+      </MetaLibrary>
+      <MetaLibrary Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\Arp.Io.Axl.libmeta">
+         <Id>b79b0743-f587-4402-b141-c3ff7b94b368</Id>
+         <Visible>False</Visible>
+         <Namespace>Arp.Io.Axl</Namespace>
+         <Name>Arp.Io.Axl</Name>
+         <ApplicationDomain />
+         <ParentIndex>5</ParentIndex>
+      </MetaLibrary>
+      <MetaLibrary Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\IB_Master\Arp.Io.Ib.libmeta">
+         <Id>367cea6b-616b-42f1-9e45-17d1d129e09d</Id>
+         <Visible>False</Visible>
+         <Namespace>Arp.Io.Ib</Namespace>
+         <Name>Arp.Io.Ib</Name>
+         <ApplicationDomain />
+         <ParentIndex>3</ParentIndex>
+      </MetaLibrary>
+   </ItemGroup>
+   <ItemGroup>
+      <NetworkDocument Include="Hardware\950d54e3-e87f-4f59-8e36-760d6cb9bdc3.Transport">
+         <Id>ccf73400-579c-499c-b20e-8e8215cab40f</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </NetworkDocument>
+      <NetworkDocument Include="Hardware\950d54e3-e87f-4f59-8e36-760d6cb9bdc3.DataLink">
+         <Id>183780f6-a6ac-467a-b947-2ca677596faf</Id>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </NetworkDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <None Include="Logical Elements\CRC32.crc">
+         <Id>63fd0ec1-c1d1-4dcd-927d-9f5cfcfc77ef</Id>
+         <ParentIndex>7</ParentIndex>
+      </None>
+      <None Include="Logical Elements\Modules\Submodules\GenericIO_16.png">
+         <Id>f950532f-26a2-4dc1-8633-56bfa56a9d79</Id>
+         <Visible>False</Visible>
+         <ParentIndex>66</ParentIndex>
+      </None>
+      <None Include="Logical Elements\Modules\Submodules\GSDML-00B0-014C-IOLMA8PNDI8_BMP.png">
+         <Id>60eb8724-8067-4e14-aea1-1c87372ee00f</Id>
+         <Visible>False</Visible>
+         <ParentIndex>67</ParentIndex>
+      </None>
+      <None Include="Logical Elements\Modules\Submodules\GSDML-00B0-0142-QUINT4-UPS_BMP.png">
+         <Id>8439b9d2-f3d6-49a1-b7e6-56ba94ffc4ca</Id>
+         <Visible>False</Visible>
+         <ParentIndex>68</ParentIndex>
+      </None>
+      <None Include="Logical Elements\Modules\Submodules\GSDML-00B0-0142-QUINT-BAT_BMP.png">
+         <Id>68227d93-0f9d-45c2-bf0a-12bff86f6962</Id>
+         <Visible>False</Visible>
+         <ParentIndex>69</ParentIndex>
+      </None>
+      <None Include="Logical Elements\Modules\GenericIO_16.png">
+         <Id>8af4b902-e397-4043-89fe-044e780f52d3</Id>
+         <Visible>False</Visible>
+         <ParentIndex>46</ParentIndex>
+      </None>
+      <None Include="Logical Elements\Modules\GSDML-00B0-014C-IOLMA8PNDI8_BMP.png">
+         <Id>a736630b-be19-440a-931d-1398ca6f806e</Id>
+         <Visible>False</Visible>
+         <ParentIndex>47</ParentIndex>
+      </None>
+      <None Include="Logical Elements\Modules\GSDML-00B0-0142-QUINT4-UPS_BMP.png">
+         <Id>a7d3472e-ec33-488a-9e13-1ce101cac565</Id>
+         <Visible>False</Visible>
+         <ParentIndex>48</ParentIndex>
+      </None>
+      <None Include="Logical Elements\Modules\GSDML-00B0-0142-QUINT-BAT_BMP.png">
+         <Id>594a8e2c-f352-45d4-bdbb-f9359751eec7</Id>
+         <Visible>False</Visible>
+         <ParentIndex>49</ParentIndex>
+      </None>
+      <None Include="Logical Elements\GenericIO_16.png">
+         <Id>3f7027f9-a989-4776-800d-8623e5c80c4c</Id>
+         <Visible>False</Visible>
+         <ParentIndex>15</ParentIndex>
+      </None>
+      <None Include="Logical Elements\GSDML-00B0-014C-IOLMA8PNDI8_BMP.png">
+         <Id>e784785c-fc14-47ab-aaef-3c05c2340c8e</Id>
+         <Visible>False</Visible>
+         <ParentIndex>16</ParentIndex>
+      </None>
+      <None Include="Logical Elements\GSDML-00B0-0142-QUINT4-UPS_BMP.png">
+         <Id>89046d74-d40f-42a5-af33-e16b8732c7c5</Id>
+         <Visible>False</Visible>
+         <ParentIndex>17</ParentIndex>
+      </None>
+      <None Include="Logical Elements\GSDML-00B0-0142-QUINT-BAT_BMP.png">
+         <Id>aced53eb-d601-4f72-961c-f5b5ac961c81</Id>
+         <Visible>False</Visible>
+         <ParentIndex>18</ParentIndex>
+      </None>
+   </ItemGroup>
+   <ItemGroup>
+      <OPCUASettingsDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\OPCUA\b84580d7-61ea-48ec-9861-abe43adbd376.L7_5.opcua">
+         <Id>0c69fdf6-fdd4-4008-a8e1-3d31fffdd46c</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </OPCUASettingsDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <ParameterDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_51\QUINT4-UPS_24DC_5\acfee2fc-c539-458d-9854-c97f1ca4f9c7.par">
+         <Id>bde2c3c4-4efa-46af-a285-1c77af9c622f</Id>
+         <Visible>False</Visible>
+         <ProtocolName>PN</ProtocolName>
+         <ParentIndex>1</ParentIndex>
+      </ParameterDocument>
+      <ParameterDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes\IO-Link_In_Out__8_bytes\3682c24b-0745-4aa9-ba7e-9c4582420ef0.par">
+         <Id>6cd76a9f-8179-4d9f-9bf8-b2466a58a147</Id>
+         <Visible>False</Visible>
+         <ProtocolName>PN</ProtocolName>
+         <ParentIndex>1</ParentIndex>
+      </ParameterDocument>
+      <ParameterDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__4_bytes\IO-Link_In_Out__4_bytes\5c08228f-b75d-455a-85da-343183b353a9.par">
+         <Id>33e138f8-94f6-4033-8009-32d81195bd37</Id>
+         <Visible>False</Visible>
+         <ProtocolName>PN</ProtocolName>
+         <ParentIndex>1</ParentIndex>
+      </ParameterDocument>
+      <ParameterDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__2_bytes\IO-Link_In_Out__2_bytes\f07b3049-d3a0-4754-8d37-8ee213c2be92.par">
+         <Id>11280b41-05fc-49d5-bba4-13a658484ff6</Id>
+         <Visible>False</Visible>
+         <ProtocolName>PN</ProtocolName>
+         <ParentIndex>1</ParentIndex>
+      </ParameterDocument>
+      <ParameterDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes1\IO-Link_In_Out__8_bytes\0c2ceba6-53d5-449c-b6dc-f0ceb8a19808.par">
+         <Id>242ad570-e44a-4828-ad61-484c59e7f4a3</Id>
+         <Visible>False</Visible>
+         <ProtocolName>PN</ProtocolName>
+         <ParentIndex>1</ParentIndex>
+      </ParameterDocument>
+      <ParameterDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes2\IO-Link_In_Out__8_bytes\1e10aebb-bb20-454d-92a8-694bf977c734.par">
+         <Id>b8914305-2169-4444-82dc-f5333732289b</Id>
+         <Visible>False</Visible>
+         <ProtocolName>PN</ProtocolName>
+         <ParentIndex>1</ParentIndex>
+      </ParameterDocument>
+      <ParameterDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes3\IO-Link_In_Out__8_bytes\5014cb08-9035-4f58-99a0-62b6b414166d.par">
+         <Id>a0e5467c-d119-4736-a71a-0fbc4a1d0fae</Id>
+         <Visible>False</Visible>
+         <ProtocolName>PN</ProtocolName>
+         <ParentIndex>1</ParentIndex>
+      </ParameterDocument>
+      <ParameterDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS1\QUINT4-UPS\0802ffd7-f127-442a-a81a-56d4d0f564ab.par">
+         <Id>48d3ee88-6452-4d90-845c-91cce1a9613d</Id>
+         <Visible>False</Visible>
+         <ProtocolName>PN</ProtocolName>
+         <ParentIndex>1</ParentIndex>
+      </ParameterDocument>
+      <ParameterDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes\IO-Link_In_Out__8_bytes\90de9e57-5cc6-4faf-a3b0-2da7bd15c85a.par">
+         <Id>15772a42-4353-4f17-ad3a-43315ba002a7</Id>
+         <Visible>False</Visible>
+         <ProtocolName>PN</ProtocolName>
+         <ParentIndex>1</ParentIndex>
+      </ParameterDocument>
+      <ParameterDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__4_bytes\IO-Link_In_Out__4_bytes\364651bf-08ef-49a7-aa4d-157063c3bcf7.par">
+         <Id>46cd59d6-c6a5-4e40-b771-7508d27737a2</Id>
+         <Visible>False</Visible>
+         <ProtocolName>PN</ProtocolName>
+         <ParentIndex>1</ParentIndex>
+      </ParameterDocument>
+      <ParameterDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__2_bytes\IO-Link_In_Out__2_bytes\028f4b91-8fa6-400e-b9b1-6994d8f6152d.par">
+         <Id>2fc0d658-8cf3-48b4-a6ce-29f8e0b389b2</Id>
+         <Visible>False</Visible>
+         <ProtocolName>PN</ProtocolName>
+         <ParentIndex>1</ParentIndex>
+      </ParameterDocument>
+      <ParameterDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes1\IO-Link_In_Out__8_bytes\c79ae991-6cd3-4ffc-b9ee-8100c2f50f0e.par">
+         <Id>c132d6b5-2020-4f9b-b300-10fd8eea5f89</Id>
+         <Visible>False</Visible>
+         <ProtocolName>PN</ProtocolName>
+         <ParentIndex>1</ParentIndex>
+      </ParameterDocument>
+      <ParameterDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes2\IO-Link_In_Out__8_bytes\5906f2e4-213f-4d80-8020-3dd588a9c0d8.par">
+         <Id>747c362c-64b1-42b6-b53d-dab80ff0f22e</Id>
+         <Visible>False</Visible>
+         <ProtocolName>PN</ProtocolName>
+         <ParentIndex>1</ParentIndex>
+      </ParameterDocument>
+      <ParameterDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes3\IO-Link_In_Out__8_bytes\79c7a4f1-e508-49e2-a8a3-444c7517151b.par">
+         <Id>7456e279-cd30-409b-abc8-4f4a0fe51e54</Id>
+         <Visible>False</Visible>
+         <ProtocolName>PN</ProtocolName>
+         <ParentIndex>1</ParentIndex>
+      </ParameterDocument>
+      <ParameterDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\AXL_F_DI16_4_2F\2ed2da9f-292d-47b0-a827-c9a918d1d307.par">
+         <Id>f3e21b9f-d348-4d3d-8d05-30d198267bd0</Id>
+         <Visible>False</Visible>
+         <ProtocolName>AXLF</ProtocolName>
+         <ParentIndex>2</ParentIndex>
+      </ParameterDocument>
+      <ParameterDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\AXL_F_DO16_2_2H\4b80f308-df34-4699-96b9-f2a1d77e8846.par">
+         <Id>9243a2fe-9214-4b55-ac19-b7a3327585aa</Id>
+         <Visible>False</Visible>
+         <ProtocolName>AXLF</ProtocolName>
+         <ParentIndex>2</ParentIndex>
+      </ParameterDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <PlcNextParameterDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PLCnext\b84580d7-61ea-48ec-9861-abe43adbd376.L7_1.plcnextpar">
+         <Id>a9af8728-d9ad-40ad-bf50-76a2d652d565</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </PlcNextParameterDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <PlmConfiguration Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PlmConfiguration.plmc">
+         <Id>d9fb660f-e32a-40ce-a1f9-017fe5c5d72c</Id>
+         <Visible>True</Visible>
+         <ParentIndex>3</ParentIndex>
+      </PlmConfiguration>
+   </ItemGroup>
+   <ItemGroup>
+      <PropertiesDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\eb4502d1-d5ef-488c-b631-11de860f5f3c.properties">
+         <Id>1ed4ba9a-8955-4ae5-a67e-f47f11358666</Id>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </PropertiesDocument>
+      <PropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\3a8551b0-9c1f-42a8-b07a-fde5bca7e1de.properties">
+         <Id>ce51417c-7076-4c43-907a-c1885151bf42</Id>
+         <Visible>False</Visible>
+         <ParentIndex>9</ParentIndex>
+      </PropertiesDocument>
+      <PropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\b84580d7-61ea-48ec-9861-abe43adbd376.properties">
+         <Id>37917af1-3834-4ab0-91fa-82f0f8001601</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </PropertiesDocument>
+      <PropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\afd038d6-6ed0-4dcf-9ae8-417ce12a58c2.properties">
+         <Id>9342b5db-86e8-4f1f-a534-696898b8972c</Id>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </PropertiesDocument>
+      <PropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\578bc80e-19f0-4cde-ba08-2578c7a01170.properties">
+         <Id>10f624bb-9e4f-48ea-bed2-bd413734de38</Id>
+         <Visible>False</Visible>
+         <ParentIndex>9</ParentIndex>
+      </PropertiesDocument>
+      <PropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\AXL_F_DI16_4_2F\2ed2da9f-292d-47b0-a827-c9a918d1d307.properties">
+         <Id>2b6a469e-e9f2-4384-87f7-47290085d400</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </PropertiesDocument>
+      <PropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\AXL_F_DO16_2_2H\4b80f308-df34-4699-96b9-f2a1d77e8846.properties">
+         <Id>74424dda-0b45-42c5-8520-056a7b18f1a0</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </PropertiesDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <ResourceSettings Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\RES_829976591E98446682C292813E058D7E\ResourceSettings.set">
+         <Id>2ee2505a-2d5b-4c3c-8438-6533dc77210f</Id>
+         <DisplayName>Task Configuration</DisplayName>
+         <ParentIndex>4</ParentIndex>
+      </ResourceSettings>
+   </ItemGroup>
+   <ItemGroup>
+      <RestoreDocument Include="RecycleBin\ae23182a-785a-49d6-a665-baf4a3cce2d9\ae23182a-785a-49d6-a665-baf4a3cce2d9">
+         <Id>dca9514c-78f9-48f3-8556-4dba5a882db3</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+      <RestoreDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\9600fdf3-fa0f-463a-9bbb-4b79f6833288">
+         <Id>c27ce26d-6f3a-4866-846d-cbcceb45c757</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+      <RestoreDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\78cfcaf5-56f6-4363-b292-56db08744eba">
+         <Id>4d1092db-0ecb-4e88-b4d7-a4fc0d58dc45</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <SolutionReference Include="PLCnext Controller">
+         <Id>f03304e6-74af-4f35-bd52-e302cb6caea4</Id>
+         <HintPath>$(SystemLibrariesPath)\PLCnext Controller.pcwlx</HintPath>
+         <LibraryId>6bdddd6e-fe52-4478-94e4-617f2ff7e643</LibraryId>
+         <ParentIndex>0</ParentIndex>
+      </SolutionReference>
+      <SolutionReference Include="AsynCom_9">
+         <Id>41937210-614f-49d2-a9fe-e3e2bc47f75e</Id>
+         <HintPath>$(LibrariesPath)\IOL_Basic_6\AsynCom_9.pcwlx</HintPath>
+         <Signature>T4H/1X7tpPTVgO9NYO2D3nKNiZE=</Signature>
+         <LibraryId>1d27e010-fda5-4156-88ee-6af1fbd4e13b</LibraryId>
+         <ParentIndex>1</ParentIndex>
+      </SolutionReference>
+      <SolutionReference Include="IOL_Basic_6">
+         <Id>90491063-7358-41bc-b4da-bd6b8c0358dc</Id>
+         <HintPath>$(LibrariesPath)\IOL_Basic_6\IOL_Basic_6.pcwlx</HintPath>
+         <Signature>9tDnL66l3xdYsNmvna/aiZc9EDA=</Signature>
+         <LibraryId>1435f24e-6cc5-411c-be4c-7ed07361631b</LibraryId>
+         <ParentIndex>2</ParentIndex>
+      </SolutionReference>
+   </ItemGroup>
+   <ItemGroup>
+      <StationDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\8aa87001-e77c-4371-b59b-7a319336d474.station">
+         <Id>515db3de-2e2c-4ce1-9858-c03f15b51ce7</Id>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_51\c802df65-b419-4a65-aa77-2ee08c2a92e5.station">
+         <Id>821fccbf-d405-43ff-9340-f28eb3dc0167</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\eb4502d1-d5ef-488c-b631-11de860f5f3c.station">
+         <Id>efe45499-aa4b-4224-8c2f-d2ad955103c5</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\88be36f5-f3a3-4d6f-bfe4-49da596d450a.station">
+         <Id>e2d5aef6-1df4-4302-b67c-c22e35a21334</Id>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes\3dec1654-2d67-4a8f-b810-6f6fefa60bd1.station">
+         <Id>a88d6a6e-c19e-491d-96dd-1f54b1506568</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__4_bytes\20a8107b-b829-4d9b-b53f-137b3aae85ba.station">
+         <Id>3feae450-5607-4ff6-8827-74ca122adc80</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__2_bytes\04817916-d8b6-4d82-8898-a5385d8b3243.station">
+         <Id>6c19f29e-1899-4e51-a081-27e115863407</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes1\983cf32c-d1f3-4777-abc4-04a8a3681f98.station">
+         <Id>55a0201c-9f2f-437b-8d14-459172bfc678</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes2\7aa6efb4-49ed-44cd-85a7-b1261be60fb2.station">
+         <Id>bb132679-ca90-4398-8076-497aa89a92cf</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes3\040fbc92-7570-4789-b514-4f2867f2243d.station">
+         <Id>8f7f03d8-ad80-4544-a0db-a71247d47407</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\3a8551b0-9c1f-42a8-b07a-fde5bca7e1de.station">
+         <Id>4c9f0b39-7868-4d9d-8a31-8ff0921ad4f2</Id>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS\1aacabcd-31c7-4680-b96f-fea8e937740c.station">
+         <Id>66650239-6f94-4372-b243-bd98e8669fb4</Id>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS1\2d200b60-3bca-4299-8aca-1eb30d00bf7f.station">
+         <Id>a147df76-05a1-4192-83e4-0477c1c1e139</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\afd038d6-6ed0-4dcf-9ae8-417ce12a58c2.station">
+         <Id>7ec7e16d-c76a-4c06-9801-cd9ab761d66b</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_Master\ca2af5de-0683-4b40-99e0-189ee10acd29.station">
+         <Id>40ddfd09-ce0d-49b6-8921-6895f7bd940c</Id>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes\7aee750c-db6a-492b-81cd-09291615a6e9.station">
+         <Id>f29ce7b3-d747-4818-9655-025ad6a1fc01</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__4_bytes\a4314e7c-4cf4-459a-af7b-e4ab412f4c2a.station">
+         <Id>30273629-6042-404e-a20f-bddec21d3e97</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__2_bytes\7dfb4b70-47f9-45eb-9b0f-0f50a40a830e.station">
+         <Id>232b0753-a5e0-4c00-a7dd-b9183c61851e</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes1\98dc3471-3d8d-4040-b093-133c708cb843.station">
+         <Id>0616c96c-2e1a-43a8-b27f-52b1a4ff878f</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes2\0b9c142f-8f7d-4c43-9424-0e4d0df804d1.station">
+         <Id>f813058e-56b3-4203-97ac-c614661b3e28</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\IO-Link_In_Out__8_bytes3\6e73dfa2-76af-4cc8-b953-6c40c3705d0f.station">
+         <Id>7cfdaa90-fde4-4db2-8649-a84180218a68</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\IO-Link_Master\578bc80e-19f0-4cde-ba08-2578c7a01170.station">
+         <Id>3f0a4e64-efcd-4765-ae5a-2b3d076144d0</Id>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\b84580d7-61ea-48ec-9861-abe43adbd376.L7_4.station">
+         <Id>5e9a345f-09b2-40b7-93b6-f7ee278a26d1</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\b84580d7-61ea-48ec-9861-abe43adbd376.L7_ax.station">
+         <Id>264c8827-a55c-472d-bc6a-1b6b8bea552d</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\IB_Master\b84580d7-61ea-48ec-9861-abe43adbd376.L7_8.station">
+         <Id>6105a3af-bb9c-4a3b-a286-e430e36d2122</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </StationDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <TransportDeviceListDocument Include="Hardware\950d54e3-e87f-4f59-8e36-760d6cb9bdc3.transportdevlst">
+         <Id>b68776bd-9be9-4ab0-964a-cd397b207dae</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </TransportDeviceListDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <UserMetadata Include="RecycleBin\ae23182a-785a-49d6-a665-baf4a3cce2d9\Sensors.pou\VersionHistory.usermeta">
+         <Id>ac74825d-4f60-408c-aa76-20353a77ba92</Id>
+         <ParentIndex>3</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Hardware\VersionHistory.usermeta">
+         <Id>c79c51e8-38f3-46a1-b33f-b740487ba7c3</Id>
+         <ParentIndex>5</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\Main.pou\VersionHistory.usermeta">
+         <Id>369f9924-d3f4-4892-aa26-8505bbde4a60</Id>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\Buttons.pou\VersionHistory.usermeta">
+         <Id>f6a11778-badf-45a8-8ca1-13f20e0af855</Id>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\SafetyRelay.pou\VersionHistory.usermeta">
+         <Id>52c0c6fa-66ad-40b1-9953-009ba569cfee</Id>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\IOLink.pou\VersionHistory.usermeta">
+         <Id>f5428cd5-a34a-4360-ba6d-953eed6ba79c</Id>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\HMILogic.pou\VersionHistory.usermeta">
+         <Id>432ddbe9-77a5-49f1-8de9-416fcf841a40</Id>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
+   </ItemGroup>
+   <ItemGroup>
+      <VariableWorksheet Include="RecycleBin\ae23182a-785a-49d6-a665-baf4a3cce2d9\Sensors.pou\Variables.var">
+         <Id>eb0fc851-d0aa-4e74-9097-287e274fea8a</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\RES_829976591E98446682C292813E058D7E\GlobalVariables.var">
+         <Id>9c176e32-8058-4821-b2cd-c43fbd816f75</Id>
+         <IsVarConfig>true</IsVarConfig>
+         <Visible>false</Visible>
+         <ParentIndex>6</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\Main.pou\Variables.var">
+         <Id>636d89b0-7ba0-4319-9d6a-96667a399f6d</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\Buttons.pou\Variables.var">
+         <Id>23d994c8-b499-42ac-87ee-af3ea9986838</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\SafetyRelay.pou\Variables.var">
+         <Id>964747fb-fc37-4fec-9710-15c266bef784</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\IOLink.pou\Variables.var">
+         <Id>b14da7ef-e97c-433f-85f2-eb9761b7b44b</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\HMILogic.pou\Variables.var">
+         <Id>eae4d90f-a9ee-4bf9-a4c5-f891a891fe62</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+   </ItemGroup>
+   <PropertyGroup>
+      <ProjectId>5370a173-31a3-4247-9887-8407f3470dce</ProjectId>
+      <AdeProductVersion>1.4.14.0</AdeProductVersion>
+      <AdeSafetyVersion>1.0.0.1</AdeSafetyVersion>
+      <HmiSchemaRevision>3</HmiSchemaRevision>
+      <SafetyId>dc971477-cb7e-4beb-9f3c-e37812446713</SafetyId>
+   </PropertyGroup>
+</Project>

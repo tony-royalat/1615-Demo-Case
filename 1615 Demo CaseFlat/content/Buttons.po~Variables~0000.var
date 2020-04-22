@@ -1,0 +1,8 @@
+{ CustomGroupDefinition('249b4cc4-e6d1-4b99-8dac-c72433ff5f32', '') }
+
+VAR_EXTERNAL
+    Pushbutton1 : BOOL { CustomGroupReference('249b4cc4-e6d1-4b99-8dac-c72433ff5f32') } {Id('d24477cb-cb1e-44c2-b523-cd96dfbccdbc')};
+    Pushbutton1Red : BOOL { CustomGroupReference('249b4cc4-e6d1-4b99-8dac-c72433ff5f32') } {Id('cabf6704-df8b-45c5-979c-8e1b81bad8c5')};
+    Pushbutton1Green : BOOL { CustomGroupReference('249b4cc4-e6d1-4b99-8dac-c72433ff5f32') } {Id('638e309e-11bf-4e27-97e3-8961db3ddb64')};
+    Pushbutton1Blue : BOOL { CustomGroupReference('249b4cc4-e6d1-4b99-8dac-c72433ff5f32') } {Id('3f1a4843-e028-4ca0-8fcd-046c811b0d35')};
+END_VAR

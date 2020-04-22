@@ -1,0 +1,1 @@
+BatteryVoltage_Scaled := BatteryVoltage / 1000.0;

@@ -1,0 +1,24 @@
+{ CustomGroupDefinition('085eb7e7-1c76-4837-94ac-c74f13dc1bbf', 'Profinet Interface') }
+{ CustomGroupDefinition('070e8058-e893-4465-ba58-93abc388de99', 'IO-Link Interface') }
+
+VAR
+    AsynCom_PN_11 : AsynCom_PN_1 { CustomGroupReference('085eb7e7-1c76-4837-94ac-c74f13dc1bbf') } {Id('acfde7f1-dc22-48d0-a439-963a7f701d65')};
+    dwNodeID : DWORD := DWORD#28 { CustomGroupReference('085eb7e7-1c76-4837-94ac-c74f13dc1bbf') } {Id('212a8556-01ca-4a53-b1e8-0a87bcc5aa9c')}; (*Node ID of the IOL Master Profinet interface*)
+    udtAsynCom : ASYN_UDT_COM { CustomGroupReference('085eb7e7-1c76-4837-94ac-c74f13dc1bbf') } {Id('fb1ceae8-7641-4118-a5bc-2a150fd36ad3')}; (*Data exchange structure for asynchronous communication*)
+    xBusy : BOOL { CustomGroupReference('085eb7e7-1c76-4837-94ac-c74f13dc1bbf') } {Id('71481085-69ab-461e-8d7e-52718aaf5d36')}; (*Function block busy status*)
+    IOL_COM_31 : IOL_COM_3 { CustomGroupReference('070e8058-e893-4465-ba58-93abc388de99') } {Id('ca6a09e2-c934-440d-a7cb-c4fad3a37f79')};
+    xActivate : BOOL := TRUE { CustomGroupReference('070e8058-e893-4465-ba58-93abc388de99') } {Id('58291fc2-93bd-4655-a8b1-577224a5ca24')}; (*Activates the function block*)
+    xReset : BOOL { CustomGroupReference('070e8058-e893-4465-ba58-93abc388de99') } {Id('1bf72479-411c-473e-b54c-3f539943c78e')}; (*Resets the function block*)
+    xPNIODataValid : BOOL := TRUE { CustomGroupReference('070e8058-e893-4465-ba58-93abc388de99') } {Id('979639d2-aed5-4405-a61a-435641c72396')}; (*Status bit for the evaluation of a valid PROFINET connection (optional)*)
+    xTrigger : BOOL { CustomGroupReference('070e8058-e893-4465-ba58-93abc388de99') } {Id('31a6aeef-eb54-4305-baeb-b01721d80a4b')}; (*Read/Write trigger*)
+    xReadWrite : BOOL { CustomGroupReference('070e8058-e893-4465-ba58-93abc388de99') } {Id('4ed729a4-2299-4341-acb6-35239f9b1d9d')}; (*True = write access / False = read access*)
+    iPort : INT := INT#4 { CustomGroupReference('070e8058-e893-4465-ba58-93abc388de99') } {Id('efd8ef9d-90bb-4df1-b323-86a010dfd9c2')}; (*IOL Port number on which to read or write*)
+    iWriteLength : INT { CustomGroupReference('070e8058-e893-4465-ba58-93abc388de99') } {Id('5bf214a9-7005-4afb-afcc-3b0395430d2b')}; (*Number of bytes to be written*)
+    wIndex : WORD { CustomGroupReference('070e8058-e893-4465-ba58-93abc388de99') } {Id('df73abde-6180-4efe-8cf5-e24df62f8bc6')}; (*Index for IOL object to read*)
+    bSubIndex : BYTE { CustomGroupReference('070e8058-e893-4465-ba58-93abc388de99') } {Id('34536faa-a6b8-479f-b256-cf5c4a3dff92')}; (*Subindex for IOL object to read*)
+    arrIOL_ReadData : IOL_ARR_B_1_64 { CustomGroupReference('070e8058-e893-4465-ba58-93abc388de99') } {Id('fad392f2-ca46-476c-ad1d-6f98e4a2dbb9')}; (*The array contains the received data*)
+    arrIOL_WriteData : IOL_ARR_B_1_64 { CustomGroupReference('070e8058-e893-4465-ba58-93abc388de99') } {Id('be73e8c1-3bb3-4cdd-bd86-cfab6d995ab9')}; (*The array contains the data to be written*)
+    xError : BOOL { CustomGroupReference('070e8058-e893-4465-ba58-93abc388de99') } {Id('2058c28d-607a-49d7-88a0-b8d8b30bff81')}; (*Function block error*)
+    wDiagCode : WORD { CustomGroupReference('070e8058-e893-4465-ba58-93abc388de99') } {Id('c6e8ad20-901b-4013-9783-b9353d1de205')}; (*Function block diagnostic code*)
+    iReadLength : INT { CustomGroupReference('070e8058-e893-4465-ba58-93abc388de99') } {Id('82349ee2-df99-4eeb-a354-c9a9ff4c52d3')}; (*Number of data bytes received*)
+END_VAR

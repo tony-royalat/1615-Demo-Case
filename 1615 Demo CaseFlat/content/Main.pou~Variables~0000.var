@@ -1,0 +1,9 @@
+{ CustomGroupDefinition('083742d8-b1f4-4a07-a84a-ea2b09f0186d', '') }
+
+VAR_EXTERNAL
+    BatteryVoltage : LREAL { CustomGroupReference('083742d8-b1f4-4a07-a84a-ea2b09f0186d') } {Id('aa5344ca-1e2d-41f9-a478-5da903c477c4')};
+    OutputCurrent : DINT { CustomGroupReference('083742d8-b1f4-4a07-a84a-ea2b09f0186d') } {Id('2961d7f1-e1a0-438f-8d60-2cacd4192b24')};
+    InputVoltage : DINT { CustomGroupReference('083742d8-b1f4-4a07-a84a-ea2b09f0186d') } {Id('b54a17da-8cdf-4ff2-9732-9ff56c84e3be')};
+    BatteryVoltage_Scaled : LREAL { CustomGroupReference('083742d8-b1f4-4a07-a84a-ea2b09f0186d') } {Id('b013a3ba-9e15-4b76-9d1c-b3c6c57b6b67')}; (*Scaled to Volts*)
+    TimeToShutdown_Scaled : LINT { CustomGroupReference('083742d8-b1f4-4a07-a84a-ea2b09f0186d') } {Id('a3466dc5-7d21-4f8d-986d-059634bd44db')};
+END_VAR

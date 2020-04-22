@@ -1,0 +1,17 @@
+{ CustomGroupDefinition('d4b16bba-f032-4e1b-8e7a-5a28bc266edd', '') }
+
+VAR_EXTERNAL
+    TimeToShutdownDisplay : STRING { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('3ad11bc1-6f7c-4534-9a08-7298834228c8')};
+    TimeToShutdown : DINT { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('235ba796-06f5-4ce3-883e-39b0977428f1')};
+END_VAR
+
+VAR
+    TimeToShutdownHour : DINT { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('09a3e599-9d1b-4f9f-960a-8bbce895426e')};
+    TimetoShutdownMinute : DINT { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('45ea08fb-8a14-4434-a621-c6749bf6294b')};
+    TimetoShutdownSecond : DINT { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('8f186f60-7654-4580-bce9-f9ec88258f4b')};
+END_VAR
+
+VAR_EXTERNAL
+    TimeToShutdownDisplayVisibility : BOOL { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('d1ed0d21-11dc-4c6a-af6f-6a343ba45777')};
+    InputVoltage : DINT { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('376aba23-1dc0-4ec3-af67-fcc5cb503333')};
+END_VAR
