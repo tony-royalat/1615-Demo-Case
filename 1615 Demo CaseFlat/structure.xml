@@ -211,10 +211,7 @@
         <file name="Variables.var" id="IOLink.pou~Variables~0000.var" />
         <file name="VersionHistory.usermeta" id="IOLink.po~VersionHis~0000.usermeta" />
       </folder>
-      <folder name="life aquatic movie poster.png">
-        <file name="Source" id="life aquatic ~Source~0000" />
-        <file name="Thumbnail" id="life aquat~Thumbnail~0000" />
-      </folder>
+      <folder name="life aquatic movie poster.png" />
       <folder name="Main.pou">
         <file name="Code.st" id="Main.pou~Code~0000.st" />
         <file name="Description.html" id="Main.pou~Description~0000.html" />
@@ -360,6 +357,10 @@
         <file name="Source" id="SafetySwitche~Source~0000" />
         <file name="Thumbnail" id="SafetySwit~Thumbnail~0000" />
       </folder>
+      <folder name="Life Aquatic Poster.png">
+        <file name="Source" id="Life Aquatic ~Source~0002" />
+        <file name="Thumbnail" id="Life Aquat~Thumbnail~0002" />
+      </folder>
     </folder>
     <folder name="RecycleBin">
       <folder name="78cfcaf5-56f6-4363-b292-56db08744eba">
@@ -461,6 +462,13 @@
         <folder name="SafetySwitches.jpg">
           <file name="Source" id="SafetySwitche~Source~0001" />
           <file name="Thumbnail" id="SafetySwit~Thumbnail~0001" />
+        </folder>
+      </folder>
+      <folder name="f651f1c1-0139-4d71-8ebb-828040616b29">
+        <file name="f651f1c1-0139-4d71-8ebb-828040616b29" id="f651f1c1-~f651f1c1-0~0000" />
+        <folder name="life aquatic movie poster.png">
+          <file name="Source" id="life aquatic ~Source~0001" />
+          <file name="Thumbnail" id="life aquat~Thumbnail~0001" />
         </folder>
       </folder>
     </folder>

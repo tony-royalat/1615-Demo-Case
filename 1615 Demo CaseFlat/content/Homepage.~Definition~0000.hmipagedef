@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<HmiPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Homepage" BorderWidth="0" ImageId="f651f1c1-0139-4d71-8ebb-828040616b29" ImageScaling="Fit">
+<HmiPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Homepage" BorderWidth="0" ImageId="b3e311af-0dba-46f5-b56c-f51652b98fe1" ImageScaling="Center">
   <References>
     <Variables>
       <Variable Id="85718a3a-ba17-4b1f-a1f8-b0ae85197c05" Name="BatteryVoltage" DataType="DINT" />
@@ -58,11 +58,11 @@
         <HmiObject xsi:type="HmiText" Rotation="0" ID="TTS" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="" FontFamily="Arial" FontSize="24" FontStyle="normal" FontWeight="400" FontColor="#FFFFFFFF" HorizontalTextAlignment="Left" GuiStyle="Flat" TextWrapping="WrapWithOverflow">
           <Origin>
             <X>180</X>
-            <Y>30</Y>
+            <Y>115</Y>
           </Origin>
           <Location>
             <X>180</X>
-            <Y>30</Y>
+            <Y>115</Y>
           </Location>
           <TransformCenter>
             <X>0</X>
