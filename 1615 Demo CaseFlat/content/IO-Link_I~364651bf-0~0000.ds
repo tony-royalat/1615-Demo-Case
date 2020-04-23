@@ -18,8 +18,8 @@
     <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_3']/Current" Type="Ade.Fdcml.Core.StringIso88591">QS20191202101248</InstVal>
     <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_4']/Current" Type="Ade.Fdcml.Core.OctetStringN">000000000000000000000000000000</InstVal>
     <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_5']/Current" Type="Ade.Fdcml.Core.Unsigned8">0</InstVal>
-    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_6']/Current" Type="Ade.Fdcml.Core.Unsigned8">0</InstVal>
-    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_7']/Current" Type="Ade.Fdcml.Core.Unsigned8">0</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_6']/Current" Type="Ade.Fdcml.Core.Unsigned8">4</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par2']/Para[@uID='par2_7']/Current" Type="Ade.Fdcml.Core.Unsigned8">1</InstVal>
     <InstVal xPath="//Layer7[@uID='L7']/PDList/PD[@uid=ioDefaultOut]" Type="System.String">~OUT</InstVal>
     <InstVal xPath="//Layer7[@uID='L7']/PDList/PD[@uid=ioDefaultIn]" Type="System.String">~IN</InstVal>
     <InstVal xPath="//Layer7[@uID='L7']/PDList/PD[@uid=io0]" Type="System.String">IO-Link Input data</InstVal>
