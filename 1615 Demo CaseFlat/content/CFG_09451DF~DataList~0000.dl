@@ -995,17 +995,17 @@
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>0</OutputFrameId>
       </Role>
-      <Role TypeName="Variable" ObjectId="c1cf61f1-64a5-4642-ba8b-982b0008f4e6" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+      <Role TypeName="Variable" ObjectId="fbadb5f7-2dba-4dd5-977e-d2864968ff78" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
         <Name>InputVoltage</Name>
         <Usage>Global</Usage>
-        <DataType>DINT</DataType>
+        <DataType>REAL</DataType>
         <Address />
-        <InitValue>DINT#0</InitValue>
+        <InitValue>REAL#0.0</InitValue>
         <IsRetain>False</IsRetain>
         <IsOpc>False</IsOpc>
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
-        <Comment />
+        <Comment>mV</Comment>
         <DisplayName>axc-f-2152-1 / PLC.InputVoltage</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
       </Role>
@@ -1024,6 +1024,20 @@
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>0</OutputFrameId>
       </Role>
+      <Role TypeName="Variable" ObjectId="6e865095-da3b-48db-9e95-ca8e50f3362d" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>InputCurrent</Name>
+        <Usage>Global</Usage>
+        <DataType>REAL</DataType>
+        <Address />
+        <InitValue>REAL#0.0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment>mA</Comment>
+        <DisplayName>axc-f-2152-1 / PLC.InputCurrent</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
     </Datum>
     <Datum Uuid="99ce2b13-53fd-4d28-9b92-a7b8636249fc">
       <FunctionText />
@@ -1038,6 +1052,20 @@
         <NodeId>54</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>0</OutputFrameId>
+      </Role>
+      <Role TypeName="Variable" ObjectId="3e897c6f-b872-4a79-a642-d85189021cef" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>OutputVoltage</Name>
+        <Usage>Global</Usage>
+        <DataType>REAL</DataType>
+        <Address />
+        <InitValue>REAL#0.0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment>mV</Comment>
+        <DisplayName>axc-f-2152-1 / PLC.OutputVoltage</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
       </Role>
     </Datum>
     <Datum Uuid="8d8f8ba9-f55a-4b9b-a89a-0cbd6f55a3f9">
@@ -1054,17 +1082,17 @@
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>0</OutputFrameId>
       </Role>
-      <Role TypeName="Variable" ObjectId="1d835658-f7e6-4004-9349-15d8197adada" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+      <Role TypeName="Variable" ObjectId="3c5adae8-c5de-4769-a367-b6eac1ede40d" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
         <Name>OutputCurrent</Name>
         <Usage>Global</Usage>
-        <DataType>DINT</DataType>
+        <DataType>REAL</DataType>
         <Address />
-        <InitValue>DINT#0</InitValue>
+        <InitValue>REAL#0.0</InitValue>
         <IsRetain>False</IsRetain>
         <IsOpc>False</IsOpc>
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
-        <Comment />
+        <Comment>mA</Comment>
         <DisplayName>axc-f-2152-1 / PLC.OutputCurrent</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
       </Role>
@@ -1083,17 +1111,17 @@
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>0</OutputFrameId>
       </Role>
-      <Role TypeName="Variable" ObjectId="4f4ecd60-f098-4bed-9e55-d3b198f325ed" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+      <Role TypeName="Variable" ObjectId="9ddbea0b-0943-40e6-80c2-c6c76e0e5bf0" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
         <Name>BatteryVoltage</Name>
         <Usage>Global</Usage>
-        <DataType>LREAL</DataType>
+        <DataType>REAL</DataType>
         <Address />
-        <InitValue>LREAL#0.0</InitValue>
+        <InitValue>REAL#0.0</InitValue>
         <IsRetain>False</IsRetain>
         <IsOpc>False</IsOpc>
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
-        <Comment />
+        <Comment>mV</Comment>
         <DisplayName>axc-f-2152-1 / PLC.BatteryVoltage</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
       </Role>
@@ -1112,6 +1140,20 @@
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>0</OutputFrameId>
       </Role>
+      <Role TypeName="Variable" ObjectId="38fce4f5-d217-4674-9736-b8977be93a14" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>BatteryChargingCurrent</Name>
+        <Usage>Global</Usage>
+        <DataType>REAL</DataType>
+        <Address />
+        <InitValue>REAL#0.0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment>mA</Comment>
+        <DisplayName>axc-f-2152-1 / PLC.BatteryChargingCurrent</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
     </Datum>
     <Datum Uuid="111315c5-7e85-43f5-8cef-8cb605c17889">
       <FunctionText />
@@ -1127,6 +1169,20 @@
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>0</OutputFrameId>
       </Role>
+      <Role TypeName="Variable" ObjectId="f16a16cc-c97f-4f39-8867-e4e8b5d6aee7" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>BatteryTemperature</Name>
+        <Usage>Global</Usage>
+        <DataType>REAL</DataType>
+        <Address />
+        <InitValue>REAL#0.0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment>K</Comment>
+        <DisplayName>axc-f-2152-1 / PLC.BatteryTemperature</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
     </Datum>
     <Datum Uuid="3a9698cb-bade-4339-b070-241b079f9308">
       <FunctionText />
@@ -1141,6 +1197,20 @@
         <NodeId>54</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>0</OutputFrameId>
+      </Role>
+      <Role TypeName="Variable" ObjectId="b85d1267-22f3-4c97-85d8-4cb5188d2000" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>DeviceTemperature</Name>
+        <Usage>Global</Usage>
+        <DataType>REAL</DataType>
+        <Address />
+        <InitValue>REAL#0.0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment>K</Comment>
+        <DisplayName>axc-f-2152-1 / PLC.DeviceTemperature</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
       </Role>
     </Datum>
     <Datum Uuid="c3b73a0a-e66d-411c-b427-d37206fb475e">
@@ -1182,7 +1252,7 @@
         <IsOpc>False</IsOpc>
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
-        <Comment />
+        <Comment>s</Comment>
         <DisplayName>axc-f-2152-1 / PLC.TimeToShutdown</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
       </Role>
@@ -4454,48 +4524,6 @@
         <DisplayName>axc-f-2152-1 / DC UPS / 1 / 1 / SM_IOPS</DisplayName>
       </Role>
     </Datum>
-    <Datum Uuid="2edbc05b-f067-4713-bc03-014f077768aa">
-      <FunctionText />
-      <Comment />
-      <Role TypeName="Variable" ObjectId="e3070fc7-c217-494b-a4ba-ebc64412f047" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
-        <Name>BatteryVoltage_Scaled</Name>
-        <Usage>Global</Usage>
-        <DataType>LREAL</DataType>
-        <Address />
-        <InitValue>LREAL#0.0</InitValue>
-        <IsRetain>False</IsRetain>
-        <IsOpc>False</IsOpc>
-        <IsHmi>False</IsHmi>
-        <IsProficloud>False</IsProficloud>
-        <Comment>Scaled to Volts</Comment>
-        <DisplayName>axc-f-2152-1 / PLC.BatteryVoltage_Scaled</DisplayName>
-        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
-      </Role>
-      <Role TypeName="HmiTag" ObjectId="da7029c8-d8e5-4ab3-b6f2-35e7892176bf" SourceId="">
-        <IsReadOnly>False</IsReadOnly>
-        <DisplayName>BatteryVoltage_Scaled</DisplayName>
-        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
-        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
-      </Role>
-    </Datum>
-    <Datum Uuid="6e924189-14db-4106-bc16-83df8c4d9f42">
-      <FunctionText />
-      <Comment />
-      <Role TypeName="Variable" ObjectId="0f2cd451-ffc7-452d-95f0-a7d7c2d448ed" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
-        <Name>TimeToShutdown_Scaled</Name>
-        <Usage>Global</Usage>
-        <DataType>LINT</DataType>
-        <Address />
-        <InitValue>LINT#0</InitValue>
-        <IsRetain>False</IsRetain>
-        <IsOpc>False</IsOpc>
-        <IsHmi>False</IsHmi>
-        <IsProficloud>False</IsProficloud>
-        <Comment />
-        <DisplayName>axc-f-2152-1 / PLC.TimeToShutdown_Scaled</DisplayName>
-        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
-      </Role>
-    </Datum>
     <Datum Uuid="d62bd11f-4821-466a-a47a-11e1b45b5905">
       <FunctionText />
       <Comment />
@@ -4976,24 +5004,6 @@
         <DisplayName>axc-f-2152-1 / IO-Link Master / 6 : Motor Starter / 1 / SM_IOPS</DisplayName>
       </Role>
     </Datum>
-    <Datum Uuid="920fb876-ccb9-40f0-b9c2-12baa0cd5b09">
-      <FunctionText />
-      <Comment />
-      <Role TypeName="Variable" ObjectId="b9ce4915-2cd6-40db-9160-ad2adaff13d8" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
-        <Name>StateOfChargeDisplay</Name>
-        <Usage>Global</Usage>
-        <DataType>STRING</DataType>
-        <Address />
-        <InitValue>''</InitValue>
-        <IsRetain>False</IsRetain>
-        <IsOpc>False</IsOpc>
-        <IsHmi>False</IsHmi>
-        <IsProficloud>False</IsProficloud>
-        <Comment />
-        <DisplayName>axc-f-2152-1 / PLC.StateOfChargeDisplay</DisplayName>
-        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
-      </Role>
-    </Datum>
     <Datum Uuid="e8971769-f588-4761-866e-4e9a730a23db">
       <FunctionText />
       <Comment />
@@ -5016,24 +5026,6 @@
         <DisplayName>TimeToShutdownDisplay</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
-      </Role>
-    </Datum>
-    <Datum Uuid="4871c789-7ca3-4c4d-b4d5-00a6dec4b35c">
-      <FunctionText />
-      <Comment />
-      <Role TypeName="Variable" ObjectId="374ece73-888b-4f9f-9888-bf097bc69030" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
-        <Name>ACInput</Name>
-        <Usage>Global</Usage>
-        <DataType>BOOL</DataType>
-        <Address />
-        <InitValue>FALSE</InitValue>
-        <IsRetain>False</IsRetain>
-        <IsOpc>False</IsOpc>
-        <IsHmi>False</IsHmi>
-        <IsProficloud>False</IsProficloud>
-        <Comment />
-        <DisplayName>axc-f-2152-1 / PLC.ACInput</DisplayName>
-        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
       </Role>
     </Datum>
     <Datum Uuid="9a021e1c-239a-4586-8c29-46c440be53cb">
@@ -5060,6 +5052,222 @@
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
       </Role>
     </Datum>
+    <Datum Uuid="dcc549c3-2aeb-4b8a-a764-5b497a50cb3f">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="f3f663cf-f186-493a-b28a-67adca1e2695" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>UPSSourceDisplay</Name>
+        <Usage>Global</Usage>
+        <DataType>STRING</DataType>
+        <Address />
+        <InitValue>''</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-1 / PLC.UPSSourceDisplay</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="6ec731ae-e573-4124-9736-8bd344cab894" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>UPSSourceDisplay</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="ea887cbb-522c-45c4-9771-e801dbba5635">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="6b8f17f6-ff35-4c97-967b-11631ca769a9" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>BatteryChargingCurrentDisplay</Name>
+        <Usage>Global</Usage>
+        <DataType>STRING</DataType>
+        <Address />
+        <InitValue>''</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-1 / PLC.BatteryChargingCurrentDisplay</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="085d9016-e009-417c-9ca1-098db918f1fe" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>BatteryChargingCurrentDisplay</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="524be237-cce9-4c97-81f7-89a498624ad7">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="9393fe82-66fa-491e-96c3-1be27dbe583e" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>BatteryVoltageDisplay</Name>
+        <Usage>Global</Usage>
+        <DataType>STRING</DataType>
+        <Address />
+        <InitValue>''</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-1 / PLC.BatteryVoltageDisplay</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="c9a614a6-73f9-4b30-93c2-5d1ed64e8272" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>BatteryVoltageDisplay</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="63dcb2d0-09a4-4f09-9375-84f89e37234c">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="8ea44e04-6451-4107-bc24-e52747a90bb7" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>BatteryTemperatureDisplay</Name>
+        <Usage>Global</Usage>
+        <DataType>STRING</DataType>
+        <Address />
+        <InitValue>''</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-1 / PLC.BatteryTemperatureDisplay</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="7ca7413b-45e4-4660-b4bb-3c691c60aaad" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>BatteryTemperatureDisplay</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="bee6506f-fc9a-4a90-a8dd-17881ba334f6">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="ffc73dfe-e086-4b93-ad5a-c1a907568630" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>DeviceTemperatureDisplay</Name>
+        <Usage>Global</Usage>
+        <DataType>STRING</DataType>
+        <Address />
+        <InitValue>''</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-1 / PLC.DeviceTemperatureDisplay</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="a10be140-6210-4f11-8822-a3dd6bc6e7bb" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>DeviceTemperatureDisplay</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="6246fe1c-6616-4b57-bb5b-91e80d4d2a3c">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="0876f524-1dd6-4226-bbd8-2b8563f96cb9" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>InputVoltageDisplay</Name>
+        <Usage>Global</Usage>
+        <DataType>STRING</DataType>
+        <Address />
+        <InitValue>''</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-1 / PLC.InputVoltageDisplay</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="3d26a742-b1a2-400a-adb5-7687c6e1e7c3" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>InputVoltageDisplay</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="b180c26b-d627-4f6f-b672-626c4ffa7dfe">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="d058734a-d2d2-45bd-a865-24aa216a26c0" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>InputCurrentDisplay</Name>
+        <Usage>Global</Usage>
+        <DataType>STRING</DataType>
+        <Address />
+        <InitValue>''</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-1 / PLC.InputCurrentDisplay</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="85890bb6-a0eb-43a4-a3a6-596494b66a9d" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>InputCurrentDisplay</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="055c5a13-c32c-4286-bfab-b360799c8655">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="e365a8e7-ebfd-42d9-9c73-48c4ceacc2dc" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>OutputCurrentDisplay</Name>
+        <Usage>Global</Usage>
+        <DataType>STRING</DataType>
+        <Address />
+        <InitValue>''</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-1 / PLC.OutputCurrentDisplay</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="e4ef2519-e1a6-474f-9794-e2b31319b876" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>OutputCurrentDisplay</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="b09420f8-7bb0-4040-9e11-00c723a543c5">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="68de5cf5-9b5b-4deb-ad7c-a8fbae88bede" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>OutputVoltageDisplay</Name>
+        <Usage>Global</Usage>
+        <DataType>STRING</DataType>
+        <Address />
+        <InitValue>''</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-1 / PLC.OutputVoltageDisplay</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="d5420f0b-5045-4a0b-bdc1-c72dcefee94c" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>OutputVoltageDisplay</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
+    </Datum>
     <RoleGroupList RoleTypeName="Variable">
       <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75" ObjectId="fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24" DisplayName="Default" IsReadOnly="False">
         <RoleDatumUuid>442657ed-d69f-4c0d-bb02-399b27fe11dc</RoleDatumUuid>
@@ -5076,16 +5284,26 @@
         <RoleDatumUuid>38bced37-2e37-4130-8575-eaf7935ffa6c</RoleDatumUuid>
         <RoleDatumUuid>84935f50-f6da-479e-a601-a2082afb6d70</RoleDatumUuid>
         <RoleDatumUuid>1e199428-b95b-42d9-b1f5-d1c19e435045</RoleDatumUuid>
-        <RoleDatumUuid>8d8f8ba9-f55a-4b9b-a89a-0cbd6f55a3f9</RoleDatumUuid>
-        <RoleDatumUuid>9877dcae-7e1f-405a-be49-8052cf5c4650</RoleDatumUuid>
         <RoleDatumUuid>e99f2269-8d03-4aec-901d-62af8b991b76</RoleDatumUuid>
-        <RoleDatumUuid>2edbc05b-f067-4713-bc03-014f077768aa</RoleDatumUuid>
-        <RoleDatumUuid>5313e355-4aa2-4f25-a711-86efa35268db</RoleDatumUuid>
-        <RoleDatumUuid>6e924189-14db-4106-bc16-83df8c4d9f42</RoleDatumUuid>
-        <RoleDatumUuid>920fb876-ccb9-40f0-b9c2-12baa0cd5b09</RoleDatumUuid>
         <RoleDatumUuid>e8971769-f588-4761-866e-4e9a730a23db</RoleDatumUuid>
-        <RoleDatumUuid>4871c789-7ca3-4c4d-b4d5-00a6dec4b35c</RoleDatumUuid>
         <RoleDatumUuid>9a021e1c-239a-4586-8c29-46c440be53cb</RoleDatumUuid>
+        <RoleDatumUuid>dcc549c3-2aeb-4b8a-a764-5b497a50cb3f</RoleDatumUuid>
+        <RoleDatumUuid>ea887cbb-522c-45c4-9771-e801dbba5635</RoleDatumUuid>
+        <RoleDatumUuid>524be237-cce9-4c97-81f7-89a498624ad7</RoleDatumUuid>
+        <RoleDatumUuid>63dcb2d0-09a4-4f09-9375-84f89e37234c</RoleDatumUuid>
+        <RoleDatumUuid>bee6506f-fc9a-4a90-a8dd-17881ba334f6</RoleDatumUuid>
+        <RoleDatumUuid>6246fe1c-6616-4b57-bb5b-91e80d4d2a3c</RoleDatumUuid>
+        <RoleDatumUuid>b180c26b-d627-4f6f-b672-626c4ffa7dfe</RoleDatumUuid>
+        <RoleDatumUuid>055c5a13-c32c-4286-bfab-b360799c8655</RoleDatumUuid>
+        <RoleDatumUuid>b09420f8-7bb0-4040-9e11-00c723a543c5</RoleDatumUuid>
+        <RoleDatumUuid>9877dcae-7e1f-405a-be49-8052cf5c4650</RoleDatumUuid>
+        <RoleDatumUuid>49f04e83-09ad-4c63-9523-0de987136402</RoleDatumUuid>
+        <RoleDatumUuid>5313e355-4aa2-4f25-a711-86efa35268db</RoleDatumUuid>
+        <RoleDatumUuid>b6d8c96a-87ce-4494-b49c-0969636a8cdf</RoleDatumUuid>
+        <RoleDatumUuid>8d8f8ba9-f55a-4b9b-a89a-0cbd6f55a3f9</RoleDatumUuid>
+        <RoleDatumUuid>99ce2b13-53fd-4d28-9b92-a7b8636249fc</RoleDatumUuid>
+        <RoleDatumUuid>111315c5-7e85-43f5-8cef-8cb605c17889</RoleDatumUuid>
+        <RoleDatumUuid>3a9698cb-bade-4339-b070-241b079f9308</RoleDatumUuid>
       </RoleGroup>
       <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75" ObjectId="971398c9-e054-4349-a1d9-e00a1840c9f4" DisplayName="System Variables" IsReadOnly="True">
         <RoleDatumUuid>ae807d18-40f0-4651-966c-6f4a5563fe17</RoleDatumUuid>

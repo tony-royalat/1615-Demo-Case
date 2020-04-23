@@ -3,14 +3,34 @@
   <Name>HMI Configuration</Name>
   <RecentlyUsedColors>
     <Color>
-      <A>0</A>
+      <A>255</A>
+      <R>242</R>
+      <G>242</G>
+      <B>242</B>
+      <ScA>1</ScA>
+      <ScR>0.8879231</ScR>
+      <ScG>0.8879231</ScG>
+      <ScB>0.8879231</ScB>
+    </Color>
+    <Color>
+      <A>255</A>
       <R>255</R>
-      <G>255</G>
-      <B>255</B>
-      <ScA>0</ScA>
+      <G>228</G>
+      <B>181</B>
+      <ScA>1</ScA>
       <ScR>1</ScR>
-      <ScG>1</ScG>
-      <ScB>1</ScB>
+      <ScG>0.7758222</ScG>
+      <ScB>0.462077022</ScB>
+    </Color>
+    <Color>
+      <A>255</A>
+      <R>211</R>
+      <G>211</G>
+      <B>211</B>
+      <ScA>1</ScA>
+      <ScR>0.651405632</ScR>
+      <ScG>0.651405632</ScG>
+      <ScB>0.651405632</ScB>
     </Color>
     <Color>
       <A>255</A>
@@ -18,6 +38,16 @@
       <G>255</G>
       <B>255</B>
       <ScA>1</ScA>
+      <ScR>1</ScR>
+      <ScG>1</ScG>
+      <ScB>1</ScB>
+    </Color>
+    <Color>
+      <A>0</A>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+      <ScA>0</ScA>
       <ScR>1</ScR>
       <ScG>1</ScG>
       <ScB>1</ScB>
@@ -34,7 +64,7 @@
     </Color>
   </RecentlyUsedColors>
   <RecentlyUsedGradients />
-  <ImageLocation>C:\Users\Tony Krezel\Pictures</ImageLocation>
-  <HmiSupportLocation>C:\Users\Tony Krezel\Documents</HmiSupportLocation>
+  <ImageLocation>C:\Users\TonyK\Pictures\PLCnext</ImageLocation>
+  <HmiSupportLocation>C:\Users\TonyK\Documents</HmiSupportLocation>
   <RotationRounding>15</RotationRounding>
 </HmiConfiguration>

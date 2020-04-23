@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<HmiPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Page1" BorderWidth="0" ImageId="8f647f73-d9ed-4e64-9f6f-79812f3677e1" ImageScaling="Fit">
+<HmiPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="ThisIsAnAdventure" BorderWidth="0" ImageId="8f647f73-d9ed-4e64-9f6f-79812f3677e1" ImageScaling="Fit">
   <Layers>
     <Layer>
       <Objects>
         <HmiObject xsi:type="Button" Rotation="0" ID="Button1" IsTabSelectable="true" TabOrder="0" NextId="1" LineColor="#FFCCD0D2" LineWidth="1" Text="Go Back!" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
           <Origin>
-            <X>1054</X>
-            <Y>637</Y>
+            <X>1139</X>
+            <Y>712</Y>
           </Origin>
           <Location>
-            <X>1054</X>
-            <Y>637</Y>
+            <X>1139</X>
+            <Y>712</Y>
           </Location>
           <TransformCenter>
             <X>0</X>
@@ -42,6 +42,35 @@
             <Height>0</Height>
           </CornerRadii>
         </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="Text1" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="This Is An Adventure" FontFamily="Arial" FontSize="68" FontStyle="normal" FontWeight="400" FontColor="#FF000000" HorizontalTextAlignment="Center" GuiStyle="Flat" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>0</X>
+            <Y>0</Y>
+          </Origin>
+          <Location>
+            <X>0</X>
+            <Y>0</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFF2F2F2" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>1280</Width>
+            <Height>89</Height>
+          </Size>
+        </HmiObject>
       </Objects>
     </Layer>
   </Layers>
@@ -53,5 +82,5 @@
   <AvailableSecurityScope>Always</AvailableSecurityScope>
   <AvailableSecurityScopeOperator>Equal</AvailableSecurityScopeOperator>
   <AvailableSecurityScopeLevel>0</AvailableSecurityScopeLevel>
-  <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+  <Fill xsi:type="SolidFill" Color="#FFF2F2F2" />
 </HmiPage>

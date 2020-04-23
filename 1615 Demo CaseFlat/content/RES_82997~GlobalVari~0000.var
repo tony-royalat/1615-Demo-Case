@@ -16,16 +16,26 @@ VAR_GLOBAL
     GuardingSwitch2 : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('b091c55e-ef96-4f9e-a907-f3a2586a02ff')};
     GuardingSwitch3 : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('76a0eab1-60a8-42dd-9463-a3c395957b43')};
     EStop1 : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('8c179d00-8ed7-4185-a19b-d95da986a58c')};
-    OutputCurrent : DINT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('1d835658-f7e6-4004-9349-15d8197adada')};
-    InputVoltage : DINT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('c1cf61f1-64a5-4642-ba8b-982b0008f4e6')};
-    TimeToShutdown : DINT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('f25a64f6-42d9-4760-8874-dad1ec272dd3')};
-    BatteryVoltage_Scaled : LREAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('e3070fc7-c217-494b-a4ba-ebc64412f047')}; (*Scaled to Volts*)
-    BatteryVoltage : LREAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('4f4ecd60-f098-4bed-9e55-d3b198f325ed')};
-    TimeToShutdown_Scaled : LINT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('0f2cd451-ffc7-452d-95f0-a7d7c2d448ed')};
-    StateOfChargeDisplay : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('b9ce4915-2cd6-40db-9160-ad2adaff13d8')};
+    TimeToShutdown : DINT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('f25a64f6-42d9-4760-8874-dad1ec272dd3')}; (*s*)
     TimeToShutdownDisplay : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('46b8bc9c-c522-4594-8ea9-eb5327daf7c6')};
-    ACInput : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('374ece73-888b-4f9f-9888-bf097bc69030')};
     TimeToShutdownDisplayVisibility : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('5388797d-3e4d-4e31-8a3b-170d5e39cc72')};
+    UPSSourceDisplay : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('f3f663cf-f186-493a-b28a-67adca1e2695')};
+    BatteryChargingCurrentDisplay : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('6b8f17f6-ff35-4c97-967b-11631ca769a9')};
+    BatteryVoltageDisplay : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('9393fe82-66fa-491e-96c3-1be27dbe583e')};
+    BatteryTemperatureDisplay : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('8ea44e04-6451-4107-bc24-e52747a90bb7')};
+    DeviceTemperatureDisplay : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('ffc73dfe-e086-4b93-ad5a-c1a907568630')};
+    InputVoltageDisplay : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('0876f524-1dd6-4226-bbd8-2b8563f96cb9')};
+    InputCurrentDisplay : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('d058734a-d2d2-45bd-a865-24aa216a26c0')};
+    OutputCurrentDisplay : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('e365a8e7-ebfd-42d9-9c73-48c4ceacc2dc')};
+    OutputVoltageDisplay : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('68de5cf5-9b5b-4deb-ad7c-a8fbae88bede')};
+    InputVoltage : REAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('fbadb5f7-2dba-4dd5-977e-d2864968ff78')}; (*mV*)
+    BatteryChargingCurrent : REAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('38fce4f5-d217-4674-9736-b8977be93a14')}; (*mA*)
+    BatteryVoltage : REAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('9ddbea0b-0943-40e6-80c2-c6c76e0e5bf0')}; (*mV*)
+    InputCurrent : REAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('6e865095-da3b-48db-9e95-ca8e50f3362d')}; (*mA*)
+    OutputCurrent : REAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('3c5adae8-c5de-4769-a367-b6eac1ede40d')}; (*mA*)
+    OutputVoltage : REAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('3e897c6f-b872-4a79-a642-d85189021cef')}; (*mV*)
+    BatteryTemperature : REAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('f16a16cc-c97f-4f39-8867-e4e8b5d6aee7')}; (*K*)
+    DeviceTemperature : REAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('b85d1267-22f3-4c97-85d8-4cb5188d2000')}; (*K*)
     PND_S1_PLC_RUN : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('f2e0c0a0-1487-47c5-a72a-d3701aa8d4f0')};
     PND_S1_VALID_DATA_CYCLE : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('c91bd181-753d-4869-80db-32517d62d06c')};
     PND_S1_OUTPUT_STATUS_GOOD : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('1f7d05c1-ad28-4f2a-95f3-55759f6a6229')};
