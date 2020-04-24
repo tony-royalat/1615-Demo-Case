@@ -361,6 +361,34 @@
         <file name="Source" id="Life Aquatic ~Source~0002" />
         <file name="Thumbnail" id="Life Aquat~Thumbnail~0002" />
       </folder>
+      <folder name="battery-0.png">
+        <file name="Source" id="battery-0.png~Source~0000" />
+        <file name="Thumbnail" id="battery-0.~Thumbnail~0000" />
+      </folder>
+      <folder name="battery-10.png">
+        <file name="Source" id="battery-10.pn~Source~0000" />
+        <file name="Thumbnail" id="battery-10~Thumbnail~0000" />
+      </folder>
+      <folder name="battery-25.png">
+        <file name="Source" id="battery-25.pn~Source~0000" />
+        <file name="Thumbnail" id="battery-25~Thumbnail~0000" />
+      </folder>
+      <folder name="battery-50.png">
+        <file name="Source" id="battery-50.pn~Source~0000" />
+        <file name="Thumbnail" id="battery-50~Thumbnail~0000" />
+      </folder>
+      <folder name="battery-75.png">
+        <file name="Source" id="battery-75.pn~Source~0000" />
+        <file name="Thumbnail" id="battery-75~Thumbnail~0000" />
+      </folder>
+      <folder name="battery-100.png">
+        <file name="Source" id="battery-100.p~Source~0000" />
+        <file name="Thumbnail" id="battery-10~Thumbnail~0001" />
+      </folder>
+      <folder name="battery-charging.png">
+        <file name="Source" id="battery-charg~Source~0000" />
+        <file name="Thumbnail" id="battery-ch~Thumbnail~0000" />
+      </folder>
     </folder>
     <folder name="RecycleBin">
       <folder name="78cfcaf5-56f6-4363-b292-56db08744eba">

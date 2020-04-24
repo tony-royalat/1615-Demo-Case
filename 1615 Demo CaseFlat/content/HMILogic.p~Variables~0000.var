@@ -19,6 +19,7 @@ VAR
     TimetoShutdownMinute : DINT { CustomGroupReference('c84237ad-701f-4c40-951c-0362045f4d80') } {Id('45ea08fb-8a14-4434-a621-c6749bf6294b')};
     TimetoShutdownSecond : DINT { CustomGroupReference('c84237ad-701f-4c40-951c-0362045f4d80') } {Id('8f186f60-7654-4580-bce9-f9ec88258f4b')};
     UPSOnBattery : BOOL { CustomGroupReference('c84237ad-701f-4c40-951c-0362045f4d80') } {Id('7235fb74-a134-4f8b-881f-26b70d662e2b')};
+    BatteryStateOfChargeCalculated : REAL { CustomGroupReference('c84237ad-701f-4c40-951c-0362045f4d80') } {Id('1c48983c-651e-43fc-9776-614ef47c1f6c')};
 END_VAR
 
 VAR_EXTERNAL
@@ -33,4 +34,12 @@ VAR_EXTERNAL
     TimeToShutdownDisplay : STRING { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('3ad11bc1-6f7c-4534-9a08-7298834228c8')};
     TimeToShutdownDisplayVisibility : BOOL { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('d1ed0d21-11dc-4c6a-af6f-6a343ba45777')};
     UPSSourceDisplay : STRING { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('2d89c708-211f-498a-ad93-1ef329ad870e')};
+    BatteryStateOfChargeDisplay : STRING { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('5f533e9b-adae-4fe7-9910-2ff9f2b8b4e3')};
+    Battery0Visibility : BOOL { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('5ece06d6-bc37-48d8-91ac-921e6ef6a0fa')};
+    Battery10Visibility : BOOL { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('b59ab25c-2615-4cec-979c-6d0ea3d20085')};
+    Battery25Visibility : BOOL { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('69153ec0-a49d-4245-9a21-1b8b925a1d0d')};
+    Battery50Visibility : BOOL { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('d51429e5-55d3-4e47-ab95-a570980594fa')};
+    Battery75Visibility : BOOL { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('93611356-c799-4bd3-9dec-8006d1d00fc6')};
+    Battery100Visibility : BOOL { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('7a6467d3-e8e7-4dd2-9c5c-dbb7e1d2269e')};
+    BatteryChargingVisibility : BOOL { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('c281a05b-731a-4d9c-ae74-675578dc9dfc')};
 END_VAR

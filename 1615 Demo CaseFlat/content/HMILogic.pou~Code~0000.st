@@ -35,6 +35,94 @@ IF UPSOnBattery = TRUE THEN
     
 END_IF
 
+// Figure out Battery State Of Charge Assuming 23 to 25.4 VDC Battery Voltage
+// Also include something to indicate battery charging. If on DC power supply then display battery charging?
+
+BatteryStateOfChargeCalculated := (((25400 - 23000) - (25400 - BatteryVoltage)) / (25400 - 23000)) * 100;
+
+
+// Calculate Battery Icon Visibility Dependent on State of Charge Percentage
+IF UPSonBattery = TRUE THEN
+    
+    // 100% Icon Visibility
+    IF BatteryStateOfChargeCalculated >= 95 THEN
+        Battery0Visibility := FALSE;
+        Battery10Visibility := FALSE;
+        Battery25Visibility := FALSE;
+        Battery50Visibility := FALSE;
+        Battery75Visibility := FALSE;
+        Battery100Visibility := TRUE;
+        BatteryChargingVisibility := FALSE;    
+    END_IF
+    
+    // 75% Icon Visibility
+    IF (BatteryStateOfChargeCalculated < 95 AND BatteryStateOfChargeCalculated >= 65) THEN
+        Battery0Visibility := FALSE;
+        Battery10Visibility := FALSE;
+        Battery25Visibility := FALSE;
+        Battery50Visibility := FALSE;
+        Battery75Visibility := TRUE;
+        Battery100Visibility := FALSE;
+        BatteryChargingVisibility := FALSE;    
+    END_IF
+    
+    // 50% Icon Visibility
+    IF (BatteryStateOfChargeCalculated < 65 AND BatteryStateOfChargeCalculated >= 35) THEN
+        Battery0Visibility := FALSE;
+        Battery10Visibility := FALSE;
+        Battery25Visibility := FALSE;
+        Battery50Visibility := TRUE;
+        Battery75Visibility := FALSE;
+        Battery100Visibility := FALSE;
+        BatteryChargingVisibility := FALSE;    
+    END_IF
+    
+    // 25% Icon Visibility
+    IF (BatteryStateOfChargeCalculated < 35 AND BatteryStateOfChargeCalculated >= 15) THEN
+        Battery0Visibility := FALSE;
+        Battery10Visibility := FALSE;
+        Battery25Visibility := TRUE;
+        Battery50Visibility := FALSE;
+        Battery75Visibility := FALSE;
+        Battery100Visibility := FALSE;
+        BatteryChargingVisibility := FALSE;    
+    END_IF
+    
+    // 10% Icon Visibility
+    IF (BatteryStateOfChargeCalculated < 15 AND BatteryStateOfChargeCalculated >= 5) THEN
+        Battery0Visibility := FALSE;
+        Battery10Visibility := TRUE;
+        Battery25Visibility := FALSE;
+        Battery50Visibility := FALSE;
+        Battery75Visibility := FALSE;
+        Battery100Visibility := FALSE;
+        BatteryChargingVisibility := FALSE;    
+    END_IF
+    
+    // 0% Icon Visibility
+    IF BatteryStateOfChargeCalculated < 5 THEN
+        Battery0Visibility := TRUE;
+        Battery10Visibility := FALSE;
+        Battery25Visibility := FALSE;
+        Battery50Visibility := FALSE;
+        Battery75Visibility := FALSE;
+        Battery100Visibility := FALSE;
+        BatteryChargingVisibility := FALSE;    
+    END_IF    
+    
+    ELSE
+    
+    // Battery Charging Icon Visibility
+    Battery0Visibility := FALSE;
+    Battery10Visibility := FALSE;
+    Battery25Visibility := FALSE;
+    Battery50Visibility := FALSE;
+    Battery75Visibility := FALSE;
+    Battery100Visibility := FALSE;
+    BatteryChargingVisibility := TRUE;
+    
+END_IF
+
 // Build string for Input Voltage HMI text display
 InputVoltageDisplay := CONCAT('Input Voltage: ', TO_STRING((InputVoltage / 1000.0), '{0:f2}'), ' VDC');
 

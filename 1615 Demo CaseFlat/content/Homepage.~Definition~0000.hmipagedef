@@ -6,6 +6,13 @@
       <Variable Id="da7029c8-d8e5-4ab3-b6f2-35e7892176bf" Name="BatteryVoltage_Scaled" DataType="DINT" />
       <Variable Id="5f3477c0-1e35-4c02-aafe-1e1fbad9272c" Name="TimeToShutdownDisplay" DataType="STRING" />
       <Variable Id="d61eb73e-d276-4e32-9489-8e686b8767ae" Name="TimeToShutdownDisplayVisibility" DataType="BOOL" />
+      <Variable Id="e728becb-7c6d-4f08-a1c6-9983c24c7303" Name="Battery100Visibility" DataType="BOOL" />
+      <Variable Id="4e6be10b-c8c5-4a24-af0f-f6a7a0ff4ed9" Name="BatteryChargingVisibility" DataType="BOOL" />
+      <Variable Id="b428fb5d-787f-4ec5-937b-ba0e3cd8c449" Name="Battery75Visibility" DataType="BOOL" />
+      <Variable Id="18a1226a-5910-47c0-b022-dc4a4432998e" Name="Battery50Visibility" DataType="BOOL" />
+      <Variable Id="e753c3cf-c5a2-49ef-bd5c-1e44cf896e61" Name="Battery25Visibility" DataType="BOOL" />
+      <Variable Id="fd94f52b-5e54-4726-8f80-81cc8a8ec080" Name="Battery0Visibility" DataType="BOOL" />
+      <Variable Id="eb7a8def-4b4a-4406-aa2c-9ac5e836655b" Name="Battery10Visibility" DataType="BOOL" />
     </Variables>
     <Documents>
       <Document Id="72013f67-3ff0-41ad-9767-3e975fc5b6e4" NodeType="HmiPage" Name="UPS_Info" />
@@ -216,6 +223,258 @@
             <Width>0</Width>
             <Height>0</Height>
           </CornerRadii>
+        </HmiObject>
+        <HmiObject xsi:type="HmiImage" Rotation="0" ID="Battery100Icon" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Left" GuiStyle="Flat" ImageId="101f36c5-ae45-4cdf-ad5f-dc527a8238de" ImageScaling="Fit">
+          <Origin>
+            <X>30</X>
+            <Y>700</Y>
+          </Origin>
+          <Location>
+            <X>30</X>
+            <Y>700</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="VisibilityDynamic" ChangeWhen="False">
+            <VariableInstance>
+              <Id>e728becb-7c6d-4f08-a1c6-9983c24c7303</Id>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>Battery100Visibility</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>64</Width>
+            <Height>64</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="HmiImage" Rotation="0" ID="BatteryChargingIcon" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Left" GuiStyle="Flat" ImageId="57d2d161-188c-431c-a21d-05dc0a22c5ba" ImageScaling="Fit">
+          <Origin>
+            <X>30</X>
+            <Y>700</Y>
+          </Origin>
+          <Location>
+            <X>30</X>
+            <Y>700</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="VisibilityDynamic" ChangeWhen="False">
+            <VariableInstance>
+              <Id>4e6be10b-c8c5-4a24-af0f-f6a7a0ff4ed9</Id>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>BatteryChargingVisibility</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>64</Width>
+            <Height>64</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="HmiImage" Rotation="0" ID="Battery75Icon" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Left" GuiStyle="Flat" ImageId="4f7fa53f-fdff-4846-b9b0-1b5aeb95d815" ImageScaling="Fit">
+          <Origin>
+            <X>30</X>
+            <Y>700</Y>
+          </Origin>
+          <Location>
+            <X>30</X>
+            <Y>700</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="VisibilityDynamic" ChangeWhen="False">
+            <VariableInstance>
+              <Id>b428fb5d-787f-4ec5-937b-ba0e3cd8c449</Id>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>Battery75Visibility</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>64</Width>
+            <Height>64</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="HmiImage" Rotation="0" ID="Battery50Icon" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Left" GuiStyle="Flat" ImageId="e614cec0-8306-433f-8087-b461510163ff" ImageScaling="Fit">
+          <Origin>
+            <X>30</X>
+            <Y>700</Y>
+          </Origin>
+          <Location>
+            <X>30</X>
+            <Y>700</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="VisibilityDynamic" ChangeWhen="False">
+            <VariableInstance>
+              <Id>18a1226a-5910-47c0-b022-dc4a4432998e</Id>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>Battery50Visibility</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>64</Width>
+            <Height>64</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="HmiImage" Rotation="0" ID="Battery25Icon" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Left" GuiStyle="Flat" ImageId="2ab43e8b-f23d-450d-9e94-51f9097c2644" ImageScaling="Fit">
+          <Origin>
+            <X>30</X>
+            <Y>700</Y>
+          </Origin>
+          <Location>
+            <X>30</X>
+            <Y>700</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="VisibilityDynamic" ChangeWhen="False">
+            <VariableInstance>
+              <Id>e753c3cf-c5a2-49ef-bd5c-1e44cf896e61</Id>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>Battery25Visibility</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>64</Width>
+            <Height>64</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="HmiImage" Rotation="0" ID="Battery0Icon" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Left" GuiStyle="Flat" ImageId="6c3b8252-b964-49c6-af41-43337a6f9aae" ImageScaling="Fit">
+          <Origin>
+            <X>30</X>
+            <Y>700</Y>
+          </Origin>
+          <Location>
+            <X>30</X>
+            <Y>700</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="VisibilityDynamic" ChangeWhen="False">
+            <VariableInstance>
+              <Id>fd94f52b-5e54-4726-8f80-81cc8a8ec080</Id>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>Battery0Visibility</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>64</Width>
+            <Height>64</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="HmiImage" Rotation="0" ID="Battery10Icon" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Left" GuiStyle="Flat" ImageId="ac3d518d-92d0-4ad5-8ec0-4fbeacbb0c9f" ImageScaling="Fit">
+          <Origin>
+            <X>30</X>
+            <Y>700</Y>
+          </Origin>
+          <Location>
+            <X>30</X>
+            <Y>700</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="VisibilityDynamic" ChangeWhen="False">
+            <VariableInstance>
+              <Id>eb7a8def-4b4a-4406-aa2c-9ac5e836655b</Id>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>Battery10Visibility</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>64</Width>
+            <Height>64</Height>
+          </Size>
         </HmiObject>
       </Objects>
     </Layer>

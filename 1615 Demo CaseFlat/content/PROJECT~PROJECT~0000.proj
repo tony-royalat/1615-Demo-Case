@@ -2204,6 +2204,83 @@
          <ThumbnailId>ab67204c-6a2f-42a8-9b9a-3a4a37207136</ThumbnailId>
          <ParentIndex>24</ParentIndex>
       </Image>
+      <Image Include="Logical Elements\battery-0.png">
+         <Id>6c3b8252-b964-49c6-af41-43337a6f9aae</Id>
+         <DisplayName>battery-0</DisplayName>
+         <ImageWidth>64</ImageWidth>
+         <ImageHeight>64</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <SourceId>594f913f-e838-4a48-b8c6-66cecaafb94d</SourceId>
+         <ThumbnailId>0030cf03-a204-476e-8999-45ba53492285</ThumbnailId>
+         <ParentIndex>25</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\battery-10.png">
+         <Id>ac3d518d-92d0-4ad5-8ec0-4fbeacbb0c9f</Id>
+         <DisplayName>battery-10</DisplayName>
+         <ImageWidth>64</ImageWidth>
+         <ImageHeight>64</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <SourceId>1426faf2-275a-4a45-b588-fa8c8f4a0a39</SourceId>
+         <ThumbnailId>b1899ca5-1516-40e6-8ba0-b9e94745345b</ThumbnailId>
+         <ParentIndex>26</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\battery-25.png">
+         <Id>2ab43e8b-f23d-450d-9e94-51f9097c2644</Id>
+         <DisplayName>battery-25</DisplayName>
+         <ImageWidth>64</ImageWidth>
+         <ImageHeight>64</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <SourceId>95d6d8ba-bf82-48d1-a3c3-91f24bc2d13b</SourceId>
+         <ThumbnailId>0b08f99f-c03e-4938-a1cf-966522112a8c</ThumbnailId>
+         <ParentIndex>27</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\battery-50.png">
+         <Id>e614cec0-8306-433f-8087-b461510163ff</Id>
+         <DisplayName>battery-50</DisplayName>
+         <ImageWidth>64</ImageWidth>
+         <ImageHeight>64</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <SourceId>1b86e67d-816c-4507-8809-3c7b9e3ef664</SourceId>
+         <ThumbnailId>fd804633-3772-4dcf-bcaf-dd63b567d488</ThumbnailId>
+         <ParentIndex>28</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\battery-75.png">
+         <Id>4f7fa53f-fdff-4846-b9b0-1b5aeb95d815</Id>
+         <DisplayName>battery-75</DisplayName>
+         <ImageWidth>64</ImageWidth>
+         <ImageHeight>64</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <SourceId>14493f2f-5370-405a-b357-171c2b1faccf</SourceId>
+         <ThumbnailId>e5c70015-7bfa-4c08-bd24-7c3879499422</ThumbnailId>
+         <ParentIndex>29</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\battery-100.png">
+         <Id>101f36c5-ae45-4cdf-ad5f-dc527a8238de</Id>
+         <DisplayName>battery-100</DisplayName>
+         <ImageWidth>64</ImageWidth>
+         <ImageHeight>64</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <SourceId>68d3a92f-c247-464f-9253-dbb9142b89a8</SourceId>
+         <ThumbnailId>2ad2f62d-26aa-4ad7-ae19-357ad3c708b1</ThumbnailId>
+         <ParentIndex>30</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\battery-charging.png">
+         <Id>57d2d161-188c-431c-a21d-05dc0a22c5ba</Id>
+         <DisplayName>battery-charging</DisplayName>
+         <ImageWidth>64</ImageWidth>
+         <ImageHeight>64</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <SourceId>54a54040-6b47-430b-bd3e-f7a246efefbe</SourceId>
+         <ThumbnailId>16076149-6d22-488f-8d2e-b77a92d1d867</ThumbnailId>
+         <ParentIndex>31</ParentIndex>
+      </Image>
    </ItemGroup>
    <ItemGroup>
       <ImageSource Include="RecycleBin\f651f1c1-0139-4d71-8ebb-828040616b29\life aquatic movie poster.png\Source">
@@ -2246,6 +2323,41 @@
          <ImageId>b3e311af-0dba-46f5-b56c-f51652b98fe1</ImageId>
          <ParentIndex>0</ParentIndex>
       </ImageSource>
+      <ImageSource Include="Logical Elements\battery-0.png\Source">
+         <Id>594f913f-e838-4a48-b8c6-66cecaafb94d</Id>
+         <ImageId>6c3b8252-b964-49c6-af41-43337a6f9aae</ImageId>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\battery-10.png\Source">
+         <Id>1426faf2-275a-4a45-b588-fa8c8f4a0a39</Id>
+         <ImageId>ac3d518d-92d0-4ad5-8ec0-4fbeacbb0c9f</ImageId>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\battery-25.png\Source">
+         <Id>95d6d8ba-bf82-48d1-a3c3-91f24bc2d13b</Id>
+         <ImageId>2ab43e8b-f23d-450d-9e94-51f9097c2644</ImageId>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\battery-50.png\Source">
+         <Id>1b86e67d-816c-4507-8809-3c7b9e3ef664</Id>
+         <ImageId>e614cec0-8306-433f-8087-b461510163ff</ImageId>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\battery-75.png\Source">
+         <Id>14493f2f-5370-405a-b357-171c2b1faccf</Id>
+         <ImageId>4f7fa53f-fdff-4846-b9b0-1b5aeb95d815</ImageId>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\battery-100.png\Source">
+         <Id>68d3a92f-c247-464f-9253-dbb9142b89a8</Id>
+         <ImageId>101f36c5-ae45-4cdf-ad5f-dc527a8238de</ImageId>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\battery-charging.png\Source">
+         <Id>54a54040-6b47-430b-bd3e-f7a246efefbe</Id>
+         <ImageId>57d2d161-188c-431c-a21d-05dc0a22c5ba</ImageId>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
    </ItemGroup>
    <ItemGroup>
       <ImageThumbnail Include="RecycleBin\f651f1c1-0139-4d71-8ebb-828040616b29\life aquatic movie poster.png\Thumbnail">
@@ -2286,6 +2398,41 @@
       <ImageThumbnail Include="Logical Elements\Life Aquatic Poster.png\Thumbnail">
          <Id>ab67204c-6a2f-42a8-9b9a-3a4a37207136</Id>
          <ImageId>b3e311af-0dba-46f5-b56c-f51652b98fe1</ImageId>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\battery-0.png\Thumbnail">
+         <Id>0030cf03-a204-476e-8999-45ba53492285</Id>
+         <ImageId>6c3b8252-b964-49c6-af41-43337a6f9aae</ImageId>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\battery-10.png\Thumbnail">
+         <Id>b1899ca5-1516-40e6-8ba0-b9e94745345b</Id>
+         <ImageId>ac3d518d-92d0-4ad5-8ec0-4fbeacbb0c9f</ImageId>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\battery-25.png\Thumbnail">
+         <Id>0b08f99f-c03e-4938-a1cf-966522112a8c</Id>
+         <ImageId>2ab43e8b-f23d-450d-9e94-51f9097c2644</ImageId>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\battery-50.png\Thumbnail">
+         <Id>fd804633-3772-4dcf-bcaf-dd63b567d488</Id>
+         <ImageId>e614cec0-8306-433f-8087-b461510163ff</ImageId>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\battery-75.png\Thumbnail">
+         <Id>e5c70015-7bfa-4c08-bd24-7c3879499422</Id>
+         <ImageId>4f7fa53f-fdff-4846-b9b0-1b5aeb95d815</ImageId>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\battery-100.png\Thumbnail">
+         <Id>2ad2f62d-26aa-4ad7-ae19-357ad3c708b1</Id>
+         <ImageId>101f36c5-ae45-4cdf-ad5f-dc527a8238de</ImageId>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\battery-charging.png\Thumbnail">
+         <Id>16076149-6d22-488f-8d2e-b77a92d1d867</Id>
+         <ImageId>57d2d161-188c-431c-a21d-05dc0a22c5ba</ImageId>
          <ParentIndex>1</ParentIndex>
       </ImageThumbnail>
    </ItemGroup>

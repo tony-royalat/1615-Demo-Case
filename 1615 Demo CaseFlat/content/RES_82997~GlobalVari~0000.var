@@ -36,6 +36,15 @@ VAR_GLOBAL
     OutputVoltage : REAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('3e897c6f-b872-4a79-a642-d85189021cef')}; (*mV*)
     BatteryTemperature : REAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('f16a16cc-c97f-4f39-8867-e4e8b5d6aee7')}; (*K*)
     DeviceTemperature : REAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('b85d1267-22f3-4c97-85d8-4cb5188d2000')}; (*K*)
+    BatteryStateOfChargeCalculated : REAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('2f4fec6d-0390-4ab1-8275-69b756ba628c')};
+    BatteryStateOfChargeDisplay : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('5acd4933-9030-47bb-b14a-972809ee2b80')};
+    Battery0Visibility : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('a3078038-ddac-46d0-a7ac-32b432e938dd')};
+    Battery10Visibility : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('3122c647-499f-470b-a3b4-e12b115b86f0')};
+    Battery25Visibility : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('98576e09-2b44-499a-9a6f-bfb753524e3f')};
+    Battery50Visibility : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('a62e775d-6b45-45aa-999e-62939f378e24')};
+    Battery75Visibility : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('8d16f310-8af6-4b07-8453-bada1a0515eb')};
+    Battery100Visibility : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('60839622-49e2-4e50-9ae9-1cf38a0ff3c9')};
+    BatteryChargingVisibility : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('f644919c-4e09-4c70-84fb-af7f064c74c4')};
     PND_S1_PLC_RUN : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('f2e0c0a0-1487-47c5-a72a-d3701aa8d4f0')};
     PND_S1_VALID_DATA_CYCLE : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('c91bd181-753d-4869-80db-32517d62d06c')};
     PND_S1_OUTPUT_STATUS_GOOD : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('1f7d05c1-ad28-4f2a-95f3-55759f6a6229')};
