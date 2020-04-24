@@ -12,7 +12,7 @@ TimeToShutdownDisplay := CONCAT('Time to Shutdown: ', TO_STRING(TimeToShutdownHo
                                                       TO_STRING(TimeToShutdownSecond, ''), 's');
 
 // TTS Display Visibility
-IF InputVoltage <= 23500 THEN
+IF InputVoltage <= 24000 THEN
     
     TimeToShutdownDisplayVisibility := TRUE;
     

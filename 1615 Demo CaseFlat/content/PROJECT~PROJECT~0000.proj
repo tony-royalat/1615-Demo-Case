@@ -2013,6 +2013,12 @@
          <StartPage>False</StartPage>
          <ParentIndex>8</ParentIndex>
       </HmiPage>
+      <HmiPage Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\IOLink.hmi">
+         <Id>c4daf194-72b1-4a3e-93eb-c800bfa6f01b</Id>
+         <DisplayName>IOLink</DisplayName>
+         <StartPage>False</StartPage>
+         <ParentIndex>9</ParentIndex>
+      </HmiPage>
    </ItemGroup>
    <ItemGroup>
       <HmiPageDefinition Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Homepage.hmi\Definition.hmipagedef">
@@ -2037,6 +2043,11 @@
       <HmiPageDefinition Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Safety_Info.hmi\Definition.hmipagedef">
          <Id>2aca1231-a681-4ada-9690-ed3a681ded33</Id>
          <HmiPageId>f0e0622e-4165-4db9-812e-340d3d3e3cc8</HmiPageId>
+         <ParentIndex>0</ParentIndex>
+      </HmiPageDefinition>
+      <HmiPageDefinition Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\IOLink.hmi\Definition.hmipagedef">
+         <Id>4af2e4a6-4f6b-4779-b3a2-ef56d741d6a0</Id>
+         <HmiPageId>c4daf194-72b1-4a3e-93eb-c800bfa6f01b</HmiPageId>
          <ParentIndex>0</ParentIndex>
       </HmiPageDefinition>
    </ItemGroup>
@@ -2075,6 +2086,13 @@
          <HmiPageId>f0e0622e-4165-4db9-812e-340d3d3e3cc8</HmiPageId>
          <ParentIndex>1</ParentIndex>
       </HmiParameters>
+      <HmiParameters Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\IOLink.hmi\Parameters.hmiparams">
+         <Id>31590fff-6ef1-46ec-a9c7-31004d694311</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmiparams</Extension>
+         <HmiPageId>c4daf194-72b1-4a3e-93eb-c800bfa6f01b</HmiPageId>
+         <ParentIndex>1</ParentIndex>
+      </HmiParameters>
    </ItemGroup>
    <ItemGroup>
       <HmiProfiles Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Profiles.hmiprofiles">
@@ -2111,6 +2129,11 @@
       </HmiVariables>
       <HmiVariables Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Safety_Info.hmi\Variables.hmivar">
          <Id>dae48323-7e00-4aab-aa2b-833d85b382be</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </HmiVariables>
+      <HmiVariables Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\IOLink.hmi\Variables.hmivar">
+         <Id>05fdfa10-8669-459d-9bbc-0c263956adcd</Id>
          <Visible>False</Visible>
          <ParentIndex>2</ParentIndex>
       </HmiVariables>
@@ -2281,6 +2304,28 @@
          <ThumbnailId>16076149-6d22-488f-8d2e-b77a92d1d867</ThumbnailId>
          <ParentIndex>31</ParentIndex>
       </Image>
+      <Image Include="Logical Elements\IOLinkGraphic.png">
+         <Id>82060f54-2129-4880-bfc9-55df72f34671</Id>
+         <DisplayName>IOLinkGraphic</DisplayName>
+         <ImageWidth>1280</ImageWidth>
+         <ImageHeight>800</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <SourceId>a9af017e-a58f-4ef9-8a28-90836f15d259</SourceId>
+         <ThumbnailId>449f9a68-02e4-4b69-a76d-0a3deab5637d</ThumbnailId>
+         <ParentIndex>32</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\IOLinkMaster.jpg">
+         <Id>48c9bd6c-ee7e-4ba9-89fe-449dab10af7a</Id>
+         <DisplayName>IOLinkMaster</DisplayName>
+         <ImageWidth>1280</ImageWidth>
+         <ImageHeight>800</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <SourceId>eb51da3a-37b5-4cb3-b322-2fdd94f81a3e</SourceId>
+         <ThumbnailId>6bc99a96-bce0-4e41-825c-97af6fa045ca</ThumbnailId>
+         <ParentIndex>33</ParentIndex>
+      </Image>
    </ItemGroup>
    <ItemGroup>
       <ImageSource Include="RecycleBin\f651f1c1-0139-4d71-8ebb-828040616b29\life aquatic movie poster.png\Source">
@@ -2358,6 +2403,16 @@
          <ImageId>57d2d161-188c-431c-a21d-05dc0a22c5ba</ImageId>
          <ParentIndex>0</ParentIndex>
       </ImageSource>
+      <ImageSource Include="Logical Elements\IOLinkGraphic.png\Source">
+         <Id>a9af017e-a58f-4ef9-8a28-90836f15d259</Id>
+         <ImageId>82060f54-2129-4880-bfc9-55df72f34671</ImageId>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\IOLinkMaster.jpg\Source">
+         <Id>eb51da3a-37b5-4cb3-b322-2fdd94f81a3e</Id>
+         <ImageId>48c9bd6c-ee7e-4ba9-89fe-449dab10af7a</ImageId>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
    </ItemGroup>
    <ItemGroup>
       <ImageThumbnail Include="RecycleBin\f651f1c1-0139-4d71-8ebb-828040616b29\life aquatic movie poster.png\Thumbnail">
@@ -2433,6 +2488,16 @@
       <ImageThumbnail Include="Logical Elements\battery-charging.png\Thumbnail">
          <Id>16076149-6d22-488f-8d2e-b77a92d1d867</Id>
          <ImageId>57d2d161-188c-431c-a21d-05dc0a22c5ba</ImageId>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\IOLinkGraphic.png\Thumbnail">
+         <Id>449f9a68-02e4-4b69-a76d-0a3deab5637d</Id>
+         <ImageId>82060f54-2129-4880-bfc9-55df72f34671</ImageId>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\IOLinkMaster.jpg\Thumbnail">
+         <Id>6bc99a96-bce0-4e41-825c-97af6fa045ca</Id>
+         <ImageId>48c9bd6c-ee7e-4ba9-89fe-449dab10af7a</ImageId>
          <ParentIndex>1</ParentIndex>
       </ImageThumbnail>
    </ItemGroup>
