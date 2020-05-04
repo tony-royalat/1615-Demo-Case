@@ -10,12 +10,6 @@
       </CockpitDocument>
    </ItemGroup>
    <ItemGroup>
-      <CodeWorksheet Include="RecycleBin\ae23182a-785a-49d6-a665-baf4a3cce2d9\Sensors.pou\Code.st">
-         <Id>5d27eb1e-6951-4d5e-bc6b-a5f32a659d65</Id>
-         <Extension>.st</Extension>
-         <Type>.st</Type>
-         <ParentIndex>2</ParentIndex>
-      </CodeWorksheet>
       <CodeWorksheet Include="Logical Elements\Main.pou\Code.st">
          <Id>845d8596-eacf-4214-a616-a559db6bd8b2</Id>
          <Extension>.st</Extension>
@@ -62,136 +56,6 @@
       </DataList>
    </ItemGroup>
    <ItemGroup>
-      <DataListReference Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\DataList.dlr4pd">
-         <Id>95472a44-f382-45d3-b8bd-6201a1cf224e</Id>
-         <Visible>false</Visible>
-         <ParentIndex>2</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\Interface\DataList.dlr4pd">
-         <Id>32ccbb0e-eb43-4bb0-b140-f0a23a35d710</Id>
-         <Visible>false</Visible>
-         <ParentIndex>2</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\Port_1\DataList.dlr4pd">
-         <Id>a8abd6ac-ec26-4400-a018-fa10767f579d</Id>
-         <Visible>false</Visible>
-         <ParentIndex>2</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\Port_2\DataList.dlr4pd">
-         <Id>ec966a0b-15f1-41ed-9a6c-be537f311f58</Id>
-         <Visible>false</Visible>
-         <ParentIndex>2</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\DataList.dlr4pd">
-         <Id>9f3170e8-7df2-4c04-8978-c0de9c939fd7</Id>
-         <Visible>false</Visible>
-         <ParentIndex>7</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_51\QUINT4-UPS_24DC_5\DataList.dlr4pd">
-         <Id>e7e45c54-f3e7-44d1-a279-8bfd01ae8f40</Id>
-         <Visible>false</Visible>
-         <ParentIndex>3</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_51\DataList.dlr4pd">
-         <Id>122dbbec-a4cb-4540-8f8e-0edd9af48dfc</Id>
-         <Visible>false</Visible>
-         <ParentIndex>4</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\DataList.dlr4pd">
-         <Id>ecf420d8-9629-449d-9c49-b8e79b2b311e</Id>
-         <Visible>false</Visible>
-         <ParentIndex>6</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\DataList.dlr4pd">
-         <Id>ad518cfc-6d04-4c54-8452-7f86b65d6249</Id>
-         <Visible>false</Visible>
-         <ParentIndex>2</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\Interface\DataList.dlr4pd">
-         <Id>2454e491-861a-4425-a085-c44b512f8a39</Id>
-         <Visible>false</Visible>
-         <ParentIndex>2</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\Port_1\DataList.dlr4pd">
-         <Id>96193eca-919c-4b36-bcc4-3b11c76822b2</Id>
-         <Visible>false</Visible>
-         <ParentIndex>2</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\Port_2\DataList.dlr4pd">
-         <Id>54aa20a2-7c7c-4d0a-a9b6-4a866f4545a4</Id>
-         <Visible>false</Visible>
-         <ParentIndex>2</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\DataList.dlr4pd">
-         <Id>7dbc626d-f6e9-41b5-9291-cb26f5036f86</Id>
-         <Visible>false</Visible>
-         <ParentIndex>7</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes\IO-Link_In_Out__8_bytes\DataList.dlr4pd">
-         <Id>0d74154a-f442-4b80-9000-3edb2d32e350</Id>
-         <Visible>false</Visible>
-         <ParentIndex>3</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes\DataList.dlr4pd">
-         <Id>70cef4c6-5fbc-47ed-9041-dbe32bc1e6a4</Id>
-         <Visible>false</Visible>
-         <ParentIndex>4</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__4_bytes\IO-Link_In_Out__4_bytes\DataList.dlr4pd">
-         <Id>52726335-8753-42e1-95da-3c9532070285</Id>
-         <Visible>false</Visible>
-         <ParentIndex>3</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__4_bytes\DataList.dlr4pd">
-         <Id>b52cbabe-5d98-454b-b1f8-59b856b7e184</Id>
-         <Visible>false</Visible>
-         <ParentIndex>4</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__2_bytes\IO-Link_In_Out__2_bytes\DataList.dlr4pd">
-         <Id>35a35baa-2d91-436b-81e1-83a025947ab3</Id>
-         <Visible>false</Visible>
-         <ParentIndex>3</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__2_bytes\DataList.dlr4pd">
-         <Id>e15d90da-989a-4b5e-a601-77458d134118</Id>
-         <Visible>false</Visible>
-         <ParentIndex>4</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes1\IO-Link_In_Out__8_bytes\DataList.dlr4pd">
-         <Id>cc3dbc86-4246-4937-ad18-3fc29838b16e</Id>
-         <Visible>false</Visible>
-         <ParentIndex>3</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes1\DataList.dlr4pd">
-         <Id>c56fb78e-d3a0-487a-a2a6-357982fb091f</Id>
-         <Visible>false</Visible>
-         <ParentIndex>4</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes2\IO-Link_In_Out__8_bytes\DataList.dlr4pd">
-         <Id>fabd11da-5d66-4dcb-b19f-13becb96ca5c</Id>
-         <Visible>false</Visible>
-         <ParentIndex>3</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes2\DataList.dlr4pd">
-         <Id>0f002fa2-3240-4ff2-ae00-e92cee055058</Id>
-         <Visible>false</Visible>
-         <ParentIndex>4</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes3\IO-Link_In_Out__8_bytes\DataList.dlr4pd">
-         <Id>5650a461-0cec-4f32-ab4a-fcd46ce2331f</Id>
-         <Visible>false</Visible>
-         <ParentIndex>3</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes3\DataList.dlr4pd">
-         <Id>e2e804df-19f4-493a-b103-94491e90a713</Id>
-         <Visible>false</Visible>
-         <ParentIndex>4</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\DataList.dlr4pd">
-         <Id>558c96fd-6448-4092-836f-98a1180b5bad</Id>
-         <Visible>false</Visible>
-         <ParentIndex>11</ParentIndex>
-      </DataListReference>
       <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PLCnext\DataList.dlr2pl">
          <Id>c461f925-b7a5-4871-a0be-1c773bc03c3d</Id>
          <Visible>false</Visible>
@@ -377,136 +241,6 @@
       </DataTypeWorksheet>
    </ItemGroup>
    <ItemGroup>
-      <DeviceInstanceDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\5a23b1b4-8024-4af3-9a11-2704730b3a40.ds">
-         <Id>c4558264-cb4e-4afd-add9-b8802b98dd76</Id>
-         <Visible>False</Visible>
-         <ParentIndex>1</ParentIndex>
-      </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\Interface\3a531c88-e481-409a-b778-82d29c274309.ds">
-         <Id>bdb6833c-018a-402a-9467-ceb29e950d57</Id>
-         <Visible>False</Visible>
-         <ParentIndex>1</ParentIndex>
-      </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\Port_1\f4facd12-776d-4c04-a20e-f794729ab80e.ds">
-         <Id>e4be8068-dd76-4063-96b3-343e9ddc035f</Id>
-         <Visible>False</Visible>
-         <ParentIndex>1</ParentIndex>
-      </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\Port_2\5fe64948-50cf-470e-8703-fb08ae56f370.ds">
-         <Id>a263a70b-3cd7-423f-9aaa-30a9c716ce7a</Id>
-         <Visible>False</Visible>
-         <ParentIndex>1</ParentIndex>
-      </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\8aa87001-e77c-4371-b59b-7a319336d474.ds">
-         <Id>92df2f0d-a054-4c84-b7c2-f99e72ee5681</Id>
-         <Visible>False</Visible>
-         <ParentIndex>6</ParentIndex>
-      </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_51\QUINT4-UPS_24DC_5\acfee2fc-c539-458d-9854-c97f1ca4f9c7.ds">
-         <Id>b8aafead-d922-4584-9f6b-d8c08129a573</Id>
-         <Visible>False</Visible>
-         <ParentIndex>2</ParentIndex>
-      </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_51\c802df65-b419-4a65-aa77-2ee08c2a92e5.ds">
-         <Id>f6a8b45d-073a-403c-bf4c-378f3a7e5677</Id>
-         <Visible>False</Visible>
-         <ParentIndex>3</ParentIndex>
-      </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\eb4502d1-d5ef-488c-b631-11de860f5f3c.ds">
-         <Id>53cab1c2-11bf-4aa7-9875-c753b0934fa4</Id>
-         <Visible>False</Visible>
-         <ParentIndex>5</ParentIndex>
-      </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\501b9d2a-be56-4a02-8a34-11ca3a23cdb3.ds">
-         <Id>eec5d889-2507-4d04-858d-fea03ffa954d</Id>
-         <Visible>False</Visible>
-         <ParentIndex>1</ParentIndex>
-      </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\Interface\d893c474-862a-4f6b-a216-4f6283a6eb4e.ds">
-         <Id>82c9ea4a-77f5-4c1c-afdd-8454d997fed8</Id>
-         <Visible>False</Visible>
-         <ParentIndex>1</ParentIndex>
-      </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\Port_1\f9bff5dd-12ed-4f72-bf60-d1db6bfd8e54.ds">
-         <Id>691e4815-af4f-4832-8a7f-7cb5f514d713</Id>
-         <Visible>False</Visible>
-         <ParentIndex>1</ParentIndex>
-      </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\Port_2\78bea621-31d8-413e-a283-4c63480e19ca.ds">
-         <Id>d9ee6c88-84c0-4d38-890f-1e443fcb7cff</Id>
-         <Visible>False</Visible>
-         <ParentIndex>1</ParentIndex>
-      </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\88be36f5-f3a3-4d6f-bfe4-49da596d450a.ds">
-         <Id>cce4bf59-7200-4824-b3ea-5a7958641b13</Id>
-         <Visible>False</Visible>
-         <ParentIndex>6</ParentIndex>
-      </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes\IO-Link_In_Out__8_bytes\3682c24b-0745-4aa9-ba7e-9c4582420ef0.ds">
-         <Id>f9bdc529-9568-462f-9557-71817630f1fa</Id>
-         <Visible>False</Visible>
-         <ParentIndex>2</ParentIndex>
-      </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes\3dec1654-2d67-4a8f-b810-6f6fefa60bd1.ds">
-         <Id>131a86a3-6f79-4fbb-9178-23b077964931</Id>
-         <Visible>False</Visible>
-         <ParentIndex>3</ParentIndex>
-      </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__4_bytes\IO-Link_In_Out__4_bytes\5c08228f-b75d-455a-85da-343183b353a9.ds">
-         <Id>8d699ddd-ee3c-4a13-9350-c0af0d204248</Id>
-         <Visible>False</Visible>
-         <ParentIndex>2</ParentIndex>
-      </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__4_bytes\20a8107b-b829-4d9b-b53f-137b3aae85ba.ds">
-         <Id>af5bd082-4303-4c39-b02d-001f3fa422c2</Id>
-         <Visible>False</Visible>
-         <ParentIndex>3</ParentIndex>
-      </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__2_bytes\IO-Link_In_Out__2_bytes\f07b3049-d3a0-4754-8d37-8ee213c2be92.ds">
-         <Id>8b410f59-7d1b-4e03-aeb2-5456a162f54e</Id>
-         <Visible>False</Visible>
-         <ParentIndex>2</ParentIndex>
-      </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__2_bytes\04817916-d8b6-4d82-8898-a5385d8b3243.ds">
-         <Id>351d5621-4fef-4d8b-a084-efb0ee4cd91c</Id>
-         <Visible>False</Visible>
-         <ParentIndex>3</ParentIndex>
-      </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes1\IO-Link_In_Out__8_bytes\0c2ceba6-53d5-449c-b6dc-f0ceb8a19808.ds">
-         <Id>9534bc26-c852-4790-80a0-3e02512e6ce1</Id>
-         <Visible>False</Visible>
-         <ParentIndex>2</ParentIndex>
-      </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes1\983cf32c-d1f3-4777-abc4-04a8a3681f98.ds">
-         <Id>b8a04c63-a0d6-4b70-9b2e-7374b6f6d7d3</Id>
-         <Visible>False</Visible>
-         <ParentIndex>3</ParentIndex>
-      </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes2\IO-Link_In_Out__8_bytes\1e10aebb-bb20-454d-92a8-694bf977c734.ds">
-         <Id>41eb78c6-8aee-4d9f-9228-3887d146416d</Id>
-         <Visible>False</Visible>
-         <ParentIndex>2</ParentIndex>
-      </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes2\7aa6efb4-49ed-44cd-85a7-b1261be60fb2.ds">
-         <Id>00a4d330-52a2-45c3-8df4-7d137eaf5fb7</Id>
-         <Visible>False</Visible>
-         <ParentIndex>3</ParentIndex>
-      </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes3\IO-Link_In_Out__8_bytes\5014cb08-9035-4f58-99a0-62b6b414166d.ds">
-         <Id>a38b30a1-d078-4ad8-a63c-291acc3b3bb2</Id>
-         <Visible>False</Visible>
-         <ParentIndex>2</ParentIndex>
-      </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes3\040fbc92-7570-4789-b514-4f2867f2243d.ds">
-         <Id>d4f6953e-159a-45bb-ba38-679929d72812</Id>
-         <Visible>False</Visible>
-         <ParentIndex>3</ParentIndex>
-      </DeviceInstanceDocument>
-      <DeviceInstanceDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\3a8551b0-9c1f-42a8-b07a-fde5bca7e1de.ds">
-         <Id>5315182e-1f6f-4c49-9735-c1b77842f3ff</Id>
-         <Visible>False</Visible>
-         <ParentIndex>10</ParentIndex>
-      </DeviceInstanceDocument>
       <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\b84580d7-61ea-48ec-9861-abe43adbd376.ds">
          <Id>4aa93581-1707-4566-a886-5adcfbc978ae</Id>
          <Visible>False</Visible>
@@ -1230,313 +964,10 @@
          <FolderType>References</FolderType>
          <ParentIndex>0</ParentIndex>
       </Folder>
-      <Folder Include="RecycleBin">
-         <Id>110521e3-8993-4c11-ae9d-1aa6cbc539df</Id>
-         <FolderType>RecycleBin</FolderType>
-         <LastestItemNo>5</LastestItemNo>
-         <Visible>false</Visible>
-         <ParentIndex>1</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\f651f1c1-0139-4d71-8ebb-828040616b29">
-         <Id>ba2f890d-9cda-4d33-bdd6-363310d2b94b</Id>
-         <FolderType>RecycleBinItem</FolderType>
-         <ItemNo>5</ItemNo>
-         <ParentIndex>0</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\526d8fc6-04dc-411f-b353-b9847bf1410e">
-         <Id>6a02d66e-fa48-45f6-9e68-b9f5e530376f</Id>
-         <FolderType>RecycleBinItem</FolderType>
-         <ItemNo>4</ItemNo>
-         <ParentIndex>1</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\ae23182a-785a-49d6-a665-baf4a3cce2d9">
-         <Id>b1642536-e335-4386-98dd-d7efd7188511</Id>
-         <FolderType>RecycleBinItem</FolderType>
-         <ItemNo>3</ItemNo>
-         <ParentIndex>2</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\ae23182a-785a-49d6-a665-baf4a3cce2d9\Sensors.pou">
-         <Id>ae23182a-785a-49d6-a665-baf4a3cce2d9</Id>
-         <FolderType>PouFolder</FolderType>
-         <Id>ae23182a-785a-49d6-a665-baf4a3cce2d9</Id>
-         <ParentIndex>0</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288">
-         <Id>83b374d5-aa93-438d-bfd5-b4ce252e5ee6</Id>
-         <FolderType>RecycleBinItem</FolderType>
-         <ItemNo>2</ItemNo>
-         <ParentIndex>3</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5">
-         <Id>9600fdf3-fa0f-463a-9bbb-4b79f6833288</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>eb4502d1-d5ef-488c-b631-11de860f5f3c</InstanceId>
-         <TypeId>dc676cee-f184-4367-971e-bd42693ad550</TypeId>
-         <TypeName>QUINT4-UPS 24DC/5</TypeName>
-         <TypeRevision>01/V1.0.0</TypeRevision>
-         <ParentIndex>0</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5">
-         <Id>ed0ccbe8-868b-49f0-b47a-9ba1ffa84984</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>8aa87001-e77c-4371-b59b-7a319336d474</InstanceId>
-         <TypeId>8cdfb880-311e-45dc-a9ee-975f4ef28a40</TypeId>
-         <TypeName>QUINT4-UPS 24DC/5</TypeName>
-         <TypeRevision>01/V1.0.0</TypeRevision>
-         <ParentIndex>0</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5">
-         <Id>fcfd3841-95fa-43ec-9e53-af14be3055b3</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>5a23b1b4-8024-4af3-9a11-2704730b3a40</InstanceId>
-         <TypeId>f0c793ef-9a81-4526-873c-087736c9b72c</TypeId>
-         <TypeName>QUINT4-UPS 24DC/5</TypeName>
-         <TypeRevision>01/V1.0.0</TypeRevision>
-         <ParentIndex>0</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\Interface">
-         <Id>47b8c1e8-e99b-43ce-89f3-c89c62ce40bc</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>3a531c88-e481-409a-b778-82d29c274309</InstanceId>
-         <TypeId>d09d7f1a-d804-4673-8efe-3a5325149174</TypeId>
-         <TypeName>Interface</TypeName>
-         <TypeRevision>00/1.00</TypeRevision>
-         <ParentIndex>1</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\Port_1">
-         <Id>d8ad2b64-f136-4186-a746-02844dd7b263</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>f4facd12-776d-4c04-a20e-f794729ab80e</InstanceId>
-         <TypeId>93774c02-2a62-451b-94ec-42d10afa629f</TypeId>
-         <TypeName>Port 1</TypeName>
-         <TypeRevision>01/V1.0.0</TypeRevision>
-         <ParentIndex>2</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\Port_2">
-         <Id>a3fa345e-1b1c-462a-a3cf-ab892bf8fb79</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>5fe64948-50cf-470e-8703-fb08ae56f370</InstanceId>
-         <TypeId>98cb069b-7bb1-46a5-a82c-4a482aafdd10</TypeId>
-         <TypeName>Port 2</TypeName>
-         <TypeRevision>01/V1.0.0</TypeRevision>
-         <ParentIndex>3</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_51">
-         <Id>b6c10bfd-2e24-4dd3-9970-b0b6ac671c3a</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>c802df65-b419-4a65-aa77-2ee08c2a92e5</InstanceId>
-         <TypeId>72c5193a-3f4f-493a-8feb-58881e385e29</TypeId>
-         <TypeName>QUINT4-UPS 24DC/5</TypeName>
-         <TypeRevision>1.0/1.0.0</TypeRevision>
-         <ParentIndex>1</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_51\QUINT4-UPS_24DC_5">
-         <Id>7209158e-877e-4063-9731-0fb3c92daa71</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>acfee2fc-c539-458d-9854-c97f1ca4f9c7</InstanceId>
-         <TypeId>d58674f4-ae9a-46b9-88e7-e16f89175fc7</TypeId>
-         <TypeName>QUINT4-UPS 24DC/5</TypeName>
-         <TypeRevision>00/1.00</TypeRevision>
-         <ParentIndex>0</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba">
-         <Id>8c9c5d5e-d585-433c-a6f9-9480e9ad3334</Id>
-         <FolderType>RecycleBinItem</FolderType>
-         <ItemNo>1</ItemNo>
-         <ParentIndex>4</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8">
-         <Id>78cfcaf5-56f6-4363-b292-56db08744eba</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>3a8551b0-9c1f-42a8-b07a-fde5bca7e1de</InstanceId>
-         <TypeId>0a719339-2b64-4514-9528-38c68aebaffc</TypeId>
-         <TypeName>IOL MA8 PN DI8</TypeName>
-         <TypeRevision>1/V1.5.28</TypeRevision>
-         <ParentIndex>0</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8">
-         <Id>8432af6c-82f0-46d3-8a57-36ed0e8c9d92</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>88be36f5-f3a3-4d6f-bfe4-49da596d450a</InstanceId>
-         <TypeId>0bcd153e-3539-4aa6-8965-45af5a35d2f6</TypeId>
-         <TypeName>IOL MA8 PN DI8</TypeName>
-         <TypeRevision>1/V1.5.28</TypeRevision>
-         <ParentIndex>0</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8">
-         <Id>0f1f464c-0904-4b18-a1fb-2370c1365416</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>501b9d2a-be56-4a02-8a34-11ca3a23cdb3</InstanceId>
-         <TypeId>07390b46-b716-4231-ad13-dec7bf6fcc77</TypeId>
-         <TypeName>IOL MA8 PN DI8</TypeName>
-         <TypeRevision>1/V1.5.28</TypeRevision>
-         <ParentIndex>0</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\Interface">
-         <Id>9b164b11-242c-430d-a47c-d813d361fa8b</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>d893c474-862a-4f6b-a216-4f6283a6eb4e</InstanceId>
-         <TypeId>b532e0a5-2c45-4810-92f4-16f1e5b2a808</TypeId>
-         <TypeName>Interface</TypeName>
-         <TypeRevision>00/1.00</TypeRevision>
-         <ParentIndex>1</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\Port_1">
-         <Id>018996a0-4c04-465b-9126-39d582c82ac1</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>f9bff5dd-12ed-4f72-bf60-d1db6bfd8e54</InstanceId>
-         <TypeId>b811a2ea-7ccc-4308-b267-99a08560458d</TypeId>
-         <TypeName>Port 1</TypeName>
-         <TypeRevision>1/V1.5.28</TypeRevision>
-         <ParentIndex>2</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\Port_2">
-         <Id>1ef31507-7dc6-4e31-ba0b-b575e1016ba3</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>78bea621-31d8-413e-a283-4c63480e19ca</InstanceId>
-         <TypeId>9bb9eb0b-a02e-434a-93e2-ca1813bc39d8</TypeId>
-         <TypeName>Port 2</TypeName>
-         <TypeRevision>1/V1.5.28</TypeRevision>
-         <ParentIndex>3</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes">
-         <Id>21361fd7-200b-40fc-b797-aedae9e5b326</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>3dec1654-2d67-4a8f-b810-6f6fefa60bd1</InstanceId>
-         <TypeId>780b9fb2-d0f1-48b1-bce1-44b836392a67</TypeId>
-         <TypeName>IO-Link In/Out  8 bytes</TypeName>
-         <TypeRevision>00/1.00</TypeRevision>
-         <ParentIndex>1</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes\IO-Link_In_Out__8_bytes">
-         <Id>2b6c50ed-dcd1-40f8-a8c1-4ee1ca86f5f9</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>3682c24b-0745-4aa9-ba7e-9c4582420ef0</InstanceId>
-         <TypeId>85d9b425-2354-44ff-80d3-7e9973e8788c</TypeId>
-         <TypeName>IO-Link In/Out  8 bytes</TypeName>
-         <TypeRevision>00/1.00</TypeRevision>
-         <ParentIndex>0</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__4_bytes">
-         <Id>6f4785eb-e109-4bdf-b4f1-3e5f3d03c66e</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>20a8107b-b829-4d9b-b53f-137b3aae85ba</InstanceId>
-         <TypeId>68a15a8c-f618-49b0-9b22-24d3a2d6b448</TypeId>
-         <TypeName>IO-Link In/Out  4 bytes</TypeName>
-         <TypeRevision>00/1.00</TypeRevision>
-         <ParentIndex>2</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__4_bytes\IO-Link_In_Out__4_bytes">
-         <Id>ac42dfbf-99f3-45d9-a66e-ed8f29ef4163</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>5c08228f-b75d-455a-85da-343183b353a9</InstanceId>
-         <TypeId>edd1f86e-0981-4418-bb0e-dd7a915af057</TypeId>
-         <TypeName>IO-Link In/Out  4 bytes</TypeName>
-         <TypeRevision>00/1.00</TypeRevision>
-         <ParentIndex>0</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__2_bytes">
-         <Id>35e7ee68-1fd2-4f37-a48c-677574d5c5d3</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>04817916-d8b6-4d82-8898-a5385d8b3243</InstanceId>
-         <TypeId>e6a7cdd3-0f0e-497f-a1a1-cae648cd8897</TypeId>
-         <TypeName>IO-Link In/Out  2 bytes</TypeName>
-         <TypeRevision>00/1.00</TypeRevision>
-         <ParentIndex>3</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__2_bytes\IO-Link_In_Out__2_bytes">
-         <Id>3777c57c-0a0a-439c-8442-2e1758cc5a4c</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>f07b3049-d3a0-4754-8d37-8ee213c2be92</InstanceId>
-         <TypeId>4ea09dbe-0995-446e-bff1-e803c78af165</TypeId>
-         <TypeName>IO-Link In/Out  2 bytes</TypeName>
-         <TypeRevision>00/1.00</TypeRevision>
-         <ParentIndex>0</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes1">
-         <Id>e0cbf5d6-c9e1-4442-b347-a4a1a1913c75</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>983cf32c-d1f3-4777-abc4-04a8a3681f98</InstanceId>
-         <TypeId>780b9fb2-d0f1-48b1-bce1-44b836392a67</TypeId>
-         <TypeName>IO-Link In/Out  8 bytes</TypeName>
-         <TypeRevision>00/1.00</TypeRevision>
-         <ParentIndex>4</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes1\IO-Link_In_Out__8_bytes">
-         <Id>a6c0730d-6e52-49f4-bf66-1ebe3985d5c6</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>0c2ceba6-53d5-449c-b6dc-f0ceb8a19808</InstanceId>
-         <TypeId>85d9b425-2354-44ff-80d3-7e9973e8788c</TypeId>
-         <TypeName>IO-Link In/Out  8 bytes</TypeName>
-         <TypeRevision>00/1.00</TypeRevision>
-         <ParentIndex>0</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes2">
-         <Id>efdbd118-2371-4d5c-b8a8-ca78257c28fd</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>7aa6efb4-49ed-44cd-85a7-b1261be60fb2</InstanceId>
-         <TypeId>780b9fb2-d0f1-48b1-bce1-44b836392a67</TypeId>
-         <TypeName>IO-Link In/Out  8 bytes</TypeName>
-         <TypeRevision>00/1.00</TypeRevision>
-         <ParentIndex>5</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes2\IO-Link_In_Out__8_bytes">
-         <Id>36351086-a6b4-4c1f-8b89-198f5c41102b</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>1e10aebb-bb20-454d-92a8-694bf977c734</InstanceId>
-         <TypeId>85d9b425-2354-44ff-80d3-7e9973e8788c</TypeId>
-         <TypeName>IO-Link In/Out  8 bytes</TypeName>
-         <TypeRevision>00/1.00</TypeRevision>
-         <ParentIndex>0</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes3">
-         <Id>edc43917-c1ab-4c38-a57f-68ccc7d56e2a</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>040fbc92-7570-4789-b514-4f2867f2243d</InstanceId>
-         <TypeId>780b9fb2-d0f1-48b1-bce1-44b836392a67</TypeId>
-         <TypeName>IO-Link In/Out  8 bytes</TypeName>
-         <TypeRevision>00/1.00</TypeRevision>
-         <ParentIndex>6</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes3\IO-Link_In_Out__8_bytes">
-         <Id>0dab8bf1-9087-4440-acdb-f5f7e8e043b9</Id>
-         <FolderType>DeviceInstance</FolderType>
-         <AllowReordering>true</AllowReordering>
-         <InstanceId>5014cb08-9035-4f58-99a0-62b6b414166d</InstanceId>
-         <TypeId>85d9b425-2354-44ff-80d3-7e9973e8788c</TypeId>
-         <TypeName>IO-Link In/Out  8 bytes</TypeName>
-         <TypeRevision>00/1.00</TypeRevision>
-         <ParentIndex>0</ParentIndex>
-      </Folder>
       <Folder Include="Hardware">
          <Id>b614ac7b-e691-415d-9ea0-2d9d7a7e1117</Id>
          <FolderType>Root</FolderType>
-         <ParentIndex>2</ParentIndex>
+         <ParentIndex>1</ParentIndex>
       </Folder>
       <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7">
          <Id>09451df4-5b18-4474-b1bd-c5f625d4c2b7</Id>
@@ -1925,7 +1356,7 @@
       <Folder Include="Logical Elements">
          <Id>d31eab2b-b1a0-4c93-bdaf-090bc38c49f4</Id>
          <FolderType>Root</FolderType>
-         <ParentIndex>3</ParentIndex>
+         <ParentIndex>2</ParentIndex>
       </Folder>
       <Folder Include="Logical Elements\Main.pou">
          <Id>111dd1e0-8977-404a-b4bf-24eeb8c05c76</Id>
@@ -1935,12 +1366,14 @@
       </Folder>
       <Folder Include="Logical Elements\Modules">
          <Id>248696ea-045c-45fa-aa31-7f3ad47a3aeb</Id>
-         <TypeCategories>Devices</TypeCategories>
+         <TypeCategories>Devices;Network</TypeCategories>
+         <FolderType></FolderType>
          <ParentIndex>13</ParentIndex>
       </Folder>
       <Folder Include="Logical Elements\Modules\Submodules">
          <Id>f8ec53e7-6c29-4ea7-afa3-ac830bf40d04</Id>
-         <TypeCategories>Devices</TypeCategories>
+         <TypeCategories>Devices;Network</TypeCategories>
+         <FolderType></FolderType>
          <ParentIndex>45</ParentIndex>
       </Folder>
       <Folder Include="Logical Elements\Buttons.pou">
@@ -2139,28 +1572,6 @@
       </HmiVariables>
    </ItemGroup>
    <ItemGroup>
-      <Image Include="RecycleBin\f651f1c1-0139-4d71-8ebb-828040616b29\life aquatic movie poster.png">
-         <Id>f651f1c1-0139-4d71-8ebb-828040616b29</Id>
-         <DisplayName>life aquatic movie poster</DisplayName>
-         <ImageWidth>1280</ImageWidth>
-         <ImageHeight>800</ImageHeight>
-         <Revision>1</Revision>
-         <ImageType>Raster</ImageType>
-         <SourceId>12c30525-13d2-4082-8da0-df9669467d7e</SourceId>
-         <ThumbnailId>c4444dd6-8204-40d4-be08-891dc2c6a304</ThumbnailId>
-         <ParentIndex>0</ParentIndex>
-      </Image>
-      <Image Include="RecycleBin\526d8fc6-04dc-411f-b353-b9847bf1410e\SafetySwitches.jpg">
-         <Id>526d8fc6-04dc-411f-b353-b9847bf1410e</Id>
-         <DisplayName>SafetySwitches</DisplayName>
-         <ImageWidth>1280</ImageWidth>
-         <ImageHeight>800</ImageHeight>
-         <Revision>1</Revision>
-         <ImageType>Raster</ImageType>
-         <SourceId>e438e4c6-0eb3-4031-a9e3-d2ef3e455ea7</SourceId>
-         <ThumbnailId>a42a48ac-303b-4400-9659-6c676215caf7</ThumbnailId>
-         <ParentIndex>0</ParentIndex>
-      </Image>
       <Image Include="Logical Elements\Aquatic Header.jpg">
          <Id>8f647f73-d9ed-4e64-9f6f-79812f3677e1</Id>
          <DisplayName>Aquatic Header</DisplayName>
@@ -2328,16 +1739,6 @@
       </Image>
    </ItemGroup>
    <ItemGroup>
-      <ImageSource Include="RecycleBin\f651f1c1-0139-4d71-8ebb-828040616b29\life aquatic movie poster.png\Source">
-         <Id>12c30525-13d2-4082-8da0-df9669467d7e</Id>
-         <ImageId>f651f1c1-0139-4d71-8ebb-828040616b29</ImageId>
-         <ParentIndex>0</ParentIndex>
-      </ImageSource>
-      <ImageSource Include="RecycleBin\526d8fc6-04dc-411f-b353-b9847bf1410e\SafetySwitches.jpg\Source">
-         <Id>e438e4c6-0eb3-4031-a9e3-d2ef3e455ea7</Id>
-         <ImageId>526d8fc6-04dc-411f-b353-b9847bf1410e</ImageId>
-         <ParentIndex>0</ParentIndex>
-      </ImageSource>
       <ImageSource Include="Logical Elements\Aquatic Header.jpg\Source">
          <Id>589fc6ac-4731-4dc8-8911-6c701ae8eaca</Id>
          <ImageId>8f647f73-d9ed-4e64-9f6f-79812f3677e1</ImageId>
@@ -2415,16 +1816,6 @@
       </ImageSource>
    </ItemGroup>
    <ItemGroup>
-      <ImageThumbnail Include="RecycleBin\f651f1c1-0139-4d71-8ebb-828040616b29\life aquatic movie poster.png\Thumbnail">
-         <Id>c4444dd6-8204-40d4-be08-891dc2c6a304</Id>
-         <ImageId>f651f1c1-0139-4d71-8ebb-828040616b29</ImageId>
-         <ParentIndex>1</ParentIndex>
-      </ImageThumbnail>
-      <ImageThumbnail Include="RecycleBin\526d8fc6-04dc-411f-b353-b9847bf1410e\SafetySwitches.jpg\Thumbnail">
-         <Id>a42a48ac-303b-4400-9659-6c676215caf7</Id>
-         <ImageId>526d8fc6-04dc-411f-b353-b9847bf1410e</ImageId>
-         <ParentIndex>1</ParentIndex>
-      </ImageThumbnail>
       <ImageThumbnail Include="Logical Elements\Aquatic Header.jpg\Thumbnail">
          <Id>32ba82f5-4dcf-4fc4-8f04-99d15283ec39</Id>
          <ImageId>8f647f73-d9ed-4e64-9f6f-79812f3677e1</ImageId>
@@ -2502,136 +1893,6 @@
       </ImageThumbnail>
    </ItemGroup>
    <ItemGroup>
-      <InstancePropertiesDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\5a23b1b4-8024-4af3-9a11-2704730b3a40.iprop">
-         <Id>473ea71e-7ca3-4a58-b57a-2d1eb9ea6762</Id>
-         <Visible>False</Visible>
-         <ParentIndex>0</ParentIndex>
-      </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\Interface\3a531c88-e481-409a-b778-82d29c274309.iprop">
-         <Id>c9c87314-b0f8-4356-a9a9-80c6a1414f5d</Id>
-         <Visible>False</Visible>
-         <ParentIndex>0</ParentIndex>
-      </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\Port_1\f4facd12-776d-4c04-a20e-f794729ab80e.iprop">
-         <Id>c47dbc76-1ab7-4755-a646-14da8189dd3a</Id>
-         <Visible>False</Visible>
-         <ParentIndex>0</ParentIndex>
-      </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\Port_2\5fe64948-50cf-470e-8703-fb08ae56f370.iprop">
-         <Id>f29b80ac-2398-4875-b233-18cbfc6d8e6f</Id>
-         <Visible>False</Visible>
-         <ParentIndex>0</ParentIndex>
-      </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\8aa87001-e77c-4371-b59b-7a319336d474.iprop">
-         <Id>5982d1f6-4120-4ff2-9ab0-ea28776e1c27</Id>
-         <Visible>False</Visible>
-         <ParentIndex>5</ParentIndex>
-      </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_51\QUINT4-UPS_24DC_5\acfee2fc-c539-458d-9854-c97f1ca4f9c7.iprop">
-         <Id>12436a40-4bd4-40b1-9152-c6069d62dc75</Id>
-         <Visible>False</Visible>
-         <ParentIndex>0</ParentIndex>
-      </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_51\c802df65-b419-4a65-aa77-2ee08c2a92e5.iprop">
-         <Id>5ff2d9a7-6088-47d4-8b09-0bb543f435cf</Id>
-         <Visible>False</Visible>
-         <ParentIndex>2</ParentIndex>
-      </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\eb4502d1-d5ef-488c-b631-11de860f5f3c.iprop">
-         <Id>e256204d-fe56-4ac8-b911-73559bd0b19c</Id>
-         <Visible>False</Visible>
-         <ParentIndex>3</ParentIndex>
-      </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\501b9d2a-be56-4a02-8a34-11ca3a23cdb3.iprop">
-         <Id>ac6a946f-d5d5-4a72-9a59-3a42031760b7</Id>
-         <Visible>False</Visible>
-         <ParentIndex>0</ParentIndex>
-      </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\Interface\d893c474-862a-4f6b-a216-4f6283a6eb4e.iprop">
-         <Id>5d3d51cc-e667-41b8-9455-2068fa3c4857</Id>
-         <Visible>False</Visible>
-         <ParentIndex>0</ParentIndex>
-      </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\Port_1\f9bff5dd-12ed-4f72-bf60-d1db6bfd8e54.iprop">
-         <Id>1c033f38-4d0c-437a-b61d-118e0b547120</Id>
-         <Visible>False</Visible>
-         <ParentIndex>0</ParentIndex>
-      </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\Port_2\78bea621-31d8-413e-a283-4c63480e19ca.iprop">
-         <Id>a40a1bdb-e167-48a0-a25a-353861870804</Id>
-         <Visible>False</Visible>
-         <ParentIndex>0</ParentIndex>
-      </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\88be36f5-f3a3-4d6f-bfe4-49da596d450a.iprop">
-         <Id>cada633d-c0f8-41fa-9f4a-da5133388b52</Id>
-         <Visible>False</Visible>
-         <ParentIndex>5</ParentIndex>
-      </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes\IO-Link_In_Out__8_bytes\3682c24b-0745-4aa9-ba7e-9c4582420ef0.iprop">
-         <Id>c1436ccf-cf2e-4002-8f4a-ed2a10f120c8</Id>
-         <Visible>False</Visible>
-         <ParentIndex>0</ParentIndex>
-      </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes\3dec1654-2d67-4a8f-b810-6f6fefa60bd1.iprop">
-         <Id>e860401f-969a-49ed-a7e1-10c9c681726a</Id>
-         <Visible>False</Visible>
-         <ParentIndex>2</ParentIndex>
-      </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__4_bytes\IO-Link_In_Out__4_bytes\5c08228f-b75d-455a-85da-343183b353a9.iprop">
-         <Id>58e64d01-9020-490d-adde-60efae6d2586</Id>
-         <Visible>False</Visible>
-         <ParentIndex>0</ParentIndex>
-      </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__4_bytes\20a8107b-b829-4d9b-b53f-137b3aae85ba.iprop">
-         <Id>27080bca-4729-4c56-b0cb-7e520fbfea5b</Id>
-         <Visible>False</Visible>
-         <ParentIndex>2</ParentIndex>
-      </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__2_bytes\IO-Link_In_Out__2_bytes\f07b3049-d3a0-4754-8d37-8ee213c2be92.iprop">
-         <Id>67197584-6c72-4325-b788-70fd3720aeab</Id>
-         <Visible>False</Visible>
-         <ParentIndex>0</ParentIndex>
-      </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__2_bytes\04817916-d8b6-4d82-8898-a5385d8b3243.iprop">
-         <Id>c17727f1-ab62-4692-b416-f87b5947d0c6</Id>
-         <Visible>False</Visible>
-         <ParentIndex>2</ParentIndex>
-      </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes1\IO-Link_In_Out__8_bytes\0c2ceba6-53d5-449c-b6dc-f0ceb8a19808.iprop">
-         <Id>03d9458f-c7c1-4902-811b-a6ef5a5fbf7b</Id>
-         <Visible>False</Visible>
-         <ParentIndex>0</ParentIndex>
-      </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes1\983cf32c-d1f3-4777-abc4-04a8a3681f98.iprop">
-         <Id>fe71b961-cd2c-4180-a9a5-67df66e0d6c3</Id>
-         <Visible>False</Visible>
-         <ParentIndex>2</ParentIndex>
-      </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes2\IO-Link_In_Out__8_bytes\1e10aebb-bb20-454d-92a8-694bf977c734.iprop">
-         <Id>f9a7f1ca-dc82-492d-902a-4754541b3998</Id>
-         <Visible>False</Visible>
-         <ParentIndex>0</ParentIndex>
-      </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes2\7aa6efb4-49ed-44cd-85a7-b1261be60fb2.iprop">
-         <Id>92e638e0-318c-42e0-99f0-130b0147a193</Id>
-         <Visible>False</Visible>
-         <ParentIndex>2</ParentIndex>
-      </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes3\IO-Link_In_Out__8_bytes\5014cb08-9035-4f58-99a0-62b6b414166d.iprop">
-         <Id>eac6f3dd-932c-4b16-ae56-ea805e72123d</Id>
-         <Visible>False</Visible>
-         <ParentIndex>0</ParentIndex>
-      </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes3\040fbc92-7570-4789-b514-4f2867f2243d.iprop">
-         <Id>d105a918-6ce2-4687-9793-f14e356bf9bc</Id>
-         <Visible>False</Visible>
-         <ParentIndex>2</ParentIndex>
-      </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\3a8551b0-9c1f-42a8-b07a-fde5bca7e1de.iprop">
-         <Id>d8771f51-73bf-4f2c-ab76-80f2b97c08ef</Id>
-         <Visible>False</Visible>
-         <ParentIndex>8</ParentIndex>
-      </InstancePropertiesDocument>
       <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\b84580d7-61ea-48ec-9861-abe43adbd376.iprop">
          <Id>f903f749-03dc-4e96-8d6e-9493709c320e</Id>
          <Visible>False</Visible>
@@ -2849,11 +2110,6 @@
       </MetaComponent>
    </ItemGroup>
    <ItemGroup>
-      <MetadataDocument Include="RecycleBin\ae23182a-785a-49d6-a665-baf4a3cce2d9\Sensors.pou\Metadata.meta">
-         <Id>46faf107-2166-43ad-8c64-a5643f785c7f</Id>
-         <Extension>.meta</Extension>
-         <ParentIndex>0</ParentIndex>
-      </MetadataDocument>
       <MetadataDocument Include="Logical Elements\Main.pou\Metadata.meta">
          <Id>f7b82640-74d8-4755-8691-16166db24300</Id>
          <Extension>.meta</Extension>
@@ -3008,48 +2264,6 @@
       </OPCUASettingsDocument>
    </ItemGroup>
    <ItemGroup>
-      <ParameterDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_51\QUINT4-UPS_24DC_5\acfee2fc-c539-458d-9854-c97f1ca4f9c7.par">
-         <Id>bde2c3c4-4efa-46af-a285-1c77af9c622f</Id>
-         <Visible>False</Visible>
-         <ProtocolName>PN</ProtocolName>
-         <ParentIndex>1</ParentIndex>
-      </ParameterDocument>
-      <ParameterDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes\IO-Link_In_Out__8_bytes\3682c24b-0745-4aa9-ba7e-9c4582420ef0.par">
-         <Id>6cd76a9f-8179-4d9f-9bf8-b2466a58a147</Id>
-         <Visible>False</Visible>
-         <ProtocolName>PN</ProtocolName>
-         <ParentIndex>1</ParentIndex>
-      </ParameterDocument>
-      <ParameterDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__4_bytes\IO-Link_In_Out__4_bytes\5c08228f-b75d-455a-85da-343183b353a9.par">
-         <Id>33e138f8-94f6-4033-8009-32d81195bd37</Id>
-         <Visible>False</Visible>
-         <ProtocolName>PN</ProtocolName>
-         <ParentIndex>1</ParentIndex>
-      </ParameterDocument>
-      <ParameterDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__2_bytes\IO-Link_In_Out__2_bytes\f07b3049-d3a0-4754-8d37-8ee213c2be92.par">
-         <Id>11280b41-05fc-49d5-bba4-13a658484ff6</Id>
-         <Visible>False</Visible>
-         <ProtocolName>PN</ProtocolName>
-         <ParentIndex>1</ParentIndex>
-      </ParameterDocument>
-      <ParameterDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes1\IO-Link_In_Out__8_bytes\0c2ceba6-53d5-449c-b6dc-f0ceb8a19808.par">
-         <Id>242ad570-e44a-4828-ad61-484c59e7f4a3</Id>
-         <Visible>False</Visible>
-         <ProtocolName>PN</ProtocolName>
-         <ParentIndex>1</ParentIndex>
-      </ParameterDocument>
-      <ParameterDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes2\IO-Link_In_Out__8_bytes\1e10aebb-bb20-454d-92a8-694bf977c734.par">
-         <Id>b8914305-2169-4444-82dc-f5333732289b</Id>
-         <Visible>False</Visible>
-         <ProtocolName>PN</ProtocolName>
-         <ParentIndex>1</ParentIndex>
-      </ParameterDocument>
-      <ParameterDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes3\IO-Link_In_Out__8_bytes\5014cb08-9035-4f58-99a0-62b6b414166d.par">
-         <Id>a0e5467c-d119-4736-a71a-0fbc4a1d0fae</Id>
-         <Visible>False</Visible>
-         <ProtocolName>PN</ProtocolName>
-         <ParentIndex>1</ParentIndex>
-      </ParameterDocument>
       <ParameterDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS1\QUINT4-UPS\0802ffd7-f127-442a-a81a-56d4d0f564ab.par">
          <Id>48d3ee88-6452-4d90-845c-91cce1a9613d</Id>
          <Visible>False</Visible>
@@ -3120,16 +2334,6 @@
       </PlmConfiguration>
    </ItemGroup>
    <ItemGroup>
-      <PropertiesDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\eb4502d1-d5ef-488c-b631-11de860f5f3c.properties">
-         <Id>1ed4ba9a-8955-4ae5-a67e-f47f11358666</Id>
-         <Visible>False</Visible>
-         <ParentIndex>4</ParentIndex>
-      </PropertiesDocument>
-      <PropertiesDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\3a8551b0-9c1f-42a8-b07a-fde5bca7e1de.properties">
-         <Id>ce51417c-7076-4c43-907a-c1885151bf42</Id>
-         <Visible>False</Visible>
-         <ParentIndex>9</ParentIndex>
-      </PropertiesDocument>
       <PropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\b84580d7-61ea-48ec-9861-abe43adbd376.properties">
          <Id>37917af1-3834-4ab0-91fa-82f0f8001601</Id>
          <Visible>False</Visible>
@@ -3164,28 +2368,6 @@
       </ResourceSettings>
    </ItemGroup>
    <ItemGroup>
-      <RestoreDocument Include="RecycleBin\f651f1c1-0139-4d71-8ebb-828040616b29\f651f1c1-0139-4d71-8ebb-828040616b29">
-         <Id>ce77a0da-7814-4a0d-89e9-8fe2f82d15de</Id>
-         <ParentIndex>1</ParentIndex>
-      </RestoreDocument>
-      <RestoreDocument Include="RecycleBin\526d8fc6-04dc-411f-b353-b9847bf1410e\526d8fc6-04dc-411f-b353-b9847bf1410e">
-         <Id>a1e37367-b625-40ad-919e-68369ab4307d</Id>
-         <ParentIndex>1</ParentIndex>
-      </RestoreDocument>
-      <RestoreDocument Include="RecycleBin\ae23182a-785a-49d6-a665-baf4a3cce2d9\ae23182a-785a-49d6-a665-baf4a3cce2d9">
-         <Id>dca9514c-78f9-48f3-8556-4dba5a882db3</Id>
-         <ParentIndex>1</ParentIndex>
-      </RestoreDocument>
-      <RestoreDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\9600fdf3-fa0f-463a-9bbb-4b79f6833288">
-         <Id>c27ce26d-6f3a-4866-846d-cbcceb45c757</Id>
-         <ParentIndex>1</ParentIndex>
-      </RestoreDocument>
-      <RestoreDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\78cfcaf5-56f6-4363-b292-56db08744eba">
-         <Id>4d1092db-0ecb-4e88-b4d7-a4fc0d58dc45</Id>
-         <ParentIndex>1</ParentIndex>
-      </RestoreDocument>
-   </ItemGroup>
-   <ItemGroup>
       <SolutionReference Include="PLCnext Controller">
          <Id>f03304e6-74af-4f35-bd52-e302cb6caea4</Id>
          <HintPath>$(SystemLibrariesPath)\PLCnext Controller.pcwlx</HintPath>
@@ -3208,61 +2390,6 @@
       </SolutionReference>
    </ItemGroup>
    <ItemGroup>
-      <StationDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_5\8aa87001-e77c-4371-b59b-7a319336d474.station">
-         <Id>515db3de-2e2c-4ce1-9858-c03f15b51ce7</Id>
-         <Visible>False</Visible>
-         <ParentIndex>4</ParentIndex>
-      </StationDocument>
-      <StationDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\QUINT4-UPS_24DC_51\c802df65-b419-4a65-aa77-2ee08c2a92e5.station">
-         <Id>821fccbf-d405-43ff-9340-f28eb3dc0167</Id>
-         <Visible>False</Visible>
-         <ParentIndex>1</ParentIndex>
-      </StationDocument>
-      <StationDocument Include="RecycleBin\9600fdf3-fa0f-463a-9bbb-4b79f6833288\QUINT4-UPS_24DC_5\eb4502d1-d5ef-488c-b631-11de860f5f3c.station">
-         <Id>efe45499-aa4b-4224-8c2f-d2ad955103c5</Id>
-         <Visible>False</Visible>
-         <ParentIndex>2</ParentIndex>
-      </StationDocument>
-      <StationDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IOL_MA8_PN_DI8\88be36f5-f3a3-4d6f-bfe4-49da596d450a.station">
-         <Id>e2d5aef6-1df4-4302-b67c-c22e35a21334</Id>
-         <Visible>False</Visible>
-         <ParentIndex>4</ParentIndex>
-      </StationDocument>
-      <StationDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes\3dec1654-2d67-4a8f-b810-6f6fefa60bd1.station">
-         <Id>a88d6a6e-c19e-491d-96dd-1f54b1506568</Id>
-         <Visible>False</Visible>
-         <ParentIndex>1</ParentIndex>
-      </StationDocument>
-      <StationDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__4_bytes\20a8107b-b829-4d9b-b53f-137b3aae85ba.station">
-         <Id>3feae450-5607-4ff6-8827-74ca122adc80</Id>
-         <Visible>False</Visible>
-         <ParentIndex>1</ParentIndex>
-      </StationDocument>
-      <StationDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__2_bytes\04817916-d8b6-4d82-8898-a5385d8b3243.station">
-         <Id>6c19f29e-1899-4e51-a081-27e115863407</Id>
-         <Visible>False</Visible>
-         <ParentIndex>1</ParentIndex>
-      </StationDocument>
-      <StationDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes1\983cf32c-d1f3-4777-abc4-04a8a3681f98.station">
-         <Id>55a0201c-9f2f-437b-8d14-459172bfc678</Id>
-         <Visible>False</Visible>
-         <ParentIndex>1</ParentIndex>
-      </StationDocument>
-      <StationDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes2\7aa6efb4-49ed-44cd-85a7-b1261be60fb2.station">
-         <Id>bb132679-ca90-4398-8076-497aa89a92cf</Id>
-         <Visible>False</Visible>
-         <ParentIndex>1</ParentIndex>
-      </StationDocument>
-      <StationDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\IO-Link_In_Out__8_bytes3\040fbc92-7570-4789-b514-4f2867f2243d.station">
-         <Id>8f7f03d8-ad80-4544-a0db-a71247d47407</Id>
-         <Visible>False</Visible>
-         <ParentIndex>1</ParentIndex>
-      </StationDocument>
-      <StationDocument Include="RecycleBin\78cfcaf5-56f6-4363-b292-56db08744eba\IOL_MA8_PN_DI8\3a8551b0-9c1f-42a8-b07a-fde5bca7e1de.station">
-         <Id>4c9f0b39-7868-4d9d-8a31-8ff0921ad4f2</Id>
-         <Visible>False</Visible>
-         <ParentIndex>7</ParentIndex>
-      </StationDocument>
       <StationDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS\1aacabcd-31c7-4680-b96f-fea8e937740c.station">
          <Id>66650239-6f94-4372-b243-bd98e8669fb4</Id>
          <Visible>False</Visible>
@@ -3342,10 +2469,6 @@
       </TransportDeviceListDocument>
    </ItemGroup>
    <ItemGroup>
-      <UserMetadata Include="RecycleBin\ae23182a-785a-49d6-a665-baf4a3cce2d9\Sensors.pou\VersionHistory.usermeta">
-         <Id>ac74825d-4f60-408c-aa76-20353a77ba92</Id>
-         <ParentIndex>3</ParentIndex>
-      </UserMetadata>
       <UserMetadata Include="Hardware\VersionHistory.usermeta">
          <Id>c79c51e8-38f3-46a1-b33f-b740487ba7c3</Id>
          <ParentIndex>5</ParentIndex>
@@ -3372,11 +2495,38 @@
       </UserMetadata>
    </ItemGroup>
    <ItemGroup>
-      <VariableWorksheet Include="RecycleBin\ae23182a-785a-49d6-a665-baf4a3cce2d9\Sensors.pou\Variables.var">
-         <Id>eb0fc851-d0aa-4e74-9097-287e274fea8a</Id>
-         <Extension>.var</Extension>
-         <ParentIndex>1</ParentIndex>
-      </VariableWorksheet>
+      <UserMetadataDescription Include="Hardware\Description.html">
+         <Id>bf8b544b-b424-4c6c-9608-b8f0ed299a9f</Id>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\Main.pou\Description.html">
+         <Id>37555d0a-cae8-45a4-929f-1b174e5925b6</Id>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\Buttons.pou\Description.html">
+         <Id>5bc6fe4a-ab48-4c2e-b639-9c49b8eddac3</Id>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\SafetyRelay.pou\Description.html">
+         <Id>3db86beb-f9ff-49f9-9b6e-7a65bb7f955b</Id>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\IOLink.pou\Description.html">
+         <Id>16a1e4d4-17d2-4182-b827-f07e7148bfd2</Id>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\HMILogic.pou\Description.html">
+         <Id>e5776aa3-42a1-4a89-bee6-ae6189cbb983</Id>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </UserMetadataDescription>
+   </ItemGroup>
+   <ItemGroup>
       <VariableWorksheet Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\RES_829976591E98446682C292813E058D7E\GlobalVariables.var">
          <Id>9c176e32-8058-4821-b2cd-c43fbd816f75</Id>
          <IsVarConfig>true</IsVarConfig>
@@ -3411,7 +2561,7 @@
    </ItemGroup>
    <PropertyGroup>
       <ProjectId>5370a173-31a3-4247-9887-8407f3470dce</ProjectId>
-      <AdeProductVersion>1.4.14.0</AdeProductVersion>
+      <AdeProductVersion>1.4.15.0</AdeProductVersion>
       <AdeSafetyVersion>1.0.0.1</AdeSafetyVersion>
       <HmiSchemaRevision>3</HmiSchemaRevision>
       <SafetyId>dc971477-cb7e-4beb-9f3c-e37812446713</SafetyId>

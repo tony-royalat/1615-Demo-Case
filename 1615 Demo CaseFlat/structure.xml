@@ -405,112 +405,56 @@
     </folder>
     <folder name="RecycleBin">
       <folder name="78cfcaf5-56f6-4363-b292-56db08744eba">
-        <file name="78cfcaf5-56f6-4363-b292-56db08744eba" id="78cfcaf5-~78cfcaf5-5~0000" />
         <folder name="IOL_MA8_PN_DI8">
-          <file name="3a8551b0-9c1f-42a8-b07a-fde5bca7e1de.ds" id="IOL_MA8_P~3a8551b0-9~0000.ds" />
           <folder name="IO-Link_In_Out__2_bytes">
-            <file name="04817916-d8b6-4d82-8898-a5385d8b3243.ds" id="IO-Link_I~04817916-d~0000.ds" />
-            <folder name="IO-Link_In_Out__2_bytes">
-              <file name="f07b3049-d3a0-4754-8d37-8ee213c2be92.ds" id="IO-Link_I~f07b3049-d~0000.ds" />
-            </folder>
+            <folder name="IO-Link_In_Out__2_bytes" />
           </folder>
           <folder name="IO-Link_In_Out__4_bytes">
-            <file name="20a8107b-b829-4d9b-b53f-137b3aae85ba.ds" id="IO-Link_I~20a8107b-b~0000.ds" />
-            <folder name="IO-Link_In_Out__4_bytes">
-              <file name="5c08228f-b75d-455a-85da-343183b353a9.ds" id="IO-Link_I~5c08228f-b~0000.ds" />
-            </folder>
+            <folder name="IO-Link_In_Out__4_bytes" />
           </folder>
           <folder name="IO-Link_In_Out__8_bytes">
-            <file name="3dec1654-2d67-4a8f-b810-6f6fefa60bd1.ds" id="IO-Link_I~3dec1654-2~0000.ds" />
-            <folder name="IO-Link_In_Out__8_bytes">
-              <file name="3682c24b-0745-4aa9-ba7e-9c4582420ef0.ds" id="IO-Link_I~3682c24b-0~0000.ds" />
-            </folder>
+            <folder name="IO-Link_In_Out__8_bytes" />
           </folder>
           <folder name="IO-Link_In_Out__8_bytes1">
-            <file name="983cf32c-d1f3-4777-abc4-04a8a3681f98.ds" id="IO-Link_I~983cf32c-d~0000.ds" />
-            <folder name="IO-Link_In_Out__8_bytes">
-              <file name="0c2ceba6-53d5-449c-b6dc-f0ceb8a19808.ds" id="IO-Link_I~0c2ceba6-5~0000.ds" />
-            </folder>
+            <folder name="IO-Link_In_Out__8_bytes" />
           </folder>
           <folder name="IO-Link_In_Out__8_bytes2">
-            <file name="7aa6efb4-49ed-44cd-85a7-b1261be60fb2.ds" id="IO-Link_I~7aa6efb4-4~0000.ds" />
-            <folder name="IO-Link_In_Out__8_bytes">
-              <file name="1e10aebb-bb20-454d-92a8-694bf977c734.ds" id="IO-Link_I~1e10aebb-b~0000.ds" />
-            </folder>
+            <folder name="IO-Link_In_Out__8_bytes" />
           </folder>
           <folder name="IO-Link_In_Out__8_bytes3">
-            <file name="040fbc92-7570-4789-b514-4f2867f2243d.ds" id="IO-Link_I~040fbc92-7~0000.ds" />
-            <folder name="IO-Link_In_Out__8_bytes">
-              <file name="5014cb08-9035-4f58-99a0-62b6b414166d.ds" id="IO-Link_I~5014cb08-9~0000.ds" />
-            </folder>
+            <folder name="IO-Link_In_Out__8_bytes" />
           </folder>
           <folder name="IOL_MA8_PN_DI8">
-            <file name="88be36f5-f3a3-4d6f-bfe4-49da596d450a.ds" id="IOL_MA8_P~88be36f5-f~0000.ds" />
-            <folder name="Interface">
-              <file name="d893c474-862a-4f6b-a216-4f6283a6eb4e.ds" id="Interface~d893c474-8~0000.ds" />
-            </folder>
-            <folder name="IOL_MA8_PN_DI8">
-              <file name="501b9d2a-be56-4a02-8a34-11ca3a23cdb3.ds" id="IOL_MA8_P~501b9d2a-b~0000.ds" />
-            </folder>
-            <folder name="Port_1">
-              <file name="f9bff5dd-12ed-4f72-bf60-d1db6bfd8e54.ds" id="Port_1~f9bff5dd-12ed~0000.ds" />
-            </folder>
-            <folder name="Port_2">
-              <file name="78bea621-31d8-413e-a283-4c63480e19ca.ds" id="Port_2~78bea621-31d8~0000.ds" />
-            </folder>
+            <folder name="Interface" />
+            <folder name="IOL_MA8_PN_DI8" />
+            <folder name="Port_1" />
+            <folder name="Port_2" />
           </folder>
         </folder>
       </folder>
       <folder name="9600fdf3-fa0f-463a-9bbb-4b79f6833288">
-        <file name="9600fdf3-fa0f-463a-9bbb-4b79f6833288" id="9600fdf3-~9600fdf3-f~0000" />
         <folder name="QUINT4-UPS_24DC_5">
-          <file name="eb4502d1-d5ef-488c-b631-11de860f5f3c.ds" id="QUINT4-UP~eb4502d1-d~0000.ds" />
           <folder name="QUINT4-UPS_24DC_5">
-            <file name="8aa87001-e77c-4371-b59b-7a319336d474.ds" id="QUINT4-UP~8aa87001-e~0000.ds" />
-            <folder name="Interface">
-              <file name="3a531c88-e481-409a-b778-82d29c274309.ds" id="Interface~3a531c88-e~0000.ds" />
-            </folder>
-            <folder name="Port_1">
-              <file name="f4facd12-776d-4c04-a20e-f794729ab80e.ds" id="Port_1~f4facd12-776d~0000.ds" />
-            </folder>
-            <folder name="Port_2">
-              <file name="5fe64948-50cf-470e-8703-fb08ae56f370.ds" id="Port_2~5fe64948-50cf~0000.ds" />
-            </folder>
-            <folder name="QUINT4-UPS_24DC_5">
-              <file name="5a23b1b4-8024-4af3-9a11-2704730b3a40.ds" id="QUINT4-UP~5a23b1b4-8~0000.ds" />
-            </folder>
+            <folder name="Interface" />
+            <folder name="Port_1" />
+            <folder name="Port_2" />
+            <folder name="QUINT4-UPS_24DC_5" />
           </folder>
           <folder name="QUINT4-UPS_24DC_51">
-            <file name="c802df65-b419-4a65-aa77-2ee08c2a92e5.ds" id="QUINT4-UP~c802df65-b~0000.ds" />
-            <folder name="QUINT4-UPS_24DC_5">
-              <file name="acfee2fc-c539-458d-9854-c97f1ca4f9c7.ds" id="QUINT4-UP~acfee2fc-c~0000.ds" />
-            </folder>
+            <folder name="QUINT4-UPS_24DC_5" />
           </folder>
         </folder>
       </folder>
       <folder name="ae23182a-785a-49d6-a665-baf4a3cce2d9">
-        <file name="ae23182a-785a-49d6-a665-baf4a3cce2d9" id="ae23182a-~ae23182a-7~0000" />
         <folder name="Sensors.pou">
-          <file name="Code.st" id="Sensors.pou~Code~0000.st" />
           <file name="Description.html" id="Sensors.p~Descriptio~0000.html" />
-          <file name="Metadata.meta" id="Sensors.pou~Metadata~0000.meta" />
-          <file name="Variables.var" id="Sensors.po~Variables~0000.var" />
-          <file name="VersionHistory.usermeta" id="Sensors.p~VersionHis~0000.usermeta" />
         </folder>
       </folder>
       <folder name="526d8fc6-04dc-411f-b353-b9847bf1410e">
-        <file name="526d8fc6-04dc-411f-b353-b9847bf1410e" id="526d8fc6-~526d8fc6-0~0000" />
-        <folder name="SafetySwitches.jpg">
-          <file name="Source" id="SafetySwitche~Source~0001" />
-          <file name="Thumbnail" id="SafetySwit~Thumbnail~0001" />
-        </folder>
+        <folder name="SafetySwitches.jpg" />
       </folder>
       <folder name="f651f1c1-0139-4d71-8ebb-828040616b29">
-        <file name="f651f1c1-0139-4d71-8ebb-828040616b29" id="f651f1c1-~f651f1c1-0~0000" />
-        <folder name="life aquatic movie poster.png">
-          <file name="Source" id="life aquatic ~Source~0001" />
-          <file name="Thumbnail" id="life aquat~Thumbnail~0001" />
-        </folder>
+        <folder name="life aquatic movie poster.png" />
       </folder>
     </folder>
   </folder>
