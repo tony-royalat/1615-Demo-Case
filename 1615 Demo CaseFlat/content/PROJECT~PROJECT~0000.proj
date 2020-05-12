@@ -239,6 +239,10 @@
          <Visible>False</Visible>
          <ParentIndex>8</ParentIndex>
       </DataTypeWorksheet>
+      <DataTypeWorksheet Include="Logical Elements\DataTypes.dt">
+         <Id>f190f6c7-932a-4f53-adaf-9b0bb0637f00</Id>
+         <ParentIndex>34</ParentIndex>
+      </DataTypeWorksheet>
    </ItemGroup>
    <ItemGroup>
       <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\b84580d7-61ea-48ec-9861-abe43adbd376.ds">
@@ -1819,76 +1823,91 @@
       <ImageThumbnail Include="Logical Elements\Aquatic Header.jpg\Thumbnail">
          <Id>32ba82f5-4dcf-4fc4-8f04-99d15283ec39</Id>
          <ImageId>8f647f73-d9ed-4e64-9f6f-79812f3677e1</ImageId>
+         <Revision>1</Revision>
          <ParentIndex>1</ParentIndex>
       </ImageThumbnail>
       <ImageThumbnail Include="Logical Elements\Aquatic.jpg\Thumbnail">
          <Id>5b9c83a0-da7c-4385-981d-f094233cf04f</Id>
          <ImageId>e7912ee4-7805-4d8f-81c9-e16ce5475f6a</ImageId>
+         <Revision>1</Revision>
          <ParentIndex>1</ParentIndex>
       </ImageThumbnail>
       <ImageThumbnail Include="Logical Elements\Deep Search.jpg\Thumbnail">
          <Id>0ff6e195-8422-4fd1-b96c-07ebf81dff50</Id>
          <ImageId>6944b9b4-9815-4dde-9bfc-3a6cfea0c0f0</ImageId>
+         <Revision>1</Revision>
          <ParentIndex>1</ParentIndex>
       </ImageThumbnail>
       <ImageThumbnail Include="Logical Elements\Quint4UPS.jpg\Thumbnail">
          <Id>bafe527e-d429-4f05-8eda-8502d4ce9fb4</Id>
          <ImageId>3259f8c1-e8f8-497b-825c-613f7489bb18</ImageId>
+         <Revision>1</Revision>
          <ParentIndex>1</ParentIndex>
       </ImageThumbnail>
       <ImageThumbnail Include="Logical Elements\SafetySwitches.jpg\Thumbnail">
          <Id>02062682-fc30-4e2d-892e-491f0db0ad04</Id>
          <ImageId>bb7fcb2a-5e4d-4052-b636-fd0fd6df20c5</ImageId>
+         <Revision>1</Revision>
          <ParentIndex>1</ParentIndex>
       </ImageThumbnail>
       <ImageThumbnail Include="Logical Elements\Life Aquatic Poster.png\Thumbnail">
          <Id>ab67204c-6a2f-42a8-9b9a-3a4a37207136</Id>
          <ImageId>b3e311af-0dba-46f5-b56c-f51652b98fe1</ImageId>
+         <Revision>1</Revision>
          <ParentIndex>1</ParentIndex>
       </ImageThumbnail>
       <ImageThumbnail Include="Logical Elements\battery-0.png\Thumbnail">
          <Id>0030cf03-a204-476e-8999-45ba53492285</Id>
          <ImageId>6c3b8252-b964-49c6-af41-43337a6f9aae</ImageId>
+         <Revision>1</Revision>
          <ParentIndex>1</ParentIndex>
       </ImageThumbnail>
       <ImageThumbnail Include="Logical Elements\battery-10.png\Thumbnail">
          <Id>b1899ca5-1516-40e6-8ba0-b9e94745345b</Id>
          <ImageId>ac3d518d-92d0-4ad5-8ec0-4fbeacbb0c9f</ImageId>
+         <Revision>1</Revision>
          <ParentIndex>1</ParentIndex>
       </ImageThumbnail>
       <ImageThumbnail Include="Logical Elements\battery-25.png\Thumbnail">
          <Id>0b08f99f-c03e-4938-a1cf-966522112a8c</Id>
          <ImageId>2ab43e8b-f23d-450d-9e94-51f9097c2644</ImageId>
+         <Revision>1</Revision>
          <ParentIndex>1</ParentIndex>
       </ImageThumbnail>
       <ImageThumbnail Include="Logical Elements\battery-50.png\Thumbnail">
          <Id>fd804633-3772-4dcf-bcaf-dd63b567d488</Id>
          <ImageId>e614cec0-8306-433f-8087-b461510163ff</ImageId>
+         <Revision>1</Revision>
          <ParentIndex>1</ParentIndex>
       </ImageThumbnail>
       <ImageThumbnail Include="Logical Elements\battery-75.png\Thumbnail">
          <Id>e5c70015-7bfa-4c08-bd24-7c3879499422</Id>
          <ImageId>4f7fa53f-fdff-4846-b9b0-1b5aeb95d815</ImageId>
+         <Revision>1</Revision>
          <ParentIndex>1</ParentIndex>
       </ImageThumbnail>
       <ImageThumbnail Include="Logical Elements\battery-100.png\Thumbnail">
          <Id>2ad2f62d-26aa-4ad7-ae19-357ad3c708b1</Id>
          <ImageId>101f36c5-ae45-4cdf-ad5f-dc527a8238de</ImageId>
+         <Revision>1</Revision>
          <ParentIndex>1</ParentIndex>
       </ImageThumbnail>
       <ImageThumbnail Include="Logical Elements\battery-charging.png\Thumbnail">
          <Id>16076149-6d22-488f-8d2e-b77a92d1d867</Id>
          <ImageId>57d2d161-188c-431c-a21d-05dc0a22c5ba</ImageId>
+         <Revision>1</Revision>
          <ParentIndex>1</ParentIndex>
       </ImageThumbnail>
       <ImageThumbnail Include="Logical Elements\IOLinkGraphic.png\Thumbnail">
          <Id>449f9a68-02e4-4b69-a76d-0a3deab5637d</Id>
          <ImageId>82060f54-2129-4880-bfc9-55df72f34671</ImageId>
+         <Revision>1</Revision>
          <ParentIndex>1</ParentIndex>
       </ImageThumbnail>
       <ImageThumbnail Include="Logical Elements\IOLinkMaster.jpg\Thumbnail">
          <Id>6bc99a96-bce0-4e41-825c-97af6fa045ca</Id>
          <ImageId>48c9bd6c-ee7e-4ba9-89fe-449dab10af7a</ImageId>
+         <Revision>1</Revision>
          <ParentIndex>1</ParentIndex>
       </ImageThumbnail>
    </ItemGroup>
@@ -2563,7 +2582,7 @@
       <ProjectId>5370a173-31a3-4247-9887-8407f3470dce</ProjectId>
       <AdeProductVersion>1.4.15.0</AdeProductVersion>
       <AdeSafetyVersion>1.0.0.1</AdeSafetyVersion>
-      <HmiSchemaRevision>3</HmiSchemaRevision>
+      <HmiSchemaRevision>4</HmiSchemaRevision>
       <SafetyId>dc971477-cb7e-4beb-9f3c-e37812446713</SafetyId>
    </PropertyGroup>
 </Project>

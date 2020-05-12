@@ -12,6 +12,7 @@ VAR_EXTERNAL
     OutputCurrent : REAL { CustomGroupReference('8b9ef511-00ee-4f78-ac7c-eb4a983b39ed') } {Id('034eff0a-869c-4057-8975-2b622f8e29fb')}; (*mA*)
     OutputVoltage : REAL { CustomGroupReference('8b9ef511-00ee-4f78-ac7c-eb4a983b39ed') } {Id('aaf607ff-0242-4e48-9a9a-b80fd5def97c')}; (*mV*)
     TimeToShutdown : DINT { CustomGroupReference('8b9ef511-00ee-4f78-ac7c-eb4a983b39ed') } {Id('235ba796-06f5-4ce3-883e-39b0977428f1')}; (*s*)
+    GetAllTheThings : StringArray { CustomGroupReference('8b9ef511-00ee-4f78-ac7c-eb4a983b39ed') } {Id('69b38fea-173e-4e08-a447-133c0338f4fd')};
 END_VAR
 
 VAR

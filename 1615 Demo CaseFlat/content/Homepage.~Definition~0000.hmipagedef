@@ -518,11 +518,11 @@
         <HmiObject xsi:type="Button" Rotation="0" ID="WLANButton" IsTabSelectable="true" TabOrder="0" NextId="1" LineColor="#FFCCD0D2" LineWidth="1" Text="WLAN" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
           <Origin>
             <X>30</X>
-            <Y>310</Y>
+            <Y>380</Y>
           </Origin>
           <Location>
             <X>30</X>
-            <Y>310</Y>
+            <Y>380</Y>
           </Location>
           <TransformCenter>
             <X>0</X>
@@ -554,20 +554,20 @@
             <Height>0</Height>
           </CornerRadii>
         </HmiObject>
-        <HmiObject xsi:type="Button" Rotation="0" ID="mGuardButton" IsTabSelectable="true" TabOrder="0" NextId="2" LineColor="#FFCCD0D2" LineWidth="1" Text="mGuard" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
+        <HmiObject xsi:type="Button" Rotation="0" ID="NodeREDButton" IsTabSelectable="true" TabOrder="0" NextId="2" LineColor="#FFCCD0D2" LineWidth="1" Text="Node-RED" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
           <Origin>
             <X>30</X>
-            <Y>380</Y>
+            <Y>450</Y>
           </Origin>
           <Location>
             <X>30</X>
-            <Y>380</Y>
+            <Y>450</Y>
           </Location>
           <TransformCenter>
             <X>0</X>
             <Y>0</Y>
           </TransformCenter>
-          <Action xsi:type="LaunchFileAction" ID="A1" LaunchFileCommandType="OpenUrl" LaunchFileUrl="https://192.168.42.1" LaunchFileWindowBehavior="SameWindow" LaunchFileSupportFileID="00000000-0000-0000-0000-000000000000" />
+          <Action xsi:type="LaunchFileAction" ID="A1" LaunchFileCommandType="OpenUrl" LaunchFileUrl="http://192.168.42.10:1880/" LaunchFileWindowBehavior="SameWindow" LaunchFileSupportFileID="00000000-0000-0000-0000-000000000000" />
           <EnableSecurityScope>Always</EnableSecurityScope>
           <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
           <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
@@ -596,11 +596,11 @@
         <HmiObject xsi:type="Button" Rotation="0" ID="NetworkSwitchButton" IsTabSelectable="true" TabOrder="0" NextId="1" LineColor="#FFCCD0D2" LineWidth="1" Text="Network" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
           <Origin>
             <X>30</X>
-            <Y>450</Y>
+            <Y>310</Y>
           </Origin>
           <Location>
             <X>30</X>
-            <Y>450</Y>
+            <Y>310</Y>
           </Location>
           <TransformCenter>
             <X>0</X>
@@ -621,6 +621,45 @@
           <Size>
             <Width>100</Width>
             <Height>50</Height>
+          </Size>
+          <FillWhenDown xsi:type="SolidFill" Color="#FF8ACCD1" />
+          <ImageArea>
+            <Width>50</Width>
+            <Height>50</Height>
+          </ImageArea>
+          <CornerRadii>
+            <Width>0</Width>
+            <Height>0</Height>
+          </CornerRadii>
+        </HmiObject>
+        <HmiObject xsi:type="Button" Rotation="0" ID="mGuardButton" IsTabSelectable="true" TabOrder="0" NextId="2" LineColor="#FFCCD0D2" LineWidth="1" Text="mGuard - Is Broke" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
+          <Origin>
+            <X>678</X>
+            <Y>551</Y>
+          </Origin>
+          <Location>
+            <X>678</X>
+            <Y>551</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Action xsi:type="LaunchFileAction" ID="A1" LaunchFileCommandType="OpenUrl" LaunchFileUrl="https://192.168.42.1" LaunchFileWindowBehavior="SameWindow" LaunchFileSupportFileID="00000000-0000-0000-0000-000000000000" />
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFECEDED" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>183</Width>
+            <Height>63</Height>
           </Size>
           <FillWhenDown xsi:type="SolidFill" Color="#FF8ACCD1" />
           <ImageArea>

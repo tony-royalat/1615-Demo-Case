@@ -1,0 +1,3 @@
+TYPE
+    StringArray : ARRAY[0..32] OF DWORD;
+END_TYPE

@@ -16,7 +16,7 @@
     <InstVal xPath="//Layer7[@uID='L7_1']/L7ObjList/Obj[@uID='o6_1a' type='ESM:Instance1']" Type="System.String"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7_1']/L7ObjList/Obj[@uID='o6_2' type='PLCnext:TaskProperties']" Type="System.String"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7_1']/L7ObjList/Obj[@uID='oe6_evts' type='PLCnext:Events']" Type="Ade.Fdcml.Core.StringAscii">Arp.Plc.Esm.OnColdStart</InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_1']/L7ObjList/Obj[@uID='o6_3' type='SysVarUpdateTask']" Type="Ade.Fdcml.Core.String">[UTF-8;]</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/L7ObjList/Obj[@uID='o6_3' type='SysVarUpdateTask']" Type="Ade.Fdcml.Core.String">[UTF-8;4379636C6963353031]</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='diSerNum']/Current" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='diFWVer']/Current" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='diHWVer']/Current" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
@@ -159,7 +159,7 @@
     <InstVal xPath="//Layer7[@uID='L7_3']/L7ObjList/Obj[@uID='hmi4' type='HMI:SessionTimeout']" Type="Ade.Fdcml.Core.Unsigned32">5000</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_3']/L7ObjList/Obj[@uID='hmi5' type='HMI:DataPollInterval']" Type="Ade.Fdcml.Core.Unsigned32">250</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_3']/L7ObjList/Obj[@uID='hmi10' type='HMI:AccessRights']" Type="Ade.Fdcml.Core.Unsigned8">0</InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_3']/L7ObjList/Obj[@uID='hmi11' type='SysVarUpdateTask']" Type="Ade.Fdcml.Core.String">[UTF-8;]</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_3']/L7ObjList/Obj[@uID='hmi11' type='SysVarUpdateTask']" Type="Ade.Fdcml.Core.String">[UTF-8;4379636C6963353031]</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_3']/L7ObjList/Obj[@uID='hmi12' type='HMI:RecoveryCountdown']" Type="Ade.Fdcml.Core.Unsigned8">10</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_3']/PDList/PD[@uid=hmipd001]" Type="System.String">HMI_STATUS</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_3']/PDList/PD[@uid=hmipd002]" Type="System.String">HMI_CONTROL</InstVal>
@@ -283,8 +283,8 @@
     <InstVal xPath="//Layer7[@uID='L7_ax']/AXLF:InDelay" Type="Ade.Fdcml.Core.Unsigned32">0</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_ax']/AXLF:OutDelay" Type="Ade.Fdcml.Core.Unsigned32">0</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_ax']/L7ObjList/Obj[@uID='axlo4' type='AXLF:ProfileVersion']" Type="Ade.Fdcml.Core.StringAscii">7.0.0</InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_ax']/L7ObjList/Obj[@uID='axlo12' type='AXLF:IOUpdateTask']" Type="Ade.Fdcml.Core.String">[UTF-8;]</InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_ax']/L7ObjList/Obj[@uID='axlo13' type='SysVarUpdateTask']" Type="Ade.Fdcml.Core.String">[UTF-8;]</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_ax']/L7ObjList/Obj[@uID='axlo12' type='AXLF:IOUpdateTask']" Type="Ade.Fdcml.Core.String">[UTF-8;4379636C6963353031]</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_ax']/L7ObjList/Obj[@uID='axlo13' type='SysVarUpdateTask']" Type="Ade.Fdcml.Core.String">[UTF-8;4379636C6963353031]</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_ax']/PDList/PD[@uid=axiod0]" Type="System.String">AXIO_DIAG_STATUS_REG_HI</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_ax']/PDList/PD[@uid=axiod1]" Type="System.String">AXIO_DIAG_STATUS_REG_LOW</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_ax']/PDList/PD[@uid=axiod2]" Type="System.String">AXIO_DIAG_PARAM_REG_HI</InstVal>
