@@ -90,6 +90,21 @@
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
       </Role>
+      <Role TypeName="Variable" ObjectId="8c179d00-8ed7-4185-a19b-d95da986a58c" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>EStop1</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-1 / PLC.EStop1</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
     </Datum>
     <Datum Uuid="92a4a488-248b-479d-9400-2a1f6d3f1c0e">
       <FunctionText />
@@ -539,6 +554,21 @@
         <NodeId>1</NodeId>
         <InputFrameId>2</InputFrameId>
         <OutputFrameId>3</OutputFrameId>
+      </Role>
+      <Role TypeName="Variable" ObjectId="af51644e-77a4-49a4-92ea-01e6cb2e5782" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>EStop1Indicator</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-1 / PLC.EStop1Indicator</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
       </Role>
     </Datum>
     <Datum Uuid="0b248557-6427-4779-97a8-48cc11c6324f">
@@ -4126,25 +4156,6 @@
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
       </Role>
     </Datum>
-    <Datum Uuid="1e199428-b95b-42d9-b1f5-d1c19e435045">
-      <FunctionText />
-      <Comment />
-      <Role TypeName="Variable" ObjectId="8c179d00-8ed7-4185-a19b-d95da986a58c" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
-        <Name>EStop1</Name>
-        <Usage>Global</Usage>
-        <DataType>BOOL</DataType>
-        <Address />
-        <InitValue>FALSE</InitValue>
-        <IsRetain>False</IsRetain>
-        <IsConstant>False</IsConstant>
-        <IsOpc>False</IsOpc>
-        <IsHmi>False</IsHmi>
-        <IsProficloud>False</IsProficloud>
-        <Comment />
-        <DisplayName>axc-f-2152-1 / PLC.EStop1</DisplayName>
-        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
-      </Role>
-    </Datum>
     <Datum Uuid="d12b96a8-a7d4-413e-98bd-9a5a669cc1bf">
       <FunctionText />
       <Comment />
@@ -5630,7 +5641,7 @@
         <RoleDatumUuid>2e96b1b4-194a-4850-9628-9d169e36e6c1</RoleDatumUuid>
         <RoleDatumUuid>38bced37-2e37-4130-8575-eaf7935ffa6c</RoleDatumUuid>
         <RoleDatumUuid>84935f50-f6da-479e-a601-a2082afb6d70</RoleDatumUuid>
-        <RoleDatumUuid>1e199428-b95b-42d9-b1f5-d1c19e435045</RoleDatumUuid>
+        <RoleDatumUuid>97a403f9-7ef3-4b77-98a5-096931456071</RoleDatumUuid>
         <RoleDatumUuid>e99f2269-8d03-4aec-901d-62af8b991b76</RoleDatumUuid>
         <RoleDatumUuid>e8971769-f588-4761-866e-4e9a730a23db</RoleDatumUuid>
         <RoleDatumUuid>9a021e1c-239a-4586-8c29-46c440be53cb</RoleDatumUuid>
@@ -5662,6 +5673,7 @@
         <RoleDatumUuid>8b31e9ea-ebe5-41cf-9a60-72359c4adacd</RoleDatumUuid>
         <RoleDatumUuid>b3c4128b-53d9-41f0-b3b2-e92308103cf2</RoleDatumUuid>
         <RoleDatumUuid>021333a0-80bb-4b2e-820f-958ad6242716</RoleDatumUuid>
+        <RoleDatumUuid>f18e14b2-e1fc-4b86-b7fe-42766876894e</RoleDatumUuid>
       </RoleGroup>
       <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75" ObjectId="971398c9-e054-4349-a1d9-e00a1840c9f4" DisplayName="System Variables" IsReadOnly="True">
         <RoleDatumUuid>ae807d18-40f0-4651-966c-6f4a5563fe17</RoleDatumUuid>

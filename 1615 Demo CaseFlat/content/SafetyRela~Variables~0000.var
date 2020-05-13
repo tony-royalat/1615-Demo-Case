@@ -11,4 +11,10 @@ VAR_EXTERNAL
     GuardingSwitch2 : BOOL { CustomGroupReference('7b8705a3-41e1-49ba-b66a-2e505f219e20') } {Id('ef200d0f-4d57-4ab3-872b-b51a05ecda93')};
     GuardingSwitch3 : BOOL { CustomGroupReference('7b8705a3-41e1-49ba-b66a-2e505f219e20') } {Id('77adbbe3-2d67-4b45-bc6e-5699f1a2d418')};
     EStop1 : BOOL { CustomGroupReference('7b8705a3-41e1-49ba-b66a-2e505f219e20') } {Id('fb209134-33f1-4a17-9133-844ec50d94e4')};
+    EStop1Indicator : BOOL { CustomGroupReference('7b8705a3-41e1-49ba-b66a-2e505f219e20') } {Id('fcf6b41d-22af-4307-90d1-8443a2e39f78')};
+END_VAR
+
+VAR
+    count : INT { CustomGroupReference('7b8705a3-41e1-49ba-b66a-2e505f219e20') } {Id('22c01f00-4b89-48cd-8a95-37ebe68ce2b7')};
+    wait : TON_R { CustomGroupReference('7b8705a3-41e1-49ba-b66a-2e505f219e20') } {Id('c1f62168-ff74-4bf4-ba2a-aba9e9f25b53')};
 END_VAR
