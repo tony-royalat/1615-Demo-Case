@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Metadata>
+   <ContentType>Function</ContentType>
+   <Kind>Function</Kind>
+   <ReturnType>BOOL</ReturnType>
+   <Id>ab99c3c1-7ea0-4d94-ada6-71b4bda9029d</Id>
+   <ItemGroup>
+      <VariableWorksheet>
+         <Id>5d91a1a9-b718-49af-98c5-92ece62ccd7b</Id>
+      </VariableWorksheet>
+      <CodeWorksheet Include="Code.st">
+         <Id>94ecb5c5-26ff-454f-badc-4ea1f2927cbb</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>0</ParentIndex>
+      </CodeWorksheet>
+   </ItemGroup>
+</Metadata>

@@ -1,3 +1,9 @@
+// Byte Array - 32 Position
 TYPE
-    StringArray : ARRAY[0..32] OF DWORD;
+   My32ByteArray : ARRAY[0..31] OF BYTE;
+END_TYPE
+
+// Int Array - 32 Position
+TYPE
+   My32IntArray : ARRAY[0..31] OF INT;
 END_TYPE

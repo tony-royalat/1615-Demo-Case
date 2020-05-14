@@ -1,3 +1,9 @@
+// Convert UPS Byte array to something usable
+FOR n := 0 TO 31 BY 1 DO
+    UPSDataArray_Int[n] := TO_INT(UPSDataArray[n]);
+END_FOR
+
+
 // Time To Shutdown Display
 
 // Figure out hour / minute / second
@@ -38,14 +44,14 @@ END_IF
 // Figure out Battery State Of Charge Assuming 23 to 25.4 VDC Battery Voltage
 // Also include something to indicate battery charging. If on DC power supply then display battery charging?
 
-BatteryStateOfChargeCalculated := (((25400 - 23000) - (25400 - BatteryVoltage)) / (25400 - 23000)) * 100;
+BatteryStateOfCharge := UPSDataArray_Int[16];
 
 
 // Calculate Battery Icon Visibility Dependent on State of Charge Percentage
 IF UPSonBattery = TRUE THEN
     
     // 100% Icon Visibility
-    IF BatteryStateOfChargeCalculated >= 95 THEN
+    IF BatteryStateOfCharge >= 95 THEN
         Battery0Visibility := FALSE;
         Battery10Visibility := FALSE;
         Battery25Visibility := FALSE;
@@ -56,7 +62,7 @@ IF UPSonBattery = TRUE THEN
     END_IF
     
     // 75% Icon Visibility
-    IF (BatteryStateOfChargeCalculated < 95 AND BatteryStateOfChargeCalculated >= 65) THEN
+    IF (BatteryStateOfCharge < 95 AND BatteryStateOfCharge >= 65) THEN
         Battery0Visibility := FALSE;
         Battery10Visibility := FALSE;
         Battery25Visibility := FALSE;
@@ -67,7 +73,7 @@ IF UPSonBattery = TRUE THEN
     END_IF
     
     // 50% Icon Visibility
-    IF (BatteryStateOfChargeCalculated < 65 AND BatteryStateOfChargeCalculated >= 35) THEN
+    IF (BatteryStateOfCharge < 65 AND BatteryStateOfCharge >= 35) THEN
         Battery0Visibility := FALSE;
         Battery10Visibility := FALSE;
         Battery25Visibility := FALSE;
@@ -78,7 +84,7 @@ IF UPSonBattery = TRUE THEN
     END_IF
     
     // 25% Icon Visibility
-    IF (BatteryStateOfChargeCalculated < 35 AND BatteryStateOfChargeCalculated >= 15) THEN
+    IF (BatteryStateOfCharge < 35 AND BatteryStateOfCharge >= 15) THEN
         Battery0Visibility := FALSE;
         Battery10Visibility := FALSE;
         Battery25Visibility := TRUE;
@@ -89,7 +95,7 @@ IF UPSonBattery = TRUE THEN
     END_IF
     
     // 10% Icon Visibility
-    IF (BatteryStateOfChargeCalculated < 15 AND BatteryStateOfChargeCalculated >= 5) THEN
+    IF (BatteryStateOfCharge < 15 AND BatteryStateOfCharge >= 5) THEN
         Battery0Visibility := FALSE;
         Battery10Visibility := TRUE;
         Battery25Visibility := FALSE;
@@ -100,7 +106,7 @@ IF UPSonBattery = TRUE THEN
     END_IF
     
     // 0% Icon Visibility
-    IF BatteryStateOfChargeCalculated < 5 THEN
+    IF BatteryStateOfCharge < 5 THEN
         Battery0Visibility := TRUE;
         Battery10Visibility := FALSE;
         Battery25Visibility := FALSE;

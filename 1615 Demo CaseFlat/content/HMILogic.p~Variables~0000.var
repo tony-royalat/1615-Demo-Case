@@ -12,15 +12,17 @@ VAR_EXTERNAL
     OutputCurrent : REAL { CustomGroupReference('8b9ef511-00ee-4f78-ac7c-eb4a983b39ed') } {Id('034eff0a-869c-4057-8975-2b622f8e29fb')}; (*mA*)
     OutputVoltage : REAL { CustomGroupReference('8b9ef511-00ee-4f78-ac7c-eb4a983b39ed') } {Id('aaf607ff-0242-4e48-9a9a-b80fd5def97c')}; (*mV*)
     TimeToShutdown : DINT { CustomGroupReference('8b9ef511-00ee-4f78-ac7c-eb4a983b39ed') } {Id('235ba796-06f5-4ce3-883e-39b0977428f1')}; (*s*)
-    GetAllTheThings : StringArray { CustomGroupReference('8b9ef511-00ee-4f78-ac7c-eb4a983b39ed') } {Id('69b38fea-173e-4e08-a447-133c0338f4fd')};
+    UPSDataArray : My32ByteArray { CustomGroupReference('8b9ef511-00ee-4f78-ac7c-eb4a983b39ed') } {Id('24375cdc-f4f2-44e4-acb2-0c4acf92113e')}; (*Byte Array*)
+    UPSDataArray_Int : My32IntArray { CustomGroupReference('8b9ef511-00ee-4f78-ac7c-eb4a983b39ed') } {Id('e9268e68-2b24-4b9a-b5a9-854a9faac776')}; (*Int Array*)
 END_VAR
 
 VAR
+    n : INT { CustomGroupReference('8b9ef511-00ee-4f78-ac7c-eb4a983b39ed') } {Id('8638e12f-09b3-4ab7-9922-3da23dacebe9')};
     TimeToShutdownHour : DINT { CustomGroupReference('c84237ad-701f-4c40-951c-0362045f4d80') } {Id('09a3e599-9d1b-4f9f-960a-8bbce895426e')};
     TimetoShutdownMinute : DINT { CustomGroupReference('c84237ad-701f-4c40-951c-0362045f4d80') } {Id('45ea08fb-8a14-4434-a621-c6749bf6294b')};
     TimetoShutdownSecond : DINT { CustomGroupReference('c84237ad-701f-4c40-951c-0362045f4d80') } {Id('8f186f60-7654-4580-bce9-f9ec88258f4b')};
     UPSOnBattery : BOOL { CustomGroupReference('c84237ad-701f-4c40-951c-0362045f4d80') } {Id('7235fb74-a134-4f8b-881f-26b70d662e2b')};
-    BatteryStateOfChargeCalculated : REAL { CustomGroupReference('c84237ad-701f-4c40-951c-0362045f4d80') } {Id('1c48983c-651e-43fc-9776-614ef47c1f6c')};
+    BatteryStateOfCharge : INT { CustomGroupReference('c84237ad-701f-4c40-951c-0362045f4d80') } {Id('061f473c-65ce-44f4-a8ba-9fe4451fc4ba')};
 END_VAR
 
 VAR_EXTERNAL

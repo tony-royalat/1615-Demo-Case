@@ -990,6 +990,21 @@
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>0</OutputFrameId>
       </Role>
+      <Role TypeName="Variable" ObjectId="db11380a-1d9c-4e43-9d20-631d5d476b44" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>UPSDataArray</Name>
+        <Usage>Global</Usage>
+        <DataType>My32ByteArray</DataType>
+        <Address />
+        <InitValue />
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment>Byte Array</Comment>
+        <DisplayName>axc-f-2152-1 / PLC.UPSDataArray</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
     </Datum>
     <Datum Uuid="3672a096-23c4-425c-bb62-ef14b79838a7">
       <FunctionText />
@@ -5588,13 +5603,13 @@
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
       </Role>
     </Datum>
-    <Datum Uuid="b3c4128b-53d9-41f0-b3b2-e92308103cf2">
+    <Datum Uuid="9f1c7d00-e895-4da3-8494-a131399741b3">
       <FunctionText />
       <Comment />
-      <Role TypeName="Variable" ObjectId="c175080f-541f-4e04-97cf-0f641b8a7790" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
-        <Name>UPSArray</Name>
+      <Role TypeName="Variable" ObjectId="c24cc4e4-ed07-4883-8999-722351cbb7f6" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>UPSDataArray_Int</Name>
         <Usage>Global</Usage>
-        <DataType>StringArray</DataType>
+        <DataType>My32IntArray</DataType>
         <Address />
         <InitValue />
         <IsRetain>False</IsRetain>
@@ -5602,27 +5617,8 @@
         <IsOpc>False</IsOpc>
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
-        <Comment />
-        <DisplayName>axc-f-2152-1 / PLC.UPSArray</DisplayName>
-        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
-      </Role>
-    </Datum>
-    <Datum Uuid="021333a0-80bb-4b2e-820f-958ad6242716">
-      <FunctionText />
-      <Comment />
-      <Role TypeName="Variable" ObjectId="4c1191b6-5d28-4331-b1e5-721307378f69" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
-        <Name>GetAllTheThings</Name>
-        <Usage>Global</Usage>
-        <DataType>StringArray</DataType>
-        <Address />
-        <InitValue />
-        <IsRetain>False</IsRetain>
-        <IsConstant>False</IsConstant>
-        <IsOpc>False</IsOpc>
-        <IsHmi>False</IsHmi>
-        <IsProficloud>False</IsProficloud>
-        <Comment />
-        <DisplayName>axc-f-2152-1 / PLC.GetAllTheThings</DisplayName>
+        <Comment>Int Array</Comment>
+        <DisplayName>axc-f-2152-1 / PLC.UPSDataArray_Int</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
       </Role>
     </Datum>
@@ -5671,9 +5667,9 @@
         <RoleDatumUuid>b83dc3e3-877a-4138-a7f8-d747ffa63193</RoleDatumUuid>
         <RoleDatumUuid>dde3f6f7-4dc9-43ff-bd9a-b6b494663964</RoleDatumUuid>
         <RoleDatumUuid>8b31e9ea-ebe5-41cf-9a60-72359c4adacd</RoleDatumUuid>
-        <RoleDatumUuid>b3c4128b-53d9-41f0-b3b2-e92308103cf2</RoleDatumUuid>
-        <RoleDatumUuid>021333a0-80bb-4b2e-820f-958ad6242716</RoleDatumUuid>
         <RoleDatumUuid>f18e14b2-e1fc-4b86-b7fe-42766876894e</RoleDatumUuid>
+        <RoleDatumUuid>9f1c7d00-e895-4da3-8494-a131399741b3</RoleDatumUuid>
+        <RoleDatumUuid>356ec149-49dd-46ed-8d42-4927b827cb91</RoleDatumUuid>
       </RoleGroup>
       <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75" ObjectId="971398c9-e054-4349-a1d9-e00a1840c9f4" DisplayName="System Variables" IsReadOnly="True">
         <RoleDatumUuid>ae807d18-40f0-4651-966c-6f4a5563fe17</RoleDatumUuid>

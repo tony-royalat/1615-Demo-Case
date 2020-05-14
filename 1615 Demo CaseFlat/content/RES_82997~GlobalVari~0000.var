@@ -45,9 +45,9 @@ VAR_GLOBAL
     Battery75Visibility : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('8d16f310-8af6-4b07-8453-bada1a0515eb')};
     Battery100Visibility : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('60839622-49e2-4e50-9ae9-1cf38a0ff3c9')};
     BatteryChargingVisibility : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('f644919c-4e09-4c70-84fb-af7f064c74c4')};
-    UPSArray : StringArray { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('c175080f-541f-4e04-97cf-0f641b8a7790')};
-    GetAllTheThings : StringArray { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('4c1191b6-5d28-4331-b1e5-721307378f69')};
     EStop1Indicator : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('af51644e-77a4-49a4-92ea-01e6cb2e5782')};
+    UPSDataArray_Int : My32IntArray { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('c24cc4e4-ed07-4883-8999-722351cbb7f6')}; (*Int Array*)
+    UPSDataArray : My32ByteArray { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('db11380a-1d9c-4e43-9d20-631d5d476b44')}; (*Byte Array*)
     PND_S1_PLC_RUN : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('f2e0c0a0-1487-47c5-a72a-d3701aa8d4f0')};
     PND_S1_VALID_DATA_CYCLE : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('c91bd181-753d-4869-80db-32517d62d06c')};
     PND_S1_OUTPUT_STATUS_GOOD : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('1f7d05c1-ad28-4f2a-95f3-55759f6a6229')};
