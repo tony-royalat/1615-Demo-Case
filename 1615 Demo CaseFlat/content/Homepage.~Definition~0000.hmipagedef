@@ -120,7 +120,7 @@
             <X>0</X>
             <Y>0</Y>
           </TransformCenter>
-          <Action xsi:type="LaunchFileAction" ID="A1" LaunchFileCommandType="OpenUrl" LaunchFileUrl="https://www.google.com" LaunchFileWindowBehavior="SameWindow" LaunchFileSupportFileID="00000000-0000-0000-0000-000000000000" />
+          <Action xsi:type="LaunchFileAction" ID="A1" LaunchFileCommandType="OpenUrl" LaunchFileUrl="https://www.google.com" LaunchFileWindowBehavior="NewWindow" LaunchFileSupportFileID="00000000-0000-0000-0000-000000000000" />
           <EnableSecurityScope>Always</EnableSecurityScope>
           <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
           <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
