@@ -7,3 +7,37 @@ END_TYPE
 TYPE
    My32IntArray : ARRAY[0..31] OF INT;
 END_TYPE
+
+// Example FB Datatype
+TYPE
+
+	TB_ARR_FIFO_STR_0_20	: ARRAY [0..20] OF STRING;
+	TB_ARR_INT				: ARRAY [0 .. 511] OF INT;
+
+	TB_UDT_EXAMPLE : STRUCT
+		(* Inputs *)
+		xActivate			: BOOL;
+		xReset				: BOOL;
+		xPNIO_Data_Valid	: BOOL;
+		xTrigger			: BOOL;
+		xRead_Write			: BOOL;
+		iPort				: INT;
+		wIndex				: WORD;
+		bSubIndex			: BYTE;
+		iWriteLength		: INT;
+		udtDiag				: IOL_UDT_DIAG;
+		(* Outputs *)
+		xActive				: BOOL;
+		xDone				: BOOL;
+		xBusy				: BOOL;
+		xError				: BOOL;
+		wDiagCode			: WORD;
+		dwAddDiagCode		: DWORD;
+		iReadLength			: INT;
+		(* Inouts *)
+		arrIOL_ReadData	: IOL_arr_B_1_64;
+		arrIOL_WriteData	: IOL_arr_B_1_64; 
+		(* udtAsynCom		: ASYN_UDT_COM; *)
+	END_STRUCT;
+
+END_TYPE

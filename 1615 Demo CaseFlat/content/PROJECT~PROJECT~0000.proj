@@ -52,6 +52,20 @@
          <Type>.st</Type>
          <ParentIndex>3</ParentIndex>
       </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\Example.pou\Example.st">
+         <Id>ba007bf5-7361-4050-ae1c-3dbff8e2f142</Id>
+         <Type>.st</Type>
+         <LockedNetworks></LockedNetworks>
+         <Extension>.st</Extension>
+         <ParentIndex>2</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\Example.pou\Instances.st">
+         <Id>9633ced1-ce16-4c11-add4-afa7869e5a5b</Id>
+         <Type>.st</Type>
+         <LockedNetworks></LockedNetworks>
+         <Extension>.st</Extension>
+         <ParentIndex>3</ParentIndex>
+      </CodeWorksheet>
    </ItemGroup>
    <ItemGroup>
       <ControllerStatisticDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\b84580d7-61ea-48ec-9861-abe43adbd376.statistic">
@@ -983,15 +997,27 @@
       <Folder Include="RecycleBin">
          <Id>c8ca4e0b-81a6-4e48-8c13-a92971850c37</Id>
          <FolderType>RecycleBin</FolderType>
-         <LastestItemNo>2</LastestItemNo>
+         <LastestItemNo>3</LastestItemNo>
          <Visible>false</Visible>
          <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\d4067453-cceb-45f5-857c-cb44afd16f42">
+         <Id>a77c2405-d3c5-4519-b0b2-330751be341a</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>3</ItemNo>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\d4067453-cceb-45f5-857c-cb44afd16f42\NewFunctionBlock.pou">
+         <Id>d4067453-cceb-45f5-857c-cb44afd16f42</Id>
+         <FolderType>PouFolder</FolderType>
+         <Id>d4067453-cceb-45f5-857c-cb44afd16f42</Id>
+         <ParentIndex>0</ParentIndex>
       </Folder>
       <Folder Include="RecycleBin\ed171093-7ca6-411a-a26b-6bc12c14165a">
          <Id>3f12cfd7-061b-4ea7-be27-c9af8d591e39</Id>
          <FolderType>RecycleBinItem</FolderType>
          <ItemNo>2</ItemNo>
-         <ParentIndex>0</ParentIndex>
+         <ParentIndex>1</ParentIndex>
       </Folder>
       <Folder Include="RecycleBin\ed171093-7ca6-411a-a26b-6bc12c14165a\Byte32ArraytoInt32Array.pou">
          <Id>ed171093-7ca6-411a-a26b-6bc12c14165a</Id>
@@ -1003,7 +1029,7 @@
          <Id>bd46c931-fff5-4673-875e-a497d80174ce</Id>
          <FolderType>RecycleBinItem</FolderType>
          <ItemNo>1</ItemNo>
-         <ParentIndex>1</ParentIndex>
+         <ParentIndex>2</ParentIndex>
       </Folder>
       <Folder Include="RecycleBin\ab99c3c1-7ea0-4d94-ada6-71b4bda9029d\ByteArraytoIntArray.pou">
          <Id>ab99c3c1-7ea0-4d94-ada6-71b4bda9029d</Id>
@@ -1446,6 +1472,12 @@
          <FolderType>PouFolder</FolderType>
          <Id>f7bd1ce2-e05a-47aa-b02e-d7f2addc107c</Id>
          <ParentIndex>21</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\Example.pou">
+         <Id>0eb578c3-04d6-4c2e-a14d-e00dc030e584</Id>
+         <FolderType>PouFolder</FolderType>
+         <Id>0eb578c3-04d6-4c2e-a14d-e00dc030e584</Id>
+         <ParentIndex>35</ParentIndex>
       </Folder>
    </ItemGroup>
    <ItemGroup>
@@ -2172,6 +2204,11 @@
       </MetaComponent>
    </ItemGroup>
    <ItemGroup>
+      <MetadataDocument Include="RecycleBin\d4067453-cceb-45f5-857c-cb44afd16f42\NewFunctionBlock.pou\Metadata.meta">
+         <Id>ec899bdc-2c10-4fea-b9b6-4b0e7ab57924</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
       <MetadataDocument Include="RecycleBin\ed171093-7ca6-411a-a26b-6bc12c14165a\Byte32ArraytoInt32Array.pou\Metadata.meta">
          <Id>876cb55b-43a3-4c63-a3d0-9d20d3d86c63</Id>
          <Extension>.meta</Extension>
@@ -2206,6 +2243,11 @@
          <Id>57aa17ea-abca-40d8-82b5-0aea13bcd3f1</Id>
          <Extension>.meta</Extension>
          <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\Example.pou\Metadata.meta">
+         <Id>f0e00fdb-9204-481a-beaf-fc707eec9efa</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>1</ParentIndex>
       </MetadataDocument>
    </ItemGroup>
    <ItemGroup>
@@ -2440,6 +2482,10 @@
       </ResourceSettings>
    </ItemGroup>
    <ItemGroup>
+      <RestoreDocument Include="RecycleBin\d4067453-cceb-45f5-857c-cb44afd16f42\d4067453-cceb-45f5-857c-cb44afd16f42">
+         <Id>efd89c46-07df-426f-84fd-3d5ef6f05d35</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
       <RestoreDocument Include="RecycleBin\ed171093-7ca6-411a-a26b-6bc12c14165a\ed171093-7ca6-411a-a26b-6bc12c14165a">
          <Id>d44d2acb-b42c-41fd-8a02-8825e7adeead</Id>
          <ParentIndex>1</ParentIndex>
@@ -2456,18 +2502,18 @@
          <LibraryId>6bdddd6e-fe52-4478-94e4-617f2ff7e643</LibraryId>
          <ParentIndex>0</ParentIndex>
       </SolutionReference>
-      <SolutionReference Include="AsynCom_9">
-         <Id>41937210-614f-49d2-a9fe-e3e2bc47f75e</Id>
-         <HintPath>$(LibrariesPath)\IOL_Basic_6\AsynCom_9.pcwlx</HintPath>
-         <Signature>T4H/1X7tpPTVgO9NYO2D3nKNiZE=</Signature>
-         <LibraryId>1d27e010-fda5-4156-88ee-6af1fbd4e13b</LibraryId>
+      <SolutionReference Include="IOL_Basic_6">
+         <Id>64afdb84-9004-4a24-a0e1-1ac1350c434f</Id>
+         <HintPath>$(LibrariesPath)\IOL_Basic_6\IOL_Basic_6.pcwlx</HintPath>
+         <Signature>MAdiW+832Ect5pTWF2MlYkkyclE=</Signature>
+         <LibraryId>1435f24e-6cc5-411c-be4c-7ed07361631b</LibraryId>
          <ParentIndex>1</ParentIndex>
       </SolutionReference>
-      <SolutionReference Include="IOL_Basic_6">
-         <Id>90491063-7358-41bc-b4da-bd6b8c0358dc</Id>
-         <HintPath>$(LibrariesPath)\IOL_Basic_6\IOL_Basic_6.pcwlx</HintPath>
-         <Signature>9tDnL66l3xdYsNmvna/aiZc9EDA=</Signature>
-         <LibraryId>1435f24e-6cc5-411c-be4c-7ed07361631b</LibraryId>
+      <SolutionReference Include="AsynCom_9">
+         <Id>8a0e5a67-3ff6-4051-a7fb-4a3fb272670d</Id>
+         <HintPath>$(LibrariesPath)\IOL_Basic_6\AsynCom_9.pcwlx</HintPath>
+         <Signature>Ckf2ORvc2kNv75Ru93aE0wynO3Q=</Signature>
+         <LibraryId>1d27e010-fda5-4156-88ee-6af1fbd4e13b</LibraryId>
          <ParentIndex>2</ParentIndex>
       </SolutionReference>
    </ItemGroup>
@@ -2551,6 +2597,11 @@
       </TransportDeviceListDocument>
    </ItemGroup>
    <ItemGroup>
+      <UserMetadata Include="RecycleBin\d4067453-cceb-45f5-857c-cb44afd16f42\NewFunctionBlock.pou\VersionHistory.usermeta">
+         <Id>e2178fb1-e0fe-474a-a07e-4802dacf9f06</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
       <UserMetadata Include="RecycleBin\ed171093-7ca6-411a-a26b-6bc12c14165a\Byte32ArraytoInt32Array.pou\VersionHistory.usermeta">
          <Id>4ca802df-8704-41d9-b72f-919cf6c9c8f6</Id>
          <Extension>.usermeta</Extension>
@@ -2587,6 +2638,11 @@
       </UserMetadata>
    </ItemGroup>
    <ItemGroup>
+      <UserMetadataDescription Include="RecycleBin\d4067453-cceb-45f5-857c-cb44afd16f42\NewFunctionBlock.pou\Description.html">
+         <Id>3eaa5c4c-3dbf-41f0-b476-609a058a2bdf</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>3</ParentIndex>
+      </UserMetadataDescription>
       <UserMetadataDescription Include="RecycleBin\ed171093-7ca6-411a-a26b-6bc12c14165a\Byte32ArraytoInt32Array.pou\Description.html">
          <Id>1015efe8-bcfb-4d66-b3f4-5c83db8bfe66</Id>
          <Extension>.html</Extension>
@@ -2629,6 +2685,11 @@
       </UserMetadataDescription>
    </ItemGroup>
    <ItemGroup>
+      <VariableWorksheet Include="RecycleBin\d4067453-cceb-45f5-857c-cb44afd16f42\NewFunctionBlock.pou\Variables.var">
+         <Id>9b70c273-7de0-42d8-b07c-acd0f0ed9f93</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
       <VariableWorksheet Include="RecycleBin\ed171093-7ca6-411a-a26b-6bc12c14165a\Byte32ArraytoInt32Array.pou\Variables.var">
          <Id>a70f5eeb-5f64-46aa-a317-4b8dc899d2fc</Id>
          <Extension>.var</Extension>
@@ -2669,6 +2730,12 @@
          <Id>eae4d90f-a9ee-4bf9-a4c5-f891a891fe62</Id>
          <Extension>.var</Extension>
          <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\Example.pou\Variables.var">
+         <Id>00ff236e-5723-4298-8e2d-77f2527b2186</Id>
+         <Type>.var</Type>
+         <Extension>.var</Extension>
+         <ParentIndex>0</ParentIndex>
       </VariableWorksheet>
    </ItemGroup>
    <PropertyGroup>

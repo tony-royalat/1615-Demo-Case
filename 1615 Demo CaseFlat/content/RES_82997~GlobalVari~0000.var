@@ -48,6 +48,19 @@ VAR_GLOBAL
     EStop1Indicator : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('af51644e-77a4-49a4-92ea-01e6cb2e5782')};
     UPSDataArray_Int : My32IntArray { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('c24cc4e4-ed07-4883-8999-722351cbb7f6')}; (*Int Array*)
     UPSDataArray : My32ByteArray { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('db11380a-1d9c-4e43-9d20-631d5d476b44')}; (*Byte Array*)
+    strTmp : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('e5876d30-6021-43f1-986f-15805f7aafda')}; (*Destinated data field or variable of the default data type.*)
+    strRef : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('aa96f6f1-5ec3-4ce1-9c11-46c292235b6c')}; (*Read reference value*)
+    iIteration : INT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('1ae592ca-3628-4374-8515-49c581a0a2f1')}; (*Iteration value*)
+    iIterationMax : INT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('5afbc67c-8d3b-4de0-8200-f925208fbe60')}; (*Maximum iteration value*)
+    iIndex : INT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('85edf2a2-78ae-473b-85fd-f9f5cfdb4eeb')}; (*Index value*)
+    udtExample : TB_UDT_EXAMPLE { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('327b57cb-3c52-4d21-9c4c-fbb5218b1f42')}; (*Exchange structure*)
+END_VAR
+
+VAR_CONFIG
+    IOLinkInstance.Example1.udtExample : TB_UDT_EXAMPLE { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24'), InputLocation } {Id('8c0950d7-07c5-436d-8c54-01f3b47dad59')}; (*Exchange structure*)
+END_VAR
+
+VAR_GLOBAL
     PND_S1_PLC_RUN : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('f2e0c0a0-1487-47c5-a72a-d3701aa8d4f0')};
     PND_S1_VALID_DATA_CYCLE : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('c91bd181-753d-4869-80db-32517d62d06c')};
     PND_S1_OUTPUT_STATUS_GOOD : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('1f7d05c1-ad28-4f2a-95f3-55759f6a6229')};

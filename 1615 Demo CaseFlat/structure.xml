@@ -406,6 +406,13 @@
       <folder name="NewFunction.pou" />
       <folder name="ByteArraytoIntArray.pou" />
       <folder name="Byte32ArraytoInt32Array.pou" />
+      <folder name="NewFunctionBlock.pou" />
+      <folder name="Example.pou">
+        <file name="Variables.var" id="Example.po~Variables~0000.var" />
+        <file name="Metadata.meta" id="Example.pou~Metadata~0000.meta" />
+        <file name="Example.st" id="Example.pou~Example~0000.st" />
+        <file name="Instances.st" id="Example.po~Instances~0000.st" />
+      </folder>
     </folder>
     <folder name="RecycleBin">
       <folder name="78cfcaf5-56f6-4363-b292-56db08744eba">
@@ -478,6 +485,15 @@
           <file name="Code.st" id="Byte32ArraytoIn~Code~0001.st" />
           <file name="Metadata.meta" id="Byte32Array~Metadata~0001.meta" />
           <file name="Description.html" id="Byte32Arr~Descriptio~0001.html" />
+        </folder>
+      </folder>
+      <folder name="d4067453-cceb-45f5-857c-cb44afd16f42">
+        <file name="d4067453-cceb-45f5-857c-cb44afd16f42" id="d4067453-~d4067453-c~0000" />
+        <folder name="NewFunctionBlock.pou">
+          <file name="Variables.var" id="NewFunctio~Variables~0000.var" />
+          <file name="VersionHistory.usermeta" id="NewFuncti~VersionHis~0000.usermeta" />
+          <file name="Metadata.meta" id="NewFunction~Metadata~0000.meta" />
+          <file name="Description.html" id="NewFuncti~Descriptio~0000.html" />
         </folder>
       </folder>
     </folder>

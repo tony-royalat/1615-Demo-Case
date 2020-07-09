@@ -12,6 +12,7 @@
     <InstVal xPath="AutomationML:DeviceId" Type="System.String">f9ce75c3-917e-4b4a-81b7-08fec6452450</InstVal>
     <InstVal xPath="AutomationML:RackId" Type="System.String">5e16bae9-35b2-4f3b-944f-40caf3af9241</InstVal>
     <InstVal xPath="AutomationML:DeviceItemId" Type="System.String">f575304a-2dda-4a23-94fb-0c3cc17e4be0</InstVal>
+    <InstVal xPath="PN:CpuLoad" Type="Ade.Fdcml.Core.Float64">52.11</InstVal>
     <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd00' type='PN:CfgDiff']" Type="Ade.Fdcml.Core.Bit">True</InstVal>
     <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd01' type='PN:LogConStat']" Type="Ade.Fdcml.Core.Unsigned16">1</InstVal>
     <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd02' type='PN:IgnFS']" Type="Ade.Fdcml.Core.Bit">True</InstVal>
