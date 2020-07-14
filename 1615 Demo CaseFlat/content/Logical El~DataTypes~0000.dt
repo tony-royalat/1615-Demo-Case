@@ -35,7 +35,7 @@ TYPE
 		dwAddDiagCode		: DWORD;
 		iReadLength			: INT;
 		(* Inouts *)
-		arrIOL_ReadData	: IOL_arr_B_1_64;
+		arrIOL_ReadData	    : IOL_arr_B_1_64;
 		arrIOL_WriteData	: IOL_arr_B_1_64; 
 		(* udtAsynCom		: ASYN_UDT_COM; *)
 	END_STRUCT;

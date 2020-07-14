@@ -1,0 +1,6 @@
+{ CustomGroupDefinition('588840e7-8ed5-4fdc-aa43-1e0aac4be164', '') }
+
+VAR
+    BUF_TO_STRING1 : BUF_TO_STRING { CustomGroupReference('588840e7-8ed5-4fdc-aa43-1e0aac4be164') } {Id('0f64a020-09a4-461c-aad6-55c1ce9db399')};
+    BUF_TO_STRING2 : BUF_TO_STRING { CustomGroupReference('588840e7-8ed5-4fdc-aa43-1e0aac4be164') } {Id('52b07a9d-3817-4629-9b09-42ad8c16e641')};
+END_VAR

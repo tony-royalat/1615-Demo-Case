@@ -42,4 +42,8 @@ PROGRAM SafetyRelayInstance WITH Cyclic502 : SafetyRelay { Id('67a81bed-a0aa-47e
 PROGRAM HMIInstance WITH Cyclic1sec : HMILogic { Id('307759f0-229e-4e4c-a768-c234205ac21e') };
 
 END_RESOURCE
-E
+};
+
+PROGRAM HMIInstance WITH Cyclic1sec : HMILogic { Id('307759f0-229e-4e4c-a768-c234205ac21e') };
+
+END_RESOURCE

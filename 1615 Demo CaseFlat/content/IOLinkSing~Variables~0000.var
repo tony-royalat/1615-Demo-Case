@@ -1,0 +1,5 @@
+{ CustomGroupDefinition('f595a1de-fada-42f0-b327-a08cc64c1f1c', '') }
+
+VAR
+    AsynCom_PN_11 : AsynCom_PN_1 { CustomGroupReference('f595a1de-fada-42f0-b327-a08cc64c1f1c') } {Id('6b94b214-21f4-46f3-9873-fbb0c282f023')};
+END_VAR

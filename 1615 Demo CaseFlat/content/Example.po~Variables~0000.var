@@ -1,3 +1,4 @@
+{ CustomGroupDefinition('3cdf62f6-ccb5-446b-8915-666cef2c7669', 'IO-Link Variables') }
 { CustomGroupDefinition('96275a28-2d80-4e3c-967c-33a62bc0bf61', 'Instances') }
 { CustomGroupDefinition('b704acb9-1f24-4777-a14d-ca021cf87f64', 'Input variables') }
 { CustomGroupDefinition('75e68aeb-9601-45e2-9a95-4e8b784ef69e', 'Output variables') }
@@ -6,6 +7,10 @@
 { CustomGroupDefinition('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24', 'Default') }
 
 VAR
+    strProductID1 : STRING := STRING#'806614' { CustomGroupReference('3cdf62f6-ccb5-446b-8915-666cef2c7669') } {Id('eeeb2fe6-01dc-4d87-b4d5-92852889db30')}; (*Product ID corresponding to iPort 1 varible*)
+    strProductID2 : STRING := STRING#'K50PTCK' { CustomGroupReference('3cdf62f6-ccb5-446b-8915-666cef2c7669') } {Id('01c0fd2f-7a69-44b7-b152-47dcc47c8441')}; (*Product ID corresponding to iPort 2 varible*)
+    iPort1 : INT := INT#1 { CustomGroupReference('3cdf62f6-ccb5-446b-8915-666cef2c7669') } {Id('37015a0e-acbc-4026-9b4b-9aed6f0e7c2a')}; (*IO-Link port number for first iteration*)
+    iPort2 : INT := INT#3 { CustomGroupReference('3cdf62f6-ccb5-446b-8915-666cef2c7669') } {Id('faa8d607-3416-4219-9db5-8fd2fac2bd07')}; (*IO-Link port number for second iteration*)
     BUF_TO_STRING_1 : BUF_TO_STRING { CustomGroupReference('96275a28-2d80-4e3c-967c-33a62bc0bf61') } {Id('38e34a4a-0831-4e31-9fe4-8ac610b3fbc6')}; (*Runtime system-specific fonction block to copy elementary data types from a byte stream to a variable, a fiels or an user defined structure.*)
 END_VAR
 
@@ -28,4 +33,5 @@ VAR
     iIterationMax : INT { CustomGroupReference('9c1702d3-1f42-4cab-81a8-dd4f1b1486f5') } {Id('7953685b-5d80-47f5-9950-c501290f474b')}; (*Maximum iteration value*)
     iIndex : INT { CustomGroupReference('9c1702d3-1f42-4cab-81a8-dd4f1b1486f5') } {Id('2480d644-0cfe-4036-bc4f-54980fe11067')}; (*Index value*)
     iStatus : INT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('37b84cbb-ae06-4b4b-b34b-43818d63fe34')};
+    BUF_TO_STRING1 : BUF_TO_STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('c87894e8-a8fb-4469-84f7-96f95286c2c6')};
 END_VAR

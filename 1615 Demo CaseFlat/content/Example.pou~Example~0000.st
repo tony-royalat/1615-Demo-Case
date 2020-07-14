@@ -25,9 +25,9 @@ CASE iState OF
 		(* Port number on which to read *)
 		udtExample.iPort			:= 2;
 		(* Index of IOL object to be accessed to *)
-		udtExample.wIndex			:= WORD#16#13; (* Article number *)
+		udtExample.wIndex			:= WORD#16#60; (* Article number *)
 		(* Subindex of IOL object to be accessed to *)
-		udtExample.bSubIndex		:= BYTE#0;
+		udtExample.bSubIndex		:= BYTE#1;
 		(* Number of bytes to be written *)
 		udtExample.iWriteLength		:= 1;
 
@@ -36,14 +36,14 @@ CASE iState OF
 		END_IF;
 
 	10:
-		IF(iIteration = 0) THEN
-			(* AXL E IOL DO8 M12 6P - 2702659 *)		
-			udtExample.iPort	:= 1; (* Port number on which to read *)
-			strRef := '2702659'; (* Reference value *)
+		IF(iIteration = 0) THEN								
+			udtExample.iPort	:= iPort1; (* Port number on which to read *)
+			// This appears to be Index 19 : Product ID on the port number
+			strRef := strProductID1; (* Reference value *)
 		ELSE
-			(* AXL E IOL DI8 M12 6P - 2702658 *)
-			udtExample.iPort	:= 2; (* Port number on which to read *)
-			strRef := '2702658'; (* Reference value *)
+			udtExample.iPort	:= iPort2; (* Port number on which to read *)
+			// This appears to be Index 19 : Product ID on the port number
+			strRef := strProductID2; (* Reference value *)
 		END_IF;
 		(* Activating of function block and starting read instruction *)
 		udtExample.xActivate	:= TRUE;
@@ -60,7 +60,7 @@ CASE iState OF
 		) THEN
 			BUF_TO_STRING_1.REQ 		:= TRUE;
 			BUF_TO_STRING_1.BUF_OFFS 	:= DINT#0;
-			BUF_TO_STRING_1.BUF_CNT 	:= DINT#7;
+			BUF_TO_STRING_1.BUF_CNT 	:= DINT#20;
 			iState 					:= 20;
 		END_IF;
 
@@ -81,7 +81,7 @@ CASE iState OF
 		IF(iIteration = iIterationMax) THEN
 			iState		:= 32000;
 		ELSE
-			(*...else start next iteration with read of port number 2 *)
+			(*...else start next iteration with read of next port number *)
 			iIteration 	:= iIteration + 1;
 			iState		:= 10;
 		END_IF;

@@ -796,21 +796,6 @@
         <OutputFrameId>0</OutputFrameId>
       </Role>
     </Datum>
-    <Datum Uuid="6280b3eb-2775-4a96-8713-09000559d140">
-      <FunctionText />
-      <Comment />
-      <Role TypeName="ProcessDatum" ObjectIndex="0" ObjectId="/PDList/PD[@uid=ioDefaultOut]" SourceId="90de9e57-5cc6-4faf-a3b0-2da7bd15c85a">
-        <Label>~OUT</Label>
-        <Access>Q</Access>
-        <DataType>Octetstring8</DataType>
-        <Offset>0.0</Offset>
-        <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-2152-1 / IO-Link Master / 1 : Color Sensor / 1 / ~OUT</DisplayName>
-        <NodeId>58</NodeId>
-        <InputFrameId>0</InputFrameId>
-        <OutputFrameId>0</OutputFrameId>
-      </Role>
-    </Datum>
     <Datum Uuid="845d18ad-5b3f-41e3-8352-ff8c3586e945">
       <FunctionText />
       <Comment />
@@ -821,6 +806,36 @@
         <Offset>0.0</Offset>
         <IsSafe>False</IsSafe>
         <DisplayName>axc-f-2152-1 / IO-Link Master / 1 : Color Sensor / 1 / ~IN</DisplayName>
+        <NodeId>58</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>0</OutputFrameId>
+      </Role>
+      <Role TypeName="Variable" ObjectId="05b60deb-c9f8-4ba7-86e5-c85cbf42fa62" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>ColorSensIn</Name>
+        <Usage>Global</Usage>
+        <DataType>LWORD</DataType>
+        <Address />
+        <InitValue>LWORD#16#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment>Data Here</Comment>
+        <DisplayName>axc-f-2152-1 / PLC.ColorSensIn</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+    </Datum>
+    <Datum Uuid="6280b3eb-2775-4a96-8713-09000559d140">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="ProcessDatum" ObjectIndex="0" ObjectId="/PDList/PD[@uid=ioDefaultOut]" SourceId="90de9e57-5cc6-4faf-a3b0-2da7bd15c85a">
+        <Label>~OUT</Label>
+        <Access>Q</Access>
+        <DataType>Octetstring8</DataType>
+        <Offset>0.0</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-1 / IO-Link Master / 1 : Color Sensor / 1 / ~OUT</DisplayName>
         <NodeId>58</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>0</OutputFrameId>
@@ -5811,6 +5826,7 @@
         <RoleDatumUuid>e7a63678-b956-44f1-96fe-4038621459b8</RoleDatumUuid>
         <RoleDatumUuid>53a5e413-6d27-4afc-acb4-1c33c2057e96</RoleDatumUuid>
         <RoleDatumUuid>b4e0772d-2b8d-4d75-a57f-c4cc04fc47e0</RoleDatumUuid>
+        <RoleDatumUuid>845d18ad-5b3f-41e3-8352-ff8c3586e945</RoleDatumUuid>
       </RoleGroup>
       <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75" ObjectId="971398c9-e054-4349-a1d9-e00a1840c9f4" DisplayName="System Variables" IsReadOnly="True">
         <RoleDatumUuid>ae807d18-40f0-4651-966c-6f4a5563fe17</RoleDatumUuid>
