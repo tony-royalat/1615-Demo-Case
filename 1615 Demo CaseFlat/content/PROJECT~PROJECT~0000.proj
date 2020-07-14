@@ -2582,7 +2582,7 @@
       <SolutionReference Include="IOL_Basic_6">
          <Id>64afdb84-9004-4a24-a0e1-1ac1350c434f</Id>
          <HintPath>$(LibrariesPath)\IOL_Basic_6\IOL_Basic_6.pcwlx</HintPath>
-         <Signature>9tDnL66l3xdYsNmvna/aiZc9EDA=</Signature>
+         <Signature>MAdiW+832Ect5pTWF2MlYkkyclE=</Signature>
          <LibraryId>1435f24e-6cc5-411c-be4c-7ed07361631b</LibraryId>
          <ParentIndex>1</ParentIndex>
       </SolutionReference>

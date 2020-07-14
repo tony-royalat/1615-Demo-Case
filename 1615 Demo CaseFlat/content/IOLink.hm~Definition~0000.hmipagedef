@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <HmiPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IOLink" BorderWidth="0" ImageId="82060f54-2129-4880-bfc9-55df72f34671" ImageScaling="Fit">
+  <References>
+    <Variables>
+      <Variable Id="7bfce850-be32-4e41-ad28-ee40bcb4c43d" Name="rRatioRed" DataType="REAL" />
+      <Variable Id="3286080b-6519-4bce-97fe-8942795b8576" Name="rRatioBlue" DataType="REAL" />
+      <Variable Id="e757626e-6e72-4b4c-a13f-b2bde33ce617" Name="BlueRatioDisplay" DataType="STRING" />
+      <Variable Id="4507ef68-2553-46ee-86f8-a6e0226643b5" Name="GreenRatioDisplay" DataType="STRING" />
+      <Variable Id="f1521105-3fb5-4aed-bd3b-a3ac4a331200" Name="RedRatioDisplay" DataType="STRING" />
+      <Variable Id="aed43a9d-5f27-4060-9711-11c0e3808af4" Name="IntensityDisplay" DataType="STRING" />
+      <Variable Id="577627ad-722f-4d4d-923d-04f633312dc1" Name="EnergyDisplay" DataType="STRING" />
+    </Variables>
+  </References>
   <Layers>
     <Layer>
       <Objects>
@@ -80,6 +91,183 @@
             <Width>0</Width>
             <Height>0</Height>
           </CornerRadii>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="ColorSensorHeader" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Banner Color Sensor Data" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="700" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>44</X>
+            <Y>232</Y>
+          </Origin>
+          <Location>
+            <X>44</X>
+            <Y>232</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>250</Width>
+            <Height>40</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="RedRatioText" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Text" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Right" GuiStyle="Flat" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>45</X>
+            <Y>280</Y>
+          </Origin>
+          <Location>
+            <X>45</X>
+            <Y>280</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="TextDynamic" TargetProperty="Text">
+            <VariableInstance>
+              <Id>f1521105-3fb5-4aed-bd3b-a3ac4a331200</Id>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>RedRatioDisplay</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>250</Width>
+            <Height>40</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="GreenRatioText" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Text" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Right" GuiStyle="Flat" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>44</X>
+            <Y>320</Y>
+          </Origin>
+          <Location>
+            <X>44</X>
+            <Y>320</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="TextDynamic" TargetProperty="Text">
+            <VariableInstance>
+              <Id>4507ef68-2553-46ee-86f8-a6e0226643b5</Id>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>GreenRatioDisplay</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>250</Width>
+            <Height>40</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="BlueRatioText" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Text" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Right" GuiStyle="Flat" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>44</X>
+            <Y>360</Y>
+          </Origin>
+          <Location>
+            <X>44</X>
+            <Y>360</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="TextDynamic" TargetProperty="Text">
+            <VariableInstance>
+              <Id>e757626e-6e72-4b4c-a13f-b2bde33ce617</Id>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>BlueRatioDisplay</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>250</Width>
+            <Height>40</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="EnergyDisplay" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Text" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Right" GuiStyle="Flat" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>45</X>
+            <Y>400</Y>
+          </Origin>
+          <Location>
+            <X>45</X>
+            <Y>400</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="TextDynamic" TargetProperty="Text">
+            <VariableInstance>
+              <Id>577627ad-722f-4d4d-923d-04f633312dc1</Id>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>EnergyDisplay</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>250</Width>
+            <Height>40</Height>
+          </Size>
         </HmiObject>
       </Objects>
     </Layer>

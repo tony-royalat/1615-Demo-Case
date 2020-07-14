@@ -152,3 +152,15 @@ BatteryTemperatureDisplay := CONCAT('Battery Temperature: ', TO_STRING((1.8 * (B
 
 // Build string for Device Temperature HMI text display
 DeviceTemperatureDisplay := CONCAT('Device Temperature: ', TO_STRING((1.8 * (DeviceTemperature - 273) + 32), '{0:f1}'), ' Deg F');
+
+// Build string for Red Ratio text display
+RedRatioDisplay := CONCAT('Red Color Ratio: ', TO_STRING(rRatioRed, '{0:f2}'), '%');
+
+// Build string for Green Ratio text display
+GreenRatioDisplay := CONCAT('Green Color Ratio: ', TO_STRING(rRatioGreen, '{0:f2}'), '%');
+
+// Build string for Blue Ratio text display
+BlueRatioDisplay := CONCAT('Blue Color Ratio: ', TO_STRING(rRatioBlue, '{0:f2}'), '%');
+
+// Build string for Energy text display
+EnergyDisplay := CONCAT('Color Energy: ', TO_STRING(rEnergy, '{0:f2}'), '?');

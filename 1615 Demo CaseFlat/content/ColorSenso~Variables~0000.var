@@ -1,12 +1,9 @@
 { CustomGroupDefinition('18877ce1-d96e-46e7-94da-d8fa1cbcab84', '') }
 
-VAR
+VAR_EXTERNAL
     rRatioRed : REAL { CustomGroupReference('18877ce1-d96e-46e7-94da-d8fa1cbcab84') } {Id('6cba9c8f-65c7-4af6-a4ad-ea6f91f99369')};
     rRatioGreen : REAL { CustomGroupReference('18877ce1-d96e-46e7-94da-d8fa1cbcab84') } {Id('78754bd9-a230-46ca-b30f-774624fca35f')};
     rRatioBlue : REAL { CustomGroupReference('18877ce1-d96e-46e7-94da-d8fa1cbcab84') } {Id('7c364fbd-1d2a-4742-b76d-486bc6f8e13c')};
     rEnergy : REAL { CustomGroupReference('18877ce1-d96e-46e7-94da-d8fa1cbcab84') } {Id('f2877e54-3338-44f0-8eff-b0eb4358e6fa')};
-END_VAR
-
-VAR_EXTERNAL
     ColorSensIn : LWORD { CustomGroupReference('18877ce1-d96e-46e7-94da-d8fa1cbcab84') } {Id('30e4c946-2e3e-4e14-b501-952bf3bc786a')}; (*Data Here*)
 END_VAR

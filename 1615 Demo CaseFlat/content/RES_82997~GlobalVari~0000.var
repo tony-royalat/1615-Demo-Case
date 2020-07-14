@@ -62,6 +62,14 @@ END_VAR
 
 VAR_GLOBAL
     ColorSensIn : LWORD { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('05b60deb-c9f8-4ba7-86e5-c85cbf42fa62')}; (*Data Here*)
+    RedRatioDisplay : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('5ac1a6d8-dd40-4e92-b2eb-61710d7ea6c8')};
+    GreenRatioDisplay : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('43167a8a-fd0d-4b57-88a8-6678d618214e')};
+    BlueRatioDisplay : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('286391a9-903e-4a2b-8e5a-1ae73f42f69c')};
+    rRatioRed : REAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('6ad96b95-ae87-4792-9968-50654d067204')};
+    rRatioGreen : REAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('3dc39238-0afa-4c6a-9757-29c134f60cfe')};
+    rRatioBlue : REAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('dd632f4f-c55a-4d31-bcb0-d358df5e1241')};
+    rEnergy : REAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('9520dcd5-5c66-4aea-a1d3-7b6b1954bb54')};
+    EnergyDisplay : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('87f19b69-c523-404d-88cd-1ba9acab7772')};
     PND_S1_PLC_RUN : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('f2e0c0a0-1487-47c5-a72a-d3701aa8d4f0')};
     PND_S1_VALID_DATA_CYCLE : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('c91bd181-753d-4869-80db-32517d62d06c')};
     PND_S1_OUTPUT_STATUS_GOOD : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('1f7d05c1-ad28-4f2a-95f3-55759f6a6229')};
