@@ -32,6 +32,8 @@ VAR
     strRef : STRING { CustomGroupReference('9c1702d3-1f42-4cab-81a8-dd4f1b1486f5') } {Id('5cc6d3b1-0526-4119-9bf7-815ede9e5c4e')}; (*Read reference value*)
     iIterationMax : INT { CustomGroupReference('9c1702d3-1f42-4cab-81a8-dd4f1b1486f5') } {Id('7953685b-5d80-47f5-9950-c501290f474b')}; (*Maximum iteration value*)
     iIndex : INT { CustomGroupReference('9c1702d3-1f42-4cab-81a8-dd4f1b1486f5') } {Id('2480d644-0cfe-4036-bc4f-54980fe11067')}; (*Index value*)
+    strWrite : STRING { CustomGroupReference('9c1702d3-1f42-4cab-81a8-dd4f1b1486f5') } {Id('e0ab88df-21eb-4d55-a325-f73d97eb7fac')}; (*String to write to IOL buffer*)
     iStatus : INT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('37b84cbb-ae06-4b4b-b34b-43818d63fe34')};
     BUF_TO_STRING1 : BUF_TO_STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('c87894e8-a8fb-4469-84f7-96f95286c2c6')};
+    STRING_TO_BUF1 : STRING_TO_BUF { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('d211b881-b61c-42cf-886d-8cf2e8e94a50')};
 END_VAR

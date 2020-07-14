@@ -1,4 +1,11 @@
+{ CustomGroupDefinition('bd661003-37c3-4971-99e7-21a438c05100', 'IO-Link') }
 { CustomGroupDefinition('7b8705a3-41e1-49ba-b66a-2e505f219e20', '') }
+
+VAR
+    udtPSRIOL : TB_UDT_EXAMPLE { CustomGroupReference('bd661003-37c3-4971-99e7-21a438c05100') } {Id('bbbe80ed-ea4c-4012-a107-d49925d33387')};
+    xStart : BOOL { CustomGroupReference('bd661003-37c3-4971-99e7-21a438c05100') } {Id('4be5b806-e19a-45bb-80aa-d75e68c463b9')};
+    iState : INT { CustomGroupReference('bd661003-37c3-4971-99e7-21a438c05100') } {Id('995d24db-1d94-4267-a0a2-84003a4cd507')};
+END_VAR
 
 VAR_EXTERNAL
     Alarm_PSRMC42 : BOOL { CustomGroupReference('7b8705a3-41e1-49ba-b66a-2e505f219e20') } {Id('cabf1df4-be30-4c30-8493-94e143d872ac')};
@@ -17,4 +24,8 @@ END_VAR
 VAR
     count : INT { CustomGroupReference('7b8705a3-41e1-49ba-b66a-2e505f219e20') } {Id('22c01f00-4b89-48cd-8a95-37ebe68ce2b7')};
     wait : TON_R { CustomGroupReference('7b8705a3-41e1-49ba-b66a-2e505f219e20') } {Id('c1f62168-ff74-4bf4-ba2a-aba9e9f25b53')};
+    PSR_Reset : Example { CustomGroupReference('7b8705a3-41e1-49ba-b66a-2e505f219e20') } {Id('049dd92a-f9a7-4821-a8a7-5cc9567d5d07')};
+    iStartup : INT { CustomGroupReference('7b8705a3-41e1-49ba-b66a-2e505f219e20') } {Id('700e5512-b526-4a12-9939-604da5e00512')};
+    IOL_COM_31 : IOL_COM_3 { CustomGroupReference('7b8705a3-41e1-49ba-b66a-2e505f219e20') } {Id('6d7b2073-3a5f-412f-b5c0-27e7ad32886a')};
+    AsynCom_PN_11 : AsynCom_PN_1 { CustomGroupReference('7b8705a3-41e1-49ba-b66a-2e505f219e20') } {Id('67e07666-d33a-4856-9b5c-211746c3b805')};
 END_VAR

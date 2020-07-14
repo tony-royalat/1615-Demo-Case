@@ -50,7 +50,13 @@
          <Id>806e2634-8d1e-440d-b7ce-dcf5b2dd1199</Id>
          <Extension>.st</Extension>
          <Type>.st</Type>
-         <ParentIndex>3</ParentIndex>
+         <ParentIndex>4</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\SafetyRelay.pou\Code1.ld">
+         <Id>0671cb73-b5bb-4822-ae98-059a4ef46a57</Id>
+         <Extension>.ld</Extension>
+         <Type>.ld</Type>
+         <ParentIndex>5</ParentIndex>
       </CodeWorksheet>
       <CodeWorksheet Include="Logical Elements\IOLink.pou\Code.ld">
          <Id>389a6d1a-b77a-480c-a955-46318f5ced67</Id>
@@ -77,6 +83,12 @@
          <LockedNetworks></LockedNetworks>
          <Extension>.st</Extension>
          <ParentIndex>3</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\ColorSensor.pou\Code.st">
+         <Id>06624cdc-75b5-4a29-b0d0-6dc148893232</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>4</ParentIndex>
       </CodeWorksheet>
    </ItemGroup>
    <ItemGroup>
@@ -1022,6 +1034,7 @@
       <Folder Include="RecycleBin\5c6c34cc-4385-4094-a5ba-f45836fe2263\IOLinkSingleTest.pou">
          <Id>5c6c34cc-4385-4094-a5ba-f45836fe2263</Id>
          <FolderType>PouFolder</FolderType>
+         <Id>5c6c34cc-4385-4094-a5ba-f45836fe2263</Id>
          <ParentIndex>0</ParentIndex>
       </Folder>
       <Folder Include="RecycleBin\1e3ad56d-a1c8-46c6-8a5b-0a58e43561c0">
@@ -1513,6 +1526,12 @@
          <FolderType>PouFolder</FolderType>
          <Id>0eb578c3-04d6-4c2e-a14d-e00dc030e584</Id>
          <ParentIndex>35</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\ColorSensor.pou">
+         <Id>82b2ee05-3571-4b88-9d50-fceb39d5f778</Id>
+         <FolderType>PouFolder</FolderType>
+         <Id>82b2ee05-3571-4b88-9d50-fceb39d5f778</Id>
+         <ParentIndex>36</ParentIndex>
       </Folder>
    </ItemGroup>
    <ItemGroup>
@@ -2294,6 +2313,11 @@
          <Extension>.meta</Extension>
          <ParentIndex>1</ParentIndex>
       </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\ColorSensor.pou\Metadata.meta">
+         <Id>05910126-f94c-4b50-9156-3be7d0de1f54</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
    </ItemGroup>
    <ItemGroup>
       <MetaLibrary Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\RES_829976591E98446682C292813E058D7E\Arp.Plc.Eclr.libmeta">
@@ -2558,7 +2582,7 @@
       <SolutionReference Include="IOL_Basic_6">
          <Id>64afdb84-9004-4a24-a0e1-1ac1350c434f</Id>
          <HintPath>$(LibrariesPath)\IOL_Basic_6\IOL_Basic_6.pcwlx</HintPath>
-         <Signature>MAdiW+832Ect5pTWF2MlYkkyclE=</Signature>
+         <Signature>9tDnL66l3xdYsNmvna/aiZc9EDA=</Signature>
          <LibraryId>1435f24e-6cc5-411c-be4c-7ed07361631b</LibraryId>
          <ParentIndex>1</ParentIndex>
       </SolutionReference>
@@ -2699,6 +2723,11 @@
          <Id>432ddbe9-77a5-49f1-8de9-416fcf841a40</Id>
          <ParentIndex>2</ParentIndex>
       </UserMetadata>
+      <UserMetadata Include="Logical Elements\ColorSensor.pou\VersionHistory.usermeta">
+         <Id>137e92a0-3a7f-4d31-b764-dc8f4f7790a2</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
    </ItemGroup>
    <ItemGroup>
       <UserMetadataDescription Include="RecycleBin\5c6c34cc-4385-4094-a5ba-f45836fe2263\IOLinkSingleTest.pou\Description.html">
@@ -2744,7 +2773,7 @@
       <UserMetadataDescription Include="Logical Elements\SafetyRelay.pou\Description.html">
          <Id>3db86beb-f9ff-49f9-9b6e-7a65bb7f955b</Id>
          <Visible>False</Visible>
-         <ParentIndex>4</ParentIndex>
+         <ParentIndex>3</ParentIndex>
       </UserMetadataDescription>
       <UserMetadataDescription Include="Logical Elements\IOLink.pou\Description.html">
          <Id>16a1e4d4-17d2-4182-b827-f07e7148bfd2</Id>
@@ -2755,6 +2784,11 @@
          <Id>e5776aa3-42a1-4a89-bee6-ae6189cbb983</Id>
          <Visible>False</Visible>
          <ParentIndex>4</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\ColorSensor.pou\Description.html">
+         <Id>89dd2ff7-79ab-41ca-8043-c255062b9d90</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>3</ParentIndex>
       </UserMetadataDescription>
    </ItemGroup>
    <ItemGroup>
@@ -2819,6 +2853,11 @@
          <Type>.var</Type>
          <Extension>.var</Extension>
          <ParentIndex>0</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\ColorSensor.pou\Variables.var">
+         <Id>3d812e09-5eb1-4b26-a0c5-0d4c8c996118</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
       </VariableWorksheet>
    </ItemGroup>
    <PropertyGroup>

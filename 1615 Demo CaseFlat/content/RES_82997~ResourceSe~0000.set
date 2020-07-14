@@ -35,6 +35,8 @@ PROGRAM MainInstance WITH Cyclic501 : Main { Id('5a4da879-8343-4f8a-88da-ecf9afe
 
 PROGRAM IOLinkInstance WITH Cyclic501 : IOLink { Id('f63ddc3a-df87-45e4-a151-62dcd6c204b6') };
 
+PROGRAM ColorSensorInstance WITH Cyclic501 : ColorSensor { Id('0eefee14-4728-4716-888f-e095a89651ea') };
+
 PROGRAM PushbuttonInstance WITH Cyclic502 : Buttons { Id('4493d317-ffc4-4ee6-99d4-2515973c2eb1') };
 
 PROGRAM SafetyRelayInstance WITH Cyclic502 : SafetyRelay { Id('67a81bed-a0aa-47e0-9717-839b2d195e26') };
@@ -42,8 +44,4 @@ PROGRAM SafetyRelayInstance WITH Cyclic502 : SafetyRelay { Id('67a81bed-a0aa-47e
 PROGRAM HMIInstance WITH Cyclic1sec : HMILogic { Id('307759f0-229e-4e4c-a768-c234205ac21e') };
 
 END_RESOURCE
-};
-
-PROGRAM HMIInstance WITH Cyclic1sec : HMILogic { Id('307759f0-229e-4e4c-a768-c234205ac21e') };
-
-END_RESOURCE
+RESOURCE

@@ -9,6 +9,7 @@
 			<ProgramInstances>
 				<ProgramInstance id="5a4da879-8343-4f8a-88da-ecf9afe03785" name="MainInstance" programType="Main" componentId="00000000-0000-0000-0000-000000000000" libraryName="Arp.Plc.Eclr" componentName="Arp.Plc.Eclr" componentType="EclrComponent" comment="" readonly="False" groupName="" />
 				<ProgramInstance id="f63ddc3a-df87-45e4-a151-62dcd6c204b6" name="IOLinkInstance" programType="IOLink" componentId="00000000-0000-0000-0000-000000000000" libraryName="Arp.Plc.Eclr" componentName="Arp.Plc.Eclr" componentType="EclrComponent" comment="" readonly="False" groupName="" />
+				<ProgramInstance id="0eefee14-4728-4716-888f-e095a89651ea" name="ColorSensorInstance" programType="ColorSensor" componentId="00000000-0000-0000-0000-000000000000" libraryName="Arp.Plc.Eclr" componentName="Arp.Plc.Eclr" componentType="EclrComponent" comment="" readonly="False" groupName="" />
 			</ProgramInstances>
 		</Task>
 		<Task id="44f246ec-dfc8-4606-aff7-1cb1444514d7" name="Cyclic502" taskType="CyclicTask" priority="0" intervalTime="50000000" watchdogTime="75000000" executionTimeThreshold="0" coreAffinity="0" stackSize="0" taskBuffer="None" comment="" esmId="78b97324-1be5-477d-a175-6577ff85c2fe" readonly="False">
