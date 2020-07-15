@@ -150,6 +150,8 @@ BatteryChargingCurrentDisplay := CONCAT('Battery Charging Current: ', TO_STRING(
 // Build string for Battery Temperature HMI text display
 BatteryTemperatureDisplay := CONCAT('Battery Temperature: ', TO_STRING((1.8 * (BatteryTemperature - 273) + 32), '{0:f1}'), ' Deg F');
 
+// START IO-LINK STUFF HERE
+
 // Build string for Device Temperature HMI text display
 DeviceTemperatureDisplay := CONCAT('Device Temperature: ', TO_STRING((1.8 * (DeviceTemperature - 273) + 32), '{0:f1}'), ' Deg F');
 
@@ -164,3 +166,9 @@ BlueRatioDisplay := CONCAT('Blue Color Ratio: ', TO_STRING(rRatioBlue, '{0:f2}')
 
 // Build string for Energy text display
 EnergyDisplay := CONCAT('Color Energy: ', TO_STRING(rEnergy, '{0:f2}'), '?');
+
+// Strip out binary K50 button state from IO-Link datastream
+K50ButtonState := TO_BOOL(SHR(SHL(K50IOLData,15),15));
+
+// Build string for PSR error message display
+PSRErrorDisplay := CONCAT('Status: ', PSR_Error_Text);

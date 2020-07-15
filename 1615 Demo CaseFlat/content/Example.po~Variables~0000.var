@@ -36,4 +36,15 @@ VAR
     iStatus : INT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('37b84cbb-ae06-4b4b-b34b-43818d63fe34')};
     BUF_TO_STRING1 : BUF_TO_STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('c87894e8-a8fb-4469-84f7-96f95286c2c6')};
     STRING_TO_BUF1 : STRING_TO_BUF { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('d211b881-b61c-42cf-886d-8cf2e8e94a50')};
+    INT_TO_BUF1 : INT_TO_BUF { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('f697273b-3682-48c8-b113-5e63b15a328e')};
+END_VAR
+
+VAR_EXTERNAL
+    iK50Animation : INT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('4debc2f3-acef-4a6b-aa8a-76be7d8c044b')};
+END_VAR
+
+VAR
+    iTemp : INT := INT#99 { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('341f803a-38d2-437f-8351-f32960bcc582')};
+    iStatusInt : INT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('591653cd-1813-449d-87dc-afde0c2fffa7')};
+    xIntBuffError : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('9d148d15-7bda-4d3b-9f70-8b8ef0dda961')};
 END_VAR

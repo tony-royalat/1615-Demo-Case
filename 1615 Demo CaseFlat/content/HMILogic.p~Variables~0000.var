@@ -1,9 +1,23 @@
+{ CustomGroupDefinition('7d5a8429-824f-4a75-9275-2a4c50116c77', 'IO-Link Variables') }
 { CustomGroupDefinition('8b9ef511-00ee-4f78-ac7c-eb4a983b39ed', 'Direct from UPS Variables') }
 { CustomGroupDefinition('c84237ad-701f-4c40-951c-0362045f4d80', 'Internal Variables Used For Calculations') }
 { CustomGroupDefinition('d4b16bba-f032-4e1b-8e7a-5a28bc266edd', 'HMI Variables') }
 { CustomGroupDefinition('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24', 'Default') }
 
 VAR_EXTERNAL
+    RedRatioDisplay : STRING { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('b98f0998-329f-4073-b2f5-5acc3303037e')};
+    GreenRatioDisplay : STRING { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('21cadcf8-d98d-4a69-87c4-edc17025c410')};
+    BlueRatioDisplay : STRING { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('bb98ed4b-d42c-4de0-946c-4cfd88c7f0b9')};
+    EnergyDisplay : STRING { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('ebd43f17-ae40-418b-86fb-48ec59e3391c')};
+    rRatioRed : REAL { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('16712d7e-bbda-49b8-a0a7-779bcaca1620')};
+    rRatioBlue : REAL { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('eef5e5ea-c8cb-49f5-9675-ef183258d352')};
+    rRatioGreen : REAL { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('2b1b7445-d43d-477a-b2bf-a82302cf4d68')};
+    rEnergy : REAL { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('4698022c-a5ca-4094-ba5a-6ed990747356')};
+    K50ButtonState : BOOL { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('9ac53dae-0266-4c29-b961-9ef1aa6a301b')};
+    K50IOLData : WORD { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('bba60a63-e0d5-4072-8d68-a1cdbc9cc1fe')};
+    PSRErrorDisplay : STRING { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('befcb801-0494-4a25-ace6-bbda4f1e2947')};
+    ELRIOLInput : LWORD { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('24409640-d2d3-46b6-8c69-6f76a941eb41')};
+    ELRIOLOutput : WORD { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('fb14c42a-c1f0-4439-a874-0dfbf03bd262')};
     BatteryChargingCurrent : REAL { CustomGroupReference('8b9ef511-00ee-4f78-ac7c-eb4a983b39ed') } {Id('61278e28-8336-42f0-80ef-cecfae498add')}; (*mA*)
     BatteryVoltage : REAL { CustomGroupReference('8b9ef511-00ee-4f78-ac7c-eb4a983b39ed') } {Id('03577d36-8053-4d65-ad13-15c07036a750')}; (*mV*)
     BatteryTemperature : REAL { CustomGroupReference('8b9ef511-00ee-4f78-ac7c-eb4a983b39ed') } {Id('497636fe-8698-41ba-bcaf-609f7f2d6125')}; (*K*)
@@ -46,13 +60,6 @@ VAR_EXTERNAL
     Battery75Visibility : BOOL { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('93611356-c799-4bd3-9dec-8006d1d00fc6')};
     Battery100Visibility : BOOL { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('7a6467d3-e8e7-4dd2-9c5c-dbb7e1d2269e')};
     BatteryChargingVisibility : BOOL { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('c281a05b-731a-4d9c-ae74-675578dc9dfc')};
-    RedRatioDisplay : STRING { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('b98f0998-329f-4073-b2f5-5acc3303037e')};
-    GreenRatioDisplay : STRING { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('21cadcf8-d98d-4a69-87c4-edc17025c410')};
-    BlueRatioDisplay : STRING { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('bb98ed4b-d42c-4de0-946c-4cfd88c7f0b9')};
-    EnergyDisplay : STRING { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('ebd43f17-ae40-418b-86fb-48ec59e3391c')};
-    rRatioRed : REAL { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('16712d7e-bbda-49b8-a0a7-779bcaca1620')};
-    rRatioBlue : REAL { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('eef5e5ea-c8cb-49f5-9675-ef183258d352')};
-    rRatioGreen : REAL { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('2b1b7445-d43d-477a-b2bf-a82302cf4d68')};
-    rEnergy : REAL { CustomGroupReference('d4b16bba-f032-4e1b-8e7a-5a28bc266edd') } {Id('4698022c-a5ca-4094-ba5a-6ed990747356')};
     PND_IO_DRIVEN_BY_PLC : INT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('cafb57e3-6fcc-4d6d-9e12-51f2bc805f0f')};
+    PSR_Error_Text : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('c45a3633-3b35-4c45-9819-e7ea4030396b')};
 END_VAR

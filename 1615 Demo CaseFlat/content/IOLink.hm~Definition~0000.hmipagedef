@@ -9,6 +9,10 @@
       <Variable Id="f1521105-3fb5-4aed-bd3b-a3ac4a331200" Name="RedRatioDisplay" DataType="STRING" />
       <Variable Id="aed43a9d-5f27-4060-9711-11c0e3808af4" Name="IntensityDisplay" DataType="STRING" />
       <Variable Id="577627ad-722f-4d4d-923d-04f633312dc1" Name="EnergyDisplay" DataType="STRING" />
+      <Variable Id="77f66a2f-9295-4a53-b25e-02f64f81165c" Name="strK50AnimationText" DataType="STRING" />
+      <Variable Id="4684a213-9eda-4e2a-b5d9-c837ceffd267" Name="xK50HMIButton" DataType="BOOL" />
+      <Variable Id="a5444071-0b89-4046-9c72-af327b4f61cf" Name="iK50Animation" DataType="INT" />
+      <Variable Id="1d0d1279-0cd2-4aac-953a-3b88e088ce5c" Name="K50ButtonState" DataType="BOOL" />
     </Variables>
   </References>
   <Layers>
@@ -267,6 +271,104 @@
           <Size>
             <Width>250</Width>
             <Height>40</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="Button" Rotation="0" ID="K50CycleButton" IsTabSelectable="true" TabOrder="0" NextId="4" LineColor="#FFCCD0D2" LineWidth="1" Text="Button" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
+          <Origin>
+            <X>56</X>
+            <Y>515</Y>
+          </Origin>
+          <Location>
+            <X>56</X>
+            <Y>515</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="TextDynamic" TargetProperty="Text">
+            <VariableInstance>
+              <Id>77f66a2f-9295-4a53-b25e-02f64f81165c</Id>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>strK50AnimationText</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <Action xsi:type="IncrementValueAction" Gesture="Click" ID="A3" StepConstant="1">
+            <VariableInstance>
+              <Id>a5444071-0b89-4046-9c72-af327b4f61cf</Id>
+            </VariableInstance>
+          </Action>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFECEDED" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>170</Width>
+            <Height>50</Height>
+          </Size>
+          <FillWhenDown xsi:type="SolidFill" Color="#FF8ACCD1" />
+          <ImageArea>
+            <Width>50</Width>
+            <Height>50</Height>
+          </ImageArea>
+          <CornerRadii>
+            <Width>0</Width>
+            <Height>0</Height>
+          </CornerRadii>
+        </HmiObject>
+        <HmiObject xsi:type="Ellipse" Rotation="0" ID="K50ButtonIndicator" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Left" GuiStyle="Flat">
+          <Origin>
+            <X>247</X>
+            <Y>515</Y>
+          </Origin>
+          <Location>
+            <X>247</X>
+            <Y>515</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="FillDynamic" TargetProperty="Fill" Interpolate="false" Rate="None">
+            <VariableInstance>
+              <Id>1d0d1279-0cd2-4aac-953a-3b88e088ce5c</Id>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>K50ButtonState</ExpressionLine>
+            </Expression>
+            <ThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q1="http://www.w3.org/2001/XMLSchema" xsi:type="q1:int">0</Threshold>
+                <Value xsi:type="SolidFill" Color="#FFECEDED" />
+              </FillDynamicThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q2="http://www.w3.org/2001/XMLSchema" xsi:type="q2:int">1</Threshold>
+                <Value xsi:type="SolidFill" Color="#FF90EE90" />
+              </FillDynamicThresholdData>
+            </ThresholdData>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFECEDED" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>50</Width>
+            <Height>50</Height>
           </Size>
         </HmiObject>
       </Objects>

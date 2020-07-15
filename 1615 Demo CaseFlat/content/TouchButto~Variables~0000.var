@@ -1,0 +1,11 @@
+{ CustomGroupDefinition('fa8dfbcc-eb77-43b8-8780-55170673232f', '') }
+
+VAR
+    iState : INT { CustomGroupReference('fa8dfbcc-eb77-43b8-8780-55170673232f') } {Id('90d6fef9-b514-4fa5-9ca4-da642c9059fb')};
+END_VAR
+
+VAR_EXTERNAL
+    xK50HMIButton : BOOL { CustomGroupReference('fa8dfbcc-eb77-43b8-8780-55170673232f') } {Id('5c05ef3c-ee10-4df4-8a3d-bccbc42fe35f')};
+    iK50Animation : INT { CustomGroupReference('fa8dfbcc-eb77-43b8-8780-55170673232f') } {Id('2764c171-4b6c-4f25-b808-8b14163279d4')};
+    strK50AnimationText : STRING { CustomGroupReference('fa8dfbcc-eb77-43b8-8780-55170673232f') } {Id('aa6c673f-e531-4c2a-bd90-0599d6ad5332')};
+END_VAR

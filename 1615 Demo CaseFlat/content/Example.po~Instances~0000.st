@@ -16,3 +16,12 @@ STRING_TO_BUF1(
     BUFFER := udtExample.arrIOL_WriteData (* Array with data to write *)
 );
 
+// Int to Buffer
+INT_TO_BUF1(
+    SRC := iTemp,
+    BUFFER := udtExample.arrIOL_WriteData
+);
+
+iTemp := INT_TO_BUF1.SRC;
+iStatusInt := INT_TO_BUF1.STATUS;
+xIntBuffError := INT_TO_BUF1.ERROR;

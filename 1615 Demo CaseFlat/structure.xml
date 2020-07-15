@@ -58,15 +58,16 @@
               <file name="Parameters.hmiparams" id="ThisIsAnA~Parameters~0000.hmiparams" />
               <file name="Variables.hmivar" id="ThisIsAnAd~Variables~0000.hmivar" />
             </folder>
-            <folder name="Safety_Info.hmi">
-              <file name="Definition.hmipagedef" id="Safety_In~Definition~0000.hmipagedef" />
-              <file name="Parameters.hmiparams" id="Safety_In~Parameters~0000.hmiparams" />
-              <file name="Variables.hmivar" id="Safety_Inf~Variables~0000.hmivar" />
-            </folder>
+            <folder name="Safety_Info.hmi" />
             <folder name="IOLink.hmi">
               <file name="Definition.hmipagedef" id="IOLink.hm~Definition~0000.hmipagedef" />
               <file name="Parameters.hmiparams" id="IOLink.hm~Parameters~0000.hmiparams" />
               <file name="Variables.hmivar" id="IOLink.hmi~Variables~0000.hmivar" />
+            </folder>
+            <folder name="Safety.hmi">
+              <file name="Definition.hmipagedef" id="Safety.hm~Definition~0000.hmipagedef" />
+              <file name="Parameters.hmiparams" id="Safety.hm~Parameters~0000.hmiparams" />
+              <file name="Variables.hmivar" id="Safety.hmi~Variables~0000.hmivar" />
             </folder>
           </folder>
         </folder>
@@ -353,7 +354,6 @@
         <file name="Metadata.meta" id="SafetyRelay~Metadata~0000.meta" />
         <file name="Variables.var" id="SafetyRela~Variables~0000.var" />
         <file name="VersionHistory.usermeta" id="SafetyRel~VersionHis~0000.usermeta" />
-        <file name="Code1.ld" id="SafetyRelay.po~Code1~0000.ld" />
       </folder>
       <folder name="Quint4UPS.jpg">
         <file name="Source" id="Quint4UPS.jpg~Source~0000" />
@@ -422,6 +422,13 @@
         <file name="VersionHistory.usermeta" id="ColorSens~VersionHis~0000.usermeta" />
         <file name="Description.html" id="ColorSens~Descriptio~0000.html" />
         <file name="Code.st" id="ColorSensor.pou~Code~0000.st" />
+      </folder>
+      <folder name="TouchButton.pou">
+        <file name="Metadata.meta" id="TouchButton~Metadata~0000.meta" />
+        <file name="Variables.var" id="TouchButto~Variables~0000.var" />
+        <file name="VersionHistory.usermeta" id="TouchButt~VersionHis~0000.usermeta" />
+        <file name="Description.html" id="TouchButt~Descriptio~0000.html" />
+        <file name="Code.st" id="TouchButton.pou~Code~0000.st" />
       </folder>
     </folder>
     <folder name="RecycleBin">
@@ -507,14 +514,7 @@
         </folder>
       </folder>
       <folder name="1e3ad56d-a1c8-46c6-8a5b-0a58e43561c0">
-        <file name="1e3ad56d-a1c8-46c6-8a5b-0a58e43561c0" id="1e3ad56d-~1e3ad56d-a~0000" />
-        <folder name="NewProgram.pou">
-          <file name="Variables.var" id="NewProgram~Variables~0001.var" />
-          <file name="VersionHistory.usermeta" id="NewProgra~VersionHis~0001.usermeta" />
-          <file name="Code.ld" id="NewProgram.pou~Code~0001.ld" />
-          <file name="Metadata.meta" id="NewProgram.~Metadata~0001.meta" />
-          <file name="Description.html" id="NewProgra~Descriptio~0001.html" />
-        </folder>
+        <folder name="NewProgram.pou" />
       </folder>
       <folder name="5c6c34cc-4385-4094-a5ba-f45836fe2263">
         <file name="5c6c34cc-4385-4094-a5ba-f45836fe2263" id="5c6c34cc-~5c6c34cc-4~0000" />
@@ -524,6 +524,15 @@
           <file name="Code.ld" id="IOLinkSingleTes~Code~0000.ld" />
           <file name="Metadata.meta" id="IOLinkSingl~Metadata~0000.meta" />
           <file name="Description.html" id="IOLinkSin~Descriptio~0000.html" />
+        </folder>
+      </folder>
+      <folder name="4a5f5334-fecc-4f5a-8ea6-5793c1ef94d7">
+        <file name="4a5f5334-fecc-4f5a-8ea6-5793c1ef94d7" id="4a5f5334-~4a5f5334-f~0000" />
+        <folder name="NewProgram.pou">
+          <file name="Variables.var" id="NewProgram~Variables~0003.var" />
+          <file name="VersionHistory.usermeta" id="NewProgra~VersionHis~0003.usermeta" />
+          <file name="Metadata.meta" id="NewProgram.~Metadata~0003.meta" />
+          <file name="Description.html" id="NewProgra~Descriptio~0003.html" />
         </folder>
       </folder>
     </folder>

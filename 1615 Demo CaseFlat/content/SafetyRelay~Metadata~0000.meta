@@ -13,11 +13,5 @@
          <Type>.st</Type>
          <ParentIndex>0</ParentIndex>
       </CodeWorksheet>
-      <CodeWorksheet Include="Code1.ld">
-         <Id>0671cb73-b5bb-4822-ae98-059a4ef46a57</Id>
-         <Extension>.ld</Extension>
-         <Type>.ld</Type>
-         <ParentIndex>1</ParentIndex>
-      </CodeWorksheet>
    </ItemGroup>
 </Metadata>
