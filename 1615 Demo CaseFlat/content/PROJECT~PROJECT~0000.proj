@@ -10,24 +10,6 @@
       </CockpitDocument>
    </ItemGroup>
    <ItemGroup>
-      <CodeWorksheet Include="RecycleBin\5c6c34cc-4385-4094-a5ba-f45836fe2263\IOLinkSingleTest.pou\Code.ld">
-         <Id>2aabdf39-2956-46dd-bfa2-2f88ec9e0680</Id>
-         <Extension>.ld</Extension>
-         <Type>.ld</Type>
-         <ParentIndex>4</ParentIndex>
-      </CodeWorksheet>
-      <CodeWorksheet Include="RecycleBin\ed171093-7ca6-411a-a26b-6bc12c14165a\Byte32ArraytoInt32Array.pou\Code.st">
-         <Id>c966a415-56d0-42ba-b567-b86cf30096a5</Id>
-         <Extension>.st</Extension>
-         <Type>.st</Type>
-         <ParentIndex>4</ParentIndex>
-      </CodeWorksheet>
-      <CodeWorksheet Include="RecycleBin\ab99c3c1-7ea0-4d94-ada6-71b4bda9029d\ByteArraytoIntArray.pou\Code.st">
-         <Id>94ecb5c5-26ff-454f-badc-4ea1f2927cbb</Id>
-         <Extension>.st</Extension>
-         <Type>.st</Type>
-         <ParentIndex>4</ParentIndex>
-      </CodeWorksheet>
       <CodeWorksheet Include="Logical Elements\Main.pou\Code.st">
          <Id>845d8596-eacf-4214-a616-a559db6bd8b2</Id>
          <Extension>.st</Extension>
@@ -1012,76 +994,10 @@
          <FolderType>References</FolderType>
          <ParentIndex>0</ParentIndex>
       </Folder>
-      <Folder Include="RecycleBin">
-         <Id>c8ca4e0b-81a6-4e48-8c13-a92971850c37</Id>
-         <FolderType>RecycleBin</FolderType>
-         <LastestItemNo>6</LastestItemNo>
-         <Visible>false</Visible>
-         <ParentIndex>1</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\4a5f5334-fecc-4f5a-8ea6-5793c1ef94d7">
-         <Id>1598a072-7336-4444-a98f-59d9ce82c6d2</Id>
-         <FolderType>RecycleBinItem</FolderType>
-         <ItemNo>6</ItemNo>
-         <ParentIndex>0</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\4a5f5334-fecc-4f5a-8ea6-5793c1ef94d7\NewProgram.pou">
-         <Id>4a5f5334-fecc-4f5a-8ea6-5793c1ef94d7</Id>
-         <FolderType>PouFolder</FolderType>
-         <ParentIndex>0</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\5c6c34cc-4385-4094-a5ba-f45836fe2263">
-         <Id>2be35881-e1c6-4dae-8323-70cbcf1414f3</Id>
-         <FolderType>RecycleBinItem</FolderType>
-         <ItemNo>5</ItemNo>
-         <ParentIndex>1</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\5c6c34cc-4385-4094-a5ba-f45836fe2263\IOLinkSingleTest.pou">
-         <Id>5c6c34cc-4385-4094-a5ba-f45836fe2263</Id>
-         <FolderType>PouFolder</FolderType>
-         <Id>5c6c34cc-4385-4094-a5ba-f45836fe2263</Id>
-         <ParentIndex>0</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\d4067453-cceb-45f5-857c-cb44afd16f42">
-         <Id>a77c2405-d3c5-4519-b0b2-330751be341a</Id>
-         <FolderType>RecycleBinItem</FolderType>
-         <ItemNo>3</ItemNo>
-         <ParentIndex>2</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\d4067453-cceb-45f5-857c-cb44afd16f42\NewFunctionBlock.pou">
-         <Id>d4067453-cceb-45f5-857c-cb44afd16f42</Id>
-         <FolderType>PouFolder</FolderType>
-         <Id>d4067453-cceb-45f5-857c-cb44afd16f42</Id>
-         <ParentIndex>0</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\ed171093-7ca6-411a-a26b-6bc12c14165a">
-         <Id>3f12cfd7-061b-4ea7-be27-c9af8d591e39</Id>
-         <FolderType>RecycleBinItem</FolderType>
-         <ItemNo>2</ItemNo>
-         <ParentIndex>3</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\ed171093-7ca6-411a-a26b-6bc12c14165a\Byte32ArraytoInt32Array.pou">
-         <Id>ed171093-7ca6-411a-a26b-6bc12c14165a</Id>
-         <FolderType>PouFolder</FolderType>
-         <Id>ed171093-7ca6-411a-a26b-6bc12c14165a</Id>
-         <ParentIndex>0</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\ab99c3c1-7ea0-4d94-ada6-71b4bda9029d">
-         <Id>bd46c931-fff5-4673-875e-a497d80174ce</Id>
-         <FolderType>RecycleBinItem</FolderType>
-         <ItemNo>1</ItemNo>
-         <ParentIndex>4</ParentIndex>
-      </Folder>
-      <Folder Include="RecycleBin\ab99c3c1-7ea0-4d94-ada6-71b4bda9029d\ByteArraytoIntArray.pou">
-         <Id>ab99c3c1-7ea0-4d94-ada6-71b4bda9029d</Id>
-         <FolderType>PouFolder</FolderType>
-         <Id>ab99c3c1-7ea0-4d94-ada6-71b4bda9029d</Id>
-         <ParentIndex>0</ParentIndex>
-      </Folder>
       <Folder Include="Hardware">
          <Id>b614ac7b-e691-415d-9ea0-2d9d7a7e1117</Id>
          <FolderType>Root</FolderType>
-         <ParentIndex>2</ParentIndex>
+         <ParentIndex>1</ParentIndex>
       </Folder>
       <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7">
          <Id>09451df4-5b18-4474-b1bd-c5f625d4c2b7</Id>
@@ -1470,7 +1386,7 @@
       <Folder Include="Logical Elements">
          <Id>d31eab2b-b1a0-4c93-bdaf-090bc38c49f4</Id>
          <FolderType>Root</FolderType>
-         <ParentIndex>3</ParentIndex>
+         <ParentIndex>2</ParentIndex>
       </Folder>
       <Folder Include="Logical Elements\Main.pou">
          <Id>111dd1e0-8977-404a-b4bf-24eeb8c05c76</Id>
@@ -1529,6 +1445,7 @@
       <Folder Include="Logical Elements\TouchButton.pou">
          <Id>383df721-a452-473f-9984-39034f8e15ea</Id>
          <FolderType>PouFolder</FolderType>
+         <Id>383df721-a452-473f-9984-39034f8e15ea</Id>
          <ParentIndex>37</ParentIndex>
       </Folder>
    </ItemGroup>
@@ -2256,31 +2173,6 @@
       </MetaComponent>
    </ItemGroup>
    <ItemGroup>
-      <MetadataDocument Include="RecycleBin\4a5f5334-fecc-4f5a-8ea6-5793c1ef94d7\NewProgram.pou\Metadata.meta">
-         <Id>372e707c-de33-4a35-998c-d5ebbee08144</Id>
-         <Extension>.meta</Extension>
-         <ParentIndex>0</ParentIndex>
-      </MetadataDocument>
-      <MetadataDocument Include="RecycleBin\5c6c34cc-4385-4094-a5ba-f45836fe2263\IOLinkSingleTest.pou\Metadata.meta">
-         <Id>6153f19a-7a9a-4732-b11d-3c93ab1d0acd</Id>
-         <Extension>.meta</Extension>
-         <ParentIndex>0</ParentIndex>
-      </MetadataDocument>
-      <MetadataDocument Include="RecycleBin\d4067453-cceb-45f5-857c-cb44afd16f42\NewFunctionBlock.pou\Metadata.meta">
-         <Id>ec899bdc-2c10-4fea-b9b6-4b0e7ab57924</Id>
-         <Extension>.meta</Extension>
-         <ParentIndex>0</ParentIndex>
-      </MetadataDocument>
-      <MetadataDocument Include="RecycleBin\ed171093-7ca6-411a-a26b-6bc12c14165a\Byte32ArraytoInt32Array.pou\Metadata.meta">
-         <Id>876cb55b-43a3-4c63-a3d0-9d20d3d86c63</Id>
-         <Extension>.meta</Extension>
-         <ParentIndex>0</ParentIndex>
-      </MetadataDocument>
-      <MetadataDocument Include="RecycleBin\ab99c3c1-7ea0-4d94-ada6-71b4bda9029d\ByteArraytoIntArray.pou\Metadata.meta">
-         <Id>76067ee2-2a8c-4a65-8cfc-03053df438fa</Id>
-         <Extension>.meta</Extension>
-         <ParentIndex>0</ParentIndex>
-      </MetadataDocument>
       <MetadataDocument Include="Logical Elements\Main.pou\Metadata.meta">
          <Id>f7b82640-74d8-4755-8691-16166db24300</Id>
          <Extension>.meta</Extension>
@@ -2520,6 +2412,13 @@
       </PlmConfiguration>
    </ItemGroup>
    <ItemGroup>
+      <ProjectSettingsDocument Include="Hardware\950d54e3-e87f-4f59-8e36-760d6cb9bdc3.projset">
+         <Id>1cadd88e-1265-4a10-9577-a305ae93d193</Id>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </ProjectSettingsDocument>
+   </ItemGroup>
+   <ItemGroup>
       <PropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\b84580d7-61ea-48ec-9861-abe43adbd376.properties">
          <Id>37917af1-3834-4ab0-91fa-82f0f8001601</Id>
          <Visible>False</Visible>
@@ -2552,28 +2451,6 @@
          <DisplayName>Task Configuration</DisplayName>
          <ParentIndex>4</ParentIndex>
       </ResourceSettings>
-   </ItemGroup>
-   <ItemGroup>
-      <RestoreDocument Include="RecycleBin\4a5f5334-fecc-4f5a-8ea6-5793c1ef94d7\4a5f5334-fecc-4f5a-8ea6-5793c1ef94d7">
-         <Id>3c65aaf7-4e4f-4d4a-9df0-b3e5f3f6f307</Id>
-         <ParentIndex>1</ParentIndex>
-      </RestoreDocument>
-      <RestoreDocument Include="RecycleBin\5c6c34cc-4385-4094-a5ba-f45836fe2263\5c6c34cc-4385-4094-a5ba-f45836fe2263">
-         <Id>2acf5825-7f51-4ac6-b268-0edd500a8f8b</Id>
-         <ParentIndex>1</ParentIndex>
-      </RestoreDocument>
-      <RestoreDocument Include="RecycleBin\d4067453-cceb-45f5-857c-cb44afd16f42\d4067453-cceb-45f5-857c-cb44afd16f42">
-         <Id>efd89c46-07df-426f-84fd-3d5ef6f05d35</Id>
-         <ParentIndex>1</ParentIndex>
-      </RestoreDocument>
-      <RestoreDocument Include="RecycleBin\ed171093-7ca6-411a-a26b-6bc12c14165a\ed171093-7ca6-411a-a26b-6bc12c14165a">
-         <Id>d44d2acb-b42c-41fd-8a02-8825e7adeead</Id>
-         <ParentIndex>1</ParentIndex>
-      </RestoreDocument>
-      <RestoreDocument Include="RecycleBin\ab99c3c1-7ea0-4d94-ada6-71b4bda9029d\ab99c3c1-7ea0-4d94-ada6-71b4bda9029d">
-         <Id>bf743427-1ca5-48ac-8103-943c1522a256</Id>
-         <ParentIndex>1</ParentIndex>
-      </RestoreDocument>
    </ItemGroup>
    <ItemGroup>
       <SolutionReference Include="PLCnext Controller">
@@ -2677,31 +2554,6 @@
       </TransportDeviceListDocument>
    </ItemGroup>
    <ItemGroup>
-      <UserMetadata Include="RecycleBin\4a5f5334-fecc-4f5a-8ea6-5793c1ef94d7\NewProgram.pou\VersionHistory.usermeta">
-         <Id>6457ad0b-0a8c-4892-a62d-44d1b3ec595b</Id>
-         <Extension>.usermeta</Extension>
-         <ParentIndex>2</ParentIndex>
-      </UserMetadata>
-      <UserMetadata Include="RecycleBin\5c6c34cc-4385-4094-a5ba-f45836fe2263\IOLinkSingleTest.pou\VersionHistory.usermeta">
-         <Id>4d306f03-2d5b-4bee-aa93-abf407d1ab8b</Id>
-         <Extension>.usermeta</Extension>
-         <ParentIndex>2</ParentIndex>
-      </UserMetadata>
-      <UserMetadata Include="RecycleBin\d4067453-cceb-45f5-857c-cb44afd16f42\NewFunctionBlock.pou\VersionHistory.usermeta">
-         <Id>e2178fb1-e0fe-474a-a07e-4802dacf9f06</Id>
-         <Extension>.usermeta</Extension>
-         <ParentIndex>2</ParentIndex>
-      </UserMetadata>
-      <UserMetadata Include="RecycleBin\ed171093-7ca6-411a-a26b-6bc12c14165a\Byte32ArraytoInt32Array.pou\VersionHistory.usermeta">
-         <Id>4ca802df-8704-41d9-b72f-919cf6c9c8f6</Id>
-         <Extension>.usermeta</Extension>
-         <ParentIndex>2</ParentIndex>
-      </UserMetadata>
-      <UserMetadata Include="RecycleBin\ab99c3c1-7ea0-4d94-ada6-71b4bda9029d\ByteArraytoIntArray.pou\VersionHistory.usermeta">
-         <Id>40d9db6c-f8ce-4ab4-9d3f-497e250f6b34</Id>
-         <Extension>.usermeta</Extension>
-         <ParentIndex>2</ParentIndex>
-      </UserMetadata>
       <UserMetadata Include="Hardware\VersionHistory.usermeta">
          <Id>c79c51e8-38f3-46a1-b33f-b740487ba7c3</Id>
          <ParentIndex>5</ParentIndex>
@@ -2738,31 +2590,6 @@
       </UserMetadata>
    </ItemGroup>
    <ItemGroup>
-      <UserMetadataDescription Include="RecycleBin\4a5f5334-fecc-4f5a-8ea6-5793c1ef94d7\NewProgram.pou\Description.html">
-         <Id>d8aed562-6f00-4c66-91ad-de176668d0b7</Id>
-         <Extension>.html</Extension>
-         <ParentIndex>3</ParentIndex>
-      </UserMetadataDescription>
-      <UserMetadataDescription Include="RecycleBin\5c6c34cc-4385-4094-a5ba-f45836fe2263\IOLinkSingleTest.pou\Description.html">
-         <Id>0e50a97b-8f03-4ab6-bba9-a0c9e8f97b6e</Id>
-         <Extension>.html</Extension>
-         <ParentIndex>3</ParentIndex>
-      </UserMetadataDescription>
-      <UserMetadataDescription Include="RecycleBin\d4067453-cceb-45f5-857c-cb44afd16f42\NewFunctionBlock.pou\Description.html">
-         <Id>3eaa5c4c-3dbf-41f0-b476-609a058a2bdf</Id>
-         <Extension>.html</Extension>
-         <ParentIndex>3</ParentIndex>
-      </UserMetadataDescription>
-      <UserMetadataDescription Include="RecycleBin\ed171093-7ca6-411a-a26b-6bc12c14165a\Byte32ArraytoInt32Array.pou\Description.html">
-         <Id>1015efe8-bcfb-4d66-b3f4-5c83db8bfe66</Id>
-         <Extension>.html</Extension>
-         <ParentIndex>3</ParentIndex>
-      </UserMetadataDescription>
-      <UserMetadataDescription Include="RecycleBin\ab99c3c1-7ea0-4d94-ada6-71b4bda9029d\ByteArraytoIntArray.pou\Description.html">
-         <Id>fbdff2c6-9f58-434f-927a-5d9c31d38aed</Id>
-         <Extension>.html</Extension>
-         <ParentIndex>3</ParentIndex>
-      </UserMetadataDescription>
       <UserMetadataDescription Include="Hardware\Description.html">
          <Id>bf8b544b-b424-4c6c-9608-b8f0ed299a9f</Id>
          <Visible>False</Visible>
@@ -2805,31 +2632,6 @@
       </UserMetadataDescription>
    </ItemGroup>
    <ItemGroup>
-      <VariableWorksheet Include="RecycleBin\4a5f5334-fecc-4f5a-8ea6-5793c1ef94d7\NewProgram.pou\Variables.var">
-         <Id>2305040f-eefe-4b4b-8c43-65ef660c6363</Id>
-         <Extension>.var</Extension>
-         <ParentIndex>1</ParentIndex>
-      </VariableWorksheet>
-      <VariableWorksheet Include="RecycleBin\5c6c34cc-4385-4094-a5ba-f45836fe2263\IOLinkSingleTest.pou\Variables.var">
-         <Id>2c248960-82a5-4b26-97da-0bc2927d0e96</Id>
-         <Extension>.var</Extension>
-         <ParentIndex>1</ParentIndex>
-      </VariableWorksheet>
-      <VariableWorksheet Include="RecycleBin\d4067453-cceb-45f5-857c-cb44afd16f42\NewFunctionBlock.pou\Variables.var">
-         <Id>9b70c273-7de0-42d8-b07c-acd0f0ed9f93</Id>
-         <Extension>.var</Extension>
-         <ParentIndex>1</ParentIndex>
-      </VariableWorksheet>
-      <VariableWorksheet Include="RecycleBin\ed171093-7ca6-411a-a26b-6bc12c14165a\Byte32ArraytoInt32Array.pou\Variables.var">
-         <Id>a70f5eeb-5f64-46aa-a317-4b8dc899d2fc</Id>
-         <Extension>.var</Extension>
-         <ParentIndex>1</ParentIndex>
-      </VariableWorksheet>
-      <VariableWorksheet Include="RecycleBin\ab99c3c1-7ea0-4d94-ada6-71b4bda9029d\ByteArraytoIntArray.pou\Variables.var">
-         <Id>5d91a1a9-b718-49af-98c5-92ece62ccd7b</Id>
-         <Extension>.var</Extension>
-         <ParentIndex>1</ParentIndex>
-      </VariableWorksheet>
       <VariableWorksheet Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\RES_829976591E98446682C292813E058D7E\GlobalVariables.var">
          <Id>9c176e32-8058-4821-b2cd-c43fbd816f75</Id>
          <IsVarConfig>true</IsVarConfig>
@@ -2880,7 +2682,7 @@
    </ItemGroup>
    <PropertyGroup>
       <ProjectId>5370a173-31a3-4247-9887-8407f3470dce</ProjectId>
-      <AdeProductVersion>1.4.15.0</AdeProductVersion>
+      <AdeProductVersion>1.4.16.0</AdeProductVersion>
       <AdeSafetyVersion>1.0.0.1</AdeSafetyVersion>
       <HmiSchemaRevision>4</HmiSchemaRevision>
       <SafetyId>dc971477-cb7e-4beb-9f3c-e37812446713</SafetyId>

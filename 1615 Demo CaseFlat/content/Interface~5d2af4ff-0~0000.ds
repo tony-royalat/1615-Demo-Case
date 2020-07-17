@@ -29,5 +29,10 @@
     <InstVal xPath="//Layer7[@uID='L7']/SlotNumber" Type="Ade.Fdcml.Core.Unsigned16">32768</InstVal>
     <InstVal xPath="//Layer7[@uID='L7']/Generic:FormattedTypeNameWithoutVersion" Type="System.String"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7']/Generic:FormattedTypeName" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnsmi10' type='PN:AsymTiming']" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnsmi09' type='PN:RedRatUIOutput']" Type="Ade.Fdcml.Core.Unsigned16">8</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnsmi08' type='PN:MonitorTimeOutput']" Type="Ade.Fdcml.Core.Float64">24</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnsmi07' type='PN:UpdateTimeOutput']" Type="Ade.Fdcml.Core.Float64">8</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnsmi06' type='PN:WtchDOutput']" Type="Ade.Fdcml.Core.Unsigned16">3</InstVal>
   </DevInst>
 </DevInstDoc>

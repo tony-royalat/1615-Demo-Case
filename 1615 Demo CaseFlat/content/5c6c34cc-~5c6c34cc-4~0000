@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RestoreDataItem Version="1" DeletionDate="2020-07-13 21:55:05Z" DisplayName="IOLinkSingleTest">
-    <NodeData DomainId="e639c0f9-db09-46f4-abf7-50216a13f220" SolutionId="606e2993-1c57-411c-b0d2-c57a13c52bbf" NodeId="5c6c34cc-4385-4094-a5ba-f45836fe2263" ParentId="d31eab2b-b1a0-4c93-bdaf-090bc38c49f4" PredecessorId="0eb578c3-04d6-4c2e-a14d-e00dc030e584" Position="36" Kind="Type" />
-</RestoreDataItem>

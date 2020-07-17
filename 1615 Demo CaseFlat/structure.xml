@@ -169,6 +169,7 @@
           <file name="ResourceSettings.set" id="RES_82997~ResourceSe~0000.set" />
         </folder>
       </folder>
+      <file name="950d54e3-e87f-4f59-8e36-760d6cb9bdc3.projset" id="Hardware~950d54e3-e8~0002.projset" />
     </folder>
     <folder name="Logical Elements">
       <file name="CRC32.crc" id="Logical Elemen~CRC32~0000.crc" />
@@ -485,55 +486,22 @@
         <folder name="life aquatic movie poster.png" />
       </folder>
       <folder name="ab99c3c1-7ea0-4d94-ada6-71b4bda9029d">
-        <file name="ab99c3c1-7ea0-4d94-ada6-71b4bda9029d" id="ab99c3c1-~ab99c3c1-7~0000" />
-        <folder name="ByteArraytoIntArray.pou">
-          <file name="Variables.var" id="ByteArrayt~Variables~0001.var" />
-          <file name="VersionHistory.usermeta" id="ByteArray~VersionHis~0001.usermeta" />
-          <file name="Code.st" id="ByteArraytoIntA~Code~0001.st" />
-          <file name="Metadata.meta" id="ByteArrayto~Metadata~0001.meta" />
-          <file name="Description.html" id="ByteArray~Descriptio~0001.html" />
-        </folder>
+        <folder name="ByteArraytoIntArray.pou" />
       </folder>
       <folder name="ed171093-7ca6-411a-a26b-6bc12c14165a">
-        <file name="ed171093-7ca6-411a-a26b-6bc12c14165a" id="ed171093-~ed171093-7~0000" />
-        <folder name="Byte32ArraytoInt32Array.pou">
-          <file name="Variables.var" id="Byte32Arra~Variables~0001.var" />
-          <file name="VersionHistory.usermeta" id="Byte32Arr~VersionHis~0001.usermeta" />
-          <file name="Code.st" id="Byte32ArraytoIn~Code~0001.st" />
-          <file name="Metadata.meta" id="Byte32Array~Metadata~0001.meta" />
-          <file name="Description.html" id="Byte32Arr~Descriptio~0001.html" />
-        </folder>
+        <folder name="Byte32ArraytoInt32Array.pou" />
       </folder>
       <folder name="d4067453-cceb-45f5-857c-cb44afd16f42">
-        <file name="d4067453-cceb-45f5-857c-cb44afd16f42" id="d4067453-~d4067453-c~0000" />
-        <folder name="NewFunctionBlock.pou">
-          <file name="Variables.var" id="NewFunctio~Variables~0000.var" />
-          <file name="VersionHistory.usermeta" id="NewFuncti~VersionHis~0000.usermeta" />
-          <file name="Metadata.meta" id="NewFunction~Metadata~0000.meta" />
-          <file name="Description.html" id="NewFuncti~Descriptio~0000.html" />
-        </folder>
+        <folder name="NewFunctionBlock.pou" />
       </folder>
       <folder name="1e3ad56d-a1c8-46c6-8a5b-0a58e43561c0">
         <folder name="NewProgram.pou" />
       </folder>
       <folder name="5c6c34cc-4385-4094-a5ba-f45836fe2263">
-        <file name="5c6c34cc-4385-4094-a5ba-f45836fe2263" id="5c6c34cc-~5c6c34cc-4~0000" />
-        <folder name="IOLinkSingleTest.pou">
-          <file name="Variables.var" id="IOLinkSing~Variables~0000.var" />
-          <file name="VersionHistory.usermeta" id="IOLinkSin~VersionHis~0000.usermeta" />
-          <file name="Code.ld" id="IOLinkSingleTes~Code~0000.ld" />
-          <file name="Metadata.meta" id="IOLinkSingl~Metadata~0000.meta" />
-          <file name="Description.html" id="IOLinkSin~Descriptio~0000.html" />
-        </folder>
+        <folder name="IOLinkSingleTest.pou" />
       </folder>
       <folder name="4a5f5334-fecc-4f5a-8ea6-5793c1ef94d7">
-        <file name="4a5f5334-fecc-4f5a-8ea6-5793c1ef94d7" id="4a5f5334-~4a5f5334-f~0000" />
-        <folder name="NewProgram.pou">
-          <file name="Variables.var" id="NewProgram~Variables~0003.var" />
-          <file name="VersionHistory.usermeta" id="NewProgra~VersionHis~0003.usermeta" />
-          <file name="Metadata.meta" id="NewProgram.~Metadata~0003.meta" />
-          <file name="Description.html" id="NewProgra~Descriptio~0003.html" />
-        </folder>
+        <folder name="NewProgram.pou" />
       </folder>
     </folder>
   </folder>
