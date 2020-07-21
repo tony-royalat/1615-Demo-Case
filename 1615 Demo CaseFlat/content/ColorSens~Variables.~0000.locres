@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Languages ID="00000000-0000-0000-0000-000000000000" Name="Default" />
+  <Resources ID="3e2488b9-b0fa-4bc1-b4ad-f50321fe86e7" Name="ColorSensor.Variables.ColorSensIn.Comment">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Data Here" />
+  </Resources>
+</ResourcesDocument>

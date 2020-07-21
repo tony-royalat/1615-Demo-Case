@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Languages ID="00000000-0000-0000-0000-000000000000" Name="Default" />
+  <Resources ID="838d5049-9aac-4331-b1dc-d03e62e6b45d" Name="IOLinkBackButton.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Back" />
+  </Resources>
+  <Resources ID="966a1766-1366-45ab-a971-b220080d5905" Name="IOLinkWebpage.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Master" />
+  </Resources>
+  <Resources ID="6831005c-1a85-48d5-ad25-6ea3dd3ec6f9" Name="ColorSensorHeader.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Banner Color Sensor Data" />
+  </Resources>
+  <Resources ID="0946a65b-791b-4842-b13d-94ccf4ac82a0" Name="RedRatioText.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Text" />
+  </Resources>
+  <Resources ID="6c126b5a-9663-4c30-8da9-9d89d48abb5e" Name="GreenRatioText.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Text" />
+  </Resources>
+  <Resources ID="97cbf951-8056-48ed-a25f-0e5a7d5fd44d" Name="BlueRatioText.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Text" />
+  </Resources>
+  <Resources ID="4be85a0a-cef8-4596-8945-46769519d7c4" Name="EnergyDisplay.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Text" />
+  </Resources>
+  <Resources ID="e92b36cf-bb94-4285-816e-2c8ff320bd8c" Name="K50CycleButton.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Button" />
+  </Resources>
+</ResourcesDocument>

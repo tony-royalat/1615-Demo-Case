@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Languages ID="00000000-0000-0000-0000-000000000000" Name="Default" />
+  <Resources ID="6d6df917-260d-4ae5-b660-0f46c565aea7" Name="UPSBackButton.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Back" />
+  </Resources>
+  <Resources ID="f9c9d0b0-86bb-4cc0-bd8c-3b1a02e5a83f" Name="UPSSourceText.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="" />
+  </Resources>
+  <Resources ID="3a910a70-e67e-4cbd-9808-b01a312865e8" Name="InputVoltageText.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="" />
+  </Resources>
+  <Resources ID="ed4fcb95-477a-43ac-8249-71aadd49bc56" Name="InputCurrentText.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="" />
+  </Resources>
+  <Resources ID="dfc96ece-a671-4729-8f1d-c7efe1340b44" Name="OutputVoltageText.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="" />
+  </Resources>
+  <Resources ID="92c793a5-a04d-4d84-9747-1f822334949a" Name="BatteryVoltageText.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="" />
+  </Resources>
+  <Resources ID="ad785481-3330-4eff-b1e4-d7f10bfab01b" Name="BatteryChargingCurrentText.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="" />
+  </Resources>
+  <Resources ID="80f99e0d-ee59-4ba5-a9a5-bd1b79bb7e85" Name="OutputCurrentText.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="" />
+  </Resources>
+  <Resources ID="88775c99-9bc8-4cd2-9631-99a99a183d93" Name="BatteryTemperatureText.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="" />
+  </Resources>
+  <Resources ID="546921fb-06e5-40bb-8daf-8e8c794deeb8" Name="DeviceTemperatureText.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="" />
+  </Resources>
+  <Resources ID="bcf916e1-a1ea-4481-871f-6f3efac9702b" Name="TimeToShutdownText.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="" />
+  </Resources>
+</ResourcesDocument>

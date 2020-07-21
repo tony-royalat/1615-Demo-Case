@@ -13,6 +13,9 @@
       <Variable Id="a10be140-6210-4f11-8822-a3dd6bc6e7bb" Name="DeviceTemperatureDisplay" DataType="STRING" />
       <Variable Id="5f3477c0-1e35-4c02-aafe-1e1fbad9272c" Name="TimeToShutdownDisplay" DataType="STRING" />
     </Variables>
+    <Documents>
+      <Document Id="a3969d99-6a1a-4912-ad24-cd8375e877e4" NodeType="HmiPage" Name="Homepage" />
+    </Documents>
   </References>
   <Layers>
     <Layer>

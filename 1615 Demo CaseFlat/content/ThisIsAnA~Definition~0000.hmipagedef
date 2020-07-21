@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <HmiPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="ThisIsAnAdventure" BorderWidth="0" ImageId="8f647f73-d9ed-4e64-9f6f-79812f3677e1" ImageScaling="Fit">
+  <References>
+    <Documents>
+      <Document Id="a3969d99-6a1a-4912-ad24-cd8375e877e4" NodeType="HmiPage" Name="Homepage" />
+    </Documents>
+  </References>
   <Layers>
     <Layer>
       <Objects>

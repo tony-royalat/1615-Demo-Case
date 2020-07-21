@@ -38,6 +38,7 @@
             <folder name="Login.hmi">
               <file name="Definition.hmipagedef" id="Login.hmi~Definition~0000.hmipagedef" />
               <file name="Variables.hmivar" id="Login.hmi~Variables~0000.hmivar" />
+              <file name="Resources.locres" id="Login.hmi~Resources~0000.locres" />
             </folder>
             <folder name="Page.hmi" />
             <folder name="Page1.hmi" />
@@ -46,28 +47,33 @@
               <file name="Definition.hmipagedef" id="UPS_Info.~Definition~0000.hmipagedef" />
               <file name="Parameters.hmiparams" id="UPS_Info.~Parameters~0000.hmiparams" />
               <file name="Variables.hmivar" id="UPS_Info.h~Variables~0000.hmivar" />
+              <file name="Resources.locres" id="UPS_Info.h~Resources~0000.locres" />
             </folder>
             <folder name="Main.hmi" />
             <folder name="Homepage.hmi">
               <file name="Parameters.hmiparams" id="Homepage.~Parameters~0000.hmiparams" />
               <file name="Variables.hmivar" id="Homepage.h~Variables~0000.hmivar" />
               <file name="Definition.hmipagedef" id="Homepage.~Definition~0000.hmipagedef" />
+              <file name="Resources.locres" id="Homepage.h~Resources~0000.locres" />
             </folder>
             <folder name="ThisIsAnAdventure.hmi">
               <file name="Definition.hmipagedef" id="ThisIsAnA~Definition~0000.hmipagedef" />
               <file name="Parameters.hmiparams" id="ThisIsAnA~Parameters~0000.hmiparams" />
               <file name="Variables.hmivar" id="ThisIsAnAd~Variables~0000.hmivar" />
+              <file name="Resources.locres" id="ThisIsAnAd~Resources~0000.locres" />
             </folder>
             <folder name="Safety_Info.hmi" />
             <folder name="IOLink.hmi">
               <file name="Definition.hmipagedef" id="IOLink.hm~Definition~0000.hmipagedef" />
               <file name="Parameters.hmiparams" id="IOLink.hm~Parameters~0000.hmiparams" />
               <file name="Variables.hmivar" id="IOLink.hmi~Variables~0000.hmivar" />
+              <file name="Resources.locres" id="IOLink.hmi~Resources~0000.locres" />
             </folder>
             <folder name="Safety.hmi">
               <file name="Definition.hmipagedef" id="Safety.hm~Definition~0000.hmipagedef" />
               <file name="Parameters.hmiparams" id="Safety.hm~Parameters~0000.hmiparams" />
               <file name="Variables.hmivar" id="Safety.hmi~Variables~0000.hmivar" />
+              <file name="Resources.locres" id="Safety.hmi~Resources~0000.locres" />
             </folder>
           </folder>
         </folder>
@@ -199,6 +205,7 @@
         <file name="Metadata.meta" id="Buttons.pou~Metadata~0000.meta" />
         <file name="Variables.var" id="Buttons.po~Variables~0000.var" />
         <file name="VersionHistory.usermeta" id="Buttons.p~VersionHis~0000.usermeta" />
+        <file name="Variables.var.locres" id="Buttons.p~Variables.~0000.locres" />
       </folder>
       <folder name="Deep Search.jpg">
         <file name="Source" id="Deep Search.j~Source~0000" />
@@ -210,22 +217,11 @@
         <file name="Metadata.meta" id="HMILogic.po~Metadata~0000.meta" />
         <file name="Variables.var" id="HMILogic.p~Variables~0000.var" />
         <file name="VersionHistory.usermeta" id="HMILogic.~VersionHis~0000.usermeta" />
+        <file name="Variables.var.locres" id="HMILogic.~Variables.~0000.locres" />
       </folder>
-      <folder name="IOLink.pou">
-        <file name="Code.ld" id="IOLink.pou~Code~0000.ld" />
-        <file name="Description.html" id="IOLink.po~Descriptio~0000.html" />
-        <file name="Metadata.meta" id="IOLink.pou~Metadata~0000.meta" />
-        <file name="Variables.var" id="IOLink.pou~Variables~0000.var" />
-        <file name="VersionHistory.usermeta" id="IOLink.po~VersionHis~0000.usermeta" />
-      </folder>
+      <folder name="IOLink.pou" />
       <folder name="life aquatic movie poster.png" />
-      <folder name="Main.pou">
-        <file name="Code.st" id="Main.pou~Code~0000.st" />
-        <file name="Description.html" id="Main.pou~Description~0000.html" />
-        <file name="Metadata.meta" id="Main.pou~Metadata~0000.meta" />
-        <file name="Variables.var" id="Main.pou~Variables~0000.var" />
-        <file name="VersionHistory.usermeta" id="Main.pou~VersionHist~0000.usermeta" />
-      </folder>
+      <folder name="Main.pou" />
       <folder name="Modules">
         <file name="GenericIO_16.png" id="Modules~GenericIO_16~0000.png" />
         <file name="GSDML-00B0-0142-QUINT-BAT_BMP.png" id="Modules~GSDML-00B0-0~0000.png" />
@@ -355,6 +351,7 @@
         <file name="Metadata.meta" id="SafetyRelay~Metadata~0000.meta" />
         <file name="Variables.var" id="SafetyRela~Variables~0000.var" />
         <file name="VersionHistory.usermeta" id="SafetyRel~VersionHis~0000.usermeta" />
+        <file name="Variables.var.locres" id="SafetyRel~Variables.~0000.locres" />
       </folder>
       <folder name="Quint4UPS.jpg">
         <file name="Source" id="Quint4UPS.jpg~Source~0000" />
@@ -409,12 +406,7 @@
       <folder name="ByteArraytoIntArray.pou" />
       <folder name="Byte32ArraytoInt32Array.pou" />
       <folder name="NewFunctionBlock.pou" />
-      <folder name="Example.pou">
-        <file name="Variables.var" id="Example.po~Variables~0000.var" />
-        <file name="Metadata.meta" id="Example.pou~Metadata~0000.meta" />
-        <file name="Example.st" id="Example.pou~Example~0000.st" />
-        <file name="Instances.st" id="Example.po~Instances~0000.st" />
-      </folder>
+      <folder name="Example.pou" />
       <folder name="NewProgram.pou" />
       <folder name="IOLinkSingleTest.pou" />
       <folder name="ColorSensor.pou">
@@ -423,6 +415,7 @@
         <file name="VersionHistory.usermeta" id="ColorSens~VersionHis~0000.usermeta" />
         <file name="Description.html" id="ColorSens~Descriptio~0000.html" />
         <file name="Code.st" id="ColorSensor.pou~Code~0000.st" />
+        <file name="Variables.var.locres" id="ColorSens~Variables.~0000.locres" />
       </folder>
       <folder name="TouchButton.pou">
         <file name="Metadata.meta" id="TouchButton~Metadata~0000.meta" />
@@ -430,6 +423,7 @@
         <file name="VersionHistory.usermeta" id="TouchButt~VersionHis~0000.usermeta" />
         <file name="Description.html" id="TouchButt~Descriptio~0000.html" />
         <file name="Code.st" id="TouchButton.pou~Code~0000.st" />
+        <file name="Variables.var.locres" id="TouchButt~Variables.~0000.locres" />
       </folder>
     </folder>
     <folder name="RecycleBin">
@@ -502,6 +496,35 @@
       </folder>
       <folder name="4a5f5334-fecc-4f5a-8ea6-5793c1ef94d7">
         <folder name="NewProgram.pou" />
+      </folder>
+      <folder name="e0ad5abd-cd08-4259-8c2d-6a8c0620f078">
+        <file name="e0ad5abd-cd08-4259-8c2d-6a8c0620f078" id="e0ad5abd-~e0ad5abd-c~0000" />
+        <folder name="IOLink.pou">
+          <file name="Metadata.meta" id="IOLink.pou~Metadata~0001.meta" />
+          <file name="Variables.var" id="IOLink.pou~Variables~0001.var" />
+          <file name="VersionHistory.usermeta" id="IOLink.po~VersionHis~0001.usermeta" />
+          <file name="Code.ld" id="IOLink.pou~Code~0001.ld" />
+          <file name="Description.html" id="IOLink.po~Descriptio~0001.html" />
+        </folder>
+      </folder>
+      <folder name="111dd1e0-8977-404a-b4bf-24eeb8c05c76">
+        <file name="111dd1e0-8977-404a-b4bf-24eeb8c05c76" id="111dd1e0-~111dd1e0-8~0000" />
+        <folder name="Main.pou">
+          <file name="Metadata.meta" id="Main.pou~Metadata~0001.meta" />
+          <file name="Variables.var" id="Main.pou~Variables~0001.var" />
+          <file name="VersionHistory.usermeta" id="Main.pou~VersionHist~0001.usermeta" />
+          <file name="Code.st" id="Main.pou~Code~0001.st" />
+          <file name="Description.html" id="Main.pou~Description~0001.html" />
+        </folder>
+      </folder>
+      <folder name="0eb578c3-04d6-4c2e-a14d-e00dc030e584">
+        <file name="0eb578c3-04d6-4c2e-a14d-e00dc030e584" id="0eb578c3-~0eb578c3-0~0000" />
+        <folder name="Example.pou">
+          <file name="Variables.var" id="Example.po~Variables~0001.var" />
+          <file name="Metadata.meta" id="Example.pou~Metadata~0001.meta" />
+          <file name="Example.st" id="Example.pou~Example~0001.st" />
+          <file name="Instances.st" id="Example.po~Instances~0001.st" />
+        </folder>
       </folder>
     </folder>
   </folder>

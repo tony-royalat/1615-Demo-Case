@@ -2,8 +2,6 @@
 <HmiPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Homepage" BorderWidth="0" ImageId="b3e311af-0dba-46f5-b56c-f51652b98fe1" ImageScaling="Center">
   <References>
     <Variables>
-      <Variable Id="85718a3a-ba17-4b1f-a1f8-b0ae85197c05" Name="BatteryVoltage" DataType="DINT" />
-      <Variable Id="da7029c8-d8e5-4ab3-b6f2-35e7892176bf" Name="BatteryVoltage_Scaled" DataType="DINT" />
       <Variable Id="5f3477c0-1e35-4c02-aafe-1e1fbad9272c" Name="TimeToShutdownDisplay" DataType="STRING" />
       <Variable Id="d61eb73e-d276-4e32-9489-8e686b8767ae" Name="TimeToShutdownDisplayVisibility" DataType="BOOL" />
       <Variable Id="e728becb-7c6d-4f08-a1c6-9983c24c7303" Name="Battery100Visibility" DataType="BOOL" />
@@ -17,6 +15,8 @@
     <Documents>
       <Document Id="72013f67-3ff0-41ad-9767-3e975fc5b6e4" NodeType="HmiPage" Name="UPS_Info" />
       <Document Id="f0e0622e-4165-4db9-812e-340d3d3e3cc8" NodeType="HmiPage" Name="Safety_Info" />
+      <Document Id="0b09790b-5b0e-488a-81ee-1114f35f5277" NodeType="HmiPage" Name="ThisIsAnAdventure" />
+      <Document Id="c4daf194-72b1-4a3e-93eb-c800bfa6f01b" NodeType="HmiPage" Name="IOLink" />
     </Documents>
   </References>
   <Layers>

@@ -29,21 +29,28 @@ TASK Cyclic501 (INTERVAL := T#50ms, PRIORITY := 0) { Watchdog(T#75ms), Id('aaca6
 
 TASK Cyclic502 (INTERVAL := T#50ms, PRIORITY := 0) { Watchdog(T#75ms), Id('44f246ec-dfc8-4606-aff7-1cb1444514d7') };
 
-TASK Cyclic100ms (INTERVAL := T#100ms, PRIORITY := 0) { Watchdog(T#200ms), Id('83e6bc86-80c1-48ec-bbe6-fe7bd75d8935') };
-
-PROGRAM MainInstance WITH Cyclic501 : Main { Id('5a4da879-8343-4f8a-88da-ecf9afe03785') };
-
-PROGRAM IOLinkInstance WITH Cyclic501 : IOLink { Id('f63ddc3a-df87-45e4-a151-62dcd6c204b6') };
-
 PROGRAM ColorSensorInstance WITH Cyclic501 : ColorSensor { Id('0eefee14-4728-4716-888f-e095a89651ea') };
 
-PROGRAM TouchButton1 WITH Cyclic501 : TouchButton { Id('9de5aaf3-e769-4ddb-b304-dc30783b741c') };
+PROGRAM TouchButtonInstance WITH Cyclic501 : TouchButton { Id('9de5aaf3-e769-4ddb-b304-dc30783b741c') };
+
+PROGRAM HMIInstance WITH Cyclic501 : HMILogic { Id('2ac22eb2-32f5-4e04-9f6f-c675ad3cca33') };
 
 PROGRAM PushbuttonInstance WITH Cyclic502 : Buttons { Id('4493d317-ffc4-4ee6-99d4-2515973c2eb1') };
 
 PROGRAM SafetyRelayInstance WITH Cyclic502 : SafetyRelay { Id('67a81bed-a0aa-47e0-9717-839b2d195e26') };
 
-PROGRAM HMIInstance WITH Cyclic100ms : HMILogic { Id('307759f0-229e-4e4c-a768-c234205ac21e') };
+END_RESOURCE
+E
+6') };
+
+PROGRAM HMIInstance WITH Cyclic502 : HMILogic { Id('7e325671-684a-44d7-a8a1-efe2146da0cd') };
+
+END_RESOURCE
+E
+WITH Cyclic100ms : HMILogic { Id('307759f0-229e-4e4c-a768-c234205ac21e') };
+
+END_RESOURCE
+TH Cyclic100ms : HMILogic { Id('307759f0-229e-4e4c-a768-c234205ac21e') };
 
 END_RESOURCE
 

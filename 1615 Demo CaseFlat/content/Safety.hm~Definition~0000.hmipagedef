@@ -2,7 +2,6 @@
 <HmiPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Safety" BorderWidth="0" ImageId="bb7fcb2a-5e4d-4052-b636-fd0fd6df20c5" ImageScaling="Fit">
   <References>
     <Variables>
-      <Variable Id="af8ef973-c232-415a-a3e1-895ff001d923" Name="PSR_Error_Text" DataType="STRING" />
       <Variable Id="996bd691-385b-4c7c-bf94-8cf2ce787f01" Name="CT1_Status" DataType="BOOL" />
       <Variable Id="a03a9e3d-a91f-4c31-9ab5-3e3cd3f7b082" Name="CT3_Status" DataType="BOOL" />
       <Variable Id="db770533-70c6-42a6-be96-c847042bc979" Name="CT2_Status" DataType="BOOL" />

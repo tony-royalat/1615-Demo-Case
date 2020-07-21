@@ -12,9 +12,6 @@ VAR_GLOBAL
     Pushbutton2Blue : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('adb7ea1f-ba8b-455c-b605-d95027ac6f5f')};
     Alarm_PSRMC42 : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('15bb048c-0f3d-419b-8f1c-818c102fb9f0')};
     Reset_PSRMC42 : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('5158cdf4-b1ac-4679-8def-1309c8472301')};
-    GuardingSwitch1 : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('73a550d7-1c85-431f-bd7b-d9ac78321c8f')};
-    GuardingSwitch2 : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('b091c55e-ef96-4f9e-a907-f3a2586a02ff')};
-    GuardingSwitch3 : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('76a0eab1-60a8-42dd-9463-a3c395957b43')};
     EStop1 : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('8c179d00-8ed7-4185-a19b-d95da986a58c')};
     TimeToShutdown : DINT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('f25a64f6-42d9-4760-8874-dad1ec272dd3')}; (*s*)
     TimeToShutdownDisplay : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('46b8bc9c-c522-4594-8ea9-eb5327daf7c6')};
@@ -36,7 +33,6 @@ VAR_GLOBAL
     OutputVoltage : REAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('3e897c6f-b872-4a79-a642-d85189021cef')}; (*mV*)
     BatteryTemperature : REAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('f16a16cc-c97f-4f39-8867-e4e8b5d6aee7')}; (*K*)
     DeviceTemperature : REAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('b85d1267-22f3-4c97-85d8-4cb5188d2000')}; (*K*)
-    BatteryStateOfChargeCalculated : REAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('2f4fec6d-0390-4ab1-8275-69b756ba628c')};
     BatteryStateOfChargeDisplay : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('5acd4933-9030-47bb-b14a-972809ee2b80')};
     Battery0Visibility : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('a3078038-ddac-46d0-a7ac-32b432e938dd')};
     Battery10Visibility : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('3122c647-499f-470b-a3b4-e12b115b86f0')};
@@ -48,19 +44,6 @@ VAR_GLOBAL
     EStop1Indicator : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('af51644e-77a4-49a4-92ea-01e6cb2e5782')};
     UPSDataArray_Int : My32IntArray { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('c24cc4e4-ed07-4883-8999-722351cbb7f6')}; (*Int Array*)
     UPSDataArray : My32ByteArray { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('db11380a-1d9c-4e43-9d20-631d5d476b44')}; (*Byte Array*)
-    strTmp : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('e5876d30-6021-43f1-986f-15805f7aafda')}; (*Destinated data field or variable of the default data type.*)
-    strRef : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('aa96f6f1-5ec3-4ce1-9c11-46c292235b6c')}; (*Read reference value*)
-    iIteration : INT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('1ae592ca-3628-4374-8515-49c581a0a2f1')}; (*Iteration value*)
-    iIterationMax : INT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('5afbc67c-8d3b-4de0-8200-f925208fbe60')}; (*Maximum iteration value*)
-    iIndex : INT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('85edf2a2-78ae-473b-85fd-f9f5cfdb4eeb')}; (*Index value*)
-    udtExample : TB_UDT_EXAMPLE { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('327b57cb-3c52-4d21-9c4c-fbb5218b1f42')}; (*Exchange structure*)
-END_VAR
-
-VAR_CONFIG
-    IOLinkInstance.Example1.udtExample : TB_UDT_EXAMPLE { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24'), InputLocation } {Id('8c0950d7-07c5-436d-8c54-01f3b47dad59')}; (*Exchange structure*)
-END_VAR
-
-VAR_GLOBAL
     ColorSensIn : LWORD { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('05b60deb-c9f8-4ba7-86e5-c85cbf42fa62')}; (*Data Here*)
     RedRatioDisplay : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('5ac1a6d8-dd40-4e92-b2eb-61710d7ea6c8')};
     GreenRatioDisplay : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('43167a8a-fd0d-4b57-88a8-6678d618214e')};

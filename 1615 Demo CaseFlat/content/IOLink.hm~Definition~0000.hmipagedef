@@ -2,15 +2,11 @@
 <HmiPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IOLink" BorderWidth="0" ImageId="82060f54-2129-4880-bfc9-55df72f34671" ImageScaling="Fit">
   <References>
     <Variables>
-      <Variable Id="7bfce850-be32-4e41-ad28-ee40bcb4c43d" Name="rRatioRed" DataType="REAL" />
-      <Variable Id="3286080b-6519-4bce-97fe-8942795b8576" Name="rRatioBlue" DataType="REAL" />
       <Variable Id="e757626e-6e72-4b4c-a13f-b2bde33ce617" Name="BlueRatioDisplay" DataType="STRING" />
       <Variable Id="4507ef68-2553-46ee-86f8-a6e0226643b5" Name="GreenRatioDisplay" DataType="STRING" />
       <Variable Id="f1521105-3fb5-4aed-bd3b-a3ac4a331200" Name="RedRatioDisplay" DataType="STRING" />
-      <Variable Id="aed43a9d-5f27-4060-9711-11c0e3808af4" Name="IntensityDisplay" DataType="STRING" />
       <Variable Id="577627ad-722f-4d4d-923d-04f633312dc1" Name="EnergyDisplay" DataType="STRING" />
       <Variable Id="77f66a2f-9295-4a53-b25e-02f64f81165c" Name="strK50AnimationText" DataType="STRING" />
-      <Variable Id="4684a213-9eda-4e2a-b5d9-c837ceffd267" Name="xK50HMIButton" DataType="BOOL" />
       <Variable Id="a5444071-0b89-4046-9c72-af327b4f61cf" Name="iK50Animation" DataType="INT" />
       <Variable Id="1d0d1279-0cd2-4aac-953a-3b88e088ce5c" Name="K50ButtonState" DataType="BOOL" />
     </Variables>

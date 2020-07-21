@@ -10,10 +10,30 @@
       </CockpitDocument>
    </ItemGroup>
    <ItemGroup>
-      <CodeWorksheet Include="Logical Elements\Main.pou\Code.st">
+      <CodeWorksheet Include="RecycleBin\0eb578c3-04d6-4c2e-a14d-e00dc030e584\Example.pou\Example.st">
+         <Id>ba007bf5-7361-4050-ae1c-3dbff8e2f142</Id>
+         <Type>.st</Type>
+         <LockedNetworks></LockedNetworks>
+         <Extension>.st</Extension>
+         <ParentIndex>2</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="RecycleBin\0eb578c3-04d6-4c2e-a14d-e00dc030e584\Example.pou\Instances.st">
+         <Id>9633ced1-ce16-4c11-add4-afa7869e5a5b</Id>
+         <Type>.st</Type>
+         <LockedNetworks></LockedNetworks>
+         <Extension>.st</Extension>
+         <ParentIndex>3</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="RecycleBin\111dd1e0-8977-404a-b4bf-24eeb8c05c76\Main.pou\Code.st">
          <Id>845d8596-eacf-4214-a616-a559db6bd8b2</Id>
          <Extension>.st</Extension>
          <Type>.st</Type>
+         <ParentIndex>3</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="RecycleBin\e0ad5abd-cd08-4259-8c2d-6a8c0620f078\IOLink.pou\Code.ld">
+         <Id>389a6d1a-b77a-480c-a955-46318f5ced67</Id>
+         <Extension>.ld</Extension>
+         <Type>.ld</Type>
          <ParentIndex>3</ParentIndex>
       </CodeWorksheet>
       <CodeWorksheet Include="Logical Elements\Buttons.pou\Code.st">
@@ -28,30 +48,10 @@
          <Type>.st</Type>
          <ParentIndex>4</ParentIndex>
       </CodeWorksheet>
-      <CodeWorksheet Include="Logical Elements\IOLink.pou\Code.ld">
-         <Id>389a6d1a-b77a-480c-a955-46318f5ced67</Id>
-         <Extension>.ld</Extension>
-         <Type>.ld</Type>
-         <ParentIndex>3</ParentIndex>
-      </CodeWorksheet>
       <CodeWorksheet Include="Logical Elements\HMILogic.pou\Code.st">
          <Id>1f84dbe6-fb2d-4874-a80f-ab22493a5c83</Id>
          <Extension>.st</Extension>
          <Type>.st</Type>
-         <ParentIndex>3</ParentIndex>
-      </CodeWorksheet>
-      <CodeWorksheet Include="Logical Elements\Example.pou\Example.st">
-         <Id>ba007bf5-7361-4050-ae1c-3dbff8e2f142</Id>
-         <Type>.st</Type>
-         <LockedNetworks></LockedNetworks>
-         <Extension>.st</Extension>
-         <ParentIndex>2</ParentIndex>
-      </CodeWorksheet>
-      <CodeWorksheet Include="Logical Elements\Example.pou\Instances.st">
-         <Id>9633ced1-ce16-4c11-add4-afa7869e5a5b</Id>
-         <Type>.st</Type>
-         <LockedNetworks></LockedNetworks>
-         <Extension>.st</Extension>
          <ParentIndex>3</ParentIndex>
       </CodeWorksheet>
       <CodeWorksheet Include="Logical Elements\ColorSensor.pou\Code.st">
@@ -267,7 +267,7 @@
       </DataTypeWorksheet>
       <DataTypeWorksheet Include="Logical Elements\DataTypes.dt">
          <Id>f190f6c7-932a-4f53-adaf-9b0bb0637f00</Id>
-         <ParentIndex>34</ParentIndex>
+         <ParentIndex>32</ParentIndex>
       </DataTypeWorksheet>
    </ItemGroup>
    <ItemGroup>
@@ -989,15 +989,58 @@
       </EsmConfiguration>
    </ItemGroup>
    <ItemGroup>
+      <Folder Include="RecycleBin">
+         <Id>8948bab4-6d82-435b-8f9c-61db9c8c2d48</Id>
+         <FolderType>RecycleBin</FolderType>
+         <LastestItemNo>3</LastestItemNo>
+         <Visible>false</Visible>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\0eb578c3-04d6-4c2e-a14d-e00dc030e584">
+         <Id>f4b12f3c-21d4-443b-8376-17ce092ccad3</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>3</ItemNo>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\0eb578c3-04d6-4c2e-a14d-e00dc030e584\Example.pou">
+         <Id>0eb578c3-04d6-4c2e-a14d-e00dc030e584</Id>
+         <FolderType>PouFolder</FolderType>
+         <Id>0eb578c3-04d6-4c2e-a14d-e00dc030e584</Id>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\111dd1e0-8977-404a-b4bf-24eeb8c05c76">
+         <Id>4772d856-1d85-457b-a9c9-852f6b4dd3d3</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>2</ItemNo>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\111dd1e0-8977-404a-b4bf-24eeb8c05c76\Main.pou">
+         <Id>111dd1e0-8977-404a-b4bf-24eeb8c05c76</Id>
+         <FolderType>PouFolder</FolderType>
+         <Id>111dd1e0-8977-404a-b4bf-24eeb8c05c76</Id>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\e0ad5abd-cd08-4259-8c2d-6a8c0620f078">
+         <Id>12030f09-7932-4c08-b59e-45fec86ebaf7</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>1</ItemNo>
+         <ParentIndex>2</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\e0ad5abd-cd08-4259-8c2d-6a8c0620f078\IOLink.pou">
+         <Id>e0ad5abd-cd08-4259-8c2d-6a8c0620f078</Id>
+         <FolderType>PouFolder</FolderType>
+         <Id>e0ad5abd-cd08-4259-8c2d-6a8c0620f078</Id>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
       <Folder Include="References">
          <Id>e1f1f17a-700b-4d82-b5af-66425b18451f</Id>
          <FolderType>References</FolderType>
-         <ParentIndex>0</ParentIndex>
+         <ParentIndex>1</ParentIndex>
       </Folder>
       <Folder Include="Hardware">
          <Id>b614ac7b-e691-415d-9ea0-2d9d7a7e1117</Id>
          <FolderType>Root</FolderType>
-         <ParentIndex>1</ParentIndex>
+         <ParentIndex>2</ParentIndex>
       </Folder>
       <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7">
          <Id>09451df4-5b18-4474-b1bd-c5f625d4c2b7</Id>
@@ -1386,19 +1429,13 @@
       <Folder Include="Logical Elements">
          <Id>d31eab2b-b1a0-4c93-bdaf-090bc38c49f4</Id>
          <FolderType>Root</FolderType>
-         <ParentIndex>2</ParentIndex>
-      </Folder>
-      <Folder Include="Logical Elements\Main.pou">
-         <Id>111dd1e0-8977-404a-b4bf-24eeb8c05c76</Id>
-         <FolderType>PouFolder</FolderType>
-         <Id>111dd1e0-8977-404a-b4bf-24eeb8c05c76</Id>
-         <ParentIndex>9</ParentIndex>
+         <ParentIndex>3</ParentIndex>
       </Folder>
       <Folder Include="Logical Elements\Modules">
          <Id>248696ea-045c-45fa-aa31-7f3ad47a3aeb</Id>
          <TypeCategories>Devices;Network</TypeCategories>
          <FolderType></FolderType>
-         <ParentIndex>13</ParentIndex>
+         <ParentIndex>12</ParentIndex>
       </Folder>
       <Folder Include="Logical Elements\Modules\Submodules">
          <Id>f8ec53e7-6c29-4ea7-afa3-ac830bf40d04</Id>
@@ -1410,43 +1447,31 @@
          <Id>be533e18-1ed8-4aa8-8d32-c109aeb60ec0</Id>
          <FolderType>PouFolder</FolderType>
          <Id>be533e18-1ed8-4aa8-8d32-c109aeb60ec0</Id>
-         <ParentIndex>18</ParentIndex>
+         <ParentIndex>17</ParentIndex>
       </Folder>
       <Folder Include="Logical Elements\SafetyRelay.pou">
          <Id>695e946e-b4b0-45c3-8c99-8afd65c0fcab</Id>
          <FolderType>PouFolder</FolderType>
          <Id>695e946e-b4b0-45c3-8c99-8afd65c0fcab</Id>
-         <ParentIndex>19</ParentIndex>
-      </Folder>
-      <Folder Include="Logical Elements\IOLink.pou">
-         <Id>e0ad5abd-cd08-4259-8c2d-6a8c0620f078</Id>
-         <FolderType>PouFolder</FolderType>
-         <Id>e0ad5abd-cd08-4259-8c2d-6a8c0620f078</Id>
-         <ParentIndex>20</ParentIndex>
+         <ParentIndex>18</ParentIndex>
       </Folder>
       <Folder Include="Logical Elements\HMILogic.pou">
          <Id>f7bd1ce2-e05a-47aa-b02e-d7f2addc107c</Id>
          <FolderType>PouFolder</FolderType>
          <Id>f7bd1ce2-e05a-47aa-b02e-d7f2addc107c</Id>
-         <ParentIndex>21</ParentIndex>
-      </Folder>
-      <Folder Include="Logical Elements\Example.pou">
-         <Id>0eb578c3-04d6-4c2e-a14d-e00dc030e584</Id>
-         <FolderType>PouFolder</FolderType>
-         <Id>0eb578c3-04d6-4c2e-a14d-e00dc030e584</Id>
-         <ParentIndex>35</ParentIndex>
+         <ParentIndex>19</ParentIndex>
       </Folder>
       <Folder Include="Logical Elements\ColorSensor.pou">
          <Id>82b2ee05-3571-4b88-9d50-fceb39d5f778</Id>
          <FolderType>PouFolder</FolderType>
          <Id>82b2ee05-3571-4b88-9d50-fceb39d5f778</Id>
-         <ParentIndex>36</ParentIndex>
+         <ParentIndex>33</ParentIndex>
       </Folder>
       <Folder Include="Logical Elements\TouchButton.pou">
          <Id>383df721-a452-473f-9984-39034f8e15ea</Id>
          <FolderType>PouFolder</FolderType>
          <Id>383df721-a452-473f-9984-39034f8e15ea</Id>
-         <ParentIndex>37</ParentIndex>
+         <ParentIndex>34</ParentIndex>
       </Folder>
    </ItemGroup>
    <ItemGroup>
@@ -1509,6 +1534,7 @@
       </HmiPageDefinition>
       <HmiPageDefinition Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Login.hmi\Definition.hmipagedef">
          <Id>67e0bf68-b310-40d0-9ffa-55e3503a3874</Id>
+         <HmiPageId>cd433928-c905-4443-93b5-e26b8d59ab6b</HmiPageId>
          <ParentIndex>0</ParentIndex>
       </HmiPageDefinition>
       <HmiPageDefinition Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\ThisIsAnAdventure.hmi\Definition.hmipagedef">
@@ -1544,6 +1570,7 @@
          <Id>64cf922d-23be-432a-8dd0-bec08b225ef2</Id>
          <DisplayName>Parameters</DisplayName>
          <Extension>.hmiparams</Extension>
+         <HmiPageId>cd433928-c905-4443-93b5-e26b8d59ab6b</HmiPageId>
          <ParentIndex>1</ParentIndex>
       </HmiParameters>
       <HmiParameters Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\ThisIsAnAdventure.hmi\Parameters.hmiparams">
@@ -1629,7 +1656,7 @@
          <ImageType>Raster</ImageType>
          <SourceId>589fc6ac-4731-4dc8-8911-6c701ae8eaca</SourceId>
          <ThumbnailId>32ba82f5-4dcf-4fc4-8f04-99d15283ec39</ThumbnailId>
-         <ParentIndex>10</ParentIndex>
+         <ParentIndex>9</ParentIndex>
       </Image>
       <Image Include="Logical Elements\Aquatic.jpg">
          <Id>e7912ee4-7805-4d8f-81c9-e16ce5475f6a</Id>
@@ -1640,7 +1667,7 @@
          <ImageType>Raster</ImageType>
          <SourceId>34a115bd-07a0-45ee-aac4-98a3776523c3</SourceId>
          <ThumbnailId>5b9c83a0-da7c-4385-981d-f094233cf04f</ThumbnailId>
-         <ParentIndex>11</ParentIndex>
+         <ParentIndex>10</ParentIndex>
       </Image>
       <Image Include="Logical Elements\Deep Search.jpg">
          <Id>6944b9b4-9815-4dde-9bfc-3a6cfea0c0f0</Id>
@@ -1651,7 +1678,7 @@
          <ImageType>Raster</ImageType>
          <SourceId>44f56e7c-c1ca-4703-b230-ad0fffe9ed88</SourceId>
          <ThumbnailId>0ff6e195-8422-4fd1-b96c-07ebf81dff50</ThumbnailId>
-         <ParentIndex>12</ParentIndex>
+         <ParentIndex>11</ParentIndex>
       </Image>
       <Image Include="Logical Elements\Quint4UPS.jpg">
          <Id>3259f8c1-e8f8-497b-825c-613f7489bb18</Id>
@@ -1662,7 +1689,7 @@
          <ImageType>Raster</ImageType>
          <SourceId>3118fe35-407f-4e42-b014-10c2e660f3b8</SourceId>
          <ThumbnailId>bafe527e-d429-4f05-8eda-8502d4ce9fb4</ThumbnailId>
-         <ParentIndex>22</ParentIndex>
+         <ParentIndex>20</ParentIndex>
       </Image>
       <Image Include="Logical Elements\SafetySwitches.jpg">
          <Id>bb7fcb2a-5e4d-4052-b636-fd0fd6df20c5</Id>
@@ -1673,7 +1700,7 @@
          <ImageType>Raster</ImageType>
          <SourceId>40bfb5b9-cf36-40c5-8d8c-ffed03f5b64f</SourceId>
          <ThumbnailId>02062682-fc30-4e2d-892e-491f0db0ad04</ThumbnailId>
-         <ParentIndex>23</ParentIndex>
+         <ParentIndex>21</ParentIndex>
       </Image>
       <Image Include="Logical Elements\Life Aquatic Poster.png">
          <Id>b3e311af-0dba-46f5-b56c-f51652b98fe1</Id>
@@ -1684,7 +1711,7 @@
          <ImageType>Raster</ImageType>
          <SourceId>1254f667-1195-4746-949f-47e2f02477a7</SourceId>
          <ThumbnailId>ab67204c-6a2f-42a8-9b9a-3a4a37207136</ThumbnailId>
-         <ParentIndex>24</ParentIndex>
+         <ParentIndex>22</ParentIndex>
       </Image>
       <Image Include="Logical Elements\battery-0.png">
          <Id>6c3b8252-b964-49c6-af41-43337a6f9aae</Id>
@@ -1695,7 +1722,7 @@
          <ImageType>Raster</ImageType>
          <SourceId>594f913f-e838-4a48-b8c6-66cecaafb94d</SourceId>
          <ThumbnailId>0030cf03-a204-476e-8999-45ba53492285</ThumbnailId>
-         <ParentIndex>25</ParentIndex>
+         <ParentIndex>23</ParentIndex>
       </Image>
       <Image Include="Logical Elements\battery-10.png">
          <Id>ac3d518d-92d0-4ad5-8ec0-4fbeacbb0c9f</Id>
@@ -1706,7 +1733,7 @@
          <ImageType>Raster</ImageType>
          <SourceId>1426faf2-275a-4a45-b588-fa8c8f4a0a39</SourceId>
          <ThumbnailId>b1899ca5-1516-40e6-8ba0-b9e94745345b</ThumbnailId>
-         <ParentIndex>26</ParentIndex>
+         <ParentIndex>24</ParentIndex>
       </Image>
       <Image Include="Logical Elements\battery-25.png">
          <Id>2ab43e8b-f23d-450d-9e94-51f9097c2644</Id>
@@ -1717,7 +1744,7 @@
          <ImageType>Raster</ImageType>
          <SourceId>95d6d8ba-bf82-48d1-a3c3-91f24bc2d13b</SourceId>
          <ThumbnailId>0b08f99f-c03e-4938-a1cf-966522112a8c</ThumbnailId>
-         <ParentIndex>27</ParentIndex>
+         <ParentIndex>25</ParentIndex>
       </Image>
       <Image Include="Logical Elements\battery-50.png">
          <Id>e614cec0-8306-433f-8087-b461510163ff</Id>
@@ -1728,7 +1755,7 @@
          <ImageType>Raster</ImageType>
          <SourceId>1b86e67d-816c-4507-8809-3c7b9e3ef664</SourceId>
          <ThumbnailId>fd804633-3772-4dcf-bcaf-dd63b567d488</ThumbnailId>
-         <ParentIndex>28</ParentIndex>
+         <ParentIndex>26</ParentIndex>
       </Image>
       <Image Include="Logical Elements\battery-75.png">
          <Id>4f7fa53f-fdff-4846-b9b0-1b5aeb95d815</Id>
@@ -1739,7 +1766,7 @@
          <ImageType>Raster</ImageType>
          <SourceId>14493f2f-5370-405a-b357-171c2b1faccf</SourceId>
          <ThumbnailId>e5c70015-7bfa-4c08-bd24-7c3879499422</ThumbnailId>
-         <ParentIndex>29</ParentIndex>
+         <ParentIndex>27</ParentIndex>
       </Image>
       <Image Include="Logical Elements\battery-100.png">
          <Id>101f36c5-ae45-4cdf-ad5f-dc527a8238de</Id>
@@ -1750,7 +1777,7 @@
          <ImageType>Raster</ImageType>
          <SourceId>68d3a92f-c247-464f-9253-dbb9142b89a8</SourceId>
          <ThumbnailId>2ad2f62d-26aa-4ad7-ae19-357ad3c708b1</ThumbnailId>
-         <ParentIndex>30</ParentIndex>
+         <ParentIndex>28</ParentIndex>
       </Image>
       <Image Include="Logical Elements\battery-charging.png">
          <Id>57d2d161-188c-431c-a21d-05dc0a22c5ba</Id>
@@ -1761,7 +1788,7 @@
          <ImageType>Raster</ImageType>
          <SourceId>54a54040-6b47-430b-bd3e-f7a246efefbe</SourceId>
          <ThumbnailId>16076149-6d22-488f-8d2e-b77a92d1d867</ThumbnailId>
-         <ParentIndex>31</ParentIndex>
+         <ParentIndex>29</ParentIndex>
       </Image>
       <Image Include="Logical Elements\IOLinkGraphic.png">
          <Id>82060f54-2129-4880-bfc9-55df72f34671</Id>
@@ -1772,7 +1799,7 @@
          <ImageType>Raster</ImageType>
          <SourceId>a9af017e-a58f-4ef9-8a28-90836f15d259</SourceId>
          <ThumbnailId>449f9a68-02e4-4b69-a76d-0a3deab5637d</ThumbnailId>
-         <ParentIndex>32</ParentIndex>
+         <ParentIndex>30</ParentIndex>
       </Image>
       <Image Include="Logical Elements\IOLinkMaster.jpg">
          <Id>48c9bd6c-ee7e-4ba9-89fe-449dab10af7a</Id>
@@ -1783,7 +1810,7 @@
          <ImageType>Raster</ImageType>
          <SourceId>eb51da3a-37b5-4cb3-b322-2fdd94f81a3e</SourceId>
          <ThumbnailId>6bc99a96-bce0-4e41-825c-97af6fa045ca</ThumbnailId>
-         <ParentIndex>33</ParentIndex>
+         <ParentIndex>31</ParentIndex>
       </Image>
    </ItemGroup>
    <ItemGroup>
@@ -2141,6 +2168,69 @@
       </IoConfigurationWorksheet>
    </ItemGroup>
    <ItemGroup>
+      <LocalResources Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Homepage.hmi\Resources.locres">
+         <Id>8c8400c9-67cd-40d2-b40f-06b51ba17582</Id>
+         <Visible>False</Visible>
+         <HmiPageId>a3969d99-6a1a-4912-ad24-cd8375e877e4</HmiPageId>
+         <ParentIndex>3</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Login.hmi\Resources.locres">
+         <Id>fe568b27-7ceb-40f4-a073-1184754b6f5c</Id>
+         <Visible>False</Visible>
+         <HmiPageId>cd433928-c905-4443-93b5-e26b8d59ab6b</HmiPageId>
+         <ParentIndex>3</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\ThisIsAnAdventure.hmi\Resources.locres">
+         <Id>74219f43-bda1-44ff-9d6d-96392447793f</Id>
+         <Visible>False</Visible>
+         <HmiPageId>0b09790b-5b0e-488a-81ee-1114f35f5277</HmiPageId>
+         <ParentIndex>3</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\UPS_Info.hmi\Resources.locres">
+         <Id>e87292ba-5a90-46e9-91de-df21b569e9f5</Id>
+         <Visible>False</Visible>
+         <HmiPageId>72013f67-3ff0-41ad-9767-3e975fc5b6e4</HmiPageId>
+         <ParentIndex>3</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Safety.hmi\Resources.locres">
+         <Id>7f9715b3-b0a3-4176-a73d-07389eabe7a5</Id>
+         <Visible>False</Visible>
+         <HmiPageId>f0e0622e-4165-4db9-812e-340d3d3e3cc8</HmiPageId>
+         <ParentIndex>3</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\IOLink.hmi\Resources.locres">
+         <Id>fe4ffaf6-7ec2-4427-a72b-7cc7990c34ef</Id>
+         <Visible>False</Visible>
+         <HmiPageId>c4daf194-72b1-4a3e-93eb-c800bfa6f01b</HmiPageId>
+         <ParentIndex>3</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\Buttons.pou\Variables.var.locres">
+         <Id>d4e895e1-a26a-42b8-9414-877ed2a28fca</Id>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\SafetyRelay.pou\Variables.var.locres">
+         <Id>7c79d424-053b-4c9a-b55f-bd239709b7a2</Id>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\HMILogic.pou\Variables.var.locres">
+         <Id>a8d2af05-6ca6-4f12-8078-7b94984cfc9d</Id>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\ColorSensor.pou\Variables.var.locres">
+         <Id>2e44fdac-9948-4681-838f-480aff5011fb</Id>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\TouchButton.pou\Variables.var.locres">
+         <Id>069cecfe-06ed-4220-b200-b21ba402a15b</Id>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResources>
+   </ItemGroup>
+   <ItemGroup>
       <MetaComponent Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\RES_829976591E98446682C292813E058D7E\EclrComponent.compmeta">
          <Id>616cb4de-bbe2-4452-9e11-d19bba0a62a9</Id>
          <Visible>False</Visible>
@@ -2173,8 +2263,18 @@
       </MetaComponent>
    </ItemGroup>
    <ItemGroup>
-      <MetadataDocument Include="Logical Elements\Main.pou\Metadata.meta">
+      <MetadataDocument Include="RecycleBin\0eb578c3-04d6-4c2e-a14d-e00dc030e584\Example.pou\Metadata.meta">
+         <Id>f0e00fdb-9204-481a-beaf-fc707eec9efa</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>1</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="RecycleBin\111dd1e0-8977-404a-b4bf-24eeb8c05c76\Main.pou\Metadata.meta">
          <Id>f7b82640-74d8-4755-8691-16166db24300</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="RecycleBin\e0ad5abd-cd08-4259-8c2d-6a8c0620f078\IOLink.pou\Metadata.meta">
+         <Id>337d27eb-e9a3-4c16-8a8c-b2fb2afac3a4</Id>
          <Extension>.meta</Extension>
          <ParentIndex>0</ParentIndex>
       </MetadataDocument>
@@ -2188,20 +2288,10 @@
          <Extension>.meta</Extension>
          <ParentIndex>0</ParentIndex>
       </MetadataDocument>
-      <MetadataDocument Include="Logical Elements\IOLink.pou\Metadata.meta">
-         <Id>337d27eb-e9a3-4c16-8a8c-b2fb2afac3a4</Id>
-         <Extension>.meta</Extension>
-         <ParentIndex>0</ParentIndex>
-      </MetadataDocument>
       <MetadataDocument Include="Logical Elements\HMILogic.pou\Metadata.meta">
          <Id>57aa17ea-abca-40d8-82b5-0aea13bcd3f1</Id>
          <Extension>.meta</Extension>
          <ParentIndex>0</ParentIndex>
-      </MetadataDocument>
-      <MetadataDocument Include="Logical Elements\Example.pou\Metadata.meta">
-         <Id>f0e00fdb-9204-481a-beaf-fc707eec9efa</Id>
-         <Extension>.meta</Extension>
-         <ParentIndex>1</ParentIndex>
       </MetadataDocument>
       <MetadataDocument Include="Logical Elements\ColorSensor.pou\Metadata.meta">
          <Id>05910126-f94c-4b50-9156-3be7d0de1f54</Id>
@@ -2316,22 +2406,22 @@
       <None Include="Logical Elements\GenericIO_16.png">
          <Id>3f7027f9-a989-4776-800d-8623e5c80c4c</Id>
          <Visible>False</Visible>
-         <ParentIndex>14</ParentIndex>
+         <ParentIndex>13</ParentIndex>
       </None>
       <None Include="Logical Elements\GSDML-00B0-014C-IOLMA8PNDI8_BMP.png">
          <Id>e784785c-fc14-47ab-aaef-3c05c2340c8e</Id>
          <Visible>False</Visible>
-         <ParentIndex>15</ParentIndex>
+         <ParentIndex>14</ParentIndex>
       </None>
       <None Include="Logical Elements\GSDML-00B0-0142-QUINT4-UPS_BMP.png">
          <Id>89046d74-d40f-42a5-af33-e16b8732c7c5</Id>
          <Visible>False</Visible>
-         <ParentIndex>16</ParentIndex>
+         <ParentIndex>15</ParentIndex>
       </None>
       <None Include="Logical Elements\GSDML-00B0-0142-QUINT-BAT_BMP.png">
          <Id>aced53eb-d601-4f72-961c-f5b5ac961c81</Id>
          <Visible>False</Visible>
-         <ParentIndex>17</ParentIndex>
+         <ParentIndex>16</ParentIndex>
       </None>
    </ItemGroup>
    <ItemGroup>
@@ -2453,6 +2543,20 @@
       </ResourceSettings>
    </ItemGroup>
    <ItemGroup>
+      <RestoreDocument Include="RecycleBin\0eb578c3-04d6-4c2e-a14d-e00dc030e584\0eb578c3-04d6-4c2e-a14d-e00dc030e584">
+         <Id>d5e2a891-0245-4a1b-9165-3f53043ff2db</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+      <RestoreDocument Include="RecycleBin\111dd1e0-8977-404a-b4bf-24eeb8c05c76\111dd1e0-8977-404a-b4bf-24eeb8c05c76">
+         <Id>b1203049-4e58-48ca-94e6-751b5a0d4e93</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+      <RestoreDocument Include="RecycleBin\e0ad5abd-cd08-4259-8c2d-6a8c0620f078\e0ad5abd-cd08-4259-8c2d-6a8c0620f078">
+         <Id>42d79dd0-5cb5-4624-8b6f-90f452711251</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+   </ItemGroup>
+   <ItemGroup>
       <SolutionReference Include="PLCnext Controller">
          <Id>f03304e6-74af-4f35-bd52-e302cb6caea4</Id>
          <HintPath>$(SystemLibrariesPath)\PLCnext Controller.pcwlx</HintPath>
@@ -2554,13 +2658,17 @@
       </TransportDeviceListDocument>
    </ItemGroup>
    <ItemGroup>
+      <UserMetadata Include="RecycleBin\111dd1e0-8977-404a-b4bf-24eeb8c05c76\Main.pou\VersionHistory.usermeta">
+         <Id>010e6e39-9c64-4ce5-b142-9064471ce089</Id>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="RecycleBin\e0ad5abd-cd08-4259-8c2d-6a8c0620f078\IOLink.pou\VersionHistory.usermeta">
+         <Id>82580b3c-b21d-4cce-bab0-4cdb8d281246</Id>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
       <UserMetadata Include="Hardware\VersionHistory.usermeta">
          <Id>c79c51e8-38f3-46a1-b33f-b740487ba7c3</Id>
          <ParentIndex>5</ParentIndex>
-      </UserMetadata>
-      <UserMetadata Include="Logical Elements\Main.pou\VersionHistory.usermeta">
-         <Id>369f9924-d3f4-4892-aa26-8505bbde4a60</Id>
-         <ParentIndex>2</ParentIndex>
       </UserMetadata>
       <UserMetadata Include="Logical Elements\Buttons.pou\VersionHistory.usermeta">
          <Id>f6a11778-badf-45a8-8ca1-13f20e0af855</Id>
@@ -2568,10 +2676,6 @@
       </UserMetadata>
       <UserMetadata Include="Logical Elements\SafetyRelay.pou\VersionHistory.usermeta">
          <Id>52c0c6fa-66ad-40b1-9953-009ba569cfee</Id>
-         <ParentIndex>2</ParentIndex>
-      </UserMetadata>
-      <UserMetadata Include="Logical Elements\IOLink.pou\VersionHistory.usermeta">
-         <Id>f5428cd5-a34a-4360-ba6d-953eed6ba79c</Id>
          <ParentIndex>2</ParentIndex>
       </UserMetadata>
       <UserMetadata Include="Logical Elements\HMILogic.pou\VersionHistory.usermeta">
@@ -2590,15 +2694,20 @@
       </UserMetadata>
    </ItemGroup>
    <ItemGroup>
+      <UserMetadataDescription Include="RecycleBin\111dd1e0-8977-404a-b4bf-24eeb8c05c76\Main.pou\Description.html">
+         <Id>9e362cc8-ae5c-4d87-87b1-e60294c8e002</Id>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="RecycleBin\e0ad5abd-cd08-4259-8c2d-6a8c0620f078\IOLink.pou\Description.html">
+         <Id>c95c3ba2-8745-42ef-aa32-5e4aa32baa92</Id>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </UserMetadataDescription>
       <UserMetadataDescription Include="Hardware\Description.html">
          <Id>bf8b544b-b424-4c6c-9608-b8f0ed299a9f</Id>
          <Visible>False</Visible>
          <ParentIndex>6</ParentIndex>
-      </UserMetadataDescription>
-      <UserMetadataDescription Include="Logical Elements\Main.pou\Description.html">
-         <Id>37555d0a-cae8-45a4-929f-1b174e5925b6</Id>
-         <Visible>False</Visible>
-         <ParentIndex>4</ParentIndex>
       </UserMetadataDescription>
       <UserMetadataDescription Include="Logical Elements\Buttons.pou\Description.html">
          <Id>5bc6fe4a-ab48-4c2e-b639-9c49b8eddac3</Id>
@@ -2609,11 +2718,6 @@
          <Id>3db86beb-f9ff-49f9-9b6e-7a65bb7f955b</Id>
          <Visible>False</Visible>
          <ParentIndex>3</ParentIndex>
-      </UserMetadataDescription>
-      <UserMetadataDescription Include="Logical Elements\IOLink.pou\Description.html">
-         <Id>16a1e4d4-17d2-4182-b827-f07e7148bfd2</Id>
-         <Visible>False</Visible>
-         <ParentIndex>4</ParentIndex>
       </UserMetadataDescription>
       <UserMetadataDescription Include="Logical Elements\HMILogic.pou\Description.html">
          <Id>e5776aa3-42a1-4a89-bee6-ae6189cbb983</Id>
@@ -2632,16 +2736,27 @@
       </UserMetadataDescription>
    </ItemGroup>
    <ItemGroup>
+      <VariableWorksheet Include="RecycleBin\0eb578c3-04d6-4c2e-a14d-e00dc030e584\Example.pou\Variables.var">
+         <Id>00ff236e-5723-4298-8e2d-77f2527b2186</Id>
+         <Type>.var</Type>
+         <Extension>.var</Extension>
+         <ParentIndex>0</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="RecycleBin\111dd1e0-8977-404a-b4bf-24eeb8c05c76\Main.pou\Variables.var">
+         <Id>636d89b0-7ba0-4319-9d6a-96667a399f6d</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="RecycleBin\e0ad5abd-cd08-4259-8c2d-6a8c0620f078\IOLink.pou\Variables.var">
+         <Id>b14da7ef-e97c-433f-85f2-eb9761b7b44b</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
       <VariableWorksheet Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\RES_829976591E98446682C292813E058D7E\GlobalVariables.var">
          <Id>9c176e32-8058-4821-b2cd-c43fbd816f75</Id>
          <IsVarConfig>true</IsVarConfig>
          <Visible>false</Visible>
          <ParentIndex>6</ParentIndex>
-      </VariableWorksheet>
-      <VariableWorksheet Include="Logical Elements\Main.pou\Variables.var">
-         <Id>636d89b0-7ba0-4319-9d6a-96667a399f6d</Id>
-         <Extension>.var</Extension>
-         <ParentIndex>1</ParentIndex>
       </VariableWorksheet>
       <VariableWorksheet Include="Logical Elements\Buttons.pou\Variables.var">
          <Id>23d994c8-b499-42ac-87ee-af3ea9986838</Id>
@@ -2653,21 +2768,10 @@
          <Extension>.var</Extension>
          <ParentIndex>1</ParentIndex>
       </VariableWorksheet>
-      <VariableWorksheet Include="Logical Elements\IOLink.pou\Variables.var">
-         <Id>b14da7ef-e97c-433f-85f2-eb9761b7b44b</Id>
-         <Extension>.var</Extension>
-         <ParentIndex>1</ParentIndex>
-      </VariableWorksheet>
       <VariableWorksheet Include="Logical Elements\HMILogic.pou\Variables.var">
          <Id>eae4d90f-a9ee-4bf9-a4c5-f891a891fe62</Id>
          <Extension>.var</Extension>
          <ParentIndex>1</ParentIndex>
-      </VariableWorksheet>
-      <VariableWorksheet Include="Logical Elements\Example.pou\Variables.var">
-         <Id>00ff236e-5723-4298-8e2d-77f2527b2186</Id>
-         <Type>.var</Type>
-         <Extension>.var</Extension>
-         <ParentIndex>0</ParentIndex>
       </VariableWorksheet>
       <VariableWorksheet Include="Logical Elements\ColorSensor.pou\Variables.var">
          <Id>3d812e09-5eb1-4b26-a0c5-0d4c8c996118</Id>
@@ -2684,7 +2788,7 @@
       <ProjectId>5370a173-31a3-4247-9887-8407f3470dce</ProjectId>
       <AdeProductVersion>1.4.16.0</AdeProductVersion>
       <AdeSafetyVersion>1.0.0.1</AdeSafetyVersion>
-      <HmiSchemaRevision>4</HmiSchemaRevision>
+      <HmiSchemaRevision>6</HmiSchemaRevision>
       <SafetyId>dc971477-cb7e-4beb-9f3c-e37812446713</SafetyId>
    </PropertyGroup>
 </Project>

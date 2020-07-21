@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Languages ID="00000000-0000-0000-0000-000000000000" Name="Default" />
+  <Resources ID="c741d50a-6466-4b86-adb4-4b1c79e68fa3" Name="BackToHomeSS.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Back" />
+  </Resources>
+  <Resources ID="82c991b5-95c2-45ef-b5da-0a7078ed57bb" Name="S0_Text.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="S0 Input Circuit" />
+  </Resources>
+  <Resources ID="b12b99d7-2a21-476a-b83a-09d90f03af4d" Name="PSR_Header_Text.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="PSR-MC42 Status" />
+  </Resources>
+  <Resources ID="d743c52d-01ef-4245-8a16-5d2bc0c0997a" Name="S1_Text.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="S1 Input Circuit" />
+  </Resources>
+  <Resources ID="9a93e72a-52c9-4e52-825a-1869d6d43723" Name="K12_Text.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="K1 / K2 Output Circuits" />
+  </Resources>
+  <Resources ID="1fa398c2-e576-436a-a2ce-43fe0bc9edda" Name="DiagnosticMessage_Text.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Text" />
+  </Resources>
+  <Resources ID="ba01d072-d1b3-4832-a846-d77bb1606925" Name="CT_Header_Text.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="PSRswitch Status" />
+  </Resources>
+  <Resources ID="88a71d2f-3d95-4507-9812-df4be45fae19" Name="TopSwitch_Text.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Top Safety Switch" />
+  </Resources>
+  <Resources ID="1f3aa6a7-4ffc-4553-8008-22307efcb887" Name="MiddleSwitch_Text.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Middle Safety Switch" />
+  </Resources>
+  <Resources ID="f7fada92-aea3-4c8c-a1db-c0aeaa0da4ef" Name="BottomSwitch_Text.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Bottom Safety Switch" />
+  </Resources>
+  <Resources ID="0ee963f4-7d35-4729-93f9-46b6ee844d78" Name="PSR_Reset_Button.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Reset" />
+  </Resources>
+  <Resources ID="0cb5f137-d5aa-43d1-92a2-74661456941f" Name="EnableButton.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Disabled" />
+  </Resources>
+  <Resources ID="93ce4f43-f53f-4a87-9922-1a81eaca9785" Name="EnableButton.TextWhenDown">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Enabled" />
+  </Resources>
+</ResourcesDocument>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Languages ID="00000000-0000-0000-0000-000000000000" Name="Default" />
+  <Resources ID="7f77994a-d0b9-4ca9-80eb-b76a9ec42bbd" Name="Button1.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Click Here" />
+  </Resources>
+  <Resources ID="390de423-a4fa-4c79-ad3d-06b6add90e29" Name="Button1.TextWhenDown">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="NOT LIKE THAT!" />
+  </Resources>
+  <Resources ID="4e49011e-85e1-4083-9791-cc326459a624" Name="TTS.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="" />
+  </Resources>
+  <Resources ID="1a9d4c02-17b2-4e3b-8bc3-a7624a4f6937" Name="GoogleButton.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Search" />
+  </Resources>
+  <Resources ID="eea353dc-8f22-452b-9494-39bebdb47070" Name="UPSButton.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="UPS" />
+  </Resources>
+  <Resources ID="def7de4f-f58f-493d-94e9-db7156c64e4b" Name="SafetyButton.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Safety" />
+  </Resources>
+  <Resources ID="4cedac5e-f0b1-4ad2-b19d-d42776a8a720" Name="IOLinkButton.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="IO-Link" />
+  </Resources>
+  <Resources ID="f4a5db9d-3b84-4451-9dbe-5ebc84ab1f3b" Name="WLANButton.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="WLAN" />
+  </Resources>
+  <Resources ID="cd0f5dd0-2e60-4b4a-a743-0a4a8e72803a" Name="NodeREDButton.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Node-RED" />
+  </Resources>
+  <Resources ID="6cec164d-3d79-4356-a4a9-8051b8fa403b" Name="NetworkSwitchButton.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Network" />
+  </Resources>
+</ResourcesDocument>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Languages ID="00000000-0000-0000-0000-000000000000" Name="Default" />
+  <Resources ID="59a9a76d-fc9b-4dce-a532-27a583585f07" Name="HMILogic.Variables.BatteryChargingCurrent.Comment">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="mA" />
+  </Resources>
+  <Resources ID="a833362a-c6ca-46d3-b29f-eb8700466093" Name="HMILogic.Variables.BatteryVoltage.Comment">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="mV" />
+  </Resources>
+  <Resources ID="54a34eb3-376f-4f32-b286-ea3c5a33a1e6" Name="HMILogic.Variables.BatteryTemperature.Comment">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="K" />
+  </Resources>
+  <Resources ID="f1b72482-1db3-4a37-8b54-e18c219b5803" Name="HMILogic.Variables.DeviceTemperature.Comment">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="K" />
+  </Resources>
+  <Resources ID="dcda19a6-2a03-4cfa-ad84-8c58a0ff2ff0" Name="HMILogic.Variables.InputVoltage.Comment">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="mV" />
+  </Resources>
+  <Resources ID="433516e2-fbac-4fc2-8237-e93f61125e8a" Name="HMILogic.Variables.InputCurrent.Comment">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="mA" />
+  </Resources>
+  <Resources ID="6a99f9cc-00d7-460d-a90f-90a196dfd761" Name="HMILogic.Variables.OutputCurrent.Comment">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="mA" />
+  </Resources>
+  <Resources ID="97075338-905b-416c-99ed-30afccd1e9df" Name="HMILogic.Variables.OutputVoltage.Comment">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="mV" />
+  </Resources>
+  <Resources ID="a8012ba5-903a-4ccd-866b-299b852eef58" Name="HMILogic.Variables.TimeToShutdown.Comment">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="s" />
+  </Resources>
+  <Resources ID="0c112049-976b-414e-91d4-9ab58dec477d" Name="HMILogic.Variables.UPSDataArray.Comment">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Byte Array" />
+  </Resources>
+  <Resources ID="5b412d2c-0c82-45dc-962b-8014b7dcea24" Name="HMILogic.Variables.UPSDataArray_Int.Comment">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Int Array" />
+  </Resources>
+</ResourcesDocument>

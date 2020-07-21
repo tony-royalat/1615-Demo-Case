@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Languages ID="00000000-0000-0000-0000-000000000000" Name="Default" />
+  <Resources ID="0f700f2e-60cd-46b0-98bc-fe71d62866e6" Name="Button1.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Go Back!" />
+  </Resources>
+  <Resources ID="f46b38a7-540c-4d80-9e14-7bff480482d8" Name="Text1.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="This Is An Adventure" />
+  </Resources>
+</ResourcesDocument>
