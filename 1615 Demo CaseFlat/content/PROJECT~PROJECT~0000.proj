@@ -989,18 +989,34 @@
       </EsmConfiguration>
    </ItemGroup>
    <ItemGroup>
+      <Folder Include="References">
+         <Id>e1f1f17a-700b-4d82-b5af-66425b18451f</Id>
+         <FolderType>References</FolderType>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
       <Folder Include="RecycleBin">
          <Id>8948bab4-6d82-435b-8f9c-61db9c8c2d48</Id>
          <FolderType>RecycleBin</FolderType>
-         <LastestItemNo>3</LastestItemNo>
+         <LastestItemNo>4</LastestItemNo>
          <Visible>false</Visible>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\5cf38296-75b2-4f0a-93f8-5aeea9daf256">
+         <Id>daf160dc-3615-4d86-908f-90d57c3c9295</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>4</ItemNo>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\5cf38296-75b2-4f0a-93f8-5aeea9daf256\NewProgram.pou">
+         <Id>5cf38296-75b2-4f0a-93f8-5aeea9daf256</Id>
+         <FolderType>PouFolder</FolderType>
          <ParentIndex>0</ParentIndex>
       </Folder>
       <Folder Include="RecycleBin\0eb578c3-04d6-4c2e-a14d-e00dc030e584">
          <Id>f4b12f3c-21d4-443b-8376-17ce092ccad3</Id>
          <FolderType>RecycleBinItem</FolderType>
          <ItemNo>3</ItemNo>
-         <ParentIndex>0</ParentIndex>
+         <ParentIndex>1</ParentIndex>
       </Folder>
       <Folder Include="RecycleBin\0eb578c3-04d6-4c2e-a14d-e00dc030e584\Example.pou">
          <Id>0eb578c3-04d6-4c2e-a14d-e00dc030e584</Id>
@@ -1012,7 +1028,7 @@
          <Id>4772d856-1d85-457b-a9c9-852f6b4dd3d3</Id>
          <FolderType>RecycleBinItem</FolderType>
          <ItemNo>2</ItemNo>
-         <ParentIndex>1</ParentIndex>
+         <ParentIndex>2</ParentIndex>
       </Folder>
       <Folder Include="RecycleBin\111dd1e0-8977-404a-b4bf-24eeb8c05c76\Main.pou">
          <Id>111dd1e0-8977-404a-b4bf-24eeb8c05c76</Id>
@@ -1024,18 +1040,13 @@
          <Id>12030f09-7932-4c08-b59e-45fec86ebaf7</Id>
          <FolderType>RecycleBinItem</FolderType>
          <ItemNo>1</ItemNo>
-         <ParentIndex>2</ParentIndex>
+         <ParentIndex>3</ParentIndex>
       </Folder>
       <Folder Include="RecycleBin\e0ad5abd-cd08-4259-8c2d-6a8c0620f078\IOLink.pou">
          <Id>e0ad5abd-cd08-4259-8c2d-6a8c0620f078</Id>
          <FolderType>PouFolder</FolderType>
          <Id>e0ad5abd-cd08-4259-8c2d-6a8c0620f078</Id>
          <ParentIndex>0</ParentIndex>
-      </Folder>
-      <Folder Include="References">
-         <Id>e1f1f17a-700b-4d82-b5af-66425b18451f</Id>
-         <FolderType>References</FolderType>
-         <ParentIndex>1</ParentIndex>
       </Folder>
       <Folder Include="Hardware">
          <Id>b614ac7b-e691-415d-9ea0-2d9d7a7e1117</Id>
@@ -2205,27 +2216,27 @@
          <ParentIndex>3</ParentIndex>
       </LocalResources>
       <LocalResources Include="Logical Elements\Buttons.pou\Variables.var.locres">
-         <Id>d4e895e1-a26a-42b8-9414-877ed2a28fca</Id>
+         <Id>02eaf7ce-d483-4d4b-82df-179488c0426c</Id>
          <Visible>False</Visible>
          <ParentIndex>5</ParentIndex>
       </LocalResources>
       <LocalResources Include="Logical Elements\SafetyRelay.pou\Variables.var.locres">
-         <Id>7c79d424-053b-4c9a-b55f-bd239709b7a2</Id>
+         <Id>fa53b2e6-a94b-4ac4-a331-8101bf6c0395</Id>
          <Visible>False</Visible>
          <ParentIndex>5</ParentIndex>
       </LocalResources>
       <LocalResources Include="Logical Elements\HMILogic.pou\Variables.var.locres">
-         <Id>a8d2af05-6ca6-4f12-8078-7b94984cfc9d</Id>
+         <Id>cb3549d3-23ed-4d02-9a45-251260994374</Id>
          <Visible>False</Visible>
          <ParentIndex>5</ParentIndex>
       </LocalResources>
       <LocalResources Include="Logical Elements\ColorSensor.pou\Variables.var.locres">
-         <Id>2e44fdac-9948-4681-838f-480aff5011fb</Id>
+         <Id>857c56bc-4e28-40ec-95da-43f82128850d</Id>
          <Visible>False</Visible>
          <ParentIndex>5</ParentIndex>
       </LocalResources>
       <LocalResources Include="Logical Elements\TouchButton.pou\Variables.var.locres">
-         <Id>069cecfe-06ed-4220-b200-b21ba402a15b</Id>
+         <Id>4c3bd835-8c3a-423d-b135-f00b94e6bf29</Id>
          <Visible>False</Visible>
          <ParentIndex>5</ParentIndex>
       </LocalResources>
@@ -2263,6 +2274,11 @@
       </MetaComponent>
    </ItemGroup>
    <ItemGroup>
+      <MetadataDocument Include="RecycleBin\5cf38296-75b2-4f0a-93f8-5aeea9daf256\NewProgram.pou\Metadata.meta">
+         <Id>01040c8d-8373-45fa-a185-be7f0166b489</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
       <MetadataDocument Include="RecycleBin\0eb578c3-04d6-4c2e-a14d-e00dc030e584\Example.pou\Metadata.meta">
          <Id>f0e00fdb-9204-481a-beaf-fc707eec9efa</Id>
          <Extension>.meta</Extension>
@@ -2543,6 +2559,10 @@
       </ResourceSettings>
    </ItemGroup>
    <ItemGroup>
+      <RestoreDocument Include="RecycleBin\5cf38296-75b2-4f0a-93f8-5aeea9daf256\5cf38296-75b2-4f0a-93f8-5aeea9daf256">
+         <Id>84e6fe40-a654-483f-be5f-62544f2c183e</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
       <RestoreDocument Include="RecycleBin\0eb578c3-04d6-4c2e-a14d-e00dc030e584\0eb578c3-04d6-4c2e-a14d-e00dc030e584">
          <Id>d5e2a891-0245-4a1b-9165-3f53043ff2db</Id>
          <ParentIndex>1</ParentIndex>
@@ -2658,6 +2678,11 @@
       </TransportDeviceListDocument>
    </ItemGroup>
    <ItemGroup>
+      <UserMetadata Include="RecycleBin\5cf38296-75b2-4f0a-93f8-5aeea9daf256\NewProgram.pou\VersionHistory.usermeta">
+         <Id>6a422199-c7c7-4154-b70f-319e119b7d3a</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
       <UserMetadata Include="RecycleBin\111dd1e0-8977-404a-b4bf-24eeb8c05c76\Main.pou\VersionHistory.usermeta">
          <Id>010e6e39-9c64-4ce5-b142-9064471ce089</Id>
          <ParentIndex>2</ParentIndex>
@@ -2694,6 +2719,16 @@
       </UserMetadata>
    </ItemGroup>
    <ItemGroup>
+      <UserMetadataDescription Include="RecycleBin\5cf38296-75b2-4f0a-93f8-5aeea9daf256\NewProgram.pou\Description.html">
+         <Id>16aa475f-631d-43b6-a386-eee4eff52e43</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>3</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="RecycleBin\5cf38296-75b2-4f0a-93f8-5aeea9daf256\NewProgram.pou\Description.rtf">
+         <Id>599f4ad5-43ba-4d5d-b692-b13df50ddb19</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>4</ParentIndex>
+      </UserMetadataDescription>
       <UserMetadataDescription Include="RecycleBin\111dd1e0-8977-404a-b4bf-24eeb8c05c76\Main.pou\Description.html">
          <Id>9e362cc8-ae5c-4d87-87b1-e60294c8e002</Id>
          <Visible>False</Visible>
@@ -2736,6 +2771,11 @@
       </UserMetadataDescription>
    </ItemGroup>
    <ItemGroup>
+      <VariableWorksheet Include="RecycleBin\5cf38296-75b2-4f0a-93f8-5aeea9daf256\NewProgram.pou\Variables.var">
+         <Id>406eb567-c51e-4fae-893d-601acf911540</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
       <VariableWorksheet Include="RecycleBin\0eb578c3-04d6-4c2e-a14d-e00dc030e584\Example.pou\Variables.var">
          <Id>00ff236e-5723-4298-8e2d-77f2527b2186</Id>
          <Type>.var</Type>

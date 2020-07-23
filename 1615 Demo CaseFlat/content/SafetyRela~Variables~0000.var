@@ -3,7 +3,7 @@
 
 VAR_EXTERNAL
     PSRIOLData : LWORD { CustomGroupReference('bd661003-37c3-4971-99e7-21a438c05100') } {Id('c34df880-9633-4e57-8793-ebe3a3b6826b')};
-    PSRIOLOutput : BYTE { CustomGroupReference('bd661003-37c3-4971-99e7-21a438c05100') } {Id('88be337a-95aa-4af8-b239-1886d9ea1a27')};
+    PSRIOLOutput : LWORD { CustomGroupReference('bd661003-37c3-4971-99e7-21a438c05100') } {Id('88be337a-95aa-4af8-b239-1886d9ea1a27')};
     PSR_S0_Status : BOOL { CustomGroupReference('bd661003-37c3-4971-99e7-21a438c05100') } {Id('bf1658f6-721a-4949-8423-2dd053011af2')};
     PSR_S1_Status : BOOL { CustomGroupReference('bd661003-37c3-4971-99e7-21a438c05100') } {Id('9c463a37-02ef-4864-b7f5-4fcc16475860')};
     PSR_K12_Status : BOOL { CustomGroupReference('bd661003-37c3-4971-99e7-21a438c05100') } {Id('e1e7c6fd-0144-47d0-b207-97d1818cb6cf')};

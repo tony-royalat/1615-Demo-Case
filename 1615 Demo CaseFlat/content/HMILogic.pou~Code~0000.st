@@ -172,3 +172,11 @@ K50ButtonState := TO_BOOL(SHR(SHL(K50IOLData,15),15));
 
 // Build string for PSR error message display
 PSRErrorDisplay := CONCAT('Status: ', PSR_Error_Text);
+
+// Turn motor starter on and off with IO-Link data
+// Enable / Disable via IO-Link
+IF ELR_Enable = TRUE THEN
+    ELRIOLOutput := 2#00000000_00000001_00000000_00000000_00000000_00000000_00000000_00000000;
+ELSE
+    ELRIOLOutput := 2#00000000_00000000_00000000_00000000_00000000_00000000_00000000_00000000;
+END_IF

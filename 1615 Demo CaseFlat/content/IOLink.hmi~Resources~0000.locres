@@ -25,4 +25,13 @@
   <Resources ID="e92b36cf-bb94-4285-816e-2c8ff320bd8c" Name="K50CycleButton.Text">
     <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Button" />
   </Resources>
+  <Resources ID="652fb855-61a6-41a7-81db-63f5e7488eb4" Name="ELRHeaderText.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="ELR H3-IES-PT/500AC-3-IOL" />
+  </Resources>
+  <Resources ID="b7821c93-9ab0-46a3-9504-c632dc6fae19" Name="ELRButton.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="UnEnabled" />
+  </Resources>
+  <Resources ID="5867a4c8-936f-4d3e-8cc8-aa91c6dc8d0d" Name="ELRButton.TextWhenDown">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Enabled" />
+  </Resources>
 </ResourcesDocument>

@@ -69,9 +69,10 @@ VAR_GLOBAL
     PSRErrorDisplay : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('20c056db-5d9b-4e07-a88c-ce8354f932c9')};
     HMI_Reset : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('ed6133bd-7a60-4597-8427-079a727952ba')};
     PSR_Enable : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('b1c5d345-1fde-4bb1-a7d3-41d54e68cdef')};
-    PSRIOLOutput : BYTE { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('e950ae7a-0aba-4f9e-ab38-356680a73874')};
     ELRIOLInput : LWORD { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('d99ded32-38c6-4b6b-81cb-d45469f1bc06')};
-    ELRIOLOutput : WORD { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('092f0544-06bd-4dec-85bf-39c6769607a1')};
+    PSRIOLOutput : LWORD { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('dc836205-f60c-42f5-816c-ba8d6ad04b17')};
+    ELR_Enable : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('32a6a9ed-0b41-41df-8e87-e1e9a52bde8c')};
+    ELRIOLOutput : LWORD { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('198f54e8-a8bb-4595-8294-d92c228ab040')};
     PND_S1_PLC_RUN : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('f2e0c0a0-1487-47c5-a72a-d3701aa8d4f0')};
     PND_S1_VALID_DATA_CYCLE : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('c91bd181-753d-4869-80db-32517d62d06c')};
     PND_S1_OUTPUT_STATUS_GOOD : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('1f7d05c1-ad28-4f2a-95f3-55759f6a6229')};

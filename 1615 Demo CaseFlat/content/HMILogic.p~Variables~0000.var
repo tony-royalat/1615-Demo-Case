@@ -17,7 +17,8 @@ VAR_EXTERNAL
     K50IOLData : WORD { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('bba60a63-e0d5-4072-8d68-a1cdbc9cc1fe')};
     PSRErrorDisplay : STRING { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('befcb801-0494-4a25-ace6-bbda4f1e2947')};
     ELRIOLInput : LWORD { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('24409640-d2d3-46b6-8c69-6f76a941eb41')};
-    ELRIOLOutput : WORD { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('fb14c42a-c1f0-4439-a874-0dfbf03bd262')};
+    ELRIOLOutput : LWORD { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('fb14c42a-c1f0-4439-a874-0dfbf03bd262')};
+    ELR_Enable : BOOL { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('977957ee-35d5-4429-9232-af898fe62714')};
     BatteryChargingCurrent : REAL { CustomGroupReference('8b9ef511-00ee-4f78-ac7c-eb4a983b39ed') } {Id('61278e28-8336-42f0-80ef-cecfae498add')}; (*mA*)
     BatteryVoltage : REAL { CustomGroupReference('8b9ef511-00ee-4f78-ac7c-eb4a983b39ed') } {Id('03577d36-8053-4d65-ad13-15c07036a750')}; (*mV*)
     BatteryTemperature : REAL { CustomGroupReference('8b9ef511-00ee-4f78-ac7c-eb4a983b39ed') } {Id('497636fe-8698-41ba-bcaf-609f7f2d6125')}; (*K*)

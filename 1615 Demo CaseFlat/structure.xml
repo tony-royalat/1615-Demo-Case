@@ -526,6 +526,16 @@
           <file name="Instances.st" id="Example.po~Instances~0001.st" />
         </folder>
       </folder>
+      <folder name="5cf38296-75b2-4f0a-93f8-5aeea9daf256">
+        <file name="5cf38296-75b2-4f0a-93f8-5aeea9daf256" id="5cf38296-~5cf38296-7~0000" />
+        <folder name="NewProgram.pou">
+          <file name="Metadata.meta" id="NewProgram.~Metadata~0000.meta" />
+          <file name="Variables.var" id="NewProgram~Variables~0000.var" />
+          <file name="VersionHistory.usermeta" id="NewProgra~VersionHis~0000.usermeta" />
+          <file name="Description.rtf" id="NewProgra~Descriptio~0000.rtf" />
+          <file name="Description.html" id="NewProgra~Descriptio~0001.html" />
+        </folder>
+      </folder>
     </folder>
   </folder>
 </content>

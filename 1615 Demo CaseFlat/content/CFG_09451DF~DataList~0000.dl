@@ -1490,12 +1490,12 @@
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>0</OutputFrameId>
       </Role>
-      <Role TypeName="Variable" ObjectId="e950ae7a-0aba-4f9e-ab38-356680a73874" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+      <Role TypeName="Variable" ObjectId="dc836205-f60c-42f5-816c-ba8d6ad04b17" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
         <Name>PSRIOLOutput</Name>
         <Usage>Global</Usage>
-        <DataType>BYTE</DataType>
+        <DataType>LWORD</DataType>
         <Address />
-        <InitValue>BYTE#16#0</InitValue>
+        <InitValue>LWORD#16#0</InitValue>
         <IsRetain>False</IsRetain>
         <IsConstant>False</IsConstant>
         <IsOpc>False</IsOpc>
@@ -1689,12 +1689,12 @@
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>0</OutputFrameId>
       </Role>
-      <Role TypeName="Variable" ObjectId="092f0544-06bd-4dec-85bf-39c6769607a1" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+      <Role TypeName="Variable" ObjectId="198f54e8-a8bb-4595-8294-d92c228ab040" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
         <Name>ELRIOLOutput</Name>
         <Usage>Global</Usage>
-        <DataType>WORD</DataType>
+        <DataType>LWORD</DataType>
         <Address />
-        <InitValue>WORD#16#0</InitValue>
+        <InitValue>LWORD#16#0</InitValue>
         <IsRetain>False</IsRetain>
         <IsConstant>False</IsConstant>
         <IsOpc>False</IsOpc>
@@ -5872,6 +5872,30 @@
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
       </Role>
     </Datum>
+    <Datum Uuid="ed780c1e-cc08-4ca7-8024-e80f53ea9670">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="32a6a9ed-0b41-41df-8e87-e1e9a52bde8c" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>ELR_Enable</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-1 / PLC.ELR_Enable</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="93448368-0a1c-4e7a-891e-2459c1c706df" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>ELR_Enable</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
+    </Datum>
     <RoleGroupList RoleTypeName="Variable">
       <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75" ObjectId="fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24" DisplayName="Default" IsReadOnly="False">
         <RoleDatumUuid>442657ed-d69f-4c0d-bb02-399b27fe11dc</RoleDatumUuid>
@@ -5941,8 +5965,9 @@
         <RoleDatumUuid>edcc7ae3-c218-4cf4-aa58-5b8f2ffd88a3</RoleDatumUuid>
         <RoleDatumUuid>21bccae0-ad54-44f2-9d1c-178d8ec6c2dd</RoleDatumUuid>
         <RoleDatumUuid>49650a35-d01d-4969-94d4-13cec4e8d874</RoleDatumUuid>
-        <RoleDatumUuid>57535fc5-0e97-41b1-81b4-a05ea33eb077</RoleDatumUuid>
         <RoleDatumUuid>66159e2a-0cc4-48c6-bb86-9e1780014cfe</RoleDatumUuid>
+        <RoleDatumUuid>57535fc5-0e97-41b1-81b4-a05ea33eb077</RoleDatumUuid>
+        <RoleDatumUuid>ed780c1e-cc08-4ca7-8024-e80f53ea9670</RoleDatumUuid>
         <RoleDatumUuid>fb804ae3-52be-4260-a231-5df07c27d1e8</RoleDatumUuid>
       </RoleGroup>
       <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75" ObjectId="971398c9-e054-4349-a1d9-e00a1840c9f4" DisplayName="System Variables" IsReadOnly="True">
