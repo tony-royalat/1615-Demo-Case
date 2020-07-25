@@ -3,6 +3,11 @@ TYPE
    My32ByteArray : ARRAY[0..31] OF BYTE;
 END_TYPE
 
+// Byte Array - 16 Position
+TYPE
+    My16ByteArray : ARRAY[1..16] OF BYTE;
+END_TYPE
+
 // Int Array - 32 Position
 TYPE
    My32IntArray : ARRAY[0..31] OF INT;

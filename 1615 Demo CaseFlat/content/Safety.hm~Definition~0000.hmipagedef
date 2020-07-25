@@ -18,12 +18,12 @@
       <Objects>
         <HmiObject xsi:type="Button" Rotation="0" ID="BackToHomeSS" IsTabSelectable="true" TabOrder="0" NextId="1" LineColor="#FFCCD0D2" LineWidth="1" Text="Back" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
           <Origin>
-            <X>1133</X>
-            <Y>709</Y>
+            <X>1155</X>
+            <Y>725</Y>
           </Origin>
           <Location>
-            <X>1133</X>
-            <Y>709</Y>
+            <X>1155</X>
+            <Y>725</Y>
           </Location>
           <TransformCenter>
             <X>0</X>

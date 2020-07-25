@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Languages ID="00000000-0000-0000-0000-000000000000" Name="Default" />
+  <Resources ID="aeeeaac7-effb-45d4-934f-3e5260fedb66" Name="BackToHomeNetPage.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Back" />
+  </Resources>
+  <Resources ID="b967c51c-e6ce-4710-bb3c-94a8eac3b68f" Name="WLANButton.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="WLAN" />
+  </Resources>
+  <Resources ID="e68c8153-36d5-4231-8dc7-17176344b3d9" Name="NSButton.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Switch" />
+  </Resources>
+</ResourcesDocument>

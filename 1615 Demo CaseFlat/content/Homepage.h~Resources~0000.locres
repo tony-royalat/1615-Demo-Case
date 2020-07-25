@@ -10,9 +10,6 @@
   <Resources ID="4e49011e-85e1-4083-9791-cc326459a624" Name="TTS.Text">
     <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="" />
   </Resources>
-  <Resources ID="1a9d4c02-17b2-4e3b-8bc3-a7624a4f6937" Name="GoogleButton.Text">
-    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Search" />
-  </Resources>
   <Resources ID="eea353dc-8f22-452b-9494-39bebdb47070" Name="UPSButton.Text">
     <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="UPS" />
   </Resources>
@@ -21,9 +18,6 @@
   </Resources>
   <Resources ID="4cedac5e-f0b1-4ad2-b19d-d42776a8a720" Name="IOLinkButton.Text">
     <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="IO-Link" />
-  </Resources>
-  <Resources ID="f4a5db9d-3b84-4451-9dbe-5ebc84ab1f3b" Name="WLANButton.Text">
-    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="WLAN" />
   </Resources>
   <Resources ID="cd0f5dd0-2e60-4b4a-a743-0a4a8e72803a" Name="NodeREDButton.Text">
     <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Node-RED" />

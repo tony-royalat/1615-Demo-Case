@@ -1,0 +1,19 @@
+{ CustomGroupDefinition('8527ca47-5b51-44ec-b064-9163c932a883', 'IO-Link Variables') }
+{ CustomGroupDefinition('12d0a504-2d9b-49c8-ae35-c081e3f7abca', 'Animation State Variables') }
+{ CustomGroupDefinition('af622feb-d10f-4ea9-8db7-995dcb0d7ed5', 'Local variables') }
+
+VAR_EXTERNAL
+    K50IOLData : My16ByteArray { CustomGroupReference('8527ca47-5b51-44ec-b064-9163c932a883') } {Id('da7b44fa-b244-43da-8aa8-ac8271efbd9e')};
+    K50IOLOutput : My16ByteArray { CustomGroupReference('8527ca47-5b51-44ec-b064-9163c932a883') } {Id('fb9c6305-1af4-498f-b3b7-319d7b80841e')};
+END_VAR
+
+VAR
+    iState1 : INT { CustomGroupReference('12d0a504-2d9b-49c8-ae35-c081e3f7abca') } {Id('9ee5c5dd-9fdb-4502-a599-631d2ba15cd8')};
+END_VAR
+
+VAR_EXTERNAL
+    xK50HMIButton : BOOL { CustomGroupReference('12d0a504-2d9b-49c8-ae35-c081e3f7abca') } {Id('8e29eac6-e9fe-41e6-8f8c-42880e96108a')};
+    iK50Animation : INT { CustomGroupReference('12d0a504-2d9b-49c8-ae35-c081e3f7abca') } {Id('375ff7bc-ac7d-4d16-99ac-9d3b39ad6fbe')};
+    strK50AnimationText : STRING { CustomGroupReference('12d0a504-2d9b-49c8-ae35-c081e3f7abca') } {Id('80b049ad-4728-4aeb-bbf1-be10523b197a')};
+    K50ButtonState : BOOL { CustomGroupReference('12d0a504-2d9b-49c8-ae35-c081e3f7abca') } {Id('f6cd6d50-888c-4368-a422-6cb2d19e04fd')};
+END_VAR

@@ -57,7 +57,6 @@ VAR_GLOBAL
     iK50Animation : INT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('c4454283-64c3-4f24-94bf-77628bba5688')};
     strK50AnimationText : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('6d7e79a4-d454-460c-a80b-6fc1393b2375')};
     K50ButtonState : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('065a7427-d106-4d66-bcb9-e3d1aaff6cc0')};
-    K50IOLData : WORD { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('19a93650-dfe4-4914-aa7f-0f29d0dd634c')};
     PSRIOLData : LWORD { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('52dd2dc5-0132-45ef-ba5b-544ff379d025')};
     PSR_Error_Text : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('76bfdef4-bd43-4d0b-ba93-3a30a384ed54')};
     CT3_Status : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('f8495f0d-7b4e-4f0f-9abe-26999e58c6f2')};
@@ -73,6 +72,12 @@ VAR_GLOBAL
     PSRIOLOutput : LWORD { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('dc836205-f60c-42f5-816c-ba8d6ad04b17')};
     ELR_Enable : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('32a6a9ed-0b41-41df-8e87-e1e9a52bde8c')};
     ELRIOLOutput : LWORD { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('198f54e8-a8bb-4595-8294-d92c228ab040')};
+    K50IOLData : My16ByteArray { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('306b0f7e-3da1-405e-9160-a547851f7064')};
+    K50IOLOutput : My16ByteArray { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('6e9ec4a9-1ba7-490f-95c1-862a1cfc2917')};
+    QS18IOLInput : DWORD { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('9791394e-dd28-45ab-a57d-c316c7692910')};
+    QS18IOLOutput : DWORD { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('b61148e8-9904-42e3-9195-f5e00bbb7946')};
+    QS18EmitterEnable : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('4867371b-5923-43ba-bba8-9c7bb7582b23')};
+    QS18Sense : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('29cd5038-933a-4b92-a18d-2ed42ef9cf5a')};
     PND_S1_PLC_RUN : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('f2e0c0a0-1487-47c5-a72a-d3701aa8d4f0')};
     PND_S1_VALID_DATA_CYCLE : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('c91bd181-753d-4869-80db-32517d62d06c')};
     PND_S1_OUTPUT_STATUS_GOOD : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('1f7d05c1-ad28-4f2a-95f3-55759f6a6229')};

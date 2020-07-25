@@ -8,7 +8,7 @@
     <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Master" />
   </Resources>
   <Resources ID="6831005c-1a85-48d5-ad25-6ea3dd3ec6f9" Name="ColorSensorHeader.Text">
-    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Banner Color Sensor Data" />
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Color Sensor Data" />
   </Resources>
   <Resources ID="0946a65b-791b-4842-b13d-94ccf4ac82a0" Name="RedRatioText.Text">
     <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Text" />
@@ -33,5 +33,17 @@
   </Resources>
   <Resources ID="5867a4c8-936f-4d3e-8cc8-aa91c6dc8d0d" Name="ELRButton.TextWhenDown">
     <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Enabled" />
+  </Resources>
+  <Resources ID="f3e0411b-210d-46a8-8298-2b6902f1db07" Name="K50Header.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="RGB Touchbutton Controls" />
+  </Resources>
+  <Resources ID="af57f55f-9ade-4e4d-aab0-6265d66b627d" Name="Text1.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Photoeye Controls" />
+  </Resources>
+  <Resources ID="303969d4-4979-47a8-abfa-be671a7c7fb8" Name="PhotoEyeButton.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Emitter Off" />
+  </Resources>
+  <Resources ID="41fc4c95-bf2c-4430-b11e-9a4437bdd343" Name="PhotoEyeButton.TextWhenDown">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Emitter On" />
   </Resources>
 </ResourcesDocument>

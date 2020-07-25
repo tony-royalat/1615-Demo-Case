@@ -1,9 +1,3 @@
-// Convert UPS Byte array to something usable
-FOR n := 0 TO 31 BY 1 DO
-    UPSDataArray_Int[n] := TO_INT(UPSDataArray[n]);
-END_FOR
-
-
 // Time To Shutdown Display
 
 // Figure out hour / minute / second
@@ -41,11 +35,9 @@ IF UPSOnBattery = TRUE THEN
     
 END_IF
 
-// Figure out Battery State Of Charge Assuming 23 to 25.4 VDC Battery Voltage
-// Also include something to indicate battery charging. If on DC power supply then display battery charging?
+// Figure out Battery State Of Charge Assuming 3-ish Hour Runtime (bad assumption... I know)
 
-BatteryStateOfCharge := UPSDataArray_Int[16];
-
+BatteryStateOfCharge := (TO_REAL(TimeToShutdown)/10500.0)*100.0;
 
 // Calculate Battery Icon Visibility Dependent on State of Charge Percentage
 IF UPSonBattery = TRUE THEN
@@ -167,9 +159,6 @@ BlueRatioDisplay := CONCAT('Blue Color Ratio: ', TO_STRING(rRatioBlue, '{0:f2}')
 // Build string for Energy text display
 EnergyDisplay := CONCAT('Color Energy: ', TO_STRING(rEnergy, '{0:f2}'), '?');
 
-// Strip out binary K50 button state from IO-Link datastream
-K50ButtonState := TO_BOOL(SHR(SHL(K50IOLData,15),15));
-
 // Build string for PSR error message display
 PSRErrorDisplay := CONCAT('Status: ', PSR_Error_Text);
 
@@ -179,4 +168,14 @@ IF ELR_Enable = TRUE THEN
     ELRIOLOutput := 2#00000000_00000001_00000000_00000000_00000000_00000000_00000000_00000000;
 ELSE
     ELRIOLOutput := 2#00000000_00000000_00000000_00000000_00000000_00000000_00000000_00000000;
+END_IF
+
+// QS18 PhotoEye Trigger from IO-Link Data
+QS18Sense := TO_BOOL(SHR(SHL(QS18IOLInput,31),31));
+
+// QS18 Emitter Enable / Disable
+IF QS18EmitterEnable = TRUE THEN
+    QS18IOLOutput := 2#00000000_00000000_00000000_00000000;
+ELSE
+    QS18IOLOutput := 2#00000001_00000000_00000000_00000000;
 END_IF

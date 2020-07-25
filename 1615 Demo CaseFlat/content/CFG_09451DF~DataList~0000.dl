@@ -1311,6 +1311,21 @@
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>0</OutputFrameId>
       </Role>
+      <Role TypeName="Variable" ObjectId="b61148e8-9904-42e3-9195-f5e00bbb7946" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>QS18IOLOutput</Name>
+        <Usage>Global</Usage>
+        <DataType>DWORD</DataType>
+        <Address />
+        <InitValue>DWORD#16#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-1 / PLC.QS18IOLOutput</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
     </Datum>
     <Datum Uuid="71bdfaf2-ef62-4ffe-be2b-110bb43fa34a">
       <FunctionText />
@@ -1324,6 +1339,21 @@
         <NodeId>60</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>0</OutputFrameId>
+      </Role>
+      <Role TypeName="Variable" ObjectId="9791394e-dd28-45ab-a57d-c316c7692910" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>QS18IOLInput</Name>
+        <Usage>Global</Usage>
+        <DataType>DWORD</DataType>
+        <Address />
+        <InitValue>DWORD#16#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-1 / PLC.QS18IOLInput</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
       </Role>
     </Datum>
     <Datum Uuid="09e1e0c8-8300-4928-ae79-c333877386f9">
@@ -1368,6 +1398,106 @@
         <OutputFrameId>0</OutputFrameId>
       </Role>
     </Datum>
+    <Datum Uuid="8323c955-57a1-400f-8b70-186ebbd0487a">
+      <FunctionText />
+      <Role TypeName="ProcessDatum" ObjectIndex="0" ObjectId="/PDList/PD[@uid=ioDefaultOut]" SourceId="f48012fe-79e0-43db-8a6d-0988d7e98545">
+        <Label>~OUT</Label>
+        <Access>Q</Access>
+        <DataType>Octetstring[16]</DataType>
+        <Offset>0.0</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-1 / IO-Link Master / 3. K50 Touchbutton / 1 / ~OUT</DisplayName>
+        <NodeId>26</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>0</OutputFrameId>
+      </Role>
+      <Role TypeName="Variable" ObjectId="6e9ec4a9-1ba7-490f-95c1-862a1cfc2917" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>K50IOLOutput</Name>
+        <Usage>Global</Usage>
+        <DataType>My16ByteArray</DataType>
+        <Address />
+        <InitValue />
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-1 / PLC.K50IOLOutput</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+    </Datum>
+    <Datum Uuid="4f0dcdb9-efd8-4f02-8a77-5beb5cf6af6f">
+      <FunctionText />
+      <Role TypeName="ProcessDatum" ObjectIndex="2" ObjectId="/PDList/PD[@uid=io0]" SourceId="f48012fe-79e0-43db-8a6d-0988d7e98545">
+        <Label>IO-Link Input data</Label>
+        <Access>I</Access>
+        <DataType>Octetstring[16]</DataType>
+        <Offset>0.0</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-1 / IO-Link Master / 3. K50 Touchbutton / 1 / IO-Link Input data</DisplayName>
+        <NodeId>26</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>0</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="30f4938d-17c3-42b5-a0b6-fa50678012d4">
+      <FunctionText />
+      <Role TypeName="ProcessDatum" ObjectIndex="1" ObjectId="/PDList/PD[@uid=ioDefaultIn]" SourceId="f48012fe-79e0-43db-8a6d-0988d7e98545">
+        <Label>~IN</Label>
+        <Access>I</Access>
+        <DataType>Octetstring[16]</DataType>
+        <Offset>0.0</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-1 / IO-Link Master / 3. K50 Touchbutton / 1 / ~IN</DisplayName>
+        <NodeId>26</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>0</OutputFrameId>
+      </Role>
+      <Role TypeName="Variable" ObjectId="306b0f7e-3da1-405e-9160-a547851f7064" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>K50IOLData</Name>
+        <Usage>Global</Usage>
+        <DataType>My16ByteArray</DataType>
+        <Address />
+        <InitValue />
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-1 / PLC.K50IOLData</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+    </Datum>
+    <Datum Uuid="81b862c1-94b2-4375-8282-49d3671e9ee8">
+      <FunctionText />
+      <Role TypeName="ProcessDatum" ObjectIndex="3" ObjectId="/PDList/PD[@uid=io1]" SourceId="f48012fe-79e0-43db-8a6d-0988d7e98545">
+        <Label>IO-Link Input data(1)</Label>
+        <Access>Q</Access>
+        <DataType>Octetstring[16]</DataType>
+        <Offset>0.0</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-1 / IO-Link Master / 3. K50 Touchbutton / 1 / IO-Link Input data</DisplayName>
+        <NodeId>26</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>0</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="9c83e377-e409-4b52-a06e-b03836fdae8f">
+      <FunctionText />
+      <Role TypeName="ProcessDatum" ObjectIndex="4" ObjectId="/PDList/PD[@uid=io2]" SourceId="f48012fe-79e0-43db-8a6d-0988d7e98545">
+        <Label>SM_IOPS</Label>
+        <Access>I</Access>
+        <DataType>Bitstring8</DataType>
+        <Offset>0.0</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-1 / IO-Link Master / 3. K50 Touchbutton / 1 / SM_IOPS</DisplayName>
+        <NodeId>26</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>0</OutputFrameId>
+      </Role>
+    </Datum>
     <Datum Uuid="a01f4ac4-3c69-41b0-9685-d03c63577a23">
       <FunctionText />
       <Role TypeName="Variable" ObjectId="065a7427-d106-4d66-bcb9-e3d1aaff6cc0" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
@@ -1390,91 +1520,6 @@
         <DisplayName>K50ButtonState</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
-      </Role>
-    </Datum>
-    <Datum Uuid="f11f531d-0acd-4b31-81d7-ff243a208838">
-      <FunctionText />
-      <Role TypeName="ProcessDatum" ObjectIndex="1" ObjectId="/PDList/PD[@uid=ioDefaultIn]" SourceId="028f4b91-8fa6-400e-b9b1-6994d8f6152d">
-        <Label>~IN</Label>
-        <Access>I</Access>
-        <DataType>Octetstring2</DataType>
-        <Offset>0.0</Offset>
-        <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-2152-1 / IO-Link Master / 3 : RGB Touch Button / 1 / ~IN</DisplayName>
-        <NodeId>62</NodeId>
-        <InputFrameId>0</InputFrameId>
-        <OutputFrameId>0</OutputFrameId>
-      </Role>
-      <Role TypeName="Variable" ObjectId="19a93650-dfe4-4914-aa7f-0f29d0dd634c" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
-        <Name>K50IOLData</Name>
-        <Usage>Global</Usage>
-        <DataType>WORD</DataType>
-        <Address />
-        <InitValue>WORD#16#0</InitValue>
-        <IsRetain>False</IsRetain>
-        <IsConstant>False</IsConstant>
-        <IsOpc>False</IsOpc>
-        <IsHmi>False</IsHmi>
-        <IsProficloud>False</IsProficloud>
-        <Comment />
-        <DisplayName>axc-f-2152-1 / PLC.K50IOLData</DisplayName>
-        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
-      </Role>
-    </Datum>
-    <Datum Uuid="f9714fa0-b7fa-480c-9fb4-8fe3130146c7">
-      <FunctionText />
-      <Role TypeName="ProcessDatum" ObjectIndex="0" ObjectId="/PDList/PD[@uid=ioDefaultOut]" SourceId="028f4b91-8fa6-400e-b9b1-6994d8f6152d">
-        <Label>~OUT</Label>
-        <Access>Q</Access>
-        <DataType>Octetstring2</DataType>
-        <Offset>0.0</Offset>
-        <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-2152-1 / IO-Link Master / 3 : RGB Touch Button / 1 / ~OUT</DisplayName>
-        <NodeId>62</NodeId>
-        <InputFrameId>0</InputFrameId>
-        <OutputFrameId>0</OutputFrameId>
-      </Role>
-    </Datum>
-    <Datum Uuid="8a20a2bf-f9a6-401b-ad60-48566cb9ad42">
-      <FunctionText />
-      <Role TypeName="ProcessDatum" ObjectIndex="2" ObjectId="/PDList/PD[@uid=io0]" SourceId="028f4b91-8fa6-400e-b9b1-6994d8f6152d">
-        <Label>IO-Link Input data</Label>
-        <Access>I</Access>
-        <DataType>Octetstring[2]</DataType>
-        <Offset>0.0</Offset>
-        <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-2152-1 / IO-Link Master / 3 : RGB Touch Button / 1 / IO-Link Input data</DisplayName>
-        <NodeId>62</NodeId>
-        <InputFrameId>0</InputFrameId>
-        <OutputFrameId>0</OutputFrameId>
-      </Role>
-    </Datum>
-    <Datum Uuid="73b2179e-c825-4c42-902a-0b4f46d22bfa">
-      <FunctionText />
-      <Role TypeName="ProcessDatum" ObjectIndex="3" ObjectId="/PDList/PD[@uid=io1]" SourceId="028f4b91-8fa6-400e-b9b1-6994d8f6152d">
-        <Label>IO-Link Input data(1)</Label>
-        <Access>Q</Access>
-        <DataType>Octetstring[2]</DataType>
-        <Offset>0.0</Offset>
-        <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-2152-1 / IO-Link Master / 3 : RGB Touch Button / 1 / IO-Link Input data</DisplayName>
-        <NodeId>62</NodeId>
-        <InputFrameId>0</InputFrameId>
-        <OutputFrameId>0</OutputFrameId>
-      </Role>
-    </Datum>
-    <Datum Uuid="d0a7adbe-46a7-4078-9a4a-d4a45fc2d5f8">
-      <FunctionText />
-      <Role TypeName="ProcessDatum" ObjectIndex="4" ObjectId="/PDList/PD[@uid=io2]" SourceId="028f4b91-8fa6-400e-b9b1-6994d8f6152d">
-        <Label>SM_IOPS</Label>
-        <Access>I</Access>
-        <DataType>Bitstring8</DataType>
-        <Offset>0.0</Offset>
-        <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-2152-1 / IO-Link Master / 3 : RGB Touch Button / 1 / SM_IOPS</DisplayName>
-        <NodeId>62</NodeId>
-        <InputFrameId>0</InputFrameId>
-        <OutputFrameId>0</OutputFrameId>
       </Role>
     </Datum>
     <Datum Uuid="57535fc5-0e97-41b1-81b4-a05ea33eb077">
@@ -4624,81 +4669,6 @@
         <DisplayName>axc-f-2152-1 / IO-Link Master / 2 : QS18E Sensor / 1 / SM_IOPS</DisplayName>
       </Role>
     </Datum>
-    <Datum Uuid="7abf682b-ffe9-4e97-b257-31187560fdda">
-      <FunctionText />
-      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=ioDefaultOut]" SourceId="028f4b91-8fa6-400e-b9b1-6994d8f6152d">
-        <Name>~OUT</Name>
-        <DataType>Octetstring2</DataType>
-        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
-        <PortDataType>Octetstring2</PortDataType>
-        <PortMultiplicity>1</PortMultiplicity>
-        <ComponentInstance>Arp.Io.PnC</ComponentInstance>
-        <Program>Arp.Io.PnC</Program>
-        <Offset>0.0</Offset>
-        <NodeId>62</NodeId>
-        <DisplayName>axc-f-2152-1 / IO-Link Master / 3 : RGB Touch Button / 1 / ~OUT</DisplayName>
-      </Role>
-    </Datum>
-    <Datum Uuid="9d5507ba-e9bf-4941-94e7-0c598198fecc">
-      <FunctionText />
-      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=io1]" SourceId="028f4b91-8fa6-400e-b9b1-6994d8f6152d">
-        <Name>IO-Link Input data(1)</Name>
-        <DataType>Octetstring[2]</DataType>
-        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
-        <PortDataType>Octetstring[2]</PortDataType>
-        <PortMultiplicity>1</PortMultiplicity>
-        <ComponentInstance>Arp.Io.PnC</ComponentInstance>
-        <Program>Arp.Io.PnC</Program>
-        <Offset>0.0</Offset>
-        <NodeId>62</NodeId>
-        <DisplayName>axc-f-2152-1 / IO-Link Master / 3 : RGB Touch Button / 1 / IO-Link Input data</DisplayName>
-      </Role>
-    </Datum>
-    <Datum Uuid="cbb80ec5-4703-4ae1-b799-a9ce44bbd595">
-      <FunctionText />
-      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=ioDefaultIn]" SourceId="028f4b91-8fa6-400e-b9b1-6994d8f6152d">
-        <Name>~IN</Name>
-        <DataType>Octetstring2</DataType>
-        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
-        <PortDataType>Octetstring2</PortDataType>
-        <PortMultiplicity>1</PortMultiplicity>
-        <ComponentInstance>Arp.Io.PnC</ComponentInstance>
-        <Program>Arp.Io.PnC</Program>
-        <Offset>0.0</Offset>
-        <NodeId>62</NodeId>
-        <DisplayName>axc-f-2152-1 / IO-Link Master / 3 : RGB Touch Button / 1 / ~IN</DisplayName>
-      </Role>
-    </Datum>
-    <Datum Uuid="590a47c9-f1ff-42df-b24f-c3fc50bfb4a8">
-      <FunctionText />
-      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=io0]" SourceId="028f4b91-8fa6-400e-b9b1-6994d8f6152d">
-        <Name>IO-Link Input data</Name>
-        <DataType>Octetstring[2]</DataType>
-        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
-        <PortDataType>Octetstring[2]</PortDataType>
-        <PortMultiplicity>1</PortMultiplicity>
-        <ComponentInstance>Arp.Io.PnC</ComponentInstance>
-        <Program>Arp.Io.PnC</Program>
-        <Offset>0.0</Offset>
-        <NodeId>62</NodeId>
-        <DisplayName>axc-f-2152-1 / IO-Link Master / 3 : RGB Touch Button / 1 / IO-Link Input data</DisplayName>
-      </Role>
-    </Datum>
-    <Datum Uuid="35e4bf7b-d9fe-4a12-8827-c884fd4cbf6d">
-      <FunctionText />
-      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=io2]" SourceId="028f4b91-8fa6-400e-b9b1-6994d8f6152d">
-        <Name>SM_IOPS</Name>
-        <DataType>Bitstring8</DataType>
-        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
-        <PortDataType>Bitstring8</PortDataType>
-        <PortMultiplicity>1</PortMultiplicity>
-        <ComponentInstance>Arp.Io.PnC</ComponentInstance>
-        <Program>Arp.Io.PnC</Program>
-        <Offset>0.0</Offset>
-        <NodeId>62</NodeId>
-        <DisplayName>axc-f-2152-1 / IO-Link Master / 3 : RGB Touch Button / 1 / SM_IOPS</DisplayName>
-      </Role>
-    </Datum>
     <Datum Uuid="4772deae-cd8e-4f94-bfda-edee7fd82f14">
       <FunctionText />
       <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=ioDefaultOut]" SourceId="c79ae991-6cd3-4ffc-b9ee-8100c2f50f0e">
@@ -5896,6 +5866,129 @@
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
       </Role>
     </Datum>
+    <Datum Uuid="cb5d4843-c380-4287-a2e4-a929921e0d79">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=ioDefaultOut]" SourceId="f48012fe-79e0-43db-8a6d-0988d7e98545">
+        <Name>~OUT</Name>
+        <DataType>Octetstring[16]</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>Octetstring[16]</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.PnC</ComponentInstance>
+        <Program>Arp.Io.PnC</Program>
+        <Offset>0.0</Offset>
+        <NodeId>26</NodeId>
+        <DisplayName>axc-f-2152-1 / IO-Link Master / 3. K50 Touchbutton / 1 / ~OUT</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="b4b328e2-4aa6-4815-b8e9-ec9ac164511b">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=io1]" SourceId="f48012fe-79e0-43db-8a6d-0988d7e98545">
+        <Name>IO-Link Input data(1)</Name>
+        <DataType>Octetstring[16]</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>Octetstring[16]</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.PnC</ComponentInstance>
+        <Program>Arp.Io.PnC</Program>
+        <Offset>0.0</Offset>
+        <NodeId>26</NodeId>
+        <DisplayName>axc-f-2152-1 / IO-Link Master / 3. K50 Touchbutton / 1 / IO-Link Input data</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="fb2c7106-6328-4b50-8717-c14fc35caf52">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=ioDefaultIn]" SourceId="f48012fe-79e0-43db-8a6d-0988d7e98545">
+        <Name>~IN</Name>
+        <DataType>Octetstring[16]</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>Octetstring[16]</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.PnC</ComponentInstance>
+        <Program>Arp.Io.PnC</Program>
+        <Offset>0.0</Offset>
+        <NodeId>26</NodeId>
+        <DisplayName>axc-f-2152-1 / IO-Link Master / 3. K50 Touchbutton / 1 / ~IN</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="576ddbf2-5ca3-486a-ac6f-9f9213ebb101">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=io0]" SourceId="f48012fe-79e0-43db-8a6d-0988d7e98545">
+        <Name>IO-Link Input data</Name>
+        <DataType>Octetstring[16]</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>Octetstring[16]</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.PnC</ComponentInstance>
+        <Program>Arp.Io.PnC</Program>
+        <Offset>0.0</Offset>
+        <NodeId>26</NodeId>
+        <DisplayName>axc-f-2152-1 / IO-Link Master / 3. K50 Touchbutton / 1 / IO-Link Input data</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="cc2ba076-f6d5-4c2e-b16a-7dc21aa3aa9d">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=io2]" SourceId="f48012fe-79e0-43db-8a6d-0988d7e98545">
+        <Name>SM_IOPS</Name>
+        <DataType>Bitstring8</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>Bitstring8</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.PnC</ComponentInstance>
+        <Program>Arp.Io.PnC</Program>
+        <Offset>0.0</Offset>
+        <NodeId>26</NodeId>
+        <DisplayName>axc-f-2152-1 / IO-Link Master / 3. K50 Touchbutton / 1 / SM_IOPS</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="f40d2bae-ebe7-4484-9acf-33c774092b41">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="4867371b-5923-43ba-bba8-9c7bb7582b23" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>QS18EmitterEnable</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-1 / PLC.QS18EmitterEnable</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="4bb6bcce-20a9-4841-b4af-c50e9d49af86" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>QS18EmitterEnable</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="51f63671-6f1e-4c97-864e-664bcf4ed7cd">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="29cd5038-933a-4b92-a18d-2ed42ef9cf5a" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>QS18Sense</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-1 / PLC.QS18Sense</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="1cecaa14-f61d-4590-9346-cfc4fde9dcde" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>QS18Sense</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
+    </Datum>
     <RoleGroupList RoleTypeName="Variable">
       <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75" ObjectId="fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24" DisplayName="Default" IsReadOnly="False">
         <RoleDatumUuid>442657ed-d69f-4c0d-bb02-399b27fe11dc</RoleDatumUuid>
@@ -5953,7 +6046,6 @@
         <RoleDatumUuid>b77819f4-9b6a-4d96-930b-66d7e82569f2</RoleDatumUuid>
         <RoleDatumUuid>dfb99634-9a61-4837-a7d0-41a7fd2f3ea1</RoleDatumUuid>
         <RoleDatumUuid>a01f4ac4-3c69-41b0-9685-d03c63577a23</RoleDatumUuid>
-        <RoleDatumUuid>f11f531d-0acd-4b31-81d7-ff243a208838</RoleDatumUuid>
         <RoleDatumUuid>de9789bb-60bb-4a78-9da3-4d7e5727acfc</RoleDatumUuid>
         <RoleDatumUuid>a7c84432-f4cf-4a94-bc6c-193e1afe941d</RoleDatumUuid>
         <RoleDatumUuid>b1e441fa-f6ef-405b-b0f5-a8a8ead70098</RoleDatumUuid>
@@ -5969,6 +6061,12 @@
         <RoleDatumUuid>57535fc5-0e97-41b1-81b4-a05ea33eb077</RoleDatumUuid>
         <RoleDatumUuid>ed780c1e-cc08-4ca7-8024-e80f53ea9670</RoleDatumUuid>
         <RoleDatumUuid>fb804ae3-52be-4260-a231-5df07c27d1e8</RoleDatumUuid>
+        <RoleDatumUuid>30f4938d-17c3-42b5-a0b6-fa50678012d4</RoleDatumUuid>
+        <RoleDatumUuid>8323c955-57a1-400f-8b70-186ebbd0487a</RoleDatumUuid>
+        <RoleDatumUuid>71bdfaf2-ef62-4ffe-be2b-110bb43fa34a</RoleDatumUuid>
+        <RoleDatumUuid>6a752532-ab7e-492b-8d7a-e65c62a8dc48</RoleDatumUuid>
+        <RoleDatumUuid>f40d2bae-ebe7-4484-9acf-33c774092b41</RoleDatumUuid>
+        <RoleDatumUuid>51f63671-6f1e-4c97-864e-664bcf4ed7cd</RoleDatumUuid>
       </RoleGroup>
       <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75" ObjectId="971398c9-e054-4349-a1d9-e00a1840c9f4" DisplayName="System Variables" IsReadOnly="True">
         <RoleDatumUuid>ae807d18-40f0-4651-966c-6f4a5563fe17</RoleDatumUuid>
