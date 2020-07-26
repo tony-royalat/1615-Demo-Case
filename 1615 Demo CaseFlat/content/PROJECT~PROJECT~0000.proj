@@ -1029,7 +1029,7 @@
       <Folder Include="RecycleBin\a6f22417-c143-4419-86b2-7134a704f5e6\Example.pou">
          <Id>a6f22417-c143-4419-86b2-7134a704f5e6</Id>
          <FolderType>PouFolder</FolderType>
-         <Id>35de3032-d33e-4c2c-998f-6f5bd28b753d</Id>
+         <Id>a6f22417-c143-4419-86b2-7134a704f5e6</Id>
          <ParentIndex>0</ParentIndex>
       </Folder>
       <Folder Include="RecycleBin\13d90898-e32e-4730-8b74-428817d53644">
@@ -1079,6 +1079,7 @@
       <Folder Include="RecycleBin\4c5df1ae-76df-49d9-9a22-5a923be32d39\NewProgram.pou">
          <Id>4c5df1ae-76df-49d9-9a22-5a923be32d39</Id>
          <FolderType>PouFolder</FolderType>
+         <Id>4c5df1ae-76df-49d9-9a22-5a923be32d39</Id>
          <ParentIndex>0</ParentIndex>
       </Folder>
       <Folder Include="RecycleBin\111dd1e0-8977-404a-b4bf-24eeb8c05c76">
@@ -1539,7 +1540,7 @@
       <Folder Include="Logical Elements\TouchButton.pou">
          <Id>05a5d6dc-5a80-42d6-bba0-12c285f271b3</Id>
          <FolderType>PouFolder</FolderType>
-         <Id>6ea2e4dd-d5f7-4c0e-842f-4038d6b9a152</Id>
+         <Id>05a5d6dc-5a80-42d6-bba0-12c285f271b3</Id>
          <ParentIndex>35</ParentIndex>
       </Folder>
    </ItemGroup>
@@ -2344,27 +2345,27 @@
          <ParentIndex>2</ParentIndex>
       </LocalResources>
       <LocalResources Include="Logical Elements\Buttons.pou\Variables.var.locres">
-         <Id>40fae8d2-f4cf-41d1-b5ce-0f15dea5229c</Id>
+         <Id>c22b8571-30aa-419f-b694-4a63332aceb7</Id>
          <Visible>False</Visible>
          <ParentIndex>5</ParentIndex>
       </LocalResources>
       <LocalResources Include="Logical Elements\SafetyRelay.pou\Variables.var.locres">
-         <Id>07b06fe6-6b49-445b-b5d8-1a726c878588</Id>
+         <Id>c6c2082a-abce-4b43-9c1d-892853d474ec</Id>
          <Visible>False</Visible>
          <ParentIndex>5</ParentIndex>
       </LocalResources>
       <LocalResources Include="Logical Elements\HMILogic.pou\Variables.var.locres">
-         <Id>b92b426f-5e30-40ed-8246-bad2cb93698b</Id>
+         <Id>5ba9f4ac-bda6-4204-a96e-c622e71763a7</Id>
          <Visible>False</Visible>
          <ParentIndex>5</ParentIndex>
       </LocalResources>
       <LocalResources Include="Logical Elements\ColorSensor.pou\Variables.var.locres">
-         <Id>e90fa7b1-9a9b-48c7-bfcb-88254f732e86</Id>
+         <Id>c4868044-1abc-4730-8e43-55824832d342</Id>
          <Visible>False</Visible>
          <ParentIndex>5</ParentIndex>
       </LocalResources>
       <LocalResources Include="Logical Elements\TouchButton.pou\Variables.var.locres">
-         <Id>39cd0cbf-d362-4d78-9653-e7e185c4d189</Id>
+         <Id>9eb89ebd-b165-4da8-8b7b-92ed2351fa5b</Id>
          <Visible>False</Visible>
          <ParentIndex>3</ParentIndex>
       </LocalResources>

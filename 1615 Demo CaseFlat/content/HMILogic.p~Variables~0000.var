@@ -22,6 +22,40 @@ VAR_EXTERNAL
     QS18IOLOutput : DWORD { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('918733f7-634d-4ec8-be95-a4ce673d1208')};
     QS18EmitterEnable : BOOL { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('a1764fdd-4e1c-489d-bc9e-de72bd97f1ac')};
     QS18Sense : BOOL { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('5468491f-28a2-41d3-9946-8512672bc793')};
+    CBMCIOLInput : LWORD { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('9841901a-0680-4808-88a0-14d0159c888a')};
+    CBMCIOLOutput : LWORD { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('ef9b1dc8-c7b7-4814-ab9f-8640fd1e2053')};
+END_VAR
+
+VAR
+    CBMC_CH1Current : REAL { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('176d92e9-2674-49a0-a127-064022cc36b7')};
+    CBMC_CH2Current : REAL { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('a45d5821-3f00-4a02-a9d1-24feed21123b')};
+    CBMC_CH3Current : REAL { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('467a8255-aec7-4cae-be6c-3f454720e171')};
+    CBMC_CH4Current : REAL { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('1a6d451e-b2cb-412b-8634-9fa54381cb8c')};
+END_VAR
+
+VAR_EXTERNAL
+    CBMC_CH1Status : BOOL { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('dd540ae4-161f-4dc9-a735-44d7beb95f35')};
+    CBMC_CH2Status : BOOL { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('a4e9b23a-4565-4def-954f-0ef98792b9d1')};
+    CBMC_CH3Status : BOOL { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('11603225-3bde-473a-9b16-8ebf6e3a1afc')};
+    CBMC_CH4Status : BOOL { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('0e8ad33a-69ce-424d-99b3-8cdbefdb1f75')};
+    CBMC_CH1Display : STRING { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('9962a9b6-c053-4dcf-8325-cf471b33d9a5')};
+    CBMC_CH2Display : STRING { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('2bacf656-5448-4e62-b053-0dbee0072310')};
+    CBMC_CH3Display : STRING { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('9055ca26-f0f6-473f-ae23-6f3022150e80')};
+    CBMC_CH4Display : STRING { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('b544e283-278a-4bc0-a66d-ac99aa3b2778')};
+END_VAR
+
+VAR
+    CBMC_CH1Setpoint : INT { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('fd09fd5e-90f4-4fd2-b7fd-265b40662b2f')};
+    CBMC_CH2Setpoint : INT { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('c2a37979-080d-4552-9858-ffd756a01d9a')};
+    CBMC_CH3Setpoint : INT { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('d677f8a0-5a4f-4287-aee0-36ae3d400937')};
+    CBMC_CH4Setpoint : INT { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('98079f9e-59c3-4325-93a5-fd1475741543')};
+END_VAR
+
+VAR_EXTERNAL
+    CBMC_CH3Setpoint_Out : INT { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('ac031264-392c-48ce-873b-ed8b8b28a169')};
+    ELR_Enable_Signal : BOOL { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('34f48cda-e755-41d6-8858-ded86328aaf9')};
+    ELR_Forward : BOOL { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('f67792ed-e86f-4ebf-a06b-128baaa8a7a0')};
+    ELR_Error : BOOL { CustomGroupReference('7d5a8429-824f-4a75-9275-2a4c50116c77') } {Id('116f54e9-0d0c-488c-b07b-f610be60c198')};
     BatteryChargingCurrent : REAL { CustomGroupReference('8b9ef511-00ee-4f78-ac7c-eb4a983b39ed') } {Id('61278e28-8336-42f0-80ef-cecfae498add')}; (*mA*)
     BatteryVoltage : REAL { CustomGroupReference('8b9ef511-00ee-4f78-ac7c-eb4a983b39ed') } {Id('03577d36-8053-4d65-ad13-15c07036a750')}; (*mV*)
     BatteryTemperature : REAL { CustomGroupReference('8b9ef511-00ee-4f78-ac7c-eb4a983b39ed') } {Id('497636fe-8698-41ba-bcaf-609f7f2d6125')}; (*K*)

@@ -34,4 +34,25 @@
   <Resources ID="bcf916e1-a1ea-4481-871f-6f3efac9702b" Name="TimeToShutdownText.Text">
     <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="" />
   </Resources>
+  <Resources ID="6fff91cf-9dcf-4278-96fb-5ac38cd4e220" Name="CBMCHeader.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="CBMC E4 24DC/1-10A IOL Data" />
+  </Resources>
+  <Resources ID="df78d595-9a6d-47e8-ae6c-05e92c5b524d" Name="CBMCCH1Text.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Text" />
+  </Resources>
+  <Resources ID="6e43e1e8-8bb6-421e-910e-48e4bab3fc6f" Name="CBMCCH2Text.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Text" />
+  </Resources>
+  <Resources ID="2c2bc476-c2b8-44c0-9203-1f2573f2c2dc" Name="CBMCCH3Text.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Text" />
+  </Resources>
+  <Resources ID="0b7e8f9f-31be-4686-8b45-c73efca2013d" Name="CBMCCH4Text.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Text" />
+  </Resources>
+  <Resources ID="ae43dd5e-ce49-4de8-8409-033f1e58c74e" Name="CH3SettingHeader.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="CH3 Setpoint Adjust:" />
+  </Resources>
+  <Resources ID="c671d281-4d87-4cf3-bf30-c0999c7a9639" Name="Button1.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Button" />
+  </Resources>
 </ResourcesDocument>

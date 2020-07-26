@@ -11,7 +11,7 @@
     <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="" />
   </Resources>
   <Resources ID="eea353dc-8f22-452b-9494-39bebdb47070" Name="UPSButton.Text">
-    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="UPS" />
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Power" />
   </Resources>
   <Resources ID="def7de4f-f58f-493d-94e9-db7156c64e4b" Name="SafetyButton.Text">
     <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Safety" />

@@ -12,6 +12,16 @@
       <Variable Id="7ca7413b-45e4-4660-b4bb-3c691c60aaad" Name="BatteryTemperatureDisplay" DataType="STRING" />
       <Variable Id="a10be140-6210-4f11-8822-a3dd6bc6e7bb" Name="DeviceTemperatureDisplay" DataType="STRING" />
       <Variable Id="5f3477c0-1e35-4c02-aafe-1e1fbad9272c" Name="TimeToShutdownDisplay" DataType="STRING" />
+      <Variable Id="77ff1053-521e-4b6a-8090-55ded789b624" Name="CBMC_CH1Status" DataType="BOOL" />
+      <Variable Id="79df73dc-a31c-44fa-b0f8-a92fd9abe3bc" Name="CBMC_CH2Status" DataType="BOOL" />
+      <Variable Id="c51df2b1-6cbe-445b-aaa9-0955276c0230" Name="CBMC_CH3Status" DataType="BOOL" />
+      <Variable Id="44c8d8f2-57d4-4a7b-afe2-4d2d25cddc91" Name="CBMC_CH4Status" DataType="BOOL" />
+      <Variable Id="ccddb4fe-3e03-46b0-a79e-0ff7abf80637" Name="CBMC_CH1Display" DataType="STRING" />
+      <Variable Id="e6b3812c-00ef-4093-84a6-4e5705eb8395" Name="CBMC_CH2Display" DataType="STRING" />
+      <Variable Id="18eeb96f-f02a-437c-ac1e-27404acf4340" Name="CBMC_CH3Display" DataType="STRING" />
+      <Variable Id="9c9bbe33-0035-4643-ad1f-e1e01da4b8ef" Name="CBMC_CH4Display" DataType="STRING" />
+      <Variable Id="eea40605-960d-478d-8da6-ad96e03c196a" Name="CBMC_CH3Setpoint_Out" DataType="INT" />
+      <ApplicationVariable Id="5b9a6882-7e79-4df1-951a-a6cd6ff6aa29" Name="BattVoltage" DataType="LREAL" />
     </Variables>
     <Documents>
       <Document Id="a3969d99-6a1a-4912-ad24-cd8375e877e4" NodeType="HmiPage" Name="Homepage" />
@@ -428,6 +438,451 @@
             <Width>692</Width>
             <Height>40</Height>
           </Size>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="CBMCHeader" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="CBMC E4 24DC/1-10A IOL Data" FontFamily="Arial" FontSize="24" FontStyle="normal" FontWeight="700" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>830</X>
+            <Y>239</Y>
+          </Origin>
+          <Location>
+            <X>830</X>
+            <Y>239</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>382.00000000000006</Width>
+            <Height>40</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="Ellipse" Rotation="0" ID="CBMCCH1Indicator" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Left" GuiStyle="Flat">
+          <Origin>
+            <X>861.25</X>
+            <Y>300</Y>
+          </Origin>
+          <Location>
+            <X>861.25</X>
+            <Y>300</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="FillDynamic" TargetProperty="Fill" Interpolate="false" Rate="None">
+            <VariableInstance>
+              <Id>77ff1053-521e-4b6a-8090-55ded789b624</Id>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>CBMC_CH1Status</ExpressionLine>
+            </Expression>
+            <ThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q1="http://www.w3.org/2001/XMLSchema" xsi:type="q1:int">0</Threshold>
+                <Value xsi:type="SolidFill" Color="#FFFF0000" />
+              </FillDynamicThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q2="http://www.w3.org/2001/XMLSchema" xsi:type="q2:int">1</Threshold>
+                <Value xsi:type="SolidFill" Color="#FF90EE90" />
+              </FillDynamicThresholdData>
+            </ThresholdData>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFECEDED" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>50</Width>
+            <Height>50</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="Ellipse" Rotation="0" ID="CBMCCH2Indicator" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Left" GuiStyle="Flat">
+          <Origin>
+            <X>861.25</X>
+            <Y>360</Y>
+          </Origin>
+          <Location>
+            <X>861.25</X>
+            <Y>360</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="FillDynamic" TargetProperty="Fill" Interpolate="false" Rate="None">
+            <VariableInstance>
+              <Id>79df73dc-a31c-44fa-b0f8-a92fd9abe3bc</Id>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>CBMC_CH2Status</ExpressionLine>
+            </Expression>
+            <ThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q3="http://www.w3.org/2001/XMLSchema" xsi:type="q3:int">0</Threshold>
+                <Value xsi:type="SolidFill" Color="#FFFF0000" />
+              </FillDynamicThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q4="http://www.w3.org/2001/XMLSchema" xsi:type="q4:int">1</Threshold>
+                <Value xsi:type="SolidFill" Color="#FF90EE90" />
+              </FillDynamicThresholdData>
+            </ThresholdData>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFECEDED" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>50</Width>
+            <Height>50</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="Ellipse" Rotation="0" ID="CBMCCH3Indicator" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Left" GuiStyle="Flat">
+          <Origin>
+            <X>861.25</X>
+            <Y>420</Y>
+          </Origin>
+          <Location>
+            <X>861.25</X>
+            <Y>420</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="FillDynamic" TargetProperty="Fill" Interpolate="false" Rate="None">
+            <VariableInstance>
+              <Id>c51df2b1-6cbe-445b-aaa9-0955276c0230</Id>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>CBMC_CH3Status</ExpressionLine>
+            </Expression>
+            <ThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q5="http://www.w3.org/2001/XMLSchema" xsi:type="q5:int">0</Threshold>
+                <Value xsi:type="SolidFill" Color="#FFFF0000" />
+              </FillDynamicThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q6="http://www.w3.org/2001/XMLSchema" xsi:type="q6:int">1</Threshold>
+                <Value xsi:type="SolidFill" Color="#FF90EE90" />
+              </FillDynamicThresholdData>
+            </ThresholdData>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFECEDED" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>50</Width>
+            <Height>50</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="Ellipse" Rotation="0" ID="CBMCCH4Indicator" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Left" GuiStyle="Flat">
+          <Origin>
+            <X>861.25</X>
+            <Y>480</Y>
+          </Origin>
+          <Location>
+            <X>861.25</X>
+            <Y>480</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="FillDynamic" TargetProperty="Fill" Interpolate="false" Rate="None">
+            <VariableInstance>
+              <Id>44c8d8f2-57d4-4a7b-afe2-4d2d25cddc91</Id>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>CBMC_CH4Status</ExpressionLine>
+            </Expression>
+            <ThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q7="http://www.w3.org/2001/XMLSchema" xsi:type="q7:int">0</Threshold>
+                <Value xsi:type="SolidFill" Color="#FFFF0000" />
+              </FillDynamicThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q8="http://www.w3.org/2001/XMLSchema" xsi:type="q8:int">1</Threshold>
+                <Value xsi:type="SolidFill" Color="#FF90EE90" />
+              </FillDynamicThresholdData>
+            </ThresholdData>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFECEDED" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>50</Width>
+            <Height>50</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="CBMCCH1Text" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Text" FontFamily="Arial" FontSize="24" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Left" GuiStyle="Flat" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>931.25</X>
+            <Y>300</Y>
+          </Origin>
+          <Location>
+            <X>931.25</X>
+            <Y>300</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="TextDynamic" TargetProperty="Text">
+            <VariableInstance>
+              <Id>ccddb4fe-3e03-46b0-a79e-0ff7abf80637</Id>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>CBMC_CH1Display</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>250</Width>
+            <Height>50</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="CBMCCH2Text" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Text" FontFamily="Arial" FontSize="24" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Left" GuiStyle="Flat" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>931.25</X>
+            <Y>360</Y>
+          </Origin>
+          <Location>
+            <X>931.25</X>
+            <Y>360</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="TextDynamic" TargetProperty="Text">
+            <VariableInstance>
+              <Id>e6b3812c-00ef-4093-84a6-4e5705eb8395</Id>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>CBMC_CH2Display</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>250</Width>
+            <Height>50</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="CBMCCH3Text" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Text" FontFamily="Arial" FontSize="24" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Left" GuiStyle="Flat" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>931.25</X>
+            <Y>420</Y>
+          </Origin>
+          <Location>
+            <X>931.25</X>
+            <Y>420</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="TextDynamic" TargetProperty="Text">
+            <VariableInstance>
+              <Id>18eeb96f-f02a-437c-ac1e-27404acf4340</Id>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>CBMC_CH3Display</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>250</Width>
+            <Height>50</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="CBMCCH4Text" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Text" FontFamily="Arial" FontSize="24" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Left" GuiStyle="Flat" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>931.25</X>
+            <Y>480</Y>
+          </Origin>
+          <Location>
+            <X>931.25</X>
+            <Y>480</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="TextDynamic" TargetProperty="Text">
+            <VariableInstance>
+              <Id>9c9bbe33-0035-4643-ad1f-e1e01da4b8ef</Id>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>CBMC_CH4Display</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>250</Width>
+            <Height>50</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="CH3SettingHeader" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="CH3 Setpoint Adjust:" FontFamily="Arial" FontSize="24" FontStyle="normal" FontWeight="700" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>830</X>
+            <Y>576</Y>
+          </Origin>
+          <Location>
+            <X>830</X>
+            <Y>576</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>250</Width>
+            <Height>40</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="Button" Rotation="0" ID="Button1" IsTabSelectable="true" TabOrder="0" NextId="1" LineColor="#FFCCD0D2" LineWidth="1" Text="Button" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
+          <Origin>
+            <X>1101</X>
+            <Y>571</Y>
+          </Origin>
+          <Location>
+            <X>1101</X>
+            <Y>571</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="TextDynamic" TargetProperty="Text">
+            <VariableInstance>
+              <Id>eea40605-960d-478d-8da6-ad96e03c196a</Id>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>CBMC_CH3Setpoint_Out</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <Action xsi:type="IncrementValueAction" Gesture="Click" ID="A0" StepConstant="1">
+            <VariableInstance>
+              <Id>eea40605-960d-478d-8da6-ad96e03c196a</Id>
+            </VariableInstance>
+          </Action>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFECEDED" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>75</Width>
+            <Height>50</Height>
+          </Size>
+          <FillWhenDown xsi:type="SolidFill" Color="#FF8ACCD1" />
+          <ImageArea>
+            <Width>50</Width>
+            <Height>50</Height>
+          </ImageArea>
+          <CornerRadii>
+            <Width>0</Width>
+            <Height>0</Height>
+          </CornerRadii>
         </HmiObject>
       </Objects>
     </Layer>

@@ -107,7 +107,7 @@
             <Height>40</Height>
           </Size>
         </HmiObject>
-        <HmiObject xsi:type="Button" Rotation="0" ID="UPSButton" Comment="Button to access UPS info page" IsTabSelectable="true" TabOrder="0" NextId="1" LineColor="#FFCCD0D2" LineWidth="1" Text="UPS" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
+        <HmiObject xsi:type="Button" Rotation="0" ID="UPSButton" Comment="Button to access UPS info page" IsTabSelectable="true" TabOrder="0" NextId="1" LineColor="#FFCCD0D2" LineWidth="1" Text="Power" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
           <Origin>
             <X>30</X>
             <Y>100</Y>

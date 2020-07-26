@@ -46,4 +46,13 @@
   <Resources ID="41fc4c95-bf2c-4430-b11e-9a4437bdd343" Name="PhotoEyeButton.TextWhenDown">
     <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Emitter On" />
   </Resources>
+  <Resources ID="0c3c3a38-cd94-44ad-b77b-46b7387e0482" Name="ELRErrorText.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Error" />
+  </Resources>
+  <Resources ID="d85cd51c-b6b9-4f0b-bcd8-bc136e49e223" Name="ELREnableText.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Enable Signal" />
+  </Resources>
+  <Resources ID="89f9e7e6-53ca-431c-aea5-7211f9a1e287" Name="ELRForwardText.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Forward Rotation" />
+  </Resources>
 </ResourcesDocument>
