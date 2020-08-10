@@ -35,11 +35,7 @@
             <file name="Navigation.hminav" id="Applicati~Navigation~0000.hminav" />
             <file name="Profiles.hmiprofiles" id="Application~Profiles~0000.hmiprofiles" />
             <file name="Variables.hmivar" id="Applicatio~Variables~0000.hmivar" />
-            <folder name="Login.hmi">
-              <file name="Definition.hmipagedef" id="Login.hmi~Definition~0000.hmipagedef" />
-              <file name="Variables.hmivar" id="Login.hmi~Variables~0000.hmivar" />
-              <file name="Resources.locres" id="Login.hmi~Resources~0000.locres" />
-            </folder>
+            <folder name="Login.hmi" />
             <folder name="Page.hmi" />
             <folder name="Page1.hmi" />
             <folder name="Page2.hmi" />
@@ -82,6 +78,7 @@
               <file name="Variables.hmivar" id="Network.hm~Variables~0000.hmivar" />
               <file name="Definition.hmipagedef" id="Network.h~Definition~0000.hmipagedef" />
             </folder>
+            <folder name="HMI_Support" />
           </folder>
         </folder>
         <folder name="IB_Master">
@@ -575,6 +572,27 @@
           <file name="Metadata.meta" id="Example.pou~Metadata~0003.meta" />
           <file name="Example.st" id="Example.pou~Example~0003.st" />
           <file name="Variables.var.locres" id="Example.p~Variables.~0001.locres" />
+        </folder>
+      </folder>
+      <folder name="cd433928-c905-4443-93b5-e26b8d59ab6b">
+        <file name="cd433928-c905-4443-93b5-e26b8d59ab6b" id="cd433928-~cd433928-c~0000" />
+        <folder name="Login.hmi">
+          <file name="Definition.hmipagedef" id="Login.hmi~Definition~0001.hmipagedef" />
+          <file name="Variables.hmivar" id="Login.hmi~Variables~0001.hmivar" />
+          <file name="Resources.locres" id="Login.hmi~Resources~0001.locres" />
+        </folder>
+      </folder>
+      <folder name="664d6b30-a90e-4859-81f9-d1eb57279e2f">
+        <file name="Fuckup-Book-english-OK-FUN.pdf" id="664d6b30-~Fuckup-Boo~0000.pdf" />
+        <file name="664d6b30-a90e-4859-81f9-d1eb57279e2f" id="664d6b30-~664d6b30-a~0000" />
+      </folder>
+      <folder name="343b4d60-9ce9-455f-a3e3-c927daf42529">
+        <file name="343b4d60-9ce9-455f-a3e3-c927daf42529" id="343b4d60-~343b4d60-9~0000" />
+        <folder name="Page.hmi">
+          <file name="Definition.hmipagedef" id="Page.hmi~Definition~0001.hmipagedef" />
+          <file name="Parameters.hmiparams" id="Page.hmi~Parameters~0001.hmiparams" />
+          <file name="Resources.locres" id="Page.hmi~Resources~0001.locres" />
+          <file name="Variables.hmivar" id="Page.hmi~Variables~0001.hmivar" />
         </folder>
       </folder>
     </folder>

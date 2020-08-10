@@ -1016,15 +1016,33 @@
       <Folder Include="RecycleBin">
          <Id>8948bab4-6d82-435b-8f9c-61db9c8c2d48</Id>
          <FolderType>RecycleBin</FolderType>
-         <LastestItemNo>8</LastestItemNo>
+         <LastestItemNo>11</LastestItemNo>
          <Visible>false</Visible>
          <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\343b4d60-9ce9-455f-a3e3-c927daf42529">
+         <Id>ad927d0d-3a72-402c-b4b7-68ecc8ce80a5</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>11</ItemNo>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\664d6b30-a90e-4859-81f9-d1eb57279e2f">
+         <Id>1d348ffc-db98-473d-8c35-83a27ff0f486</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>10</ItemNo>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\cd433928-c905-4443-93b5-e26b8d59ab6b">
+         <Id>802aeaf7-96eb-49b3-94d1-6d4d37234ed8</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>9</ItemNo>
+         <ParentIndex>2</ParentIndex>
       </Folder>
       <Folder Include="RecycleBin\a6f22417-c143-4419-86b2-7134a704f5e6">
          <Id>1a768983-b28c-4a4d-bf8c-279426706dd1</Id>
          <FolderType>RecycleBinItem</FolderType>
          <ItemNo>8</ItemNo>
-         <ParentIndex>0</ParentIndex>
+         <ParentIndex>3</ParentIndex>
       </Folder>
       <Folder Include="RecycleBin\a6f22417-c143-4419-86b2-7134a704f5e6\Example.pou">
          <Id>a6f22417-c143-4419-86b2-7134a704f5e6</Id>
@@ -1036,7 +1054,7 @@
          <Id>1e4ba772-a95a-4011-98c0-7f5fb44c6995</Id>
          <FolderType>RecycleBinItem</FolderType>
          <ItemNo>7</ItemNo>
-         <ParentIndex>1</ParentIndex>
+         <ParentIndex>4</ParentIndex>
       </Folder>
       <Folder Include="RecycleBin\13d90898-e32e-4730-8b74-428817d53644\IO-Link_In_Out__2_bytes">
          <Id>13d90898-e32e-4730-8b74-428817d53644</Id>
@@ -1062,7 +1080,7 @@
          <Id>ad015053-6ee9-4467-b899-2c3d8ec92988</Id>
          <FolderType>RecycleBinItem</FolderType>
          <ItemNo>6</ItemNo>
-         <ParentIndex>2</ParentIndex>
+         <ParentIndex>5</ParentIndex>
       </Folder>
       <Folder Include="RecycleBin\383df721-a452-473f-9984-39034f8e15ea\TouchButton.pou">
          <Id>383df721-a452-473f-9984-39034f8e15ea</Id>
@@ -1074,7 +1092,7 @@
          <Id>fab9256e-ab01-427f-8261-7d5e358da06c</Id>
          <FolderType>RecycleBinItem</FolderType>
          <ItemNo>5</ItemNo>
-         <ParentIndex>3</ParentIndex>
+         <ParentIndex>6</ParentIndex>
       </Folder>
       <Folder Include="RecycleBin\4c5df1ae-76df-49d9-9a22-5a923be32d39\NewProgram.pou">
          <Id>4c5df1ae-76df-49d9-9a22-5a923be32d39</Id>
@@ -1086,7 +1104,7 @@
          <Id>4772d856-1d85-457b-a9c9-852f6b4dd3d3</Id>
          <FolderType>RecycleBinItem</FolderType>
          <ItemNo>2</ItemNo>
-         <ParentIndex>4</ParentIndex>
+         <ParentIndex>7</ParentIndex>
       </Folder>
       <Folder Include="RecycleBin\111dd1e0-8977-404a-b4bf-24eeb8c05c76\Main.pou">
          <Id>111dd1e0-8977-404a-b4bf-24eeb8c05c76</Id>
@@ -1098,7 +1116,7 @@
          <Id>12030f09-7932-4c08-b59e-45fec86ebaf7</Id>
          <FolderType>RecycleBinItem</FolderType>
          <ItemNo>1</ItemNo>
-         <ParentIndex>5</ParentIndex>
+         <ParentIndex>8</ParentIndex>
       </Folder>
       <Folder Include="RecycleBin\e0ad5abd-cd08-4259-8c2d-6a8c0620f078\IOLink.pou">
          <Id>e0ad5abd-cd08-4259-8c2d-6a8c0620f078</Id>
@@ -1559,58 +1577,69 @@
       </HmiNavigation>
    </ItemGroup>
    <ItemGroup>
+      <HmiPage Include="RecycleBin\343b4d60-9ce9-455f-a3e3-c927daf42529\Page.hmi">
+         <Id>343b4d60-9ce9-455f-a3e3-c927daf42529</Id>
+         <DisplayName>Page</DisplayName>
+         <StartPage>False</StartPage>
+         <ParentIndex>0</ParentIndex>
+      </HmiPage>
+      <HmiPage Include="RecycleBin\cd433928-c905-4443-93b5-e26b8d59ab6b\Login.hmi">
+         <Id>cd433928-c905-4443-93b5-e26b8d59ab6b</Id>
+         <DisplayName>Login</DisplayName>
+         <StartPage>False</StartPage>
+         <ParentIndex>0</ParentIndex>
+      </HmiPage>
       <HmiPage Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Homepage.hmi">
          <Id>a3969d99-6a1a-4912-ad24-cd8375e877e4</Id>
          <DisplayName>Homepage</DisplayName>
          <StartPage>True</StartPage>
          <ParentIndex>4</ParentIndex>
       </HmiPage>
-      <HmiPage Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Login.hmi">
-         <Id>cd433928-c905-4443-93b5-e26b8d59ab6b</Id>
-         <DisplayName>Login</DisplayName>
-         <StartPage>False</StartPage>
-         <ParentIndex>5</ParentIndex>
-      </HmiPage>
       <HmiPage Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\ThisIsAnAdventure.hmi">
          <Id>0b09790b-5b0e-488a-81ee-1114f35f5277</Id>
          <DisplayName>ThisIsAnAdventure</DisplayName>
          <StartPage>False</StartPage>
-         <ParentIndex>6</ParentIndex>
+         <ParentIndex>5</ParentIndex>
       </HmiPage>
       <HmiPage Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\UPS_Info.hmi">
          <Id>72013f67-3ff0-41ad-9767-3e975fc5b6e4</Id>
          <DisplayName>UPS_Info</DisplayName>
          <StartPage>False</StartPage>
-         <ParentIndex>7</ParentIndex>
+         <ParentIndex>6</ParentIndex>
       </HmiPage>
       <HmiPage Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Safety.hmi">
          <Id>f0e0622e-4165-4db9-812e-340d3d3e3cc8</Id>
          <DisplayName>Safety</DisplayName>
          <StartPage>False</StartPage>
-         <ParentIndex>8</ParentIndex>
+         <ParentIndex>7</ParentIndex>
       </HmiPage>
       <HmiPage Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\IOLink.hmi">
          <Id>c4daf194-72b1-4a3e-93eb-c800bfa6f01b</Id>
          <DisplayName>IOLink</DisplayName>
          <StartPage>False</StartPage>
-         <ParentIndex>9</ParentIndex>
+         <ParentIndex>8</ParentIndex>
       </HmiPage>
       <HmiPage Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Network.hmi">
          <Id>b1282009-8411-4cd2-bcdc-a1b437fa6303</Id>
          <DisplayName>Network</DisplayName>
          <StartPage>False</StartPage>
-         <ParentIndex>10</ParentIndex>
+         <ParentIndex>9</ParentIndex>
       </HmiPage>
    </ItemGroup>
    <ItemGroup>
+      <HmiPageDefinition Include="RecycleBin\343b4d60-9ce9-455f-a3e3-c927daf42529\Page.hmi\Definition.hmipagedef">
+         <Id>d8d4f6ec-4280-4b97-a992-34d1dd59ec09</Id>
+         <HmiPageId>343b4d60-9ce9-455f-a3e3-c927daf42529</HmiPageId>
+         <ParentIndex>0</ParentIndex>
+      </HmiPageDefinition>
+      <HmiPageDefinition Include="RecycleBin\cd433928-c905-4443-93b5-e26b8d59ab6b\Login.hmi\Definition.hmipagedef">
+         <Id>67e0bf68-b310-40d0-9ffa-55e3503a3874</Id>
+         <HmiPageId>cd433928-c905-4443-93b5-e26b8d59ab6b</HmiPageId>
+         <ParentIndex>0</ParentIndex>
+      </HmiPageDefinition>
       <HmiPageDefinition Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Homepage.hmi\Definition.hmipagedef">
          <Id>1da8513c-8511-4954-96ab-4774fd012071</Id>
          <HmiPageId>a3969d99-6a1a-4912-ad24-cd8375e877e4</HmiPageId>
-         <ParentIndex>0</ParentIndex>
-      </HmiPageDefinition>
-      <HmiPageDefinition Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Login.hmi\Definition.hmipagedef">
-         <Id>67e0bf68-b310-40d0-9ffa-55e3503a3874</Id>
-         <HmiPageId>cd433928-c905-4443-93b5-e26b8d59ab6b</HmiPageId>
          <ParentIndex>0</ParentIndex>
       </HmiPageDefinition>
       <HmiPageDefinition Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\ThisIsAnAdventure.hmi\Definition.hmipagedef">
@@ -1640,18 +1669,25 @@
       </HmiPageDefinition>
    </ItemGroup>
    <ItemGroup>
+      <HmiParameters Include="RecycleBin\343b4d60-9ce9-455f-a3e3-c927daf42529\Page.hmi\Parameters.hmiparams">
+         <Id>ba2a568e-1a2c-4c6b-9599-39cd70201868</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmiparams</Extension>
+         <HmiPageId>343b4d60-9ce9-455f-a3e3-c927daf42529</HmiPageId>
+         <ParentIndex>1</ParentIndex>
+      </HmiParameters>
+      <HmiParameters Include="RecycleBin\cd433928-c905-4443-93b5-e26b8d59ab6b\Login.hmi\Parameters.hmiparams">
+         <Id>64cf922d-23be-432a-8dd0-bec08b225ef2</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmiparams</Extension>
+         <HmiPageId>cd433928-c905-4443-93b5-e26b8d59ab6b</HmiPageId>
+         <ParentIndex>1</ParentIndex>
+      </HmiParameters>
       <HmiParameters Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Homepage.hmi\Parameters.hmiparams">
          <Id>9ee26018-0b69-4fbc-a41b-a5df09163e28</Id>
          <DisplayName>Parameters</DisplayName>
          <Extension>.hmiparams</Extension>
          <HmiPageId>a3969d99-6a1a-4912-ad24-cd8375e877e4</HmiPageId>
-         <ParentIndex>1</ParentIndex>
-      </HmiParameters>
-      <HmiParameters Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Login.hmi\Parameters.hmiparams">
-         <Id>64cf922d-23be-432a-8dd0-bec08b225ef2</Id>
-         <DisplayName>Parameters</DisplayName>
-         <Extension>.hmiparams</Extension>
-         <HmiPageId>cd433928-c905-4443-93b5-e26b8d59ab6b</HmiPageId>
          <ParentIndex>1</ParentIndex>
       </HmiParameters>
       <HmiParameters Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\ThisIsAnAdventure.hmi\Parameters.hmiparams">
@@ -1698,6 +1734,23 @@
       </HmiProfiles>
    </ItemGroup>
    <ItemGroup>
+      <HmiSupport Include="RecycleBin\664d6b30-a90e-4859-81f9-d1eb57279e2f\Fuckup-Book-english-OK-FUN.pdf">
+         <Id>664d6b30-a90e-4859-81f9-d1eb57279e2f</Id>
+         <DisplayName>Fuckup-Book-english-OK-FUN</DisplayName>
+         <ParentIndex>0</ParentIndex>
+      </HmiSupport>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiVariables Include="RecycleBin\343b4d60-9ce9-455f-a3e3-c927daf42529\Page.hmi\Variables.hmivar">
+         <Id>e1e16bf4-1155-4ec5-87dd-2dbdbaf645ef</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </HmiVariables>
+      <HmiVariables Include="RecycleBin\cd433928-c905-4443-93b5-e26b8d59ab6b\Login.hmi\Variables.hmivar">
+         <Id>7c67f203-9d01-474c-9d40-c2539b3ab682</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </HmiVariables>
       <HmiVariables Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Variables.hmivar">
          <Id>fbccdbb3-69f2-4676-ac05-28b10c1a9a3c</Id>
          <Visible>False</Visible>
@@ -1705,11 +1758,6 @@
       </HmiVariables>
       <HmiVariables Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Homepage.hmi\Variables.hmivar">
          <Id>5b7b8e43-970c-47d4-b70c-0bc8132e878f</Id>
-         <Visible>False</Visible>
-         <ParentIndex>2</ParentIndex>
-      </HmiVariables>
-      <HmiVariables Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Login.hmi\Variables.hmivar">
-         <Id>7c67f203-9d01-474c-9d40-c2539b3ab682</Id>
          <Visible>False</Visible>
          <ParentIndex>2</ParentIndex>
       </HmiVariables>
@@ -2292,6 +2340,18 @@
       </IoConfigurationWorksheet>
    </ItemGroup>
    <ItemGroup>
+      <LocalResources Include="RecycleBin\343b4d60-9ce9-455f-a3e3-c927daf42529\Page.hmi\Resources.locres">
+         <Id>864a6e3d-27ca-4680-9aa6-d67739bc1d34</Id>
+         <Visible>False</Visible>
+         <HmiPageId>343b4d60-9ce9-455f-a3e3-c927daf42529</HmiPageId>
+         <ParentIndex>2</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="RecycleBin\cd433928-c905-4443-93b5-e26b8d59ab6b\Login.hmi\Resources.locres">
+         <Id>fe568b27-7ceb-40f4-a073-1184754b6f5c</Id>
+         <Visible>False</Visible>
+         <HmiPageId>cd433928-c905-4443-93b5-e26b8d59ab6b</HmiPageId>
+         <ParentIndex>3</ParentIndex>
+      </LocalResources>
       <LocalResources Include="RecycleBin\a6f22417-c143-4419-86b2-7134a704f5e6\Example.pou\Variables.var.locres">
          <Id>0f804c63-19a9-4e80-b993-ad26e51b4f40</Id>
          <Visible>False</Visible>
@@ -2306,12 +2366,6 @@
          <Id>8c8400c9-67cd-40d2-b40f-06b51ba17582</Id>
          <Visible>False</Visible>
          <HmiPageId>a3969d99-6a1a-4912-ad24-cd8375e877e4</HmiPageId>
-         <ParentIndex>3</ParentIndex>
-      </LocalResources>
-      <LocalResources Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Login.hmi\Resources.locres">
-         <Id>fe568b27-7ceb-40f4-a073-1184754b6f5c</Id>
-         <Visible>False</Visible>
-         <HmiPageId>cd433928-c905-4443-93b5-e26b8d59ab6b</HmiPageId>
          <ParentIndex>3</ParentIndex>
       </LocalResources>
       <LocalResources Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\ThisIsAnAdventure.hmi\Resources.locres">
@@ -2345,27 +2399,27 @@
          <ParentIndex>2</ParentIndex>
       </LocalResources>
       <LocalResources Include="Logical Elements\Buttons.pou\Variables.var.locres">
-         <Id>c22b8571-30aa-419f-b694-4a63332aceb7</Id>
+         <Id>56619493-033e-4b0d-a827-6febaa5266fe</Id>
          <Visible>False</Visible>
          <ParentIndex>5</ParentIndex>
       </LocalResources>
       <LocalResources Include="Logical Elements\SafetyRelay.pou\Variables.var.locres">
-         <Id>c6c2082a-abce-4b43-9c1d-892853d474ec</Id>
+         <Id>d93760a1-04e2-427f-92a8-f5e03e132746</Id>
          <Visible>False</Visible>
          <ParentIndex>5</ParentIndex>
       </LocalResources>
       <LocalResources Include="Logical Elements\HMILogic.pou\Variables.var.locres">
-         <Id>5ba9f4ac-bda6-4204-a96e-c622e71763a7</Id>
+         <Id>6e5eb778-50d5-48aa-a34c-bb19ec4709ab</Id>
          <Visible>False</Visible>
          <ParentIndex>5</ParentIndex>
       </LocalResources>
       <LocalResources Include="Logical Elements\ColorSensor.pou\Variables.var.locres">
-         <Id>c4868044-1abc-4730-8e43-55824832d342</Id>
+         <Id>de6280a4-9dc9-4d88-bb1b-c25fa1791db7</Id>
          <Visible>False</Visible>
          <ParentIndex>5</ParentIndex>
       </LocalResources>
       <LocalResources Include="Logical Elements\TouchButton.pou\Variables.var.locres">
-         <Id>9eb89ebd-b165-4da8-8b7b-92ed2351fa5b</Id>
+         <Id>13bc3d38-efb1-4b59-a72c-4b2e7e2b01b3</Id>
          <Visible>False</Visible>
          <ParentIndex>3</ParentIndex>
       </LocalResources>
@@ -2699,6 +2753,18 @@
       </ResourceSettings>
    </ItemGroup>
    <ItemGroup>
+      <RestoreDocument Include="RecycleBin\343b4d60-9ce9-455f-a3e3-c927daf42529\343b4d60-9ce9-455f-a3e3-c927daf42529">
+         <Id>618c1fa9-8bf1-49d9-bff2-5a773dd0c30b</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+      <RestoreDocument Include="RecycleBin\664d6b30-a90e-4859-81f9-d1eb57279e2f\664d6b30-a90e-4859-81f9-d1eb57279e2f">
+         <Id>38a6edd3-422c-499a-bafd-7bd470e96e88</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+      <RestoreDocument Include="RecycleBin\cd433928-c905-4443-93b5-e26b8d59ab6b\cd433928-c905-4443-93b5-e26b8d59ab6b">
+         <Id>f1707240-284c-401f-92ba-8d40ee07e011</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
       <RestoreDocument Include="RecycleBin\a6f22417-c143-4419-86b2-7134a704f5e6\a6f22417-c143-4419-86b2-7134a704f5e6">
          <Id>beb8571c-8179-4178-856d-de1f8af15ce1</Id>
          <ParentIndex>1</ParentIndex>
