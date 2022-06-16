@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <HmiPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Safety" BorderWidth="0" ImageId="bb7fcb2a-5e4d-4052-b636-fd0fd6df20c5" ImageScaling="Fit">
   <References>
     <Variables>
@@ -16,7 +16,7 @@
   <Layers>
     <Layer>
       <Objects>
-        <HmiObject xsi:type="Button" Rotation="0" ID="BackToHomeSS" IsTabSelectable="true" TabOrder="0" NextId="1" LineColor="#FFCCD0D2" LineWidth="1" Text="Back" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
+        <HmiObject xsi:type="Button" Rotation="0" ID="BackToHomeSS" IsTabSelectable="true" TabOrder="0" NextId="1" LineColor="#FFCCD0D2" LineWidth="1" Text="Back" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" IsTextWrapping="false">
           <Origin>
             <X>1155</X>
             <Y>725</Y>
@@ -606,7 +606,7 @@
             <Height>50</Height>
           </Size>
         </HmiObject>
-        <HmiObject xsi:type="Button" Rotation="0" ID="PSR_Reset_Button" IsTabSelectable="true" TabOrder="0" NextId="1" LineColor="#FFCCD0D2" LineWidth="1" Text="Reset" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
+        <HmiObject xsi:type="Button" Rotation="0" ID="PSR_Reset_Button" IsTabSelectable="true" TabOrder="0" NextId="1" LineColor="#FFCCD0D2" LineWidth="1" Text="Reset" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" IsTextWrapping="false">
           <Origin>
             <X>180</X>
             <Y>360</Y>
@@ -647,7 +647,7 @@
             <Height>0</Height>
           </CornerRadii>
         </HmiObject>
-        <HmiObject xsi:type="Button" Rotation="0" ID="EnableButton" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" Text="Disabled" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="true" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
+        <HmiObject xsi:type="Button" Rotation="0" ID="EnableButton" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" Text="Disabled" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="true" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" IsTextWrapping="false">
           <Origin>
             <X>50</X>
             <Y>360</Y>

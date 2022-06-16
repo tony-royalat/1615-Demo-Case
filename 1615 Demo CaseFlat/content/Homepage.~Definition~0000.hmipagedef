@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <HmiPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Homepage" BorderWidth="0" ImageId="b3e311af-0dba-46f5-b56c-f51652b98fe1" ImageScaling="Center">
   <References>
     <Variables>
@@ -22,7 +22,7 @@
   <Layers>
     <Layer>
       <Objects>
-        <HmiObject xsi:type="Button" Rotation="0" ID="Button1" IsTabSelectable="true" TabOrder="0" NextId="4" LineColor="#FFCCD0D2" LineWidth="1" Text="Click Here" FontFamily="Arial" FontSize="28" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
+        <HmiObject xsi:type="Button" Rotation="0" ID="Button1" IsTabSelectable="true" TabOrder="0" NextId="4" LineColor="#FFCCD0D2" LineWidth="1" Text="Click Here" FontFamily="Arial" FontSize="28" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" IsTextWrapping="false">
           <Origin>
             <X>992</X>
             <Y>667</Y>
@@ -107,7 +107,7 @@
             <Height>40</Height>
           </Size>
         </HmiObject>
-        <HmiObject xsi:type="Button" Rotation="0" ID="UPSButton" Comment="Button to access UPS info page" IsTabSelectable="true" TabOrder="0" NextId="1" LineColor="#FFCCD0D2" LineWidth="1" Text="Power" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
+        <HmiObject xsi:type="Button" Rotation="0" ID="UPSButton" Comment="Button to access UPS info page" IsTabSelectable="true" TabOrder="0" NextId="1" LineColor="#FFCCD0D2" LineWidth="1" Text="Power" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" IsTextWrapping="false">
           <Origin>
             <X>30</X>
             <Y>100</Y>
@@ -146,7 +146,7 @@
             <Height>0</Height>
           </CornerRadii>
         </HmiObject>
-        <HmiObject xsi:type="Button" Rotation="0" ID="SafetyButton" IsTabSelectable="true" TabOrder="0" NextId="1" LineColor="#FFCCD0D2" LineWidth="1" Text="Safety" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
+        <HmiObject xsi:type="Button" Rotation="0" ID="SafetyButton" IsTabSelectable="true" TabOrder="0" NextId="1" LineColor="#FFCCD0D2" LineWidth="1" Text="Safety" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" IsTextWrapping="false">
           <Origin>
             <X>30</X>
             <Y>170</Y>
@@ -437,7 +437,7 @@
             <Height>64</Height>
           </Size>
         </HmiObject>
-        <HmiObject xsi:type="Button" Rotation="0" ID="IOLinkButton" IsTabSelectable="true" TabOrder="0" NextId="2" LineColor="#FFCCD0D2" LineWidth="1" Text="IO-Link" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
+        <HmiObject xsi:type="Button" Rotation="0" ID="IOLinkButton" IsTabSelectable="true" TabOrder="0" NextId="2" LineColor="#FFCCD0D2" LineWidth="1" Text="IO-Link" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" IsTextWrapping="false">
           <Origin>
             <X>30</X>
             <Y>240</Y>
@@ -476,7 +476,7 @@
             <Height>0</Height>
           </CornerRadii>
         </HmiObject>
-        <HmiObject xsi:type="Button" Rotation="0" ID="NodeREDButton" IsTabSelectable="true" TabOrder="0" NextId="2" LineColor="#FFCCD0D2" LineWidth="1" Text="Node-RED" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
+        <HmiObject xsi:type="Button" Rotation="0" ID="NodeREDButton" IsTabSelectable="true" TabOrder="0" NextId="2" LineColor="#FFCCD0D2" LineWidth="1" Text="Node-RED" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" IsTextWrapping="false">
           <Origin>
             <X>30</X>
             <Y>380</Y>
@@ -515,7 +515,7 @@
             <Height>0</Height>
           </CornerRadii>
         </HmiObject>
-        <HmiObject xsi:type="Button" Rotation="0" ID="NetworkSwitchButton" IsTabSelectable="true" TabOrder="0" NextId="2" LineColor="#FFCCD0D2" LineWidth="1" Text="Network" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
+        <HmiObject xsi:type="Button" Rotation="0" ID="NetworkSwitchButton" IsTabSelectable="true" TabOrder="0" NextId="2" LineColor="#FFCCD0D2" LineWidth="1" Text="Network" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" IsTextWrapping="false">
           <Origin>
             <X>30</X>
             <Y>310</Y>

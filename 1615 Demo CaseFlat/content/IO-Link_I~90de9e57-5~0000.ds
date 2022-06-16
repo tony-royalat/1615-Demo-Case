@@ -8,7 +8,6 @@
     <InstVal xPath="Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/91dd61c0-df67-446e-b53c-b044f83db396</InstVal>
     <InstVal xPath="Generic:FormattedTypeNameWithoutVersion" Type="System.String">IO-Link In/Out  8 bytes</InstVal>
     <InstVal xPath="Generic:FormattedTypeName" Type="System.String">IO-Link In/Out  8 bytes Rev. &gt;= 00/1.00</InstVal>
-    <InstVal xPath="AutomationML:DeviceItemId" Type="System.String">cafead42-b49e-4841-898b-cff572f390a4</InstVal>
     <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par0']/Para[@uID='par0_0']/Current" Type="Ade.Fdcml.Core.Unsigned32">4</InstVal>
     <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_0']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
     <InstVal xPath="//Layer7[@uID='L7']/ParaList/Para[@uID='par1']/Para[@uID='par1_1']/Current" Type="Ade.Fdcml.Core.Bit">False</InstVal>
@@ -29,5 +28,6 @@
     <InstVal xPath="//Layer7[@uID='L7']/SlotNumber" Type="Ade.Fdcml.Core.Unsigned16">1</InstVal>
     <InstVal xPath="//Layer7[@uID='L7']/Generic:FormattedTypeNameWithoutVersion" Type="System.String"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7']/Generic:FormattedTypeName" Type="System.String"></InstVal>
+    <InstVal xPath="AutomationML:DeviceItemId" Type="System.String">597f2553-741f-45f0-a11b-7c0b303cc439</InstVal>
   </DevInst>
 </DevInstDoc>

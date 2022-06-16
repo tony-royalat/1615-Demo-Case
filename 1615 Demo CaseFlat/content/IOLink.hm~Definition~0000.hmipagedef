@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <HmiPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IOLink" BorderWidth="0" ImageId="82060f54-2129-4880-bfc9-55df72f34671" ImageScaling="Fit">
   <References>
     <Variables>
@@ -20,7 +20,7 @@
   <Layers>
     <Layer>
       <Objects>
-        <HmiObject xsi:type="Button" Rotation="0" ID="IOLinkBackButton" IsTabSelectable="true" TabOrder="0" NextId="2" LineColor="#FFCCD0D2" LineWidth="1" Text="Back" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
+        <HmiObject xsi:type="Button" Rotation="0" ID="IOLinkBackButton" IsTabSelectable="true" TabOrder="0" NextId="2" LineColor="#FFCCD0D2" LineWidth="1" Text="Back" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" IsTextWrapping="false">
           <Origin>
             <X>1139</X>
             <Y>639</Y>
@@ -59,7 +59,7 @@
             <Height>0</Height>
           </CornerRadii>
         </HmiObject>
-        <HmiObject xsi:type="Button" Rotation="0" ID="IOLinkWebpage" IsTabSelectable="true" TabOrder="0" NextId="2" LineColor="#FFCCD0D2" LineWidth="1" Text="Master" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
+        <HmiObject xsi:type="Button" Rotation="0" ID="IOLinkWebpage" IsTabSelectable="true" TabOrder="0" NextId="2" LineColor="#FFCCD0D2" LineWidth="1" Text="Master" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" IsTextWrapping="false">
           <Origin>
             <X>41</X>
             <Y>639</Y>
@@ -275,7 +275,7 @@
             <Height>40</Height>
           </Size>
         </HmiObject>
-        <HmiObject xsi:type="Button" Rotation="0" ID="K50CycleButton" IsTabSelectable="true" TabOrder="0" NextId="4" LineColor="#FFCCD0D2" LineWidth="1" Text="Button" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
+        <HmiObject xsi:type="Button" Rotation="0" ID="K50CycleButton" IsTabSelectable="true" TabOrder="0" NextId="4" LineColor="#FFCCD0D2" LineWidth="1" Text="Button" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" IsTextWrapping="false">
           <Origin>
             <X>148</X>
             <Y>560</Y>
@@ -402,7 +402,7 @@
             <Height>40</Height>
           </Size>
         </HmiObject>
-        <HmiObject xsi:type="Button" Rotation="0" ID="ELRButton" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" Text="UnEnabled" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="true" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
+        <HmiObject xsi:type="Button" Rotation="0" ID="ELRButton" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" Text="UnEnabled" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="true" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" IsTextWrapping="false">
           <Origin>
             <X>1043</X>
             <Y>288</Y>
@@ -502,7 +502,7 @@
             <Height>40</Height>
           </Size>
         </HmiObject>
-        <HmiObject xsi:type="Button" Rotation="0" ID="PhotoEyeButton" IsTabSelectable="true" TabOrder="0" NextId="4" LineColor="#FFCCD0D2" LineWidth="1" Text="Emitter Off" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="true" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
+        <HmiObject xsi:type="Button" Rotation="0" ID="PhotoEyeButton" IsTabSelectable="true" TabOrder="0" NextId="4" LineColor="#FFCCD0D2" LineWidth="1" Text="Emitter Off" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="true" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" IsTextWrapping="false">
           <Origin>
             <X>891</X>
             <Y>561</Y>

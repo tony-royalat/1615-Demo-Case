@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Metadata>
+   <Id>695e946e-b4b0-45c3-8c99-8afd65c0fcab</Id>
+   <FolderType>PouFolder</FolderType>
    <ContentType>Program</ContentType>
    <Kind>Program</Kind>
-   <Id>695e946e-b4b0-45c3-8c99-8afd65c0fcab</Id>
    <ItemGroup>
       <VariableWorksheet>
          <Id>964747fb-fc37-4fec-9710-15c266bef784</Id>

@@ -12,5 +12,6 @@
     <InstVal xPath="//Layer7[@uID='L7']/SlotNumber" Type="Ade.Fdcml.Core.Unsigned16">0</InstVal>
     <InstVal xPath="//Layer7[@uID='L7']/Generic:FormattedTypeNameWithoutVersion" Type="System.String"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7']/Generic:FormattedTypeName" Type="System.String"></InstVal>
+    <InstVal xPath="AutomationML:DeviceItemId" Type="System.String">a031ec19-343e-4b65-9433-569debca921a</InstVal>
   </DevInst>
 </DevInstDoc>

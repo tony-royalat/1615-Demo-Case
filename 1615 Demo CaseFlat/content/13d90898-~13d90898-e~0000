@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RestoreDataItem Version="1" DeletionDate="2020-07-25 20:45:24Z" DisplayName="3 : RGB Touch Button : IO-Link In/Out  2 bytes">
-    <NodeData DomainId="e639c0f9-db09-46f4-abf7-50216a13f220" SolutionId="606e2993-1c57-411c-b0d2-c57a13c52bbf" NodeId="13d90898-e32e-4730-8b74-428817d53644" ParentId="426c4e55-0abe-4d1b-a8a0-e78f0a0d5a61" PredecessorId="2e30442c-e214-4373-a0cc-b2b672e8f55a" Position="3" Kind="Instance" />
-</RestoreDataItem>
