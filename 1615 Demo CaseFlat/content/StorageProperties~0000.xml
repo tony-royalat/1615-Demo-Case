@@ -9,7 +9,7 @@
     <AdditionalProperties>
         <Property Key="Application" Value="PLCnext Engineer" />
         <Property Key="SubType" Value="" />
-        <Property Key="ApplicationVersion" Value="5.0.546.0" />
-        <Property Key="ProductVersion" Value="2022.0" />
+        <Property Key="ApplicationVersion" Value="5.3.820.0" />
+        <Property Key="ProductVersion" Value="2022.6" />
     </AdditionalProperties>
 </Properties>

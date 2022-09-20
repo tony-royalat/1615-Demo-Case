@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="2.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
    <Import Project="$(AdeProjectTargetsPath)" Condition="'$(AdeProjectTargetsPath)' != ''" />
+   <PropertyGroup>
+      <ProjectId>5370a173-31a3-4247-9887-8407f3470dce</ProjectId>
+      <AdeProductVersion>1.4.23.0</AdeProductVersion>
+      <AdeSafetyVersion>1.0.0.3</AdeSafetyVersion>
+      <HmiSchemaRevision>6</HmiSchemaRevision>
+      <SafetyId>dc971477-cb7e-4beb-9f3c-e37812446713</SafetyId>
+   </PropertyGroup>
    <ItemGroup />
    <ItemGroup>
       <CockpitDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\b84580d7-61ea-48ec-9861-abe43adbd376.cockpit">
          <Id>272fdf4e-9c92-4fe5-bdd2-5167fedc4cad</Id>
          <Visible>False</Visible>
-         <ParentIndex>6</ParentIndex>
+         <ParentIndex>5</ParentIndex>
       </CockpitDocument>
    </ItemGroup>
    <ItemGroup>
@@ -45,7 +52,7 @@
       <ControllerStatisticDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\b84580d7-61ea-48ec-9861-abe43adbd376.statistic">
          <Id>0ba1f05d-5fa7-4e21-9386-950321312503</Id>
          <Visible>False</Visible>
-         <ParentIndex>5</ParentIndex>
+         <ParentIndex>4</ParentIndex>
       </ControllerStatisticDocument>
    </ItemGroup>
    <ItemGroup>
@@ -53,7 +60,7 @@
          <Id>2a0cab98-54d9-499e-9ec3-48b1ff6c2d5d</Id>
          <Visible>false</Visible>
          <EnforceUpdate>True</EnforceUpdate>
-         <ParentIndex>7</ParentIndex>
+         <ParentIndex>6</ParentIndex>
       </DataList>
    </ItemGroup>
    <ItemGroup>
@@ -249,7 +256,7 @@
       <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\b84580d7-61ea-48ec-9861-abe43adbd376.ds">
          <Id>4aa93581-1707-4566-a886-5adcfbc978ae</Id>
          <Visible>False</Visible>
-         <ParentIndex>4</ParentIndex>
+         <ParentIndex>3</ParentIndex>
       </DeviceInstanceDocument>
       <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\QUINT4-UPS\QUINT4-UPS\240ce7f8-48d3-4ac0-a976-c5fb5f9ebfd1.ds">
          <Id>b033c600-4496-452e-9729-1a4cc66eb8bb</Id>
@@ -991,7 +998,7 @@
          <TypeId>L7_1</TypeId>
          <TypeName>PLCnext</TypeName>
          <FolderType>CommunicationEntity</FolderType>
-         <ParentIndex>0</ParentIndex>
+         <ParentIndex>7</ParentIndex>
       </Folder>
       <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\RES_829976591E98446682C292813E058D7E">
          <Id>82997659-1e98-4466-82c2-92813e058d7e</Id>
@@ -1935,7 +1942,7 @@
       <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\b84580d7-61ea-48ec-9861-abe43adbd376.iprop">
          <Id>f903f749-03dc-4e96-8d6e-9493709c320e</Id>
          <Visible>False</Visible>
-         <ParentIndex>1</ParentIndex>
+         <ParentIndex>0</ParentIndex>
       </InstancePropertiesDocument>
       <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\RES_829976591E98446682C292813E058D7E\ResourceProperties.iprop">
          <Id>1bcd2241-5096-420b-88c0-9a420a9960ad</Id>
@@ -2494,7 +2501,7 @@
       <PlmConfiguration Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PlmConfiguration.plmc">
          <Id>d9fb660f-e32a-40ce-a1f9-017fe5c5d72c</Id>
          <Visible>True</Visible>
-         <ParentIndex>3</ParentIndex>
+         <ParentIndex>2</ParentIndex>
       </PlmConfiguration>
    </ItemGroup>
    <ItemGroup>
@@ -2508,7 +2515,7 @@
       <PropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\b84580d7-61ea-48ec-9861-abe43adbd376.properties">
          <Id>37917af1-3834-4ab0-91fa-82f0f8001601</Id>
          <Visible>False</Visible>
-         <ParentIndex>2</ParentIndex>
+         <ParentIndex>1</ParentIndex>
       </PropertiesDocument>
       <PropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\QUINT4-UPS\afd038d6-6ed0-4dcf-9ae8-417ce12a58c2.properties">
          <Id>9342b5db-86e8-4f1f-a534-696898b8972c</Id>
@@ -2723,11 +2730,4 @@
          <ParentIndex>0</ParentIndex>
       </VariableWorksheet>
    </ItemGroup>
-   <PropertyGroup>
-      <ProjectId>5370a173-31a3-4247-9887-8407f3470dce</ProjectId>
-      <AdeProductVersion>1.4.21.0</AdeProductVersion>
-      <AdeSafetyVersion>1.0.0.3</AdeSafetyVersion>
-      <HmiSchemaRevision>6</HmiSchemaRevision>
-      <SafetyId>dc971477-cb7e-4beb-9f3c-e37812446713</SafetyId>
-   </PropertyGroup>
 </Project>
